@@ -1,0 +1,149 @@
+
+int Levenshtein(string A, string B)
+{
+	int d[DIM][DIM];
+	unsigned int i, j;
+
+	for (i=0; i<DIM; i++) {
+		d[i][0]=i;
+		d[0][i]=i;
+	}
+
+	for (i=1; i<=A.length(); i++)
+		for (j=1; j<=B.length(); j++)
+		{
+			if (A[i-1] == B[j-1])
+				d[i][j] = d[i-1][j-1];
+
+			else
+				d[i][j] = min(min(d[i-1][j], d[i-1][j-1]), min(d[i][j-1], d[i-1][j-1])) + 1;
+		}
+
+	return d[A.length()][B.length()];
+}
+
+
+
+int Levenshtein(string A, string B)
+{
+	unsigned int i, j, line = 0;
+	unsigned int lenA = A.length();
+	unsigned int lenB = B.length();
+
+	for (i=0; i<=lenB; i++) {
+		d[0][i]=i;
+	}
+
+	for (i=1; i<=lenA; i++)
+	{
+		line = line^1;
+		d[line][0]=i;
+		for (j=1; j<=lenB; j++)
+		{
+			if (A[i-1] == B[j-1])
+				d[line][j] = d[1-line][j-1];
+			else
+				d[line][j] = min(min(d[1-line][j], d[1-line][j-1]), min(d[line][j-1], d[1-line][j-1])) + 1;
+		}
+	}
+
+	return d[line][lenB];
+}
+
+void CorrectWord(string S, Solution &sol)
+{
+	unsigned int dist;
+	index = Dict.find(S);
+	if (index != Dict.end())
+	{
+		sol.words.push_back( (*index).first );
+		sol.freq = (*index).second;
+		sol.dist = 0;
+	}
+
+	sol.dist = 65;
+
+	for (it=Dict.begin(); it!=Dict.end(); it++)
+	{
+		if ((*it).first.size() > 2 * S.size())
+			continue;
+		dist = Levenshtein((*it).first, S);
+
+		if ( (dist == sol.dist && (*it).second > sol.freq) || dist < sol.dist)
+		{
+			sol.dist = dist;
+			sol.words.clear();
+			sol.words.push_back((*it).first);
+			sol.freq = (*it).second;
+		}
+	}
+}
+
+
+
+	unsigned int lenMax = 2 * lenB;
+	if ( lenA > lenMax)
+	{
+		X.assign(lenMax, lenB+1);
+		return X;
+	}
+
+
+
+vector <int> Levenshtein(string A, string B)
+{
+	unsigned int i, j, line = 0;
+	unsigned int lenA = A.length();
+	unsigned int lenB = B.length();
+	vector <int> X;
+
+	for (i=0; i<=lenB; i++) {
+		dist[0][i]=i;
+	}
+
+	for (i=1; i<=lenA; i++)
+	{
+		line = line^1;
+		dist[line][0]=i;
+		for (j=1; j<=lenB; j++)
+		{
+			if (A[i-1] == B[j-1])
+				dist[line][j] = dist[1-line][j-1];
+			else
+				dist[line][j] = min(min(dist[1-line][j], dist[1-line][j-1]), min(dist[line][j-1], dist[1-line][j-1])) + 1;
+		}
+	}
+
+	for (i=0; i<=lenB; i++)
+		X.push_back(dist[line][i]);
+
+	if (X.size());
+	return X;
+
+}
+
+
+void DistanceTable()
+{
+	unsigned int i, j;
+	int size = phrase.size();
+	for (i=0; i<=phrase.size();i++)
+	{
+		j=-1;
+		string X = phrase.substr(i, size-i);
+		for (it=Dict.begin(); it!=Dict.end(); it++)
+		{
+			j++;
+			Dlev[i][j] = Levenshtein ((*it).first, X);
+		}
+	}
+}
+
+
+
+	string A = "Sunday";
+	string B = "fdsajklhgflkjdashfkjlsdhfgasjdlkghsakjldfhasaouditqlhejtbgaldiuda";
+	int *a = Levenshtein(A,B);
+	for (int i=0;i<DIM;i++)
+		cout<<a[i]<<" ";
+

@@ -1,0 +1,46 @@
+45
+? DepozitCuGratii
+@ Pocal
+= 10  Pocal  SilozDenivelat
+= 9  Trapa  TurnTriunghiular
++ 6  Pocal  SilozDenivelat
+= 1  Grenada  DepozitCuGratii
+= 10  Grenada  DepozitCuGratii
+@ Pocal
+- 1  Grenada  DepozitCuGratii
+- 4  Grenada  DepozitCuGratii
++ 5  Pocal  SilozDenivelat
+= 9  Trapa  DepozitCuGratii
++ 4  Trapa  TurnTriunghiular
+#  Pocal  SilozDenivelat
+- 3  Trapa  TurnTriunghiular
+= 5  Pocal  TurnTriunghiular
+- 5  Trapa  DepozitCuGratii
++ 5  Pocal  TurnTriunghiular
+- 7  Pocal  TurnTriunghiular
++ 2  Pocal  SilozDenivelat
++ 1  Trapa  TurnTriunghiular
+#  Grenada  SilozDenivelat
+= 4  Pocal  TurnTriunghiular
+= 8  Trapa  TurnTriunghiular
+= 2  Trapa  SilozDenivelat
+- 4  Trapa  DepozitCuGratii
+- 2  Trapa  SilozDenivelat
+? SilozDenivelat
+? SilozDenivelat
++ 7  Pocal  SilozDenivelat
+= 7  Grenada  DepozitCuGratii
+= 8  Trapa  TurnTriunghiular
+= 3  Trapa  DepozitCuGratii
+= 4  Trapa  DepozitCuGratii
++ 6  Trapa  DepozitCuGratii
+- 1  Trapa  DepozitCuGratii
+- 4  Grenada  DepozitCuGratii
+@ Trapa
+? SilozDenivelat
+? SilozDenivelat
+? SilozDenivelat
+? SilozDenivelat
+? SilozDenivelat
+#  Grenada  TurnTriunghiular
+#  Pocal  DepozitCuGratii

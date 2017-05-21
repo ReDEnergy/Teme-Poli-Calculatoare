@@ -1,0 +1,15 @@
+VREME      TEMPERATURA UMIDITATE   VANT       DE IESIT
+soare      cald        mare        fals       N
+soare      cald        mare        adev       N
+nori       cald        mare        fals       P
+ploaie     placut      mare        fals       P
+ploaie     racoare     normal      fals       P
+ploaie     racoare     normal      adev       N
+nori       racoare     normal      adev       P
+soare      placut      mare        fals       N
+soare      racoare     normal      fals       P
+ploaie     placut      normal      fals       P
+soare      placut      normal      adev       P
+nori       placut      mare        adev       P
+nori       cald        normal      fals       P
+ploaie     placut      mare        adev       N

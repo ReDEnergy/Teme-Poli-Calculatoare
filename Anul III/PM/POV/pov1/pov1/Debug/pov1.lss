@@ -1,0 +1,308 @@
+
+pov1.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00000158  000001cc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000158  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .stab         000006cc  00000000  00000000  000001cc  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  3 .stabstr      00000097  00000000  00000000  00000898  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .comment      0000002f  00000000  00000000  0000092f  2**0
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000048  00000000  00000000  0000095e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000001fe  00000000  00000000  000009a6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000117  00000000  00000000  00000ba4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00000879  00000000  00000000  00000cbb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  0000006c  00000000  00000000  00001534  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    0000c6e8  00000000  00000000  000015a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00000049  00000000  00000000  0000dc88  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000028  00000000  00000000  0000dcd1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_macro  0000391e  00000000  00000000  0000dcf9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	3d c0       	rjmp	.+122    	; 0x7c <__ctors_end>
+   2:	00 00       	nop
+   4:	56 c0       	rjmp	.+172    	; 0xb2 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	54 c0       	rjmp	.+168    	; 0xb2 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	52 c0       	rjmp	.+164    	; 0xb2 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	50 c0       	rjmp	.+160    	; 0xb2 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	4e c0       	rjmp	.+156    	; 0xb2 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	4c c0       	rjmp	.+152    	; 0xb2 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	4a c0       	rjmp	.+148    	; 0xb2 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	48 c0       	rjmp	.+144    	; 0xb2 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	46 c0       	rjmp	.+140    	; 0xb2 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	44 c0       	rjmp	.+136    	; 0xb2 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	42 c0       	rjmp	.+132    	; 0xb2 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	40 c0       	rjmp	.+128    	; 0xb2 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	40 c0       	rjmp	.+128    	; 0xb6 <__vector_13>
+  36:	00 00       	nop
+  38:	3c c0       	rjmp	.+120    	; 0xb2 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	3a c0       	rjmp	.+116    	; 0xb2 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	38 c0       	rjmp	.+112    	; 0xb2 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	36 c0       	rjmp	.+108    	; 0xb2 <__bad_interrupt>
+  46:	00 00       	nop
+  48:	34 c0       	rjmp	.+104    	; 0xb2 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	32 c0       	rjmp	.+100    	; 0xb2 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	30 c0       	rjmp	.+96     	; 0xb2 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	2e c0       	rjmp	.+92     	; 0xb2 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	2c c0       	rjmp	.+88     	; 0xb2 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	2a c0       	rjmp	.+84     	; 0xb2 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	28 c0       	rjmp	.+80     	; 0xb2 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	26 c0       	rjmp	.+76     	; 0xb2 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	24 c0       	rjmp	.+72     	; 0xb2 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	22 c0       	rjmp	.+68     	; 0xb2 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	20 c0       	rjmp	.+64     	; 0xb2 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	1e c0       	rjmp	.+60     	; 0xb2 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	1c c0       	rjmp	.+56     	; 0xb2 <__bad_interrupt>
+	...
+
+0000007c <__ctors_end>:
+  7c:	11 24       	eor	r1, r1
+  7e:	1f be       	out	0x3f, r1	; 63
+  80:	cf ef       	ldi	r28, 0xFF	; 255
+  82:	d8 e0       	ldi	r29, 0x08	; 8
+  84:	de bf       	out	0x3e, r29	; 62
+  86:	cd bf       	out	0x3d, r28	; 61
+
+00000088 <__do_copy_data>:
+  88:	11 e0       	ldi	r17, 0x01	; 1
+  8a:	a0 e0       	ldi	r26, 0x00	; 0
+  8c:	b1 e0       	ldi	r27, 0x01	; 1
+  8e:	e8 e5       	ldi	r30, 0x58	; 88
+  90:	f1 e0       	ldi	r31, 0x01	; 1
+  92:	02 c0       	rjmp	.+4      	; 0x98 <__do_copy_data+0x10>
+  94:	05 90       	lpm	r0, Z+
+  96:	0d 92       	st	X+, r0
+  98:	a0 30       	cpi	r26, 0x00	; 0
+  9a:	b1 07       	cpc	r27, r17
+  9c:	d9 f7       	brne	.-10     	; 0x94 <__do_copy_data+0xc>
+
+0000009e <__do_clear_bss>:
+  9e:	21 e0       	ldi	r18, 0x01	; 1
+  a0:	a0 e0       	ldi	r26, 0x00	; 0
+  a2:	b1 e0       	ldi	r27, 0x01	; 1
+  a4:	01 c0       	rjmp	.+2      	; 0xa8 <.do_clear_bss_start>
+
+000000a6 <.do_clear_bss_loop>:
+  a6:	1d 92       	st	X+, r1
+
+000000a8 <.do_clear_bss_start>:
+  a8:	a0 30       	cpi	r26, 0x00	; 0
+  aa:	b2 07       	cpc	r27, r18
+  ac:	e1 f7       	brne	.-8      	; 0xa6 <.do_clear_bss_loop>
+  ae:	18 d0       	rcall	.+48     	; 0xe0 <main>
+  b0:	51 c0       	rjmp	.+162    	; 0x154 <_exit>
+
+000000b2 <__bad_interrupt>:
+  b2:	a6 cf       	rjmp	.-180    	; 0x0 <__vectors>
+
+000000b4 <board_init>:
+#include <compiler.h>
+#include <conf_board.h>
+
+
+void board_init(void)
+{
+  b4:	08 95       	ret
+
+000000b6 <__vector_13>:
+
+
+int step = 0;
+
+ISR(TIMER1_COMPA_vect)
+{
+  b6:	1f 92       	push	r1
+  b8:	0f 92       	push	r0
+  ba:	0f b6       	in	r0, 0x3f	; 63
+  bc:	0f 92       	push	r0
+  be:	11 24       	eor	r1, r1
+  c0:	8f 93       	push	r24
+  c2:	9f 93       	push	r25
+
+	PORTC ^= ((1 << 6) - 1);	// LED 
+  c4:	98 b1       	in	r25, 0x08	; 8
+  c6:	8f e3       	ldi	r24, 0x3F	; 63
+  c8:	98 27       	eor	r25, r24
+  ca:	98 b9       	out	0x08, r25	; 8
+	PORTD ^= ((1 << 6) - 1);
+  cc:	9b b1       	in	r25, 0x0b	; 11
+  ce:	89 27       	eor	r24, r25
+  d0:	8b b9       	out	0x0b, r24	; 11
+
+	step++;
+	if (step == 25)
+		step = 0;
+*/
+}
+  d2:	9f 91       	pop	r25
+  d4:	8f 91       	pop	r24
+  d6:	0f 90       	pop	r0
+  d8:	0f be       	out	0x3f, r0	; 63
+  da:	0f 90       	pop	r0
+  dc:	1f 90       	pop	r1
+  de:	18 95       	reti
+
+000000e0 <main>:
+
+int main (void)
+{
+	sei();
+  e0:	78 94       	sei
+	board_init();
+  e2:	e8 df       	rcall	.-48     	; 0xb4 <board_init>
+
+	// BUTON PD6
+	DDRD &= ~(1 << PD6);  // BUTON - input
+  e4:	56 98       	cbi	0x0a, 6	; 10
+	PORTD |= (1 << PD6);  // activam rezistenta de pull-up
+  e6:	5e 9a       	sbi	0x0b, 6	; 11
+  
+	// LED ROSU PD7
+	DDRD |= (1 << PD7);   
+  e8:	57 9a       	sbi	0x0a, 7	; 10
+
+	// LEDURI PORTD
+	DDRD |= (1 << 6) - 1;		// PIN LEDURI output
+  ea:	8a b1       	in	r24, 0x0a	; 10
+  ec:	8f 63       	ori	r24, 0x3F	; 63
+  ee:	8a b9       	out	0x0a, r24	; 10
+	PORTD &= ~((1 << 6) - 1);	// LED OFF
+  f0:	8b b1       	in	r24, 0x0b	; 11
+  f2:	80 7c       	andi	r24, 0xC0	; 192
+  f4:	8b b9       	out	0x0b, r24	; 11
+	
+	// LEDURI PORTC
+	DDRC |= (1 << 8) - 1;		// PIN LEDURI output
+  f6:	87 b1       	in	r24, 0x07	; 7
+  f8:	8f ef       	ldi	r24, 0xFF	; 255
+  fa:	87 b9       	out	0x07, r24	; 7
+	PORTC &= ~((1 << 8) - 1);	// LED OFF
+  fc:	88 b1       	in	r24, 0x08	; 8
+  fe:	18 b8       	out	0x08, r1	; 8
+
+	// LEDURI PORTA
+	DDRA |= (1 << PA7);			
+ 100:	0f 9a       	sbi	0x01, 7	; 1
+	DDRA |= (1 << PA6);
+ 102:	0e 9a       	sbi	0x01, 6	; 1
+	PORTA &= ~(1 << PA6);
+ 104:	16 98       	cbi	0x02, 6	; 2
+	PORTA &= ~(1 << PA7);
+ 106:	17 98       	cbi	0x02, 7	; 2
+  
+	// Timer
+	TCCR1B |= (1 << WGM12);		// modul CTC - capitolul 16 din datasheet,
+ 108:	e1 e8       	ldi	r30, 0x81	; 129
+ 10a:	f0 e0       	ldi	r31, 0x00	; 0
+ 10c:	80 81       	ld	r24, Z
+ 10e:	88 60       	ori	r24, 0x08	; 8
+ 110:	80 83       	st	Z, r24
+//	TCCR1A |= (1 << COM1B0);	// toggle pe OC1B la fiecare compare match
+	TCCR1B |= (1 << CS12);		// prescaler 256 - capitolul 16
+ 112:	80 81       	ld	r24, Z
+ 114:	84 60       	ori	r24, 0x04	; 4
+ 116:	80 83       	st	Z, r24
+	TIMSK1 |= (1 << OCIE1A);
+ 118:	ef e6       	ldi	r30, 0x6F	; 111
+ 11a:	f0 e0       	ldi	r31, 0x00	; 0
+ 11c:	80 81       	ld	r24, Z
+ 11e:	82 60       	ori	r24, 0x02	; 2
+ 120:	80 83       	st	Z, r24
+	OCR1A = 5000;				// 16000000 / 2 / 256 = 31250
+ 122:	88 e8       	ldi	r24, 0x88	; 136
+ 124:	93 e1       	ldi	r25, 0x13	; 19
+ 126:	90 93 89 00 	sts	0x0089, r25
+ 12a:	80 93 88 00 	sts	0x0088, r24
+			PORTA &= ~(1 << PA7);		// LED OFF
+		}
+		else {
+			// PORTD &= ~(1 << PD7);		// LED ON
+			PORTD |= ((1 << 6) - 1);	// LED ON
+			PORTC |= (1 << 8) - 1;		// LED ON
+ 12e:	9f ef       	ldi	r25, 0xFF	; 255
+
+
+
+	while (1)
+	{
+		if (!(PIND & (1 << PD6))) {
+ 130:	4e 99       	sbic	0x09, 6	; 9
+ 132:	08 c0       	rjmp	.+16     	; 0x144 <main+0x64>
+			// daca bitul corespunzator PD6 este 0
+			// PORTD |= (1 << PD7);		// LED OFF
+			PORTD &= ~((1 << 6) - 1);	// LED OFF
+ 134:	8b b1       	in	r24, 0x0b	; 11
+ 136:	80 7c       	andi	r24, 0xC0	; 192
+ 138:	8b b9       	out	0x0b, r24	; 11
+			PORTC &= ~((1 << 8) - 1);	// LED OFF
+ 13a:	88 b1       	in	r24, 0x08	; 8
+ 13c:	18 b8       	out	0x08, r1	; 8
+			PORTA &= ~(1 << PA6);		// LED OFF
+ 13e:	16 98       	cbi	0x02, 6	; 2
+			PORTA &= ~(1 << PA7);		// LED OFF
+ 140:	17 98       	cbi	0x02, 7	; 2
+ 142:	f6 cf       	rjmp	.-20     	; 0x130 <main+0x50>
+		}
+		else {
+			// PORTD &= ~(1 << PD7);		// LED ON
+			PORTD |= ((1 << 6) - 1);	// LED ON
+ 144:	8b b1       	in	r24, 0x0b	; 11
+ 146:	8f 63       	ori	r24, 0x3F	; 63
+ 148:	8b b9       	out	0x0b, r24	; 11
+			PORTC |= (1 << 8) - 1;		// LED ON
+ 14a:	88 b1       	in	r24, 0x08	; 8
+ 14c:	98 b9       	out	0x08, r25	; 8
+			PORTA |= (1 << PA6);		// LED ON
+ 14e:	16 9a       	sbi	0x02, 6	; 2
+			PORTA |= (1 << PA7);		// LED ON
+ 150:	17 9a       	sbi	0x02, 7	; 2
+ 152:	ee cf       	rjmp	.-36     	; 0x130 <main+0x50>
+
+00000154 <_exit>:
+ 154:	f8 94       	cli
+
+00000156 <__stop_program>:
+ 156:	ff cf       	rjmp	.-2      	; 0x156 <__stop_program>

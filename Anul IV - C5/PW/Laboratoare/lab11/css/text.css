@@ -1,0 +1,23 @@
+body {
+	margin: 20px 0 0 0;
+}
+
+p {
+	color: black;
+	display: block;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 27px;
+	margin: 0 auto 18px;
+	padding: 0px;
+	width: 780px;
+}
+
+span.tooltip {
+	text-decoration: none;
+	border-bottom: 1px dotted gray;
+	cursor: pointer;
+}

@@ -1,0 +1,247 @@
+Nume:	Ivanica Gabriel
+Grupa:	323CA
+
+
+********************************************************************************
+****	Task 0 - Variabile necesare
+********************************************************************************
+
+
+Pentru implementarea am declarat noi structuri incarcate din "pack.h"
+
+Am declarat o structura pentru a putea trimite un pachet cu verificare de erori
+utilizand un camp CRC.
+
+	typedef struct {
+		int type;					/**  Tipul mesajului **/
+		int len;					/**  Lungimea mesajului **/
+		int no;						/**  Numarul de cadru al mesajului **/
+		char payload[PAYLOAD];		/**  Mesajului pr-zis **/
+		unsigned short int crc;		/**  CRC cadru pentru verificare **/
+	} Pack;
+
+
+Calculul CRC il voi executa asupra intregului pachet nu doar asupra payloadului
+(fara campul CRC). Astfel ma voi folosi de un cast la urmatoarea structura
+
+typedef struct {
+	char payload[CRC_PAYLOAD];	/** Dimensiunea pe care se va calcula CRC **/
+    unsigned short int crc;		/** CRC cadru**/
+} CRCPack;
+
+
+Pentru usurinta am declarat o structura globala pentru a urmarii toti parametrii
+din timpul transmisiei de date.
+Astfel toate statisticile necesare le voi prelua prin intermediul structurii
+Stats.
+
+typedef struct {
+	unsigned int window;	/** Dimensiune fereastra **/
+	unsigned int seq;		/** Dimensiune numar secventa **/
+	unsigned int speed;		/** Speed **/
+	unsigned int delay;		/** Delay **/
+	unsigned int top;		/** Varful ferestrei(Buffer) **/
+	unsigned int number;	/** Numarul real de cadru al unui pachet **/
+	unsigned int toRead;	/** Bytes cititi la ultimima citire din fisier **/
+	unsigned int toSend;	/** Numarul de cadre ce mai trebuie trimise **/
+	unsigned int fileSize;	/** Dimensiunea fisierului **/
+} Stats;
+
+Am declarat o serie de variabile ce vor fi folosite atata in cadrul receiverului
+cat si in cadrul senderului
+
+Stats STS;			/** Statistici fisier transmis **/
+FILE *out;			/** Fisier debug **/
+word *tabel, crc;	/** Pentru calculare CRC **/
+Pack *MSG;			/** Buffer fereastra **/
+Pack *RECV;			/** Pentru receptionarea unui mesaj **/
+int FID;			/** Fisier de sursa/destinatie **/
+
+
+********************************************************************************
+*****	Task 0	- Informatii suplimentare
+********************************************************************************
+
+
+	Pentru fereastram am utilizat un buffer rotativ de Pack , pentru care cunosc
+mereu varful acestuia reprezentat prin pozitia TOP (STS.top).
+
+	Pentru ACK, NACK am utilizat campul TYPE pentru care am considerat urmatoarele
+
+	TYPE:  1 	- ACK (informatiile despre fisier au fost receptionate)
+	TYPE:  2	- trimitere cadru continut
+	TYPE:  3	- ACK (cadru cotninut primit corect)
+	TYPE:  4	- NACK (cadru eronat)
+
+
+	In buffer se retine cadrul trimis, reprezentat prin numarul de secventa
+retinut in PACK->no.
+	Daca nu mai avem cadre de trimis, pentru a considera ca o zona din buffer
+este libera, ii voi da numarul de secventa -1.
+	Astfel in cazul in care trebuie retrimise anumite secvente pana la un anumit
+numar, vom sari peste acestea, si desigur , vom putea stii cand sa scriem in
+aceas zona.
+
+	Un pachet valid este considerat un pachet ce are campul PACK->no != -1
+
+********************************************************************************
+*****	Task 1	- Implementarea protocolului Selective Repeat
+********************************************************************************
+
+	1) Calcularea dimensiunii fereistrei
+	In cazul in care parametrii SPEED si DELAY sunt foarte mici am restrictionat
+dimensiunea ferestrei la 10, pentru rapiditate
+	(P.S)	Programul ruleaza foarte bine si pentru dimensiunea ferestrei de 1
+dar merge mult mai greu.
+
+	De asemenea am restrictionat minim un delay de 2 ms.
+
+	2) Trimiterea informatiilor despre fisier.
+
+	Prin intermediul functiei SendFileInfo() trimit informatiile legate de
+fisier. Voi trimite Cardul cu aceasta informatiie , la un anumti interval
+pana cand v-oi primi un raspuns pozitiv, reprezentat de campul TYPE = 1
+
+
+	INFO TASK 4:
+
+	De asemenea prin intermendiul acestui apel voi prelua si DIMENSIUNEA
+ferestrei RECEIVERULUI in cazul in care aceasta este specificata.
+
+	Daca nu prin intermediul campului TYPE , se trimite dimensiunea catre
+RECEIVER.
+
+	Numarul de secventa este reprezentat de ferastra * 2;
+
+
+********************************************************************************
+*****	Task 2 - 3	- Implementarea retransmitere cardre lipsa si eronate
+********************************************************************************
+
+	In cazul in care se ajunge la timeout() se considera ca toate cadrele trimise
+nu au ajus la destinatie si se retrimit.
+
+	Daca un cadru ajunge eronat la RECEIVER se trimite un NAK catre sender ce v-a
+retrimite cadrul din varful ferestre TOP (STS.top) intruct acesta este considerat
+ca fiin asteptat.
+
+	In cazul in care se primeste un ACK , dar numarul de secventa difera fata de
+cel asteptat, se considera ca toate cardrele pana la cel receptionat (prin
+numarul de secventa) s-au pierdut si se retrimit toate pana la acesta.
+Astfel iteram utilizand TOP pentru a ajunge la cadrul primit corect
+
+
+
+
+**************************************
+	ALGORITM SELECTIVE REPEAT
+**************************************
+
+######	SENDER:
+
+Pentru fiecare cadru citit , se calculeaza CRC-ul acestuia prin intermediul
+functiei ComputeCRC();
+
+Se cites din fisier cardre, numerotate consecutiv (de la 0 la STS.seq - numarul
+de secventa ) pana cand se umple BUFFERUL(fereastra).
+
+Se trimit cardrele din fereastra (buffer) si se asteapta receptionarea unui
+mesaj.
+	Exista 3 cazuri posibile:
+
+		1) nu se receptioneaza nimic si se declanseaza TIMEOUT moment la care se
+	considera ca toate pachetele au fost pierdute si se retrimit toate pachetele
+	valide catre RECEIVER
+
+			ResendOnTimeOut();
+
+		2) se receotioneaza NACK , iar senderul presupune ca varful TOP, ce este
+	acceptat pentru confirmare este receptionat gresit, caz in care va retrimite
+	acest cadru
+
+		3) se recetionea ACK
+			a) ACK receptionat este pentru TOP :
+			atunci se va incrementa TOP si se va receiti peste acesta un alt
+			cadru daca este posibil, daca nu va fi bifat ca pachet invalid -1
+
+
+			b) ACK receptionat este pentru un numar diferit de TOP:
+			atunci se considera ca toate pachetele pana la acest cadru
+			receptionat au fost pierdute si se vor retrimite toate cadrele
+			valide pana la cand TOP - reprezinta cadrul primit ca validat
+
+			Se va incerca sa se reciteasca un alt pachet peste TOP daca este
+			posibil
+
+			Se folosesc functiile NextPack() si NextValidPack cat si
+			ResedPacksBefore();
+
+Atunci cand toate pachetele din buffer devin INVALIDE se considera ca fisierul
+a fost transmis cu succes si se termina programul.
+
+
+######	RECEIVER:
+
+
+	Se primesc informatiile despre fisier si se transmite dimensiunea ferestrei
+in cazul in care a fost setata la receiver
+
+	Se asteapta receptionarea fiecarui pachet.
+	Cand se primeste un pachet se calculeaza CRC-ul acestuia pentru a verifca
+validitatea:
+	Exista urmatoarele posibilitati:
+
+	1) Cadru eronat : se da drop, si se transmite la SENDER un NACK
+
+	2) Cadru corect - cel asteptat
+		Daca Cadrul este cel asteptat , atunci acesta se va rescrie iar apoi
+		se va verifica daca Bufferul , fereastra mai are alte cadre receptionate
+		si sunt consecutive acestuia, in cazul in care se vor scrie si acestea
+		si se va incremeta corespunzator, numarul de secventa al cadrului acceptat
+		cat si elibera Bufferul;
+
+		Pentru a face acest lucru am utilizat un vector BUFFER in care verific
+		daca a fost receptionat un cadru anume:
+			Daca BUFF[i] = 1 - reprezinta : Cadrul cu numarul de secventa i este
+			receptionat si se afla in buffer, pe pozitia i % window.
+
+
+	3) Cadru corect - dar nu cel asteptat din secventa
+
+		Se verifica daca numarul de secventa este apropiat cu cel mult window
+		cadre de cel asteptat.
+			In caz pozitiv se va salva in fereastra si se va trimite ACK la
+			sender
+			In caz negativ se va drop-ui si se trimite NAK
+
+
+	Atunci cand STS.filezise ajunge la 0 se considera ca tot fisierul a fost
+primit si se va inchide programul.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

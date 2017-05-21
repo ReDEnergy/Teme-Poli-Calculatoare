@@ -1,0 +1,67 @@
+Tema 3 - Trimiterea de mesaje folosind socketi TCP
+
+Data publicarii: 09.04.2012
+Data ultimei modificari a enuntului: 09.04.2012
+Termen de predare: 24.04.2012, ora 23:55
+Responsabil: Catalin Leordeanu (catalin.leordeanu@cs.pub.ro)
+
+
+Obiective
+Scopul temei este realizarea unui sistem de partajare a fi?ierelor în re?ea. Obiectivele temei sunt:
+• În?elegerea mecanismelor de dezvoltare a aplica?iilor folosind sockets.
+• Dezvoltarea unei aplica?ii practice de tip client-server ce folose?te sockets.
+
+Descrierea temei
+Se cere dezvoltarea unei aplicatii client-server folosind socketi TCP pentru schimbul de mesaje si fisiere. În cadrul sistemului se considera existen?a a doua tipuri de entita?i: clien?i ?i un server central ce ajuta la descoperirea clien?ilor.
+
+La pornire serverul va primi ca parametru un port pe care va asculta cereri de conexiune. Modul de apelare al serverului este:
+
+./server 1334
+
+Un client va primi ca parametru al execu?iei un nume cu ajutorul caruia se va identifica în sistem ?i adresa ?i portul serverului central de descoperire (se considera existen?a unui singur astfel de server în sistem). Modul de rulare al unui client este urmatorul:
+
+./client nume_client 192.168.1.1 1334
+
+Serverul va fi folosit pentru descoperirea clientilor conectati iar trimiterea de mesaje si de fisiere se va realiza direct intre clienti. Atat serverul cat si clientii vor porni un server socket si vor folosi apelul select pentru multiplexarea comunicatiei.
+
+Functionalitate
+La pornire serverul va crea un socket si va astepta cereri de conexiune pe portul specificat. Un client se conecteaza la serverul central ?i trimite datele de identificare (numele primit la pornire, portul pe care asculta eventuale cereri de conexiune). Serverul poate raspunde cu accept sau reject, în func?ie de numele clientului (daca deja exista un client în sistem cu respectivul nume deoarece nu sunt admise duplicate de nume). Serverul va retine pentru fiecare client conectat adresa IP si portul pe care acesta asculta.
+
+Dupa conectarea la server un client poate primi urmatoarele comenzi de la tastatura:
+
+1) listclients
+Clientul trimite o cerere serverului care ii va intoarce lista tuturor clientilor conectati. Lista clientilor va fi afisata la consola.
+
+2) infoclient nume_client
+I se cer serverului si se vor afisa informatii suplimentare despre un client. Serverul va intoarce numele clientului, portul pe care acesta asculta si timpul scurs de la conectarea acestuia la server.
+
+3) message nume_client mesaj
+Se trimite un mesaj unui alt client. Aceasta se face prin realizarea unei conexiuni directe la clientul care trebuie sa primeasca mesajul. Clientul destinatie va afisa mesajul primit si numele clientului de la care l-a primit.
+
+4) sharefile nume_fisier
+Se trimite un mesaj serverului prin care anunta faptul ca se partajeaza un nou fisier. Serverul doar va inregistra numele noului fisier in lista asociata clientului respectiv.
+
+5) unsharefile nume_fisier
+Se trimite un mesaj serverului continand numele fisierului care trebuie sters din lista fisierelor partajate.
+
+6) getshare nume_client
+Se trimite un mesaj serverului prin care se cere lista fisierelor partajate de catre un anumit client.
+
+7) getfile nume_client nume_fisier
+Se transfera un fisier de la un alt client. Acest lucru se face printr-o conexiune directa la clientul sursa. Trimiterea unui fisier trebuie facuta in segmente de maxim 1024B si intre doua bucati transferate sa verificati daca aveti cumva o noua comanda de executat din partea utilizatorului. Este nevoie de acest mecanism pentru ca un client sa nu fie blocat in timpul transferului si sa poata sa primeasca si alte comenzi. Clientul a primi fisierul sub numele nume_fisier_primit.
+
+8) quit
+Clientul trimite un mesaj serverului prin care anunta ca va parasi sistemul, inchide toate conexiunile si iese.
+
+Serverul poate primi de la tastatura doar urmatoarele comenzi:
+1) status
+Afiseaza lista clientilor conectati, adresele lor ip, porturile si fisierele pe care le partajeaza
+
+2) quit
+Se inchide serverul. Cand clientii detecteaza ca a fost inchisa conexiunea cu serverul vor iesi si ei.
+
+Serverul si clientii pot apela comenzile in orice ordine. Serverul central trebuie sa men?ina intern un socket pe care asculta cereri de noi conexiuni din partea clien?ilor. Un client odata conectat ?i înregistrat poate men?ine conexiunea respectiva ?i o poate refolosi pentru schimbul de mesaje. Se vor trata cazurile de eroare in comunicatie, de exemplu daca se incearca trimiterea unui mesaj catre un client care nu exista.
+
+Cerinte privind realizarea temei
+Tema (client ?i server) va fi realizata folosind sockets stream (peste TCP) în C sau C++. Apelurile de sistem ?i mecanismele necesare pentru realizarea temei sunt descrise pe larg în suportul de curs ?i în cadrul laboratorului de socketi TCP.
+Formatele de mesaje ?i protocolul de comunica?ie folosit în implementarea aplica?iei trebuie sa fie descrise în fi?ierul Readme (cu justificare asupra alegerii). Este necesara si uploadarea unui makefile in arhiva temei. Pentru multiplexarea comunica?iei folosi?i apelul select (studiat în cadrul laboratorului). Nu ave?i voie sa folosi?i crearea de procese sau fire de execu?ie. Rezuma?i-va la folosirea apelului select.

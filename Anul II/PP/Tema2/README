@@ -1,0 +1,42 @@
+Ivanica Gabriel
+323CA
+
+Rezolvare : 
+	DFS pe harta utilizand un stack pentru a ma putea intoarce
+
+Functii:
+
+Pentru a calcula noua pozitie in functie de mutare N, S, E, W
+Reprezentata prin coordonate generale grid - (int, int)
+	
+	newPos :: ((Int, Int), Int, Int) -> (Int, Int)
+	newPos ((a,b), x, y) = (a + x, b + y)
+
+
+Caluarea unei pozitii prin coordonata N, S, E, W
+
+	newCPos pos dir ()
+
+
+Complexitate DFS - aprox O(lenght * width) - pentru acoperirea hartii complete
+si adunarea tuturor mineralelor
+
+perceiveAndAct s cs (pos, last, v) = 
+	if (notElem E cs) && (notElem nposE v) 		then (Just E, (nposE, W:last, pos:v))
+	else if (notElem W cs) && (notElem nposW v) then (Just W, (nposW, E:last, pos:v))
+	else if (notElem N cs) && (notElem nposN v) then (Just N, (nposN, S:last, pos:v))
+	else if (notElem S cs) && (notElem nposS v) then (Just S, (nposS, N:last, pos:v))
+	else if (length last == 1) then (Just fLast, (nLast, newlast, []))
+	else (Just fLast, (nLast, newlast, pos:v))
+		where
+			nposN = newPos(pos,-1, 0)
+			nposS = newPos(pos, 1, 0)
+			nposE = newPos(pos, 0, 1)
+			nposW = newPos(pos, 0,-1)
+			fLast = head last
+			newlast = tail last
+			nLast = newCPos pos fLast
+
+
+Nota: nu am utilizat informatiile de la senzori
+

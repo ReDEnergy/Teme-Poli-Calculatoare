@@ -1,0 +1,101 @@
+100
+#  Scelerat  CanalMare
+#  Bandaj  PivnitaCuColoane
+= 0  Scelerat  SalaMurdara
++ 3  Scelerat  Cantina
+@ Bandaj
+= 4  Bandaj  CanalMare
+@ Mancare
+#  Mancare  SalaMurdara
++ 6  Bandaj  PivnitaCuColoane
++ 3  Bandaj  CanalMare
++ 8  Fiara  PivnitaCuColoane
++ 7  Scelerat  Cantina
++ 10  Bandaj  SalaMurdara
+? Cantina
++ 9  Mancare  CanalMare
+= 8  Scelerat  SalaMurdara
++ 6  Bandaj  Cantina
+@ Bandaj
+- 4  Scelerat  Cantina
+= 6  Scelerat  Cantina
++ 5  Scelerat  SalaMurdara
++ 5  Scelerat  SalaMurdara
+= 3  Bandaj  CanalMare
+= 4  Scelerat  Cantina
++ 6  Bandaj  SalaMurdara
+= 2  Fiara  PivnitaCuColoane
+@ Bandaj
++ 6  Mancare  CanalMare
+@ Bandaj
++ 5  Bandaj  Cantina
++ 8  Bandaj  CanalMare
+@ Bandaj
+- 11  Bandaj  CanalMare
+@ Bandaj
+= 7  Scelerat  Cantina
+- 3  Mancare  CanalMare
+? SalaMurdara
++ 5  Scelerat  SalaMurdara
+= 0  Mancare  PivnitaCuColoane
+#  Fiara  SalaMurdara
+@ Scelerat
+@ Mancare
+- 0  Mancare  PivnitaCuColoane
+? PivnitaCuColoane
+#  Mancare  PivnitaCuColoane
+= 2  Scelerat  PivnitaCuColoane
+@ Scelerat
++ 0  Scelerat  CanalMare
++ 8  Fiara  PivnitaCuColoane
++ 9  Bandaj  Cantina
++ 10  Scelerat  Cantina
+@ Mancare
+@ Scelerat
+@ Mancare
+- 0  Bandaj  CanalMare
+? PivnitaCuColoane
+- 7  Fiara  PivnitaCuColoane
++ 4  Fiara  Cantina
++ 7  Mancare  Cantina
+= 5  Bandaj  PivnitaCuColoane
++ 2  Scelerat  SalaMurdara
+- 7  Mancare  Cantina
++ 2  Bandaj  PivnitaCuColoane
+- 4  Bandaj  Cantina
+- 0  Mancare  PivnitaCuColoane
++ 6  Fiara  SalaMurdara
+- 2  Fiara  SalaMurdara
+? Cantina
+? SalaMurdara
+- 0  Mancare  CanalMare
+#  Mancare  CanalMare
++ 2  Mancare  CanalMare
+- 1  Fiara  PivnitaCuColoane
++ 3  Mancare  PivnitaCuColoane
++ 4  Bandaj  CanalMare
+= 10  Scelerat  Cantina
+= 1  Bandaj  Cantina
+#  Mancare  CanalMare
+- 0  Scelerat  CanalMare
+= 6  Mancare  SalaMurdara
++ 0  Scelerat  PivnitaCuColoane
+@ Fiara
+#  Scelerat  Cantina
+- 7  Bandaj  SalaMurdara
+= 5  Fiara  CanalMare
+#  Fiara  Cantina
+@ Scelerat
+@ Bandaj
++ 9  Scelerat  SalaMurdara
+- 4  Fiara  SalaMurdara
+@ Scelerat
+= 6  Fiara  PivnitaCuColoane
+- 34  Scelerat  SalaMurdara
+- 0  Scelerat  SalaMurdara
++ 7  Scelerat  CanalMare
+- 4  Mancare  CanalMare
+- 3  Mancare  PivnitaCuColoane
+= 0  Fiara  CanalMare
+- 4  Fiara  Cantina
+@ Mancare

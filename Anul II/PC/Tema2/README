@@ -1,0 +1,48 @@
+Ivanica Gabriel
+323CA
+
+
+Observatii:
+	Tema ruleaza pe toate cele 4 teste - evenimente a), b), c) si d)
+
+
+Implementare:
+
+	Programul de rutare a fost scris in C++ deoarece am utlizat anumite clase
+
+	Pentru implementarea temei am utilizat structurile si variabilele declarate
+	in	rut.h
+
+	Am redeclarat o parte din variabilele din main() globale pentru a le putea
+	utiliza mai cu usurinta
+
+	/**	Structura pentru LSA pentru un router
+	 **/
+	typedef struct {
+		int time;		// timp de last update LSA
+		int cost[KIDS];	// vector de cost catre vecini
+	} LSA;
+	Daca cost[i]=0 se considera ca nu exista legatura catre acel router
+
+	LSA LSADatabase[10];		// LSADatabase
+	vector <msg> ReceiveMsg;	// Vector pentru retinerea mesajelor
+
+	Pentru a implementa am urmat instructiunile de la tema cu urmatoarele observatii
+	Nu a fost necesara utilizarea unui topologii deoarece LSADatabase era actualizat
+	complet la timp si se putea utiliza acesta pentru orice alta operatie necesara.
+
+	In momentul primirii unui LSA daca timpul este mai mare decat LSA-ul vechi
+	actualizez atat LSA primit, cat si toate informatiile vecin-nod_id ce se pot
+	obtine din LSA.
+	Astfel nu mai este necesara mentinerea unei topologii inctrucat LSADatabase
+	cotine toate informatiile despre legaturi necesare si cele mai noi dealtfel
+
+	Pentru calcularea drumului minim, a costului minim, am utlizat algoritmul lui
+	Bellman Ford. Rezultatele sunt salvate apoi in tabela de rutare.
+
+	Pentru retinerea mesajelor spre a fi procesate am utlizat un Vector intrucat nu
+	era necasara utilizarea unei cozi de mesaje deoarce oricum toata coada trebuia
+	procesata.
+	La sfarsitul pasului de timp se face clear pe vector.
+
+	Codul sursa contine destul de multe linii comentate de debugging.

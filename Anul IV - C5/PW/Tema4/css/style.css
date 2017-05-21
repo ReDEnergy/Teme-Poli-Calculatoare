@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	background: #FFF;
+	font-family: Vollkorn;
+}
+
+body > * {
+	margin: 3px 0;
+	background: #F1F1F1;
+}
+
+body > header > * {
+	margin: 0 10px 10px;
+}
+
+body > header {
+	padding: 0 0 5px 0;
+}
+
+body header h2 {
+	color: #999;
+}
+
+.important, strong, time {
+	color: #DE5A51;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444;
+}
+
+/*
+ * Pentru telefon
+ */
+
+@media (max-width: 400px) {
+	body {
+		background: #F1F1F1;
+		margin: 0;
+	}
+}
+
+@media (max-width: 525px) {
+	article figure {
+		width: 80px;
+	}
+
+	article img {
+		width: 100%
+	}
+
+	article iframe {
+		width: 100px;
+	}
+}
+
+
+/*
+ * Menu
+ */
+
+@media (min-width: 400px) {
+
+	#menu {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav {
+		padding: 5px;
+		margin: 0 !important;
+		display: inline-table;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	nav ul li {
+		margin: 0;
+		padding: 5px;
+		background: #F1F1F1;
+		list-style: none;
+		position: relative;
+		float: left;
+	}
+
+	nav ul li:hover {
+		background: #DDD;
+	}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+	nav ul li ul {
+		padding: 0;
+		background: #F1F1F1;
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 100%;
+	}
+
+	nav ul li ul li {
+		width: 100%;
+	}
+
+	nav ul li ul li ul {
+		left: 100%;
+		top: 0;
+	}
+}
+
+/*
+ * Article
+ */
+
+.article > header {
+	margin: 0 10px;
+	border-bottom: double 4px #DDD;
+}
+
+.article header h2 {
+	margin: 5px 0 0 0;
+	color: #333;
+}
+
+article header > * {
+	display: inline;
+}
+
+article header p {
+	margin: 0;
+	color: #999;
+	font-style: italic;
+}
+
+article > figure {
+	float: left;
+}
+
+article > iframe {
+	float: right;
+}
+
+/*
+ * Comments
+ */
+
+#comments {
+	border-top: double 4px #DDD;
+	padding: 20px 20px 1px;
+}
+
+.comment header {
+	margin: 10px 0;
+}
+
+.comment header h4 {
+	color: #555;
+	margin: 0;
+}
+
+.comment header {
+	border-bottom: solid 1px #DDD;
+}
+
+article section article header {
+}
+
+article section header p {
+	font-style: normal;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+	margin: 5px 0 0 0;
+	padding: 10px 0 30px 0;
+	text-align: center;
+}

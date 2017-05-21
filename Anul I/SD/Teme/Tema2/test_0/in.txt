@@ -1,0 +1,8 @@
+1
+definitii.txt
+5
+mamifer
+mamifer mare
+animale
+mamifer blana rozator
+specie rapid

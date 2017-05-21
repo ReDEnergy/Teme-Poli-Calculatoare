@@ -1,0 +1,133 @@
+
+-----Mini-tutorial pentru rularea programelor openMP in cluster, folosind qsub----
+(Ghiduri de utilizare in extenso se gasesc la adresele: http://cluster.grid.pub.ro/index.php/component/docman/doc_download/3-cluster-guide-v3-0 si https://cluster.grid.pub.ro/index.php/component/docman/doc_download/2-cluster-guide-v3-1-short-version)
+
+
+!!!Daca rulati fara qsub(sistemul de submitere a joburilor), aveti la dispozitie doar calculatorul care va permite accesul la cluster(zis si fep - front end processor) pe care insa NU aveti acces exclusiv, deci masurarea timpului NU e relevanta in astfel de conditii. Folosind qsub in coada ibm-quad-new.q/ibm-quad.q, puteti rula pe un dual quad core (8 procesoare fizice). Numarul de threaduri cu care testati(in cazul testelor de performanta) nu trebuie sa depaseasca numarul de procesoare pe care le aveti la dispozitie. 
+
+1.Trebuie sa fiti autentificati pe front end processor(fep) cu userul vostru de pe curs.cs.pub.ro (daca nu va merge parola, dati-mi mail la eliana.tirsa, la cti.pub.ro sau cs.pub.ro, specfificand numele vostru complet si adresa voastra de la cti.pub.ro)
+
+Pentru a intra pe procesorul fep: ssh userul_personal@fep.grid.pub.ro
+
+Aceasta etapa (de logare) poate dura si cateva zeci de secunde, pana sa apara o linie care va cere parola. La prima logare de pe o anumita masina, inainte sa va ceara parola, trebuie sa tastati yes la o intrebare referitoare la cheia ssh a masinii remote.  
+
+
+2. Avand un program C/C++ serial sau  paralelizat cu openMP, compilati-l pe front end processor (dar nu-l rulati aici, caci nu aveti acces doar voi la un moment dat pe acest sistem) (cu gcc/g++ sau cu ce compilator ati folosit in laborator). [Nu uitati, tema trebuie sa contina Makefile]
+
+Observatie: S-ar putea sa obtineti timpi usor diferiti pentru versiunea seriala si versiunea "paralela" cu 1 singur thread.(in sensul ca a doua varianta poate sa fie mai rapida uneori - datorita unor optimizari de compilator care ajuta openMP-ul) La punctul 3 din cerinte, folositi ca referinta pentru speedup cel mai bun algoritm serial (chiar daca a fost obtinut cu openmp)
+ 
+Pentru gcc varianta paralela:
+
+	[etirsa@fep ~]$ gcc -fopenmp sursa.c -o executabil
+
+Pentru cc varianta paralela(compilatorul de la Sun):
+
+	cc -xopenmp -L/opt/sun/sunstudio12.1/rtlibs/amd64 sursa.c -o executabil
+
+Ce e intre [] e optional. 
+
+In caz ca nu agreati editoarele din linia de comanda, puteti copia fisiere de pe sistemul local pe cel remote, cu scp. (sau cu tool-uri cu interfata grafica, de exemplu gftp)
+Un exemplu de utilizare:
+
+	elia@novo:~$ scp test.c etirsa@fep.grid.pub.ro:
+
+Nu uitati ":". 
+
+
+
+3. Scrieti un script in care sa apara comanda de rulare a acestui executabil. In acest script va trebui sa setati si variabilele de mediu (OMP_NUM_THREADS si OMP_SCHEDULE). 
+
+exemplu de script simplu (script_simplu.sh) [tab-urile sunt optionale]:
+
+	export OMP_SCHEDULE="dynamic"
+	export OMP_NUM_THREADS=10
+	time ./executabil fis_in fis_out
+
+(daca nu rulati din directorul ~, va trebui sa puneti in script calea pana la ~, de exemplu: time ~/tema1/executabil
+
+Exemplu de script(script_2_arg.sh) cu doua argumente:
+
+	FISIN=$1
+	FISOUT=$2
+
+	export OMP_SCHEDULE="dynamic"
+	export OMP_NUM_THREADS=4
+	time ./executabil $FISIN $FISOUT
+
+Puteti sa parametrizati si alte variabile folosite in script.
+
+
+
+4. Trimiteti(submit) jobul pe un sistem multicore din cluster (pentru mai multe detalii despre qsub, man qsub), dintr-o anumita coada. Coada ibm-quad.q (ibm-quad-new.q) are masini cu 8 core-uri. Puteti verifica si lasand OMP_NUM_THREADS nesetata (iar in interiorul codului sa nu aveti omp_set_num_threads()). In acest caz, executabilele rezultate in urma compilarii cu gcc (pentru cc nu e valabil; la cc trebuie spus explicit numarul de threaduri, altfel ruleaza pe un singur thread) sunt rulate pe numarul de threaduri hardware disponibile (conteaza si cazul in care procesorul e multi-threading, se numara si acele threaduri). 
+
+Exemple de utilizare qsub:
+
+	[etirsa@fep ~]$ qsub -S /bin/bash -q ibm-quad.q script_simplu.sh
+
+iar pentru scriptul cu argumente de mai sus:
+
+	[etirsa@fep ~]$ qsub -S /bin/bash -q ibm-quad.q script_2_arg.sh myin myout
+Nu uitati optiunea -S (by default, consola in cluster poate fi csh, nu bash)
+	
+	Atentie! Deocamdata (se va redenumi in "ibm-quad.q" in cateva zile), coada pe care puteti sa rulati se numeste: ibm-quad-new.q. Comanda e aceeasi, cu exceptia cozii:
+	
+	[etirsa@fep ~]$ qsub -S /bin/bash -q ibm-quad-new.q script_2_arg.sh myin myout
+
+
+Pentru a vedea ce cozi sunt disponibile, comanda este:  qstat -g c
+(Cozile care au N/A ca prim camp, nu sunt disponibile)
+
+
+
+5. In urma rularii ar trebui sa va apara ceva gen:
+	Your job 949 ("script_2_arg.sh") has been submitted
+
+Pentru a vedea starea tuturor joburilor rulate la un moment dat, dati comanda qstat fara argumente:
+
+	[etirsa@fep ~]$ qstat
+
+sau watch qstat(executa qstat la fiecare doua secunde)
+
+	[etirsa@fep ~]$ watch qstat
+	
+[pentru a filtra pe user/nr job, consultati man]
+
+Daca nu vedeti jobul vostru in lista [sau daca qstat nu afiseaza nimic] jobul vostru s-a terminat. Acum puteti gasi fisierul de iesire (myout), si in plus(in directorul ~) urmatoarele doua fisiere(id-ul trebuie sa fie al job-ului pe care l-ati trimis cu qsub - 949 in acest caz):
+
+	script_2_arg.sh.o949 - contine output-ul rularii scriptului [ce v-ar fi afisat in mod normal la consola]
+	script_2_arg.sh.e949 - eventualele erori intalnite la rulare
+
+E posibil ca in fisierul vostru de output(aici script_2_arg.sh.o949)  sa aveti la inceput:
+	Warning: no access to tty (Bad file descriptor).
+	Thus no job control in this shell.
+Nu e nicio problema.
+
+De asemenea, e posibil(fara sa fie anormal) ca outputul comenzii time sa ajunga in fisierul de eroare(script_2_arg.sh.e949). Puteti forta sa va aparat tot outputul in fisierul de eroare, adaugand la comanda 1>&2 (remember USO) 
+
+Daca cumva jobul vostru se blocheaza(sau ruleaza suspect de mult), omorati-l cu comanda qdel. Exemplu de folosire pentru jobul de mai sus:
+	[etirsa@fep ~]$ qdel 949
+
+
+6. (Valabil si pe calculatorul local) Pentru a verifica, de exemplu daca fisierul vostru de iesire e acelasi cu un fisier out100_20_100, folositi diff. Optiunea -w e pentru a ignora cantitatea (eventual) diferita de spatiu alb, iar -B este pentru ignorarea liniilor goale. Ideal e ca diff sa nu aiba nici un output. In acest caz, partea utila a fisierelor e identica.
+
+Exemplu utilizare:
+
+	[etirsa@fep ~]$ diff -Bw myout out100_20_100
+	[etirsa@fep ~]$
+----------------------------
+
+Good luck, have fun!
+
+
+
+
+
+
+
+
+
+
+
+
+
+

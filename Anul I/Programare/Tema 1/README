@@ -1,0 +1,64 @@
+/**
+ * Ivanica Gabriel, 313CA, Tema1, Data: 05.11.2010
+ */
+
+  Se va citi un numar (N) de la tastatura in format double.
+  
+Etapa 1: Programul va testa daca acest numar corespunde cerintei , adica este natural, 2<=N<=1.000.000.
+  
+  Daca nu corespune cerintei programul se va termina.
+  Pentru a verifica daca numarul citit este natural s-a declarat o variabile double eps=0.00001 deoarece in cazul citirii unui numar de forma x.999999 sa nu se ia in considerare o variabila int.
+  Astfel se va verifica daca modului diferentei dintre valoarea int a numarului N si numarul N este mai mic decat eps.
+
+  abs((int)n-n)<eps)
+
+Etapa 2: Verificare daca numarul este palindrom.
+
+  Pentru generearea numarului in oblinda se utilizeaza urmatorul algoritm.
+  Se retine valoarea N a numarului intr-o noua variabila.
+  Se genereaza numarul in oglina utilizand variabila p2 si a restului impartirii la 10 a lui p1.
+
+  while (p1){
+	p2=p2*10+p1%10; 
+	p1=p1/10;
+	}
+  
+  Prin comparearea numerului in oglina cu N se va stabili natura acestuia. Palindrom / Neplaindrom
+
+Etapa 3: Descompunerea in factori primi
+
+  Se imparte numarul N (retinut in variabila fp) succesiv astfel.
+  Cat timp numarul fp e divizibil cu variabila i(initial fiind 2) se imparte la accesta si gradul se incrementeaza.
+  Se afiseaza variabila i si puterea , reprezentata de grad, doar daca gradul este diferit de 0.
+  Daca numarul este diferit de 1 se incrementeaza i (i++) , grad=0 si se reia algoritmul.
+  Deoarece impartirea se realizeaza pornind de la i minim (i=2) si se imparte succesiv pana cand restul e diferit de 0,variabila i va fi intotdeauna un factor prim.
+
+while (fp!=1) {
+	i++; // i reprezinta un factor prim
+	grad=0;
+	while(fp%i==0) { 
+		grad++; 
+		fp=fp/i;
+		}
+	// Afisare factor si putere
+	if (grad) {
+		printf("%ld^%ld",i,grad);
+		if(fp!=1) printf (" * ");
+		}	
+	}
+	
+  Etapa 4: Verificare numar fibonacii
+
+  Folosind primele 2 numere ale lui Fibonacci se genereaza pe rand numerele pana cand numarul generat e mai mare ca N
+
+  Pentru generarea numerelor Fibonacci sunt folosite 3 variabile: el1,el2 si mem.
+  el1 si el2 au initial valoarea 1 fiind respectiv primele 2 numere Fibonacci.
+  Utilizand variabila mem se calculeaza urmatorul numar Fibonacci astfel:
+
+while(n>el2) { 
+	mem=el1;
+	el1=el2;
+	el2=el2+mem;
+	}
+	
+  Ultimul numar Fibonacci generat se compara cu N si se afiseaza mesajul corespunzator.

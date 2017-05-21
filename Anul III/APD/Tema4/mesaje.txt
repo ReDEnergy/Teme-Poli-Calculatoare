@@ -1,0 +1,40 @@
+8
+9 1 Mesaj trimis
+7 9 Buna ziua!
+5 8 Alt mesaj
+3 B Mesaj de broadcast
+4 2 Salut, vecine...
+11 B Ala bala Portocala
+6 9 Awesome message
+11 3 Mesaj useless
+
+
+
+
+TASK 1
+5 
+9 1 Mesaj trimis
+7 9 Buna ziua!
+5 8 Alt mesaj
+3 B Mesaj de broadcast
+4 2 Salut, vecine... 
+
+
+
+TASK 2
+8
+9 1 Mesaj trimis
+7 9 Buna ziua!
+5 8 Alt mesaj
+3 B Mesaj de broadcast
+4 2 Salut, vecine...
+11 B Ala bala Portocala
+6 9 Awesome message
+11 3 Mesaj useless
+
+
+TASK 3
+3
+1 4 Mesaj trimis
+2 1 Buna ziua!
+3 B Alt mesaj

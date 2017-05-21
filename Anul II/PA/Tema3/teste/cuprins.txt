@@ -1,0 +1,113 @@
+		
+Testul 1
+Imagine 	ball
+Dimensiuni  36 27 
+Param  3 10
+Timpi:  0.2
+
+		
+Testul 2
+Imagine 	ball
+Dimensiuni  36 27 
+Param  1 50
+Timpi:  0.2
+
+		
+Testul 3
+Imagine 	ball
+Dimensiuni  36 27 
+Param 1 250
+Timpi:  0.15
+
+		
+Testul 4
+Imagine 	ball
+Dimensiuni  36 27 
+Param 10 250
+Timpi:  0.2
+
+		
+Testul 5
+Imagine		Lantern
+Dimensiuni
+Param    5 100
+Timpi:  0.2
+
+
+Testul 6
+Imagine		Lantern
+Dimensiuni 2100
+Param	20 100
+Timpi:  0.3
+
+
+Testul 7
+Imagine		Lantern
+Dimensiuni 
+Param	50 50
+Timpi:  0.3
+	
+
+		
+Testul 8
+Imagine  	Moonstar1
+Dimensiuni  40 42 = 1600
+Param
+Timpi:  0.2
+		
+
+		
+Testul 9
+Imagine  	Moonstar1
+Dimensiuni  40 42 = 1600
+Param
+Timpi:  0.3
+
+
+		
+Testul 10
+Imagine  	Moonstar1
+Dimensiuni  40 42 = 1600
+Param
+Timpi:  0.6
+
+		
+Testul 11
+Imagine 	Pumpkin
+Dimensiuni  81 74  = 6000
+Param	5 10
+Timpi:  0.3
+
+		
+Testul 12
+Imagine		Pumpkin
+Dimensiuni	81 74  = 6000
+Param	10 30
+Timpi:  0.35
+		
+		
+Testul 13
+Imagine		sean-connery2
+Dimensiuni  50 64  = 3200
+Param	5 10
+Timpi:  0.3
+
+
+Testul 14
+Imagine		sean-connery2
+Dimensiuni  50 64  = 3200
+Param	50 50
+Timpi:  3
+		
+Testul 15
+Imagine		edmonds
+Dimensiuni	192 256 = 50000
+Param	20 20
+Timpi:  7
+
+Testul 16
+Imagine  EF
+Dimensiuni  250*160 = 40000
+Param 10 5
+Timpi: 11
+

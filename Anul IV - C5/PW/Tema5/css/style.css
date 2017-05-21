@@ -1,0 +1,59 @@
+body {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#pages {
+	padding: 10px;
+}
+#pages a {
+	padding: 10px;
+}
+
+#article {
+	width: 100%;
+}
+
+.comment {
+	margin: 5px 0;
+	padding: 10px;
+}
+
+.comment .image {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	border: 2px solid #DDD;
+	background: url("../img/icon.png") no-repeat center center; 
+}
+
+.comment .name {
+	color: #036;
+	font-weight: bold;
+	float: left;
+}
+
+.comment .date {
+	color: #999;
+	float: right;
+	text-align: right;
+}
+
+.comment .email {
+	color: #999;
+}
+
+.comment .message {
+	margin: 5px 0;
+}
+
+textarea {
+	min-height: 40px;
+	resize: vertical;
+}
+
+
+
+#submit {
+	float: right;
+}

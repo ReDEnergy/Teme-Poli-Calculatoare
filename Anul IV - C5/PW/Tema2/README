@@ -1,0 +1,14 @@
+Nume: Ivanica Gabriel
+Grupa: 342C5
+
+Am implementat versiunea cu BONUS
+
+Biblioteca ORM:
+	idiorm		http://idiorm.readthedocs.org/en/latest/index.html
+	paris		http://paris.readthedocs.org/en/latest/index.html
+
+
+CSV-urile trebui sa se afle in  "/database"
+
+Apelat scriptul: "create_dba.php" pentru a crea si incarca baza de date
+

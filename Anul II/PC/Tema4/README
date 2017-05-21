@@ -1,0 +1,31 @@
+Ivanica Gabriel
+323CA
+Tema 4 PC
+
+Implementare:
+
+	Pentru trimiterea Interogarii DNS am folosit un buffer send_buff si un POINTER
+la acesta pentru a retine ultima pozitie de completat (strlen(send_buff)).
+	Am creat header-ul cu functia setQuerryHeader(), apoi am concatenat querry-ul
+utilizand functia createQuestion()
+
+	Voi citi pe rand cate un DNS din dns_servers.conf si voi trimite un request.
+	In cazul in care requestul nu este primit in 3 secunde ( structura timeval)
+voi inchide socketul si voi incerca urmatorul DNS. Daca se primeste un raspuns
+il voi afisa si voi termina programul.
+
+
+/** Creare socket si trimiterea pachetului catre server DNS prin UDP
+	Pentru a trimite interogarea DNS am implemntat functia sendQuerry();
+	Astfel am creat o conexiune UDP, si am trimis bufferul send_buff catre serverul
+de DNS.
+	Pentru a nu folosit alarm() am utilizat un select cu o structura timeval
+pentru a da timeout la conexiune in cazul in care nu se primeste raspuns in 3 secunde.
+	Dupa ce se primeste un raspuns, parsez raspunsul pentru fiecare sectiune in parte
+utilizand printAnswer().
+	Pentru parsarea mesajului am folosit un index pe mesajul primit pentru a ma
+deplasa pe acesta: indx. Acesta il utilizez pentru a retine locatia de unde trebuie
+sa printez mai ales in cazul apelarii functiei ce returneaza un label. getLabel().
+
+
+

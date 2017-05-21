@@ -1,0 +1,4 @@
+sem.1 - curs 1 2 3
+sem.2 - curs 4 5 6
+sem.3 - curs 7 8 9
+sem.4 - curs 10 11 12

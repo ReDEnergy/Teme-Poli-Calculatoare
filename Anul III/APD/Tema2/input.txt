@@ -1,0 +1,12 @@
+3
+is a at
+2048
+100
+3
+6
+stralis.txt
+doc1.txt
+doc3.txt
+ceva3.txt
+ceva2.txt
+ceva4.txt

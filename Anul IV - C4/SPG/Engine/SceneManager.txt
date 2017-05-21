@@ -1,0 +1,106 @@
+##==============================================================================
+##
+##	Scenemanager
+##
+##	This file will be used by the Scene Manager 
+##	to create the World
+##
+
+##==============================================================================
+##	Objects
+
+nr_objects			6
+
+ID					0
+MODEL_ID			0
+nr_2D_textures		1
+2D_textures_ID		0
+
+SHADER_ID		0
+POSITION		0 0 0
+ROTATION		0 0 0
+SCALE			1 1 1
+
+ID					1
+MODEL_ID			1
+nr_2D_textures		1
+2D_textures_ID		2
+
+SHADER_ID		0
+POSITION		5 0 -3
+ROTATION		0 0 0
+SCALE			0.03 0.03 0.03
+
+ID					2
+MODEL_ID			2
+nr_2D_textures		4
+2D_textures_ID		3
+2D_textures_ID		4
+2D_textures_ID		5
+2D_textures_ID		6
+
+SHADER_ID		1
+POSITION		0 0 0
+ROTATION		0 0 0
+SCALE			1 1 1
+
+ID					3
+MODEL_ID			3
+nr_2D_textures		1
+2D_textures_ID		7
+
+SHADER_ID		2
+POSITION		0 0 0
+ROTATION		0 0 0
+SCALE			50 50 50
+
+ID					4
+MODEL_ID			4
+nr_2D_textures		1
+2D_textures_ID		7
+
+SHADER_ID		3
+POSITION		-3 5 0
+ROTATION		0 0 0
+SCALE			0.05 0.05 0.05
+
+ID					5
+MODEL_ID			5
+nr_2D_textures		3
+2D_textures_ID		8
+2D_textures_ID		9
+2D_textures_ID		10
+
+SHADER_ID		4
+POSITION		0 -3 0
+ROTATION		0 0 0
+SCALE			0.5 0.5 0.5
+
+##==============================================================================
+## Camera
+camera
+NEAR		0.1
+FAR			1500
+FOV			75
+
+## Lights
+lights
+AMBIENT 		1.0 1.0 1.0
+nr_lights		3
+
+ID				0
+COLOR			1.0 1.0 1.0
+POS/DIR			0 3 3
+TYPE			DIRECTIONAL
+			
+ID				0
+COLOR			1.0 1.0 1.0
+POS/DIR			0 3 3
+TYPE			DIRECTIONAL
+
+ID				1
+COLOR			1.0 1.0 1.0
+POS/DIR			3 1 0
+TYPE			POINT
+
+

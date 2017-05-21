@@ -1,0 +1,20 @@
+Simulatorul central: multiproc.c
+
+Codul unui ruter:  rut.c
+
+
+compilare: make
+rulare: make run
+
+Atentie! Cele 10 procese ruter sunt create si rulate cu fork si exec (vezi main() din multiproc.c). Nu trebuie sa rulati explict ./ruter!
+
+NU AVETI VOIE SA MODIFICATI fisierele multiproc.c si helpers.h! Codul sursa al acestor 2 fisiere vi s-a pus la dispozitie pentru intelegerea mai buna a schimburilor de mesaje si pentru a evita probleme la compilare (platforme de 64/32). Nu va speriati daca nu intelegeti functia main din multiproc.c. Importanta e functia simulare si felul cum trateaza simulatorul central mesajele primite de la rutere (codul din switch dupa tipul mesajului), mai ales pentru mesajele 1-4, caci mare parte din mesajele de control sunt implementate complet si in ruter. Pentru lucrul cu evenimente, aveti indicate liniile din multiproc.c de unde sa obtineti lamuriri. 
+
+Daca modificati multiproc.c sau helpers.h, o faceti pe riscul vostru. Tema va fi corectata cu sursele acestor fisiere care insotesc enuntul temei .
+
+TREBUIE SA MODIFICATI rut.c
+Daca vreti sa folositi un .h si pentru rut.c, creati-va altul.
+
+Aveti voie sa creati orice alte fisiere credeti de cuviinta, dar trebuie sa editati Makefile-ul, daca e nevoie, ca sa nu pierdeti functionalitatea de compilare/rulare corecta.
+
+

@@ -1,0 +1,92 @@
+	/*		char *buffer = malloc(F->bytes_n+1);
+			fread (buffer, 1, F->bytes_n, f1);
+
+			int file_size = F->file_size;
+			int index = 0;
+			int bit_nr = 7;
+			int child=0;
+			unsigned int checksum=0;
+	*/
+
+
+
+compress archive.huff file1.in file2.in
+extract archive.huff folder file1.in file2.in
+
+
+void PrintHTree (HuffmanNode *HTree, int n ) {
+	int i;
+	for (i=0; i<n-1; i++) {
+		printf("%d \t", i);
+		printf("%d \t", HTree[i].value );
+		printf("s: %u \t", HTree[i].left );
+		printf("d: %u \t\n", HTree[i].right);
+	}
+}
+
+
+void PrintTable (EncodeTable *Table) {
+	int i;
+	for (i=0;i<256;i++) {
+		printf("%d \t %u\n", Table[i].nrbits, Table[i].val);
+
+	}
+}
+
+
+int AddFile (ArchiveHeader *H, FileEntryHeader *F, char *name ) {
+	int i, nr;
+	nr = (*H).file_entries_n;
+
+	for (i=0; i<nr; i++)
+		if ( strcmp ( F[i].file_name, name) == 0 )
+			return 0;
+
+	nr++;
+	strcpy( F[nr-1].file_name ,name);
+	F[nr-1].bytes_n=0;
+	F[nr-1].checksum=0;
+	F[nr-1].file_size=0;
+
+	(*H).file_entries_n++;
+
+	return 1;
+}
+
+
+
+	f3 = fopen (argv[3],"rb");
+	char a;
+	unsigned int sum=0;
+	while ( (fread(&a, 1, 1, f3)) )
+		sum +=a;
+	printf("Sum: %u\n",sum);
+
+	fclose(f3);
+
+
+	HuffmanNode *HTree = malloc( nr_nodes * sizeof(HuffmanNode));
+	fread(HTree, sizeof(HuffmanNode), nr_nodes, f1);
+
+
+int i;
+for (i=0;i<argc;i++)
+	fprintf(stdout,"%s ",argv[i]);
+
+for (i=0;i<argc;i++)
+	fprintf(stderr,"%s ",argv[i]);
+assert(1<0);
+
+
+__attribute__((__packed__))
+
+
+void PrintHeap (Heap *H) {
+	int i;
+
+	printf("Heap :\n");
+	for (i=0; i<H->dim; i++)
+		printf("%ld Symb: %c index: %ld \n", freq(i), symb(i), index(i) );
+	printf("\n");
+
+}

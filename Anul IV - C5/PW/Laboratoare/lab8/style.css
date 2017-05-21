@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/OpenSans-Regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./fonts/OpenSans-Semibold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/OpenSans-Light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: normal;
+    src: url("./fonts/OpenSans-Italic-webfont.ttf") format("truetype");
+}
+
+/***********
+ * Body Page
+ ***********/
+
+body {
+	margin:0 auto;
+	width: 60%;
+	min-width: 400px;
+	background-color: #EBF1F5;
+	font-size: 12px;
+	text-align: center;
+	font-family: "Open Sans", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+body * {
+	margin: 2px;
+}
+
+body > * {
+	margin: 0;
+	padding: 0;
+}
+
+body > header {
+	font-family: "Open Sans Light", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+body > nav {
+	width: 20%;
+	background: #CCC;
+	float: left;
+}
+
+body > nav > a {
+	width: 100%;
+	margin: 2px 0;
+	border: 2px solid blue;
+	color: #C60;
+	background: #FFF;
+	float: left;
+	box-sizing: border-box;	
+}
+
+body > nav > a:hover {
+	color: #FFF;
+	background: #C60;
+}
+
+body > article {
+	width: 80%;
+	float: right;
+	background: #EEE;
+}
+
+footer {
+	margin: 0;
+	width: 100%;
+	background: #999;
+	color: #FFF;
+	position: fixed;
+	bottom: 0;
+}

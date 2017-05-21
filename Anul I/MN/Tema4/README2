@@ -1,0 +1,69 @@
+Gilca Mircea, 313CA, tema4
+
+	Despre trapeze nu cred ca e necesar sa spun prea multe. E o metoda rapida si eficienta pe care 
+o folosesc si la aflarea volumului, integrand practic suprafetele ( volumul e o integrala tripla, 
+dupa x, y, z; suprafata sliceurilor e o integrala dubla dupa x, y ).
+	In legatura cu Monte Carlo sunt mai multe lucruri de spus. Metoda este adesea folosita in statistica
+( economie etc ) pentru a calcula integrale mai complexe, nefiind foarte practica in situatia de fata.
+	Monte Carlo propriu-zis foloseste un set de punte random, insa generatoarele de puncte pseudo
+aleatoare nu garanteaza o distribuitie (discrepanta a setului) foarte buna, punctele putand sa se aglo-
+mereze in anumite zone. O convergenta mai buna se obtine prin metoda quasi Monte Carlo, in care punctele
+sunt alese dintr-o seventa quasi-random ( defapt distributia este determinista, dar punctele par distri
+buite aleator, frumos si uniform ).
+	Pentru implementarea de fata am ales sa generez secvente Hammersley 2D. Setul Hammersley are pe prima
+dimensiune (la mine x) valori de tipul i/N (N-numarul de puncte de generat), pe cea de-a 2a dimensiune
+avand puncte din secventa van der Corput in baza 2. Coordonata pe y a punctului de pe pozitia i din
+secventa se obtine teoretic prin oglindirea dupa virgula a reprezentarii in baza 2 a numarului.
+	Exemplific:
+		pe pozitia 4 o sa am x = 4/N
+				4(10) = 100(2) => 0.001(2) = 0.125(10)
+							oglindire
+							
+	In practica o astfel de abordare este foarte lenta in octave, care, spre deosebire de Matlab, nu are
+Just-in-time compliler. O astfel de facilitate ofera o performanta aproape nativa pentru buclele ce nu
+contin cod scris de utilizator. Din fericire, se poate si altfel, fapt observat din scrierea in baza 2
+a catorva numere
+	0 =   0(2) => 0.0
+	1 =   1(2) => 0.1
+	2 =  10(2) => 0.01
+	3 =  11(2) => 0.11
+	4 = 100(2) => 0.001
+	5 = 101(2) => 0.101
+	6 = 110(2) => 0.011
+	
+	Se observa alternanta bitilor de pe prima pozitie dupa virgula (0101...). Pe urmatoarea pozitie
+bitii alterneaza cate 2 (00110011...), apoi cate 4 si tot asa. Putem completa pana la 2^k numere o
+secventa de 2^k-1 de numere deja generate setand ca fiind 1 al k-lea bit dupa virgula (practic adun
+2^(-k) la cele generate anterior). Aceasta implementare se executa f rapid.
+	Secventa quasi-random alesa prezinta un avantaj si la numararea punctelor din interiorul poligo-
+nului prin faptul ca abscisele punctelor sunt echidistante.
+	
+	
+	Practic, pentru a identifica punctele din interiorul poligonului parcurg toate segmentele poligo-
+nului si identific toate punctele quasi-random generate care au abscisele intre abscisele capetelor
+intervalului. Aceaste puncte sunt consecutive in sirul de numere generate avand in vedere monotonia
+absciselor.
+	Dupa identificare trebuie sa stabilesc daca punctele selectate sunt sub sau deasupra segmentului
+curent. In acest scop calculez aria determinata de capete si punctul curent. Daca aceasta arie este 
+negativa punctul este sub segment, deci il voi marca.
+	Pentru fiecare punct tin un switch este toggleuit de fiecare data cand punctul respectiv este iden-
+tificat ca fiind sub un segment. Un punct din interiorul poligonului trebuie sa se gaseasca sub un 
+numar impar de segmente, deci la sfarsit switchul va fi 1.
+	Trebuie sa am grija la orientarea segmentului, intrucat aceasta influenteaza semnul ariei calculate.
+	Numar puntele din interior insumand aceste switchuri, apoi aplic regula de 3 simpla pentru a det.
+o aproximare a ariei poligonului, avand in vedere discrepanta si uniformitatea setului de punte
+quasi-random.
+	
+	La fiecare pas dublez numarul de puncte distribuite in dreptunghiul ce incadreaza poligonul, pana 
+cand diferenta dintre aria estimata la pasul curent si cea precedenta este mai mica decat toleranta.
+
+	Pornind executia de la 2^19 puncte, pt o eroare de 0.001 se va ajunge pana la cel mult 2^21 puncte,
+eroarea fata de valoarea calculata cu trapeze fiind de aprox 10^-3.
+	Executia pe toate sliceurile dureaza aproximativ 10 secunde pe calculatorul meu.
+	Lasand algoritmul sa foloseasca mai multe puncte ( pana la 2^23 ) eroarea intre trapeze si Monte
+Carlo ajunge de ordinul 10^-4, insa timpul de executie atinge aprox 1 minut.
+
+	Pt implementarea switchurilor am ales tipul de date uint8 ce ofera performanta superioara fata de 
+tipul double implicit si chiar fata de logical.
+
+

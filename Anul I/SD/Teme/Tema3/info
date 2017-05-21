@@ -1,0 +1,73 @@
+/*********			ASCII CODE FOR QUERY
+	'='	=>	61	"update = nr _ object - room"
+	'-'	=>	45	"update - nr _ object - room"
+	'+'	=>	43	"update + nr _ object - room"
+	'?'	=>	63	"what's in that room"
+	'@'	=>	64	"where can i foud this object"
+	'#'	=>	35	"object - room"						*********/
+
+
+
+
+	HashC *X = malloc (sizeof(HashC));
+	HashX *Y = malloc (sizeof(HashX));
+	HashX *Z = malloc (sizeof(HashX));
+
+	char *a, *b , c[]="obj" , d[]="camera";
+	a = malloc(strlen(c)+1);
+	b = malloc(strlen(d)+1);
+
+	strcpy(a,c);
+	strcpy(b,d);
+
+	int *nr = malloc(4);
+	*nr = 5;
+
+	X->obj = a;
+	X->room = b;
+	X->nr = nr;
+
+	Y->name = a;
+	Y->elem = malloc(sizeof(ListX));
+	Y->elem->name = b;
+	Y->elem->nr= nr;
+
+	Z->name = b;
+	Z->elem = malloc(sizeof(ListX));
+	Z->elem->name = a;
+	Z->elem->nr=nr;
+
+	ASA
+
+	free(Z->elem->nr);		/// NR
+	free(Z->elem->name);	///	A || B
+	free(Z->elem);			///	B || A
+	free(Z->name);
+
+	free(Z);
+	free(Y->elem);
+	free(Y);
+	free(X);
+
+	SAU
+
+	free(Z->elem);
+	free(Y->elem);
+	free(X->nr);
+	free(X->obj);
+	free(X->room);
+	free(Y);
+	free(Z);
+	free(X);
+
+
+
+/**				else {				/// Lista vida
+					if(*New->nr) {		/// Numarul lor nu e 0
+						F->elem = New;
+						F -> elem -> nextRoom = New->nextRoom;
+						F -> elem -> prevRoom = New->prevRoom;
+					}
+				}
+**/
+

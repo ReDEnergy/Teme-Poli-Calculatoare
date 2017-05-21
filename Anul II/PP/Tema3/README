@@ -1,0 +1,91 @@
+Ivanica Gabriel
+323CA
+Tema 3 - PP
+
+
+*********** Template and Facts
+
+Pentru a rezolva tema am definit un nou template Path ce reprezinta un world si
+directia de deplasare
+	 
+(deftemplate path
+	(multislot limit)	; dimensiune harta
+	(multislot ball)	; pozitia mingii
+	(multislot men) 	; pozitiile oamenilor
+	(slot id) 			; id lume
+	(multislot moves)	; mutari
+	(multislot dir)		; directia de deplasare
+)
+
+Am definit cele 8 directii de deplasare pozibilie in "directions" (dir)
+
+Pentru fiecare world initial retin pozitila de plecare a mingii in "Ball"
+
+
+
+*********** Idee de rezolvare
+
+Pentru fiecare World in parte:	
+
+	=> ma uit in jurul pozitiei pe care bila se afla
+		- daca in directia X se afla un om, creez un nou Path pe aceasta directie
+		- pozitia bilei este trecuta pe pozitia omului
+		- omul de pe aceasta pozitie este sters
+
+	=> daca bila se afla pe ultima pozitie a hartii
+		- salvez un fact "WIN"
+		- sterg toate celelalte facts "Path" pentru respectiva harta
+		- sterg toate facts existente in afara de "win"
+
+Pentru fiecare Path in parte:
+
+	=> daca pe directia de deplasare se mai gaseste un om
+		- sterg acest Path
+		- creez un nou Path 
+		- pozitia bilei este salvata pe pozitia omului
+		- sterg omul de pe acea pozitie
+
+	=> daca pe directia de deplasare nu se afla nimic
+		- creez un World (cu informatiile din Path)
+		- concatenez pozitia de mutare la moves
+		- pozitia bilei este salvata pe pozitia libera
+		- sterg Path
+
+
+Practic un Path reprezinta drumul de legatura dintre 2 Worlds.
+Can se gaseste o solutie de iesire se sterg toate facts "Path" pentru a opri 
+executia programului.
+
+La final se sterg toate facts ramase cu exceptia celor "win"
+
+Am salvat separat pozitia de pe care pleaca mingea deoarce nu puteam sa o adaug 
+initial la creearea unui New-Path intrucat la fiecare saritura peste oameni
+s-ar fi adaugat de 2 ori, o data la New-Path , si o data la New-World.
+As fi putut adauga Pozitia de jump doar la New-Path dar tot ar fi trebuit la 
+sfarsit sa adaug ultima pozitie de jump deoarece nu s-ar mai fi creat un New-Path.
+(Obs - probabil e si o salutie mai buna dar nu imi dau seama)
+
+
+
+Probleme intalnite 
+	: cred ca mai mult de sintaxa
+	: nu am reusit sa gasesc daca pot face match fara a folosi test astfel
+			(ceva ?x)
+			(altceva (+ 1 ?x))   - aveam impresia ca este posibil
+			
+		=> am utilizat	
+			(ceva ?x)
+			(altceva ?y)
+			(test (= ?x (+ 1 ?y))
+			
+			-> la matching pentru regulile de Path si World
+
+Timp de rulare:
+	: cam 22 secunde pe calculatorul meu in masina virtuala	Ubuntu
+	
+							
+
+
+
+
+

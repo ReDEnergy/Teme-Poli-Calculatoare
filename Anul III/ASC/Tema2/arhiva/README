@@ -1,0 +1,135 @@
+/**
+ * Gabriel Ivanica 333CA
+ * Tema 2 ASC - BLAS DSYMV
+ */
+
+
+ Implementare
+
+	Varianta Optimizata:
+	
+	Pentru varianta otimizata comparativ cu cea simpla am utilizat
+	un registru pentru acumulator si parcurgerea Matricei A prin 
+	utilizarea unui pointer.
+
+	De asemenea am setat mai multe informatii prin parcurgere cu 
+	pointer (YY = beta * YY, XX = alfa * XX )
+
+	Nu mai utilizez toata matricea A ci doar partea superiara si 
+	calculez Y prin sume consecutive : 
+
+	YY[j] += *ptrIdxA * XX[i];		/* Y[j] += alfa * A[i][j] * X[i] */
+	YY[i] += *ptrIdxA * XX[j];		/* row * column starting from j */
+
+	Calculele sunt posibil datorita faptului ca matricea este simetrica
+	ceea ce ne permite sa calculam valoarea curenta Y[i] cat si o suma 
+	partiala pentru toate elementele de dupa utilizand variabilele 
+	acelasi variabile de pe randul curent. 
+
+
+Testare:
+
+	Toti operanzii functiei au fost generati prin utilizarea functiei
+	random();
+
+	Am testat toate cele 3 functii pe o serie de 8 teste respectiv
+	o dimensiune a matricii de testare intre 5000 si 40000 cu un pas
+	de 5000.
+
+	Fiecare test a fost rulat atat cu optimizare -O3 cat si fara
+
+Comaparare rezultate:
+
+	ATLAS DSYMV vs Implementare de mana
+
+	Implementarea simpla este extrem de ineficienta comparativ cu ATLAS
+	indiferent de arhitectura pe care am rulat functia simpla este foarte
+	ineficienta.
+
+	Din toate testele rulate se poate observa performanta celor 3 
+	arhitecturilor :
+		1) coada Nehalem - cea mai rapida
+		2) coada Quad
+		3) coada Opteron
+	
+	
+	Atlas DSYMV   - Timpul este exprimat in milisecunde
+
+		QUAD				NEHALEM				OPTERON
+		-----------------------------------------------------
+		5000	40			5000	20			5000	30
+		10000	160			10000	60			10000	140
+		15000	350			15000	140			15000	340
+		20000	640			20000	250			20000	710
+		25000	980			25000	420			25000	1190
+		30000	1400		30000	790			30000	2070
+		35000	1900		35000	1050		35000	1930
+		40000	2480		40000	1040		40000	2680
+	
+		size / time			size / time			size / time
+
+	Timpul necesar pentru functia simpla neoptimizata se poate
+	vedea in grafice.
+
+	La activarea optimizarii -O3 se poate observa o imbunatatire
+	foarte mica la functiile ATLAS BLAS si o imbunatatire extrem
+	de mare la implementarea de mana a functiei.
+
+		SIMPLE - NEHALEM (milisecunde)
+		-----------------------------------------------------
+		5000			40				190			
+		10000			140				750
+		15000			330				1670
+		20000			590				2980
+		25000			920				4730
+		30000			1330			7230
+		35000			1850			10660
+		40000			2470			11960
+	
+		size			time O3			time no Optimization
+
+
+	Se poate de asemenea observa o crestere aproximativ 
+	quadratica a timpului in functie de dimensiune matricii
+
+
+
+	ATLAS DSYMV vs Optimizare DSYMV
+
+	Varianta optimizata are performate foarte bune comparativ cu 
+	varianta simpla. Din teste / grafice se pote observa o 
+	injumatatire a timpilor necesar variantei Optime fata de cea 
+	simpla.
+
+	Comparativ cu ATLAS varianta optimizata tot nu ofera performante
+	foarte bune fiind inca departe ca timpi re rulare.
+
+	O data activata optiunea O3 se poate observa imbunatatiri 
+	substantiale la rularea versiunii optimizate, apropiindu-se 
+	foarte mult de versiunea ATLAS.
+
+				OPTIM NEHALEM			ATLAS		
+
+	5000			20					20
+	10000			90					70
+	15000			200					130
+	20000			340					250
+	25000			550					380
+	30000			780					500			
+	35000			1090				710
+	40000			1430				940
+
+	size			time O3				time O3
+
+	Se poate vede si din grafice si din fisierele de timp ca versiunea
+	optimizata compilata cu O3 are o performanta de aproximativ 75% din
+	cea a ATLAS pe aproape toate arhitecturile
+
+
+Infromatii arhiva:
+	README	
+	PLOTURI
+	Am atasat toate fisiere cu date folosite la ploturi
+	Fisierele sursa
+	
+		

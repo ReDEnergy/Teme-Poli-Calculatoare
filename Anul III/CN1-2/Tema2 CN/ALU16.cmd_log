@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.xst" -ofn "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 ALU16.ngc ALU16.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ALU16_map.ncd ALU16.ngd ALU16.pcf 
+par -w -intstyle ise -ol high -t 1 ALU16_map.ncd ALU16.ncd ALU16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ALU16.twx ALU16.ncd -o ALU16.twr ALU16.pcf 

@@ -1,0 +1,26 @@
+ISim log file
+Running: /mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/red/Desktop/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.15xf (signature 0x8ddf5b5d)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/cla0/, width 1 of formal port CNX is not equal to width 4 of actual signal CNX.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/cla0/, width 1 of formal port CNY is not equal to width 4 of actual signal CNY.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/cla0/, width 1 of formal port CNZ is not equal to width 4 of actual signal CNZ.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/alu1/, width 1 of formal port CNb is not equal to width 4 of actual signal CNX.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/alu2/, width 1 of formal port CNb is not equal to width 4 of actual signal CNY.
+WARNING: File "/../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 31.  For instance uut/alu3/, width 1 of formal port CNb is not equal to width 4 of actual signal CNZ.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time=                   0 A=    0 B=    0 S=0000 M=0 => Sum=    1 Cout=1 PG=0 GG=0
+time=                 100 A=15033 B= 4658 S=0000 M=1 => Sum=50502 Cout=1 PG=0 GG=0
+time=                 130 A=15033 B= 4658 S=0110 M=1 => Sum=10379 Cout=0 PG=1 GG=1
+time=                 160 A=15033 B= 4658 S=1011 M=1 => Sum= 4656 Cout=0 PG=1 GG=1
+time=                 190 A=12345 B=11938 S=0110 M=0 => Sum=  406 Cout=0 PG=1 GG=1
+# exit 0

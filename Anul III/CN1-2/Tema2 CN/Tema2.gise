@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/Tema2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/TopLevel74181_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/TopLevel74181_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1336936499" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1336936499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336940040" xil_pn:in_ck="8770543572116321316" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1336940040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74181.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74182.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1336937532" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4846834790194202313" xil_pn:start_ts="1336937532">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1336937532" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1818798512920557841" xil_pn:start_ts="1336937532">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936671" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4058439864376099255" xil_pn:start_ts="1336936671">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336937532" xil_pn:in_ck="8770543572116321316" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1336937532">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74181.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74182.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1336937535" xil_pn:in_ck="8770543572116321316" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7820431067872074294" xil_pn:start_ts="1336937532">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/fuse.log"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim.log"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_beh.prj"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.exe"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1336937535" xil_pn:in_ck="6909731085903654982" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7080672454207453107" xil_pn:start_ts="1336937535">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim.cmd"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/isim.log"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="9220179497794939768" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4058439864376099255" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4744350557882806848" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936757" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4864480767536484481" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936771" xil_pn:in_ck="-785242073283627808" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="2587607156405783351" xil_pn:start_ts="1336936757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.lso"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngc"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngr"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.prj"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.stx"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.syr"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.xst"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_stx_beh.prj"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_xst.xrpt"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/webtalk_pn.xml"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936771" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4066557905332653675" xil_pn:start_ts="1336936771">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936778" xil_pn:in_ck="94767320079663" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6307065574786342443" xil_pn:start_ts="1336936771">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.bld"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ngd"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_ngo"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936786" xil_pn:in_ck="94767320079664" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-235656141811914689" xil_pn:start_ts="1336936778">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.pcf"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.map"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.mrp"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.ncd"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.ngm"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_map.xrpt"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_summary.xml"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_usage.xml"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936801" xil_pn:in_ck="1706092640731333705" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="8251173951899154272" xil_pn:start_ts="1336936786">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ncd"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.pad"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.par"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.ptwx"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.unroutes"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.xpi"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_pad.csv"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_pad.txt"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16_par.xrpt"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1336936801" xil_pn:in_ck="94767320079532" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1336936796">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.twr"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.twx"/>
+      <outfile xil_pn:name="/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,84 @@
+/*
+ *	Ivanica Gabriel 313 CA
+ *	Tema 4 Programare
+ *	19-12-2010
+ */
+
+Variabile si structuri necesare pentru a rezolvarea problemei:
+======================================================================================
+
+typedef struct{
+	char *ip;
+	char *pag;
+} accesari;
+
+#	Structura retine adresa ip si numele paginii ce urmeaza a fi procesate
+#	Se adauga elemente in acceasta structura doar daca DATA si TIMPUL inregistrarii
+#	sunt valide, adica mai mari decat DATA si TIMPUL de inceput
+
+typedef struct{
+	char *pag;
+	int unique;
+	int total;
+} top;
+
+#	Structura top este necesara pentru a retine informatiile despre fiecare
+#	pagina din topul accesarilor: numele(*pag), si numarul accesarilor unice si totale
+
+#	N	- numarul de adrese web citite
+#	Q	- numarul de pozitii din topul accesarior
+#	nr	- numarul de elemente din pointerul accesari *acc
+#	k	- numarul de elemente din topul accesarilor
+
+#	*host	- pagina web curenta citita
+#	*adresa	- adresa ip curenta cutita
+#	*data , *timp 	- informatiile curente despre accesare pagina
+#	*DATA , *TIMP 	- DATA si ORA limita pentru a verifica validitatea accesarilor
+
+#	*acc	- pointer spre ACCESARI pentru a retine informatiile despre paginile valide
+#	*rank	- pointer spre TOP necesar pentru a intocmi TOPUL accesarilor
+
+Algoritm ales in rezolvarea problemei
+======================================================================================
+
+Pentru a obtine un rezultat optim am ales urmatorul algoritm:
+-------------------------------------------------------------
+
+1)	Se citesc informatiile initiale: N,Q,DATA limita si TIMP limita
+2)	Se citeste fiecare rand corespunzator unei accesari
+	-	Se verifica daca pagina corespunde datelor cerute pentru alcatuirea topului
+	-	Daca pagina e valida, se adauga in pointerul accesari *acc si se incrementeaza
+		numarul aparitiilor acestuia
+3)	Se ordoneaza pointerul *acc dupa 2 criterii:
+		- intai alfabetic dupa denumirea paginii
+		- apoi crescator dupa ip
+
+Am ales retinerea adresei ip in format char doarece este de dimensiune mica iar scrierea
+acesteaia pe biti nu imbunatatea timpul de raspuns al programului.
+
+In urma ordonarii acesteia se obtine o lista ce poate fi parcursa doar 1 singura data pentru
+a obtine toate datele necesare intocmirii topului final.
+
+Astfel toate paginiile web accesate de mai multe ori se v-or regasi in pointerul de structuri
+*acc unul dupa altul, iar ip-urile corespunzatoare lor in crescator.
+
+4)	Se genereaza topul accesarilor, initial neordonat astfel
+
+Se parcurg pe rand cele NR elemente ale pointerului *acc
+Fiecare pagina diferita se adauga in top *rank.
+Se verifica daca urmatoarele pagini sunt egale cu pagina curenta (atata timp cat)
+	Se incrementeaza corespunzator numarul de accesari UNICE si TOTALE in functie de egalitatea ip-urilor
+	Se trece la verificarea urmatoarei pagini web
+
+Cand 2 pagini nu sunt egale se incrementeaza numarul pozitiilor din top si se adauga o nou
+pagina in top.pag
+
+Algoritmul se v-a opri dupa ce au fost parcurse toate informatiile din accesari;
+
+5)	Se ordoneaza pointerul top *rank conform cerintei problemei dupa cele 3 criterii:
+		- dupa numarul de accesari unice
+		- dupa numarul de accesari totale
+		- alfabetic dupa numele paginii web
+
+Pentru a obtine un raspuns rapid am utilizat functia QSORT pentru care am creat functiile de comparare necesare:
+compar1 si compar2 

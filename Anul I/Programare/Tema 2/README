@@ -1,0 +1,110 @@
+/**
+ * Ivanica Gabriel, 313CA, Tema1, Data: 21.11.2010
+ */
+
+1) Solutie: 
+
+Pentru a rezolva problema s-a ales urmatoarea solutie.
+Toate adresele postale (de cartier si de colet) cat si netmask-ul v-or fi transformate in format int si retinute in vectori separati.
+Se va utiliza tipul UNSIGNED INT deoarece aceasta este limita necesara pentru o adresa de tipul 255.255.255.255.
+S-a utilizat aceasta metoda pentru calcularea rapida a adreselor de cartier si coletelor prin aplicarea & pe biti.
+
+2) Functii implementate:
+
+Pentru a rezolva problema au fost necesare declararea mai multor functii:
+
+a) Functia iptoint()
+
+Functia va returna adresa ip convertita in format UNSIGNED INT
+Pentru generarea ip-ului este necesara transmiterea prin parametri a grupurilor ip citite de la tastatura.
+Prin utilizarea shiftarilor pe biti adresa este calculata dupa urmatorul format:
+	adresa=(1<<24)*a+(1<<16)*b+(1<<8)*c+d;
+
+b) Functia inttomask()
+
+Functia este necesara pentru a calcula netmask-ul in format UNSIGNED INT.
+Parametrul functie este variabila net=netmask-ul citit de la tastatura
+
+Folosid operatii de siftare si negare se utilizeaza urmatorul algoritm.
+	Se creaza un numarul negat al netmaskului prin shiftarea lui 1 la stanga cu (32-net) biti din care se scade un 1;
+	Apoi se neaga rezultatul si numarul va fi salvat in variabila mask ce este returnata.
+
+	mask=(~((1<<(32-net))-1));	
+	
+	Exemplu pe biti:  net=24 (255.255.255.0)
+	
+	Pas1 :
+	00000000.00000000.00000000.0000000
+	Pas2 :
+	00000000.00000000.00000001.0000000
+	Pas3 :
+	00000000.00000000.00000000.1111111
+	Pas4 :
+	11111111.11111111.11111111.0000000 = 255.255.255.0
+		
+c) Functia ordonare()
+
+Functia va ordona descrescator adresa cartierelor in functie de netmask.
+Pentru afisarea rezultatului corespunzator este necesara salvarea numarului cartierului intr-un vetor separat pentru a nu se pierde numarul initial al cartierului in procesul de interschimbare al valorilor.
+
+d) Functia cartiere()
+
+Functia este necesara pentru a citi cartierele si mastile de cartier.
+Acestea sunt prelucrate direct cu ajutorul functiilor prezentate mai sus si salvate in vectorii corespunzatori
+Se retinde de asemeanea si numarul cartierului necesar pentru a afisa rezultatul.
+
+	scanf("%d %d %d %d %d",&A,&B,&C,&D,&net);
+	adr[i]=iptoint(A,B,C,D);
+	mask[i]=inttomask(net);
+	nrcartier[i]=i;
+
+e) Functia send()
+
+Dupa citirea fiecarui colet se apeleaza functia send() pentru a stabili destinatia ecesteia.
+Functia va calcula adresa cartierului de destinatie prin compararea adresei de cartier cu cea a coletului
+Se utilizeaza operatia & pe biti pentru calcularea adreselor de cartier si a coletului.
+Se afiseaza adresa de expeditie reprezentata de numarul cartierului sau valoarea -1 daca coletul se arunca.
+
+void send(unsigned int colet,unsigned int mask[],unsigned int adr[],int M,int nrcartier[])
+{
+	int i=0,gasit=0;
+	unsigned int adr1,adr2;
+	while(gasit==0 && i<M)
+		{
+		adr1=adr[i]&mask[i];
+		adr2=colet&mask[i];
+		if (adr1==adr2)
+			{
+			printf("%d\n",nrcartier[i]);			
+			gasit=1;
+			}
+		i++;
+		}
+	if(gasit==0) printf("-1\n");			
+}
+
+3) Functia main()
+
+Se vor declara variabilele necesare pentru rezolvarea problemei.
+
+unsigned int adr[1000],mask[1000],colet,N;
+int M,X,Y,Z,T,i,nrcartier[1000];
+
+Vectorul adr va retine adresa cartierului in format unsigned int
+Vectorul mask este necesar pentru a memora netmask iar 
+
+Se citesc adresele, mastile si se face ordonarea acestora in functie de netmask.
+
+scanf("%d",&M);
+cartiere(M,adr,mask,nrcartier);
+ordonare(M,adr,mask,nrcartier);
+
+Se citeste numarul de colete.
+scanf("%u",&N);
+Se va citi cate un colet pe rand si se va apela functia send () pentru a afla destinatia acestuia
+
+for (i=0;i<N;i++) {
+	scanf("%d %d %d %d",&X,&Y,&Z,&T);
+	colet=iptoint(X,Y,Z,T);
+	send(colet,mask,adr,M,nrcartier);
+	}

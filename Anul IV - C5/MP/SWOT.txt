@@ -1,0 +1,18 @@
+STRENGTHS
+	- se poate invata un limbaj de programare
+	- invatarea se realizeaza prin intermediul unor jocuri
+	- jocurile se poat livra progresiv
+	
+WEEKNESS
+
+	- in principiu se pot studia doar bazele unui limbaj de programare
+	- greu de facut un balans intre joc si programare 
+
+OPPORTUNITY
+
+	- exista un interes foarte mare
+	- colaborari cu diverse organizatii/asociatii
+
+THREATS
+
+	- greu de implementat

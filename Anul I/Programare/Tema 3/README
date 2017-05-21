@@ -1,0 +1,93 @@
+// Ivanica Gabriel 313CA
+// Tema 3	5-12-2010
+
+Pointeri necesari pentru rezolvarea.
+=========================================================================================================
+
+  		*sir		-	pointer char pentru retinerea secventei initiale de biti (0 si 1)
+  		*it			-	pointer pentru retinerea adresei sirului *sir.
+  		*subsir		-	necesar pentru a extrace un subsir de lungime p din sirul de biti
+  		**secv		-	tabloul de pointeri pentru retinerea secventelor
+		*aparitii	- 	vectorul de aparitii dupa ce v-a fi sortat
+
+Alte variabile		
+
+		nr_secv		- 	numarul de elemente din vector/numarul de secvente de biti
+		first		-	locatia in tablou a primei secvente avand lungimea curenta
+		pos			-	retine valoarea returnata de functia cauta()
+		
+
+Algoritm ales:
+=========================================================================================================
+
+Se citesc capetele de interval a si b si sirul de semnale ce va fi retinut in pointerul *sir
+
+Se parcurge secventa de biti pentru fiecare secventa de dimensiune P, astfel:
+
+	Se porneste de la adresa initiala a sirului si se extrage prima secventa de dimensiune P, cu ajutorul functiei strncpy().
+	Se verifica daca subsirul mai exista in taboul de secvente prin intermediu functiei cauta().
+	Functia va returna pozitia la care se regaseste secventa in tablou sau in caz contrar -1.
+		Se incrementeaza numarul de aparitii cu 1 in vectorul aparitii[] la pozitia pos
+		In caz contrar (daca pos=-1) se adauga noul subsir in tabloul de pointeri: *secv si se initializeaza numarul de aparitii cu 1.
+	
+Se trece cu pointerul *it la urmatoarul bit din sirul *sir si se reia algoritmul de cautare,adaugara, incrementare.
+
+Algoritmul se va reaplica pentru fiecare dimensiune de subsir = P : a<=P<=b 
+	Se reinitializeaza it=sir pentru a reincepe parcurgerea sirului de semnale de la inceput.
+	
+Dupa calcularea tuturor secventelor si a aparitiilor acestora se ordoneaza tabloul de pointeri in functie de numarul de aparitii al secventelor in sirul de biti
+Se afiseaza rezultatul cerut cu ajutorul functiei afiseaza ()
+
+=========================================================================================================
+
+
+Descrierea functiilor principale ce stau la baza programului:
+
+
+=========================================================================================================
+
+	Functia verifica daca o secventa de biti *q se regaseste in tabloul de secvente **secv
+	Se parcurge pe taboul de secvente si se compara secventele cu *secv[i] cu ajutorul functiei strcmp()
+	Parcurgerea tabloului se face doar pentru secventele de lungime egala cu a subsirului *q pentru eficienta
+	Astfel variabila first retine pozitia primei secvente de lungime strlen(q), ce a fost adaugata in tabloul **secv.
+	 
+	Functia returneaza pozitia i a secventei cautate in tablou pentru a incrementa numarul de aparitii al acesteia.
+	In caz ca subsirul nu se gaseste se returneaza -1
+
+__________________________________________________________
+	
+int cauta(char *q, char **secv, int nr_secv, int first)
+{
+	int i;
+	for( i = nr_secv-1; i > first ; --i)
+	{	
+		if(strcmp(secv[i],q)==0) 
+			return i;
+  	}
+	return -1;
+}
+
+
+=========================================================================================================
+
+	Functia adauga un subsir nou in tabloul de secvente
+	Pentru a se face alocarea de memorie necesara secventei se transmite prin parametri lungimea sirului : lung
+	Pointerul de aparitii si Tabloul de secvente (*aparitii si **secv) sunt trimise prin referinta deoarece in urma realocarii de memorie
+	se poate modifica adresa spre care pointeaza acestea.
+	Functia aloca dinamic memoria necesara pentru memorarea secventei *subsir in tabloul **secv.
+	De asemenea se aloca memorie si in vectorul de aparitii si se initializeaza cu 1.*/
+
+
+_______________________________________________________________________________
+	
+void adauga(char *subsir, int lung, char ***secv, int **aparitii, int *nr_secv)
+{
+	*secv = (char**) realloc(*secv, (*nr_secv+1) * sizeof(char*));
+	*aparitii = (int*) realloc(*aparitii, (*nr_secv+1) * sizeof(int));
+	(*secv)[*nr_secv] = (char*) malloc(lung+1);
+	(*aparitii)[*nr_secv] = 1;
+	strcpy((*secv)[*nr_secv],subsir);
+	++*nr_secv;
+}
+
+=========================================================================================================

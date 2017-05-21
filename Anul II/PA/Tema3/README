@@ -1,0 +1,73 @@
+Ivanica Gabriel
+323CA
+
+
+************ Implementare
+
+Variablile si structuri
+
+Pentru a retine informatiile despre fiecare pixel am folosit structura
+
+struct Pixel {
+	int value;				// Valoare pixel
+	double capacity[4];		// Capacitatile catre vecinii pixelului
+	double source;			// Capacitatea catre Foreground
+	double dest;			// Capacitatea catre Background
+	int parent;				// Parintele pentru construirea Path-ului
+	int visited;			// Daca pixelul a vost vizitat sau nu (BFS)
+};
+
+
+Am salvat informatiile despre pixeli intr-o matrice.
+
+Pentru calcul mai rapid al capacitatilor reziduale alea legaturilor
+pixel <-> foreground , pixel <-> background  am calculat prioritar toate
+valorile posibile ale acestui paramentru si le-am retinut intr-un vector
+capF[256] , capB[256]
+
+
+************ Algoritm
+
+Am construit graful conform cerintelor si hint-urilor din tema.
+
+Pentru algoritmul de flux am utlizat algoritmul lui DINIC.
+http://en.wikipedia.org/wiki/Dinic%27s_algorithm
+
+Algoritmul este foarte eficient ruland sub 2 secunde (fara -O2 , O3) pe testele
+foarte mari. (14), restu merg destul de instant.
+
+Programul ruleaza foarte rapid chiar si pe testele mari
+
+Complexitate : O(|E|+|V|) -> complexitate bfs() (muchii + varfuri) , depinde
+			   O(N * V2) -> complexitate saturatePath()
+						 -> V2 - numarul de noduri ce alcatuiesc un PATH_MAX
+					     -> N - numarul de path-uri descoperite
+
+
+************ Makefile
+
+Compilare:
+make
+
+Pentru rularea simpla
+make run
+
+Pentru a testa fiecare test in parte se paote utiliza (folderul "teste" se afla in ./)
+make test TEST=numar
+	- copiaza fisierele de test
+	- ruleaza programul
+	- compara fisierele segment.pgm cu example.pgm
+
+
+************ Testare
+
+Teste trecute : 1 -> 16 (toate)
+
+
+
+
+
+
+
+
+

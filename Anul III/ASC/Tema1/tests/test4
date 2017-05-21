@@ -1,0 +1,5 @@
+num_nodes = 64
+num_tasks = 256
+stored_block_size = 4
+test_name = 4
+timeout = 250

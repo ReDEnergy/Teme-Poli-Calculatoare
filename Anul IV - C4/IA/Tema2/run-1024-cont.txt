@@ -1,0 +1,58 @@
+STARE JOC	dx + dy
+SIMULARE	100000 jocuri
+			10% random wins
+K-means		1024
+ALPHA		0.8
+GAMMA 		0.2
+
+games played:	100	wins: 10.0
+games played:	200	wins: 12.5
+games played:	300	wins: 14.0
+games played:	400	wins: 17.25
+games played:	500	wins: 18.2
+games played:	600	wins: 18.3333333333
+games played:	700	wins: 19.0
+games played:	800	wins: 19.875
+games played:	900	wins: 20.6666666667
+games played:	900	wins: 20.6666666667
+games played:	1000	wins: 20.3
+games played:	1100	wins: 20.6363636364
+games played:	1200	wins: 20.5833333333
+games played:	1300	wins: 20.0
+games played:	1400	wins: 20.1428571429
+games played:	1500	wins: 19.7333333333
+games played:	1600	wins: 20.0625
+games played:	1700	wins: 20.7647058824
+games played:	1800	wins: 21.1666666667
+games played:	1900	wins: 21.4736842105
+games played:	2000	wins: 21.5
+games played:	2100	wins: 21.0476190476
+games played:	2200	wins: 21.0
+games played:	2300	wins: 20.9130434783
+games played:	2400	wins: 20.7916666667
+games played:	2500	wins: 21.0
+games played:	2600	wins: 21.1538461538
+games played:	2700	wins: 21.0
+games played:	2700	wins: 21.0
+games played:	2800	wins: 21.0714285714
+games played:	2900	wins: 21.1379310345
+games played:	3000	wins: 21.1666666667
+games played:	3100	wins: 21.1290322581
+games played:	3200	wins: 20.96875
+games played:	3300	wins: 20.8181818182
+games played:	3400	wins: 20.6176470588
+games played:	3500	wins: 20.4571428571
+games played:	3600	wins: 20.3611111111
+games played:	3700	wins: 20.4324324324
+games played:	3800	wins: 20.4736842105
+games played:	3900	wins: 20.5128205128
+games played:	4000	wins: 20.5
+games played:	4100	wins: 20.5609756098
+games played:	4200	wins: 20.5952380952
+games played:	4300	wins: 20.5813953488
+games played:	4400	wins: 20.5227272727
+games played:	4500	wins: 20.5111111111
+games played:	4600	wins: 20.347826087
+games played:	4700	wins: 20.3829787234
+games played:	4800	wins: 20.4166666667
+games played:	4900	wins: 20.5714285714

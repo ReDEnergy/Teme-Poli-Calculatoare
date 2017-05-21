@@ -1,0 +1,28 @@
+         CLIPS (V6.24 06/15/06)
+CLIPS> CLIPS> Defining deftemplate: world
+Defining deftemplate: win
+TRUE
+CLIPS> Defining deftemplate: path
+Defining deffacts: directions
+Defining defrule: new-path +j+j
+Defining defrule: continue-path +j
+Defining defrule: new-world +j
+Defining defrule: win-moves +j+j
+Defining defrule: initial-ball +j
+Defining defrule: Win-Delete-Path +j+j
+Defining defrule: clear-initial-ball +j
+Defining defrule: clear-path +j
+Defining defrule: clear-worlds +j
+Defining defrule: clear-dir +j
+TRUE
+CLIPS> CLIPS> <Fact-9>
+CLIPS> <Fact-10>
+CLIPS> <Fact-11>
+CLIPS> <Fact-12>
+CLIPS> CLIPS> STOP_RUN
+CLIPS> f-0     (initial-fact)
+f-415   (win (id loop4) (moves 4 0 - 4 4 - 4 6 - 4 8 - 4 12 - 4 14 - 4 16 - 4 20 - 4 24 - 4 26 - 4 28 - 4 30 - 4 32 - 4 34 - 4 36 - 4 40 - 4 44 - 4 48 - 4 52 - 4 56 - 4 58 - 4 60 - 4 64 - 4 68 - 4 72 - 4 74 - 4 76 - 1 76 - 1 73 - 3 71 - 3 74 - 1 72 - 1 69 - 3 67 - 3 70 - 1 68 - 1 65 - 4 65 - 7 65 - 9 65 - 11 65 - 13 65 -))
+f-921   (win (id loop2) (moves 4 0 - 4 4 - 4 6 - 4 8 - 4 10 - 1 10 - 1 7 - 4 7 - 8 7 - 11 7 - 13 7 -))
+f-991   (win (id loop1) (moves 4 0 - 4 4 - 4 6 - 4 8 - 1 8 - 1 5 - 4 5 - 8 5 - 11 5 - 13 5 -))
+For a total of 4 facts.
+CLIPS> 

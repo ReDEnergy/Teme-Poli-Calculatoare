@@ -1,0 +1,64 @@
+
+Trying www.google.com
+;; ANSWER SECTION :
+www.google.com.	IN	CNAME	www.l.google.com.
+www.l.google.com.	IN	A	173.194.35.179
+www.l.google.com.	IN	A	173.194.35.180
+www.l.google.com.	IN	A	173.194.35.176
+www.l.google.com.	IN	A	173.194.35.177
+www.l.google.com.	IN	A	173.194.35.178
+
+;; AUTHORITY SECTION :
+google.com.	IN	NS	ns1.google.com.
+google.com.	IN	NS	ns2.google.com.
+google.com.	IN	NS	ns3.google.com.
+google.com.	IN	NS	ns4.google.com.
+
+;; ADDITIONAL SECTION :
+ns1.google.com.	IN	A	216.239.32.10
+ns2.google.com.	IN	A	216.239.34.10
+ns3.google.com.	IN	A	216.239.36.10
+ns4.google.com.	IN	A	216.239.38.10
+
+Trying www.google.com
+;; ANSWER SECTION :
+www.google.com.	IN	CNAME	www.l.google.com.
+
+;; AUTHORITY SECTION :
+
+
+Trying google.com
+;; ANSWER SECTION :
+google.com.	IN	NS	ns3.google.com.
+google.com.	IN	NS	ns4.google.com.
+google.com.	IN	NS	ns1.google.com.
+google.com.	IN	NS	ns2.google.com.
+
+
+;; ADDITIONAL SECTION :
+ns1.google.com.	IN	A	216.239.32.10
+ns2.google.com.	IN	A	216.239.34.10
+ns3.google.com.	IN	A	216.239.36.10
+ns4.google.com.	IN	A	216.239.38.10
+
+Trying google.com
+
+;; AUTHORITY SECTION :
+
+
+Trying 173.194.35.183
+;; ANSWER SECTION :
+183.35.194.173.in-addr.arpa.	IN	PTR	muc03s02-in-f23.1e100.net.
+
+;; AUTHORITY SECTION :
+194.173.in-addr.arpa.	IN	NS	NS2.GOOGLE.COM.
+194.173.in-addr.arpa.	IN	NS	NS3.GOOGLE.COM.
+194.173.in-addr.arpa.	IN	NS	NS4.GOOGLE.COM.
+194.173.in-addr.arpa.	IN	NS	NS1.GOOGLE.COM.
+
+;; ADDITIONAL SECTION :
+NS1.GOOGLE.COM.	IN	A	216.239.32.10
+NS2.GOOGLE.COM.	IN	A	216.239.34.10
+NS3.GOOGLE.COM.	IN	A	216.239.36.10
+NS4.GOOGLE.COM.	IN	A	216.239.38.10
+

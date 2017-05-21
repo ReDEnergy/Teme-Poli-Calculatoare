@@ -1,0 +1,4 @@
+Rezultate pentru: (data, filesystem, block)
+
+doc1.txt (1.36, 1.77, 1.50)
+doc3.txt (1.12, 2.25, 2.07)

@@ -1,0 +1,48 @@
+
+    Assignment 1 - Cluster Activity Simulation
+	Ivanica Gabriel
+	333CA
+
+
+	Descriere implementare
+	--------------
+
+
+	Pentru cererile catre datastore am folosit o coada sincronizata
+	(Queue din python)
+
+	Pentru a limita numarul de cereri facute catre un un datastore am ales sa
+	creez initial un numar de threaduri egal cu max_pending_requests.
+
+	Fiecare nod are cate o coada de cereri.
+
+	O cerere este descrisa de clasa Elem in care se tine informatiile despre
+	cererea curenta, nodul care a facut cererea si ce element are nevoie.
+
+
+	COMPUTE MATRIX:
+
+	Fiecare apel catre compute matrix creaza o noua coada pentru a primi
+	cereri, identificata prin TASK_ID.
+
+	Astfel fiecare cerere facuta va fi salvata in coada cu TASK_ID-ul primit la
+	initializarea cererii.
+
+	Se caluceaza liniile si coloanele ce trebuie cerute si se trimit in coada
+	de cereri a fiecarui nod un obiect Element.
+
+	Threadurile Task preiau elementele din coada si trimit cererea catre
+	Datastore dupa care in momentul in care au primit raspunul trimit salveaza
+	raspunul in obiectul ELEM si il adauga in coada cu TASK_ID-ul corespunzator
+
+	Nodul va astepta primirea tuturor elementelor calculate dupa care inmulteste
+	matricile A si B si intoarce blocul calculat ca raspuns
+
+
+	Testare
+	-----
+
+	Trece toate testele.
+	Pe fep dureaza aproximativ 1 minute si 30 de secunde sa ruleze toata tema
+
+	./run_test.sh

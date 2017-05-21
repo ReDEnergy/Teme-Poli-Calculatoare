@@ -1,0 +1,251 @@
+Ivanica Gabriel
+323CA
+
+
+************ Implementare
+
+Variablile si structuri
+
+Pentru a retine tabla am utilizat o structura ce simuleaza o coloana a table.
+Aceasta indica playerul, daca este player 1 , 2 sau coloana libera 0.
+Tokens retine numarul de jetoane de pe coloana respectiva.
+
+typedef struct {
+	int tokens;			/** Number of tokens **/
+	int player;			/** Empty : 0
+							Me	  : 1
+							Enemy : 2   **/
+} TableGame;
+
+
+Structura destinata informatiilor despre un player.
+
+	typedef struct {
+		int player;			=>	idiul playerului
+		int dice[2];		=>	zarurile
+		int canMoveOut;		=>	daca playerul poate scoate piese de pe tabla
+		int bar;			=>	indicele bar al playerului   0 sau 25
+		int moved;			=>	numarul de mutari executate
+		int moves[8];		=>	mutarile
+	} Stats;
+
+Structura pentru a alege cea mai buna mutare
+
+	typedef struct {
+		int tableValue;		=>	valoarea tablei la un moment
+		int nr;				=>	numarul de mutari pentru a ajunge la aceasta configuratie
+		int moves[8];		=>	mutarile pentru a genera tabela
+		TableGame Table[DIM];	=>	configuratia tablei de joc
+	} Move;
+
+
+TableGame Table[DIM];	// Tabla principala de joc
+Stats Player[3];		// Informatiile despre jucatori
+Move newMoves;			// Se retine cea mai buna mutare
+int CValue[3][DIM];		// Valoarea fiecari coloane din tabla necesara pentru c
+						// calculul valorii tablei de joc
+
+int color;				// Culoarea playerului
+int turn = 0;			// Tura de joc
+
+
+
+************ Implementare II
+
+
+Pentru usurinta am facut o translatie de tabela in momentul in care botul meu
+este de culoarea neagra pentru a putea vedea de fiecare data tabla de joc din
+perspectiva acelorasi mutari.
+
+Cand primesc mutarile adversarului fac update la tabla de joc folosindu-ma de
+functia  updateTable()
+
+Resetez solutia si apoi in fuctie de zar apelez functia ce imi va returna la
+nivel global cea mai buna solutie de a muta
+		get2ValidMoves()
+		get4ValidMoves()
+
+Salvez mutarile din Player.moves in buffer si le trimit catre server.
+
+
+************ Tabla de joc
+
++13-14-15-16-17-18------19-20-21-22-23-24-+
+| X     O     O    |   | O  X  X     O    |
+| 3     1     2    |   | 2  1  1     2    |
+|                  |   |                  |
+|                  |   |                  |
+|==================|   |==================|
+|                  |   |                  |
+|                  |   |                  |
+| 4     2     2  1 |   | 2        4     2 |
+| O     X     X  O |   | X        X     O |
++12-11-10--9--8--7-------6--5--4--3--2--1-+
+
+Casa  6 =>  1  : casa mea
+Casa 19 => 24  : casa adversarului
+
+X	=>	jeton de-al meu
+0	=>	jeton adversar
+
+Bar 30 de la server l-am separat astfel:
+
+	Bar 25	=> bot personal
+	Bar  0	=> inamic
+
+Astfel pot executa cu usorita mutari de pe 0 , pozitive sau de pe 25 negative
+ca si cum ar fi mutari normale
+
+De asemenea pentru piesele scoase am folosit
+
+	Bar 31	=> bot personal
+	Bar 32	=> inamic
+
+
+************ Algoritm
+
+
+Pentru a implementa botul am ales abordarea unui algoritm Greedy ( am mers pe
+ideea mea de a juca in realitate Backgamon). Mai mult sau mai putin se poate
+considera o varianta de minimax cu depth 1 deoarece calculul valorii tablei de
+jos se baseaza si pe valoarea cat mai mica a adversarului.
+
+Complexitate : Programul ruleaza foarte rapid, si datorita mitarii impuse de
+server (sa nu trimit mesaje prea repede) am ales sa dau sleep de 1 secunda inaintea
+trimiterii unei solutii.
+
+Maxim : complexitate de O(n^4) unde n ar fi numarul maxim de coloane ce detin
+jetoane, deci maxim 15 , iar puterea 4 considerata pentru 1 dubla.
+In practica complexitata este mult mult mai mica. Datorita imposibilitatii de a
+muta multe jetoane pe anumite pozitii dicate de zar.
+
+Astfel la ficare mutare posibila voi executa cea mai buna mutare aleasa be baza
+evaluarii finale a tablei de joc.
+
+In vazul in care trebuie executate 2 mutari voi genera cele 2 mutari cu ajutorul
+functiei get2ValidMoves() iar daca trebuie generate 4 mutari utilizand functia
+get4ValidMoves().
+
+Astfel voi considera mutarile mai intai de pe pozitia 25 (bar) iar apoi
+urmatoarele.
+
+Fiecare mutare este verificata folosindu-ma de functia isValidMove();
+In momentul in care nu se mai pot executa mutari pe tabla folosid zarurile
+curente sau am atins limita de mutari, se compara tabla de joc rezultata cu
+o tabla globala si se pastreaza cea mai buna solutie.
+	compareMoves()
+Informatiile despre mutare se pastreaza in newMoves;
+
+Intregul algoritm se baseaza pe analiza Tablei de joc rezultata si alegerea a
+celei mai bune table de joc.
+
+Euristicile folosite pentru acesta sunt.
+
+	Calcularea pozitiei safe:
+	Voi calcula cea mai mica pozitie incepand de la care toate jetoanele mele
+se considera a fi sigure pentru a nu mai scadea valoarea tablei in cazul in care
+las un singur jetn
+
+	for (i=0; i<TableX[0].tokens; i++)
+		value += 5*(i+1);
+
+	** fiecare jeton inamic retinut pe bara se puncteaza cu multiplii de 5
+
+	if (TableX[i].tokens == 1 && i>safe)
+		value -= CValue[PlayerX.player][i];
+
+	** fiecare jeton liber lasat pe tabla se considera vulnerabil si se puncteaza
+		cu negativul valorii de coloana (25 - coloana)
+
+	if (TableX[i].tokens >= 2)
+		value += CValue[PlayerX.player][i];
+
+	** orice coloana ce contine mai mult de 2 jetoane se considera aparata si
+		se va puncta cu valoarea coloanei (25 - coloana)
+
+	if (TableX[i].tokens > 3)
+		value -= (TableX[i].tokens - 3);
+
+	** se vor depuncta coloanele ce contin mai mult de 3 jetoane cu diferenta
+		pana la 3 a numarului de jetoane ce se afla in acel loc
+
+	if (PlayerX.canMoveOut == 1)
+		value += (TableX[31].tokens * 10);
+
+	** pentru alegerea greedy a mutarilor de a scoate afara de pe tabla se vor
+		puncta  cu multiplii de 2 numarul de jetoane scoase afara de pe tabla
+
+
+
+************ Rezultate      *vezi Testare
+
+Am facut foarte multe teste pe botul 8 si in principiu peste 66% din teste botul
+creat bate acest bot.
+
+Pe valori de duble aproximative egale botul bate destul de detasat.
+
+Pe valori putin in favoarea botului adversar, botul poate poate sa bata sau daca
+pierde, pierde la o diferenta de 1-2 mutari, dupa noroc.
+
+Pe valori vizibile in defavoarea botului , botul va pierde.
+
+Datorita zarurilor foarte imprevizibile nu pot garanta functionarea constanta a
+botului. Insa din teste foarte multe botul iese peste 66% din timp castigator.
+
+************ Rulare
+
+Pentru rularea simpla
+make run
+
+Pentru a testa mai usor se poate folosi comanda , pentru a rula in mai multe
+terminale
+
+make server PORT=?
+make runP PORT=?
+
+
+************ Testare
+
+P.S  Din mai multe teste botul castiga mai multe runde decat botul de 8 insa e
+posibil sa castige 3 la rand sau chiar sa piarda 2-3 la rand.
+	Botul este foarte repid iar rularea depinde in special de rapiditatea botului 8.
+
+	As ruga daca poti sa testezi mai multe de 3 teste pentru a te convinge ca
+botul este mai bun per total.
+
+	Am avut cazuri cand am castigat 6 ture la rand contra botului 8, iar in alte
+cazuri se pot pierde si 3 meciuri la rand contra aceluiasi bot.
+
+Am rulat un numar de 60 de teste pe acest bot iar rezultatele sunt acestea:
+Testele rulate cate 10 in acelasi timp.
+	castigate 8 - pierdute 2
+	castigate 7 - pierdute 3
+	castigate 8 - pierdute 2
+	castigate 4 - pierdute 6 ( aproape la fiecare meci pierdut diferente enorme
+	                           de zaruri - botul multe duble)
+	castigate 7 - pierdute 3
+	castigate 8 - pierdute 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

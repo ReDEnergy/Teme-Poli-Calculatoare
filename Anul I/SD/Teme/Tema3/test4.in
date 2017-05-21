@@ -1,0 +1,5001 @@
+5000
++ 3  Medalion  PivnitaGotica
+= 2  Piatra  Cantina
++ 1  Spadasin  CantinaCurata
+#  Urias  ScaraCuCovoare
+= 8  Mancare  TunelIntunecat
+? IncapereInalta
++ 7  Tigru  CanalCuGratii
++ 10  Cheie  CanalCuScheleti
+? BalconInalt
+= 1  Mancare  HolRotund
++ 6  Bici  CameraRuinata
+? ScaraCuCovoare
++ 6  Fantoma  CantinaMica
+@ Cheie
++ 10  Buzdugan  ScaraCuCovoare
++ 7  Spadasin  BalconInalt
+= 8  Spadasin  SalaTorturaCuTorte
+@ Bici
+= 8  Urias  CantinaMica
+= 7  Fantoma  IncapereInalta
++ 6  Cheie  CamaraCurata
+= 9  Urias  BibliotecaRotunda
+? IncapereCuGrinzi
++ 9  Speraclu  ScaraScunda
+= 8  Cheie  BalconUmed
+#  CheieCelula  TunelIntunecat
++ 5  Coif  ScaraCuCovoare
+@ CheieCelula
++ 5  Trapa  CantinaCurata
+@ Bici
++ 3  CheieArgintie  DepozitMurdar
++ 8  Buzdugan  HolMare
+= 10  Buzdugan  HolMare
+? BibliotecaTriunghiulara
+@ Cufar
+#  Halberdier  BucatarieCuGrinzi
+= 9  CapcanaPodea  BalconUmed
+= 8  Bici  HolRotund
+= 1  Liliac  CamaraCuCovoare
++ 0  Halberdier  BeciDenivelat
+@ Speraclu
++ 3  Cheie  IncapereDarapanata
+= 4  Mancare  BalconInalt
+= 6  Cheie  HolDenivelat
++ 6  Buzdugan  IncapereGotica
+? IncapereGotica
+? TurnCuColoane
++ 4  Cheie  BibliotecaMurdara
+@ Urias
+= 10  Spadasin  ScaraScunda
+= 0  Trapa  BalconDarapanat
++ 5  Cheie  IncapereDarapanata
+= 0  Speraclu  SilozCuFerestre
+@ Bici
+= 2  Piatra  HolDenivelat
+#  Piatra  IncapereInalta
+? BalconInalt
+@ CheieCelula
+= 0  Liliac  PivnitaGotica
++ 8  Medalion  DepozitMurdar
++ 2  Speraclu  TurnCuGratii
++ 7  Buzdugan  CanalLuminos
+@ Urias
+= 8  Mancare  BibliotecaMurdara
++ 2  Urias  CelulaLuminoasa
+@ CheieCelula
++ 2  CheieCelula  PivnitaGotica
++ 4  Tigru  BalconDarapanat
+= 7  Cufar  ScaraInalta
+#  Speraclu  TurnMic
++ 3  Fantoma  BalconUmed
+#  Cufar  IncapereCuGrinzi
++ 1  Urias  DepozitCurat
+? CamaraCuCovoare
++ 1  Liliac  TurnCuGratii
++ 9  Medalion  CamarutaMica
+= 6  Cheie  CamarutaMica
+= 7  Piatra  IncapereCuGrinzi
+#  CheieCelula  CamaraLuminoasa
+? BucatarieCuGrinzi
++ 4  Cufar  BeciDenivelat
+@ Aratare
+= 10  CapcanaPodea  TurnCuColoane
+= 0  Cheie  CamarutaMica
+@ Piatra
+= 3  CheieArgintie  TunelCuGrinzi
+= 6  Tigru  TurnCuGratii
+? TunelIntunecat
++ 6  Bici  CanalCuScheleti
++ 5  CheieArgintie  CamaraCuCovoare
++ 0  Halberdier  DepozitCurat
++ 2  CheieArgintie  CameraRuinata
+@ Cheie
+@ CheieCelula
+? CamaraLuminoasa
+? CanalCuScheleti
++ 5  CheieArgintie  CameraCuTorte
++ 8  Cheie  BeciCuGrinzi
+= 2  Speraclu  TurnCuColoane
+= 6  Buzdugan  ScaraInalta
+#  Piatra  CameraRuinata
++ 5  Bici  BibliotecaIntunecata
+= 1  Cufar  CamaraCurata
+= 8  Bici  ScaraInalta
++ 1  CheieCelula  IncapereCuFerestre
++ 6  CheieArgintie  HolGotic
++ 3  CheieCelula  CelulaLuminoasa
++ 10  Piatra  ScaraInalta
+#  Coif  IncapereGotica
+#  Trapa  Cantina
++ 1  Trapa  CantinaMica
+#  Halberdier  IncapereDarapanata
+= 4  Urias  CantinaCurata
++ 3  Coif  TurnCuGratii
++ 2  Medalion  HolGotic
+#  Speraclu  BalconInalt
++ 7  Piatra  TunelIntunecat
+= 7  Spadasin  BibliotecaTriunghiulara
+= 2  Liliac  SalaTorturaCuTorte
+= 4  Tigru  IncapereCuFerestre
++ 10  Mancare  ScaraInalta
+= 4  CapcanaPodea  IncapereCuGrinzi
+? HolDenivelat
+= 2  Aratare  BeciCuGrinzi
+? CamaraLuminoasa
++ 6  Urias  CanalLuminos
+= 2  Coif  Cantina
+= 3  Liliac  HolGotic
++ 7  Cheie  IncapereCuFerestre
++ 7  Halberdier  ScaraScunda
++ 10  CheieArgintie  BibliotecaTriunghiulara
+= 2  Coif  BalconDarapanat
++ 0  CapcanaPodea  BeciDenivelat
++ 1  CheieArgintie  TurnCuColoane
++ 3  CapcanaPodea  BibliotecaTriunghiulara
+= 5  CapcanaPodea  CelulaLuminoasa
+= 10  Buzdugan  CanalCuScheleti
+= 1  Medalion  CantinaMica
+- 1  Urias  DepozitCurat
++ 10  Trapa  IncapereGotica
+= 1  Urias  TurnMic
+@ Cufar
+= 7  Mancare  SilozCuFerestre
+- 6  Tigru  TurnCuGratii
+= 6  Liliac  BeciDenivelat
++ 9  Halberdier  IncapereDarapanata
+= 4  CheieArgintie  CameraCuTorte
+= 4  Trapa  BalconDarapanat
+= 0  Speraclu  PivnitaGotica
+? HolDenivelat
++ 0  Cheie  HolMare
+#  Bici  CanalCuScheleti
+#  Cufar  HolCuScheleti
++ 6  Fantoma  BalconUmed
+= 0  Halberdier  CameraCuTorte
+@ Cheie
+= 10  Trapa  CantinaCurata
+@ Bici
+- 2  Bici  CameraRuinata
++ 7  Aratare  HolGotic
+= 5  Medalion  HolMare
++ 4  Liliac  CanalCuScheleti
+= 9  CapcanaPodea  CamaraLuminoasa
++ 2  CapcanaPodea  HolGotic
+#  Fantoma  ScaraCuCovoare
+#  Liliac  ScaraScunda
+@ Cufar
++ 4  CapcanaPodea  DepozitCurat
+? DepozitMurdar
+#  Speraclu  CantinaMica
++ 10  Tigru  DepozitMurdar
++ 6  Halberdier  CelulaLuminoasa
++ 9  CheieArgintie  SilozCuGratii
+= 7  Medalion  IncapereCuFerestre
++ 4  CheieCelula  CameraCuTorte
+#  Fantoma  IncapereInalta
+= 8  Mancare  CanalCuScheleti
+- 9  Halberdier  IncapereDarapanata
+= 9  Speraclu  DepozitMurdar
+= 8  Medalion  TurnCuGratii
+#  Aratare  BucatarieCuGrinzi
+? ScaraInalta
+? BibliotecaRotunda
+@ Mancare
++ 1  CheieArgintie  SilozCuFerestre
+- 1  Fantoma  BalconUmed
++ 3  Tigru  HolRotund
++ 0  CapcanaPodea  SalaTorturaCuTorte
++ 3  Medalion  TurnCuColoane
+@ CapcanaPodea
++ 5  Halberdier  CameraRuinata
+@ Aratare
+= 9  Fantoma  BibliotecaMurdara
++ 7  Bici  IncapereGotica
++ 10  CapcanaPodea  ScaraScunda
+- 0  Speraclu  TurnCuColoane
++ 4  Halberdier  ScaraInalta
+= 7  Mancare  BibliotecaTriunghiulara
+@ Medalion
+= 10  Liliac  BeciCuGrinzi
+@ Mancare
+#  Spadasin  BibliotecaIntunecata
+= 9  Coif  IncapereCuGrinzi
+@ CheieCelula
+= 7  CheieCelula  Cantina
+#  Aratare  HolDenivelat
++ 6  Trapa  SalaTorturaCuTorte
+@ Medalion
+= 4  Urias  BibliotecaTriunghiulara
+- 1  Speraclu  DepozitMurdar
+@ Cufar
++ 8  CheieArgintie  SalaTorturaCuTorte
++ 2  Speraclu  CamaraLuminoasa
+#  Cheie  TurnCuColoane
++ 10  Trapa  CantinaMica
++ 8  Tigru  BibliotecaMurdara
+#  Halberdier  IncapereDarapanata
+= 4  Speraclu  IncapereInalta
+- 4  Buzdugan  IncapereGotica
+= 4  Mancare  BalconUmed
++ 7  Trapa  CanalLuminos
+@ Buzdugan
+= 6  Medalion  TurnMic
+#  Trapa  CamarutaMica
+= 8  Trapa  CamaraCuCovoare
+@ CheieCelula
++ 9  Liliac  ScaraInalta
++ 6  CheieArgintie  BeciCuGrinzi
+= 4  Spadasin  ScaraInalta
++ 8  Buzdugan  SilozCuGratii
++ 1  Trapa  HolGotic
++ 5  Tigru  TunelIntunecat
++ 0  Tigru  HolMare
+= 4  Fantoma  CanalCuGratii
++ 8  CapcanaPodea  PivnitaGotica
++ 10  Tigru  CanalCuScheleti
++ 4  CapcanaPodea  IncapereDarapanata
+= 4  Cheie  IncapereCuGrinzi
+= 3  Spadasin  TurnMic
+#  Piatra  Cantina
+= 10  Piatra  HolCuScheleti
++ 6  Coif  BeciDenivelat
+#  Piatra  CamaraCuCovoare
++ 8  Fantoma  CamaraCuCovoare
++ 10  Cheie  CantinaCurata
+@ Medalion
+? TunelIntunecat
+= 8  CapcanaPodea  TurnMic
++ 1  Fantoma  ScaraScunda
+#  Mancare  BibliotecaMurdara
+? BibliotecaIntunecata
++ 1  Piatra  CelulaLuminoasa
+= 10  Cufar  BucatarieCuGrinzi
+= 2  Tigru  HolGotic
++ 8  Mancare  CantinaMica
+= 4  Piatra  TunelIntunecat
++ 5  Medalion  CamaraLuminoasa
+= 0  Cufar  CamaraCuCovoare
+= 6  Cheie  BibliotecaTriunghiulara
++ 6  Spadasin  HolCuScheleti
+= 7  Buzdugan  HolDenivelat
++ 5  CheieArgintie  BeciCuGrinzi
++ 9  Halberdier  DepozitMurdar
+? IncapereDarapanata
+= 8  Fantoma  IncapereGotica
+? IncapereGotica
++ 9  CapcanaPodea  BibliotecaIntunecata
++ 8  Piatra  Cantina
+= 8  CheieCelula  FierarieGotica
+= 2  Liliac  PivnitaGotica
++ 2  Mancare  CelulaLuminoasa
++ 6  Aratare  PivnitaGotica
+= 0  CheieCelula  BeciCuGrinzi
+- 2  Buzdugan  IncapereGotica
+@ Tigru
+? ScaraInalta
+- 4  CapcanaPodea  IncapereCuGrinzi
++ 8  Spadasin  CamaraLuminoasa
+#  Medalion  CamarutaMica
+= 3  Trapa  IncapereInalta
+= 9  Speraclu  HolGotic
+#  Cheie  CantinaCurata
++ 3  Speraclu  BalconUmed
++ 3  Halberdier  BibliotecaRotunda
++ 0  Mancare  HolMare
+#  Cheie  CamaraCuCovoare
++ 3  Cufar  CantinaCurata
+= 4  Bici  BibliotecaTriunghiulara
++ 8  CheieArgintie  CamarutaMica
+= 3  Cheie  BibliotecaRotunda
+= 10  Tigru  PivnitaGotica
+= 10  Tigru  HolDenivelat
+#  Tigru  CanalCuFerestre
+@ Urias
++ 3  Mancare  HolDenivelat
++ 5  CheieArgintie  BalconInalt
+= 1  Bici  BalconUmed
+#  Cufar  BucatarieCuGrinzi
++ 2  Tigru  BeciDenivelat
+? CamaraLuminoasa
+= 5  Bici  HolRotund
++ 0  Halberdier  CanalCuScheleti
+= 8  Medalion  BibliotecaIntunecata
+= 4  Speraclu  IncapereInalta
+? SalaMica
++ 6  Speraclu  BeciCuGrinzi
++ 5  Mancare  CameraRuinata
++ 10  Medalion  SilozCuFerestre
+= 1  Mancare  BibliotecaTriunghiulara
+= 5  Piatra  BibliotecaMurdara
++ 7  Mancare  CantinaMica
+= 10  Buzdugan  HolRotund
+= 6  Mancare  DepozitMurdar
++ 3  Halberdier  CanalCuScheleti
+= 2  CheieCelula  BibliotecaTriunghiulara
+= 1  CheieCelula  HolMare
+@ Mancare
+@ Medalion
+= 10  Spadasin  BibliotecaIntunecata
++ 2  Speraclu  HolGotic
+#  Aratare  SalaTorturaCuTorte
+@ Piatra
++ 8  Mancare  CantinaCurata
+= 0  Speraclu  CanalCuFerestre
+@ Trapa
+= 1  Trapa  FierarieGotica
+@ CapcanaPodea
+@ Trapa
+- 1  Liliac  CamaraCuCovoare
++ 9  Liliac  BibliotecaTriunghiulara
+? ScaraScunda
++ 8  Urias  DepozitCurat
+? CelulaLuminoasa
+- 4  Spadasin  ScaraInalta
++ 8  CheieCelula  TurnCuColoane
+= 10  Bici  DepozitCurat
+? BeciDenivelat
+@ Coif
+= 8  Coif  Cantina
+? CamarutaMica
+? CameraCuTorte
+#  Speraclu  BalconInalt
+= 0  Mancare  BibliotecaIntunecata
+= 0  Mancare  DepozitCurat
+? IncapereCuFerestre
+= 2  Tigru  CanalCuGratii
+= 0  Spadasin  ScaraCuCovoare
+? CantinaCurata
++ 10  Medalion  BeciDenivelat
+? CanalCuFerestre
+= 10  Speraclu  BeciDenivelat
+= 2  Speraclu  CamaraLuminoasa
++ 6  Urias  TurnMic
++ 0  Piatra  TurnCuColoane
++ 1  Buzdugan  HolMare
++ 10  Trapa  IncapereGotica
+= 8  Trapa  BucatarieCuGrinzi
++ 0  Cheie  IncapereDarapanata
+= 3  Urias  CanalCuScheleti
+@ Cufar
+= 3  Urias  IncapereCuFerestre
+#  Trapa  HolRotund
+= 3  Aratare  BeciDenivelat
+= 3  Piatra  SilozCuFerestre
+= 0  Aratare  IncapereCuFerestre
++ 8  Halberdier  TurnMic
+- 5  Halberdier  CameraRuinata
+@ Coif
+@ Urias
++ 3  CheieCelula  DepozitCurat
++ 5  Cufar  BalconDarapanat
+= 0  Urias  CanalLuminos
+- 4  CapcanaPodea  DepozitCurat
+= 0  Medalion  HolRotund
+= 4  CheieArgintie  TunelCuGrinzi
+? BibliotecaMurdara
+#  Piatra  CantinaCurata
+#  CheieCelula  BucatarieCuGrinzi
+#  Trapa  HolDenivelat
+= 8  Coif  ScaraInalta
+@ Cheie
+= 5  Trapa  CamaraCurata
+? BalconUmed
+- 4  Urias  CantinaCurata
++ 3  CapcanaPodea  BucatarieCuGrinzi
+@ Aratare
+#  Urias  TunelCuGrinzi
++ 5  Mancare  CanalLuminos
+? SalaMica
++ 3  Trapa  HolDenivelat
+= 2  CapcanaPodea  HolDenivelat
+? DepozitCurat
+= 8  Spadasin  CamaraLuminoasa
+= 6  Mancare  SalaTorturaCuTorte
++ 0  Cheie  BalconInalt
++ 4  Cheie  TurnCuColoane
+@ Liliac
+#  Tigru  CameraRuinata
+= 10  Halberdier  CamaraLuminoasa
++ 8  Piatra  CanalLuminos
+@ Buzdugan
+- 10  CapcanaPodea  TurnCuColoane
+@ Coif
+= 4  Medalion  Cantina
++ 5  CheieArgintie  DepozitMurdar
++ 8  Cufar  TunelIntunecat
++ 6  Bici  HolDenivelat
+? BibliotecaMurdara
+#  CheieCelula  BibliotecaIntunecata
+? BeciDenivelat
+? CantinaCurata
+= 6  CheieCelula  TurnCuColoane
++ 1  CapcanaPodea  CameraCuTorte
+#  CheieArgintie  CantinaCurata
+? CantinaMica
++ 10  Urias  CantinaCurata
++ 2  Tigru  ScaraInalta
+#  Coif  BeciCuGrinzi
++ 1  Liliac  BalconDarapanat
+= 4  Medalion  BucatarieCuGrinzi
+@ Tigru
+= 9  Tigru  BeciCuGrinzi
++ 4  Fantoma  ScaraInalta
+= 8  Medalion  CanalCuGratii
+? CamaraLuminoasa
+= 8  Mancare  DepozitMurdar
+#  Buzdugan  CantinaCurata
+= 5  Cheie  SilozCuFerestre
++ 3  Cheie  CameraCuTorte
++ 10  Cheie  CantinaMica
++ 3  CapcanaPodea  BibliotecaTriunghiulara
+#  Spadasin  ScaraInalta
++ 10  Coif  SilozCuFerestre
++ 5  Piatra  BibliotecaIntunecata
+= 9  Mancare  DepozitCurat
+= 7  CheieArgintie  CanalCuScheleti
++ 9  Tigru  DepozitCurat
+- 0  Speraclu  PivnitaGotica
+@ CheieCelula
+#  CheieArgintie  HolCuScheleti
+= 2  Urias  CanalCuFerestre
+? TurnCuGratii
+= 0  Trapa  IncapereInalta
+= 4  Cufar  CantinaCurata
+= 2  Buzdugan  CamaraLuminoasa
+= 4  Aratare  CanalCuScheleti
+@ Trapa
++ 6  Urias  IncapereCuGrinzi
+= 5  Mancare  CameraRuinata
+= 5  Fantoma  TunelIntunecat
+#  Liliac  CameraRuinata
+@ Piatra
+= 1  Speraclu  CameraRuinata
+= 6  Speraclu  BibliotecaRotunda
++ 10  Spadasin  IncapereGotica
+= 6  CheieArgintie  BibliotecaIntunecata
++ 2  CheieCelula  BalconUmed
++ 9  Fantoma  SalaMica
+? BalconInalt
+= 6  Coif  ScaraScunda
++ 7  Speraclu  TurnCuColoane
+#  Trapa  SalaMica
+= 3  Buzdugan  BibliotecaRotunda
++ 9  Medalion  HolGotic
++ 7  Liliac  CamaraLuminoasa
+= 2  Tigru  IncapereCuGrinzi
++ 0  Cheie  DepozitMurdar
+@ Speraclu
+? BeciCuGrinzi
+- 3  Cheie  CameraCuTorte
+= 5  Urias  IncapereDarapanata
+@ Fantoma
++ 10  Medalion  SilozCuGratii
+#  Buzdugan  BibliotecaTriunghiulara
+#  Fantoma  SalaTorturaCuTorte
+= 1  Bici  CanalLuminos
++ 3  Aratare  DepozitMurdar
+= 0  Aratare  SalaMica
+#  Bici  BeciCuGrinzi
+#  Mancare  Cantina
+? BibliotecaTriunghiulara
+#  Bici  TunelCuGrinzi
++ 3  Coif  BeciCuGrinzi
+#  Aratare  BibliotecaIntunecata
++ 5  Medalion  SilozCuGratii
+@ Medalion
+= 10  CheieCelula  TurnCuColoane
++ 3  Mancare  SalaTorturaCuTorte
+= 1  CapcanaPodea  ScaraScunda
+@ Tigru
++ 9  Piatra  TurnCuGratii
+= 3  Speraclu  TurnCuGratii
+? IncapereCuGrinzi
+- 5  CheieArgintie  BalconInalt
+#  Piatra  BibliotecaIntunecata
++ 1  Medalion  BeciCuGrinzi
+? BalconDarapanat
+#  Liliac  CantinaCurata
+= 4  Piatra  BibliotecaTriunghiulara
++ 2  Coif  HolRotund
+@ Buzdugan
+= 10  Trapa  CanalCuGratii
+= 4  Bici  BalconUmed
+- 6  Cheie  HolDenivelat
+= 9  Mancare  BucatarieCuGrinzi
+= 1  CapcanaPodea  IncapereDarapanata
+- 8  CapcanaPodea  BalconUmed
++ 5  Coif  BeciCuGrinzi
++ 1  Piatra  SalaMica
+@ Speraclu
+= 3  Piatra  BeciDenivelat
+- 7  Spadasin  BalconInalt
++ 3  Fantoma  BibliotecaTriunghiulara
++ 10  Fantoma  FierarieGotica
+#  CapcanaPodea  CamarutaMica
+? TurnCuColoane
+= 4  CapcanaPodea  HolDenivelat
+= 10  Mancare  IncapereCuFerestre
++ 5  Trapa  TurnCuGratii
+? ScaraCuCovoare
+@ Liliac
+#  Piatra  CameraCuTorte
+- 2  Coif  HolRotund
+= 2  Mancare  CameraCuTorte
++ 9  Cheie  HolRotund
+= 9  Liliac  Cantina
+@ Halberdier
+= 9  Speraclu  CelulaLuminoasa
+- 0  Halberdier  CameraCuTorte
++ 4  Cheie  BibliotecaTriunghiulara
+= 1  Cufar  CameraRuinata
+= 9  Speraclu  BeciCuGrinzi
++ 4  Speraclu  BeciCuGrinzi
+= 9  Spadasin  HolDenivelat
+#  Bici  IncapereInalta
+- 2  CheieCelula  PivnitaGotica
+@ Cufar
+= 0  Fantoma  IncapereInalta
++ 0  Halberdier  IncapereInalta
+#  Coif  TunelCuGrinzi
++ 6  CheieCelula  BeciCuGrinzi
+? HolCuScheleti
+? IncapereCuFerestre
+= 8  Liliac  IncapereGotica
+? ScaraScunda
+= 5  Halberdier  BibliotecaIntunecata
+? IncapereDarapanata
+= 6  Urias  BalconDarapanat
+= 0  Bici  CamaraLuminoasa
+#  Tigru  CanalCuScheleti
+? ScaraScunda
++ 4  Liliac  BalconInalt
++ 2  Fantoma  CanalCuFerestre
+= 4  Medalion  BibliotecaRotunda
++ 10  Cufar  BibliotecaMurdara
++ 7  Trapa  CamarutaMica
++ 7  CapcanaPodea  BalconDarapanat
+= 0  Speraclu  ScaraScunda
+@ Aratare
+- 3  Fantoma  CanalCuGratii
+= 9  Urias  DepozitCurat
++ 5  Urias  BalconInalt
+@ Spadasin
+= 7  CheieCelula  TurnCuGratii
+- 0  Cheie  HolMare
++ 5  Urias  DepozitMurdar
+= 5  CapcanaPodea  DepozitMurdar
+= 10  Urias  BibliotecaIntunecata
+@ Buzdugan
++ 3  Mancare  CantinaCurata
++ 9  Tigru  CanalCuScheleti
+= 2  CapcanaPodea  DepozitMurdar
++ 0  Urias  BibliotecaRotunda
+? PivnitaGotica
+= 0  Fantoma  IncapereCuGrinzi
+= 2  Urias  CanalCuScheleti
+= 7  Speraclu  IncapereGotica
+? CantinaCurata
++ 1  Speraclu  IncapereCuGrinzi
++ 1  Halberdier  ScaraInalta
+= 1  CheieCelula  SilozCuFerestre
++ 1  Halberdier  CamaraCurata
+= 0  Tigru  DepozitMurdar
+- 6  Coif  BeciDenivelat
+= 1  Mancare  SalaMica
+- 2  Urias  CanalCuFerestre
++ 6  Spadasin  BalconDarapanat
+= 9  CapcanaPodea  CamaraCurata
+= 10  Liliac  CamaraCuCovoare
+= 1  Coif  CamaraCurata
++ 6  CheieArgintie  HolGotic
+= 0  Tigru  BibliotecaRotunda
+@ Piatra
+= 3  Mancare  TunelCuGrinzi
++ 3  Bici  CamaraCurata
+? BeciDenivelat
++ 3  CapcanaPodea  IncapereCuGrinzi
++ 10  Cheie  SilozCuFerestre
++ 5  Fantoma  IncapereDarapanata
++ 0  CheieArgintie  CamaraCurata
+= 0  Urias  CantinaMica
++ 7  Medalion  DepozitCurat
+- 1  Coif  TurnCuGratii
+= 5  Spadasin  ScaraScunda
+= 6  Spadasin  TunelIntunecat
+= 9  Buzdugan  BalconUmed
++ 4  Medalion  BibliotecaRotunda
++ 9  Halberdier  BibliotecaTriunghiulara
++ 9  Piatra  PivnitaGotica
+? HolCuScheleti
++ 2  Speraclu  DepozitCurat
++ 5  Mancare  HolGotic
++ 2  Bici  CamaraLuminoasa
+= 1  Buzdugan  FierarieGotica
+= 2  Speraclu  TurnMic
+? CameraCuTorte
++ 3  Buzdugan  CantinaCurata
+#  Tigru  BibliotecaMurdara
+@ CapcanaPodea
+? CamaraCuCovoare
++ 5  CheieCelula  Cantina
+= 1  Piatra  BalconDarapanat
+#  Halberdier  BibliotecaIntunecata
+? CameraRuinata
+? SilozCuFerestre
+= 2  Aratare  IncapereInalta
+- 5  Fantoma  TunelIntunecat
+#  Buzdugan  CanalCuGratii
++ 2  Buzdugan  BeciCuGrinzi
+? HolGotic
+#  Medalion  PivnitaGotica
+- 4  CapcanaPodea  TurnMic
+= 4  Mancare  BeciCuGrinzi
+#  Piatra  HolRotund
++ 6  CapcanaPodea  CelulaLuminoasa
++ 10  Tigru  CanalCuFerestre
+@ Mancare
+= 5  Trapa  BibliotecaMurdara
++ 4  Coif  ScaraCuCovoare
+= 7  Spadasin  BibliotecaRotunda
+= 1  Trapa  BibliotecaIntunecata
+= 5  Cheie  BibliotecaTriunghiulara
++ 3  CheieArgintie  CanalCuGratii
+= 10  Liliac  HolRotund
+? HolGotic
+- 0  Liliac  PivnitaGotica
+= 2  CheieCelula  TunelCuGrinzi
+= 8  Cheie  CameraCuTorte
++ 6  Trapa  CanalCuFerestre
+= 5  Fantoma  TurnCuGratii
+? BalconInalt
+= 10  Cufar  DepozitMurdar
+#  Bici  HolGotic
++ 3  Spadasin  CamaraCuCovoare
++ 8  CheieArgintie  CantinaMica
+= 5  Cufar  SalaTorturaCuTorte
+= 1  Speraclu  BeciDenivelat
++ 1  CapcanaPodea  HolRotund
++ 4  Buzdugan  DepozitCurat
++ 3  Tigru  ScaraScunda
+#  Medalion  IncapereGotica
++ 2  Aratare  IncapereDarapanata
+= 10  Medalion  FierarieGotica
+@ Coif
+? BeciDenivelat
+? BalconUmed
+#  Halberdier  TunelCuGrinzi
++ 9  Spadasin  CantinaMica
+@ CheieArgintie
++ 0  Trapa  TurnCuColoane
++ 4  Piatra  IncapereCuFerestre
+#  Liliac  TunelCuGrinzi
+@ Liliac
++ 1  Aratare  TurnMic
+#  Cufar  CantinaCurata
++ 2  Cheie  CanalLuminos
+= 6  Piatra  IncapereInalta
+- 8  Liliac  IncapereGotica
+= 10  Cufar  CameraCuTorte
++ 10  Speraclu  CanalCuGratii
+@ Medalion
+= 6  Buzdugan  DepozitCurat
+= 9  Piatra  CanalCuScheleti
++ 3  Cufar  IncapereGotica
+= 6  Buzdugan  HolMare
+= 9  Bici  HolRotund
+#  Piatra  CanalLuminos
+#  Piatra  PivnitaGotica
+= 0  Urias  CantinaCurata
++ 3  Tigru  TunelIntunecat
+@ Trapa
+? BalconUmed
+#  Tigru  HolGotic
++ 2  Coif  CanalCuScheleti
+- 4  Piatra  IncapereCuFerestre
+? CantinaMica
+= 2  Spadasin  PivnitaGotica
+= 9  Mancare  SilozCuFerestre
+= 9  CheieArgintie  FierarieGotica
++ 0  Urias  HolCuScheleti
+= 6  Liliac  CanalLuminos
+= 2  Bici  HolRotund
+@ Speraclu
+= 4  Speraclu  HolMare
+= 8  CheieCelula  BibliotecaTriunghiulara
+#  Cufar  BalconDarapanat
+@ Bici
+? CanalLuminos
+@ CapcanaPodea
+@ CheieArgintie
+? CamaraLuminoasa
+= 2  Coif  DepozitCurat
++ 7  Piatra  IncapereInalta
+@ Speraclu
+@ Piatra
+= 9  CheieArgintie  CamarutaMica
++ 9  Cufar  CantinaCurata
+@ Trapa
+= 6  Aratare  FierarieGotica
+? TurnCuColoane
++ 2  Piatra  CamaraCuCovoare
+? BibliotecaIntunecata
++ 2  CheieArgintie  CamaraCuCovoare
+? IncapereDarapanata
+= 0  Spadasin  CameraCuTorte
+= 8  Urias  CamarutaMica
+= 0  Trapa  CamaraCuCovoare
+@ CheieArgintie
+- 2  CheieArgintie  CameraRuinata
+- 0  Speraclu  ScaraScunda
+@ Medalion
+= 6  Cheie  HolDenivelat
++ 7  Piatra  SilozCuGratii
+- 0  Piatra  IncapereCuFerestre
++ 1  Fantoma  HolRotund
+? CamaraCuCovoare
++ 9  Cheie  CameraCuTorte
+= 1  Coif  SalaTorturaCuTorte
+= 1  CheieArgintie  PivnitaGotica
+#  Halberdier  IncapereInalta
+- 2  Mancare  CelulaLuminoasa
+= 0  Tigru  TurnCuGratii
++ 7  CheieCelula  CanalCuGratii
++ 3  Liliac  SilozCuFerestre
+= 9  Urias  BalconUmed
++ 3  CapcanaPodea  TurnCuGratii
++ 8  Spadasin  CanalCuScheleti
+@ Urias
++ 5  Cheie  FierarieGotica
+= 8  Aratare  ScaraInalta
++ 10  Aratare  SalaTorturaCuTorte
+= 4  Urias  TunelIntunecat
++ 7  Liliac  BalconDarapanat
+? CantinaCurata
+#  CapcanaPodea  BeciDenivelat
+? TurnMic
+? CameraCuTorte
++ 2  Tigru  CantinaMica
+#  Speraclu  CanalCuGratii
+= 6  Coif  IncapereCuFerestre
+@ Piatra
+= 6  Fantoma  SilozCuFerestre
+#  Urias  DepozitCurat
++ 0  Bici  BibliotecaMurdara
+= 3  Cheie  Cantina
+@ Piatra
+- 0  Urias  IncapereCuFerestre
+@ CapcanaPodea
+? TunelCuGrinzi
++ 4  Urias  CantinaMica
+- 4  Mancare  BalconUmed
+- 0  Speraclu  SilozCuFerestre
+= 8  Bici  CameraCuTorte
+- 9  Coif  IncapereCuGrinzi
+= 10  Cufar  IncapereInalta
++ 6  Liliac  CameraCuTorte
+= 8  Fantoma  IncapereInalta
+= 1  Cheie  SalaMica
++ 6  Medalion  ScaraCuCovoare
+@ CapcanaPodea
++ 9  Aratare  CanalLuminos
+= 3  Piatra  DepozitCurat
+= 9  Spadasin  BucatarieCuGrinzi
+#  Tigru  DepozitMurdar
+= 1  Bici  ScaraScunda
+- 5  Trapa  TurnCuGratii
++ 0  Mancare  TurnMic
+= 6  CapcanaPodea  TurnMic
+= 3  Urias  TurnMic
+- 8  Medalion  BibliotecaRotunda
+? CanalCuFerestre
++ 2  CheieCelula  ScaraCuCovoare
+- 3  Urias  TurnMic
++ 7  Medalion  CamaraCuCovoare
+- 0  Fantoma  SalaMica
+= 5  CapcanaPodea  BalconUmed
+#  Mancare  BalconUmed
+#  CheieArgintie  BibliotecaRotunda
+= 9  Fantoma  HolDenivelat
++ 1  Aratare  TurnCuColoane
+#  Buzdugan  CanalCuGratii
+? TurnCuColoane
+- 1  CheieCelula  IncapereCuFerestre
+= 10  Spadasin  IncapereDarapanata
++ 2  Piatra  DepozitMurdar
+#  Coif  CanalCuGratii
+= 7  Liliac  TurnCuColoane
++ 0  Spadasin  HolGotic
++ 3  Coif  BeciDenivelat
++ 3  CheieArgintie  CanalLuminos
+= 7  CapcanaPodea  ScaraCuCovoare
++ 10  CapcanaPodea  BeciDenivelat
+= 10  Spadasin  IncapereCuFerestre
+? CamarutaMica
++ 6  Trapa  BibliotecaTriunghiulara
+- 0  Speraclu  CamaraLuminoasa
+- 0  Spadasin  SalaTorturaCuTorte
+= 0  Spadasin  DepozitCurat
+- 10  Cufar  BibliotecaMurdara
+= 4  Liliac  BeciDenivelat
+= 8  Medalion  CameraCuTorte
+= 5  CapcanaPodea  BalconUmed
+? DepozitMurdar
+- 2  Tigru  HolGotic
+? CantinaCurata
+#  Piatra  CamaraCuCovoare
++ 5  Liliac  SalaTorturaCuTorte
+? CamaraCuCovoare
+- 6  Spadasin  HolCuScheleti
++ 6  Trapa  CamarutaMica
+= 7  Liliac  CamaraLuminoasa
+- 8  Halberdier  CamaraLuminoasa
+? TurnCuColoane
+= 1  Trapa  BalconInalt
+- 2  Piatra  PivnitaGotica
+= 6  Piatra  BeciDenivelat
+= 8  Piatra  CanalLuminos
+= 7  CheieCelula  ScaraInalta
+= 8  Aratare  BibliotecaMurdara
+= 8  Cufar  HolMare
+= 0  Medalion  PivnitaGotica
+@ Liliac
+@ Medalion
+= 8  Halberdier  HolCuScheleti
++ 5  Fantoma  IncapereCuFerestre
+? TunelIntunecat
+= 7  Cheie  Cantina
+? CanalCuScheleti
++ 6  Urias  SalaMica
++ 1  Piatra  BalconDarapanat
+= 1  Urias  IncapereDarapanata
+@ Cufar
+= 0  CheieArgintie  SilozCuFerestre
+= 10  Liliac  BibliotecaRotunda
++ 4  Spadasin  CanalCuFerestre
+- 10  Medalion  BeciDenivelat
+= 2  Medalion  CamarutaMica
+- 2  CheieArgintie  CantinaMica
++ 10  Fantoma  BalconInalt
+@ Liliac
+? CamaraLuminoasa
++ 9  Liliac  BalconDarapanat
+? PivnitaGotica
++ 10  Mancare  Cantina
+= 0  CapcanaPodea  SalaTorturaCuTorte
+- 8  Cheie  BalconUmed
+- 17  Liliac  BalconDarapanat
+= 2  Cufar  HolCuScheleti
+? ScaraInalta
+? TurnMic
+= 10  Bici  BalconDarapanat
+- 5  CheieCelula  TurnCuColoane
+= 8  Cheie  ScaraScunda
+= 7  Halberdier  CanalCuFerestre
+#  Fantoma  CantinaCurata
+? ScaraScunda
+= 6  Speraclu  CanalCuScheleti
++ 6  Cheie  DepozitCurat
+@ Aratare
++ 7  Bici  ScaraInalta
+= 1  Piatra  CamaraLuminoasa
+= 1  Cheie  IncapereDarapanata
+@ Cufar
+@ Aratare
+@ Mancare
+@ CheieArgintie
+#  Aratare  CanalLuminos
++ 5  Piatra  IncapereCuFerestre
+@ Coif
++ 6  Mancare  CamaraCuCovoare
+- 5  Cheie  BibliotecaTriunghiulara
++ 0  Halberdier  HolGotic
+@ Speraclu
+? HolCuScheleti
+- 1  Coif  BeciCuGrinzi
+- 0  Halberdier  IncapereInalta
+#  Mancare  SalaTorturaCuTorte
+@ Halberdier
+#  Bici  BibliotecaRotunda
+@ CheieCelula
++ 4  Cheie  CamaraCuCovoare
+= 0  Buzdugan  HolMare
++ 1  Urias  DepozitMurdar
++ 6  Aratare  CantinaMica
+= 4  Halberdier  IncapereInalta
+@ Aratare
+- 0  Tigru  HolMare
+- 2  Tigru  ScaraInalta
+= 9  Tigru  PivnitaGotica
+- 4  Cufar  BeciDenivelat
+= 8  Urias  CantinaCurata
++ 4  Spadasin  ScaraScunda
+? CelulaLuminoasa
++ 0  Tigru  TurnCuColoane
+= 6  Piatra  Cantina
+= 1  Speraclu  TunelIntunecat
+- 4  Urias  TunelIntunecat
++ 1  Trapa  FierarieGotica
+@ Bici
++ 2  Tigru  HolRotund
++ 3  CheieCelula  TunelCuGrinzi
+@ Cufar
+- 2  Urias  CanalCuScheleti
++ 10  Trapa  IncapereGotica
+- 0  Spadasin  CameraCuTorte
+= 10  Piatra  ScaraInalta
+? HolCuScheleti
+= 5  Cufar  TurnMic
+= 9  Urias  IncapereInalta
+= 3  Medalion  TunelCuGrinzi
+? TurnCuColoane
+= 4  Fantoma  ScaraInalta
++ 5  Speraclu  IncapereGotica
+#  Halberdier  CameraCuTorte
+= 10  Trapa  FierarieGotica
++ 7  Trapa  FierarieGotica
+- 6  Liliac  CanalLuminos
+#  Speraclu  HolRotund
++ 1  CapcanaPodea  ScaraScunda
++ 3  Halberdier  FierarieGotica
++ 4  Speraclu  BibliotecaRotunda
+- 8  Fantoma  IncapereInalta
+? IncapereInalta
++ 9  Speraclu  CameraRuinata
+= 1  Fantoma  HolMare
+= 8  Bici  Cantina
+#  Piatra  DepozitCurat
+- 6  CapcanaPodea  BalconDarapanat
+= 8  Tigru  BucatarieCuGrinzi
++ 10  Buzdugan  IncapereInalta
++ 7  Tigru  TurnMic
++ 8  Bici  CamaraLuminoasa
+#  Cufar  HolCuScheleti
+- 3  CheieCelula  DepozitCurat
++ 3  CapcanaPodea  PivnitaGotica
+= 7  Cufar  BalconDarapanat
++ 1  CapcanaPodea  HolGotic
+? HolRotund
+= 0  Trapa  IncapereInalta
++ 7  Trapa  IncapereGotica
++ 1  Speraclu  CantinaMica
++ 3  Halberdier  TurnCuColoane
+? IncapereCuFerestre
+- 7  Medalion  DepozitCurat
+#  Urias  ScaraScunda
+= 9  Buzdugan  CamaraCuCovoare
+? CamaraCurata
+- 6  Urias  IncapereCuGrinzi
+? CamarutaMica
++ 2  Urias  CanalCuGratii
+- 1  Piatra  CamaraLuminoasa
+@ Cufar
+- 0  Mancare  TunelCuGrinzi
+@ Piatra
+- 8  Medalion  CameraCuTorte
+= 0  Fantoma  CamarutaMica
++ 6  Tigru  CanalLuminos
++ 2  Tigru  BibliotecaMurdara
+? CamarutaMica
++ 6  CheieCelula  CameraCuTorte
+= 3  Spadasin  ScaraInalta
++ 2  Aratare  CameraRuinata
+- 1  Speraclu  BeciDenivelat
+@ Liliac
+= 7  CapcanaPodea  CamaraCurata
++ 1  Halberdier  HolGotic
+= 2  Liliac  DepozitCurat
+= 5  Buzdugan  IncapereCuFerestre
+- 4  Speraclu  IncapereInalta
+- 7  CapcanaPodea  ScaraCuCovoare
+= 6  Cheie  Cantina
++ 7  Spadasin  FierarieGotica
+#  Liliac  SilozCuFerestre
+? CanalCuScheleti
++ 2  Trapa  CantinaCurata
++ 10  Piatra  PivnitaGotica
+= 2  Spadasin  BibliotecaRotunda
++ 4  Spadasin  BeciCuGrinzi
+@ CheieArgintie
+= 10  Coif  SilozCuGratii
+@ Buzdugan
+#  Urias  IncapereCuFerestre
+- 4  Medalion  BucatarieCuGrinzi
++ 1  CheieArgintie  BalconUmed
+- 1  Medalion  CantinaMica
+? HolMare
+#  CapcanaPodea  HolGotic
+- 5  Cheie  CantinaMica
+= 4  Liliac  HolCuScheleti
+@ Aratare
+= 5  Mancare  IncapereCuFerestre
+= 4  Fantoma  TurnCuColoane
+- 7  Cheie  IncapereCuFerestre
+? BalconInalt
++ 1  Urias  ScaraCuCovoare
+? HolMare
++ 4  CapcanaPodea  HolCuScheleti
+= 2  Medalion  HolRotund
+@ Coif
+#  Aratare  HolRotund
+= 5  Speraclu  TurnMic
+= 6  Piatra  IncapereInalta
+= 1  CapcanaPodea  SalaTorturaCuTorte
+= 4  Bici  TunelIntunecat
++ 5  Fantoma  SalaMica
++ 4  Medalion  CameraCuTorte
+- 9  Fantoma  BalconInalt
++ 4  Cheie  BibliotecaTriunghiulara
+- 5  Trapa  IncapereGotica
+#  CheieArgintie  FierarieGotica
+@ Fantoma
+#  Spadasin  DepozitMurdar
+- 0  Cheie  BibliotecaRotunda
+- 6  CapcanaPodea  TurnMic
+? HolCuScheleti
++ 8  Spadasin  TunelCuGrinzi
++ 1  CheieCelula  IncapereCuGrinzi
++ 5  Halberdier  CameraCuTorte
+? CantinaCurata
++ 4  Buzdugan  TunelCuGrinzi
+@ Mancare
+? DepozitMurdar
+? CelulaLuminoasa
+#  Piatra  IncapereCuFerestre
+= 4  Speraclu  HolRotund
+= 5  Urias  PivnitaGotica
+? CameraRuinata
+@ Spadasin
+= 4  Halberdier  CamaraCuCovoare
+? IncapereCuGrinzi
++ 9  Coif  Cantina
++ 7  CapcanaPodea  FierarieGotica
++ 4  Liliac  CanalCuFerestre
+= 1  Trapa  DepozitMurdar
+= 6  Liliac  Cantina
+#  Halberdier  CameraCuTorte
+@ Spadasin
+? CamaraLuminoasa
+- 0  Tigru  TurnCuGratii
+@ Bici
+= 6  Medalion  BibliotecaRotunda
+= 0  Aratare  IncapereInalta
+= 6  Bici  DepozitMurdar
+- 7  Trapa  BucatarieCuGrinzi
+#  CapcanaPodea  IncapereDarapanata
++ 1  Aratare  SalaMica
+- 5  Cheie  SilozCuFerestre
+? CanalCuGratii
++ 8  CheieArgintie  BeciDenivelat
+- 3  Coif  BeciDenivelat
+#  Buzdugan  SalaTorturaCuTorte
+= 3  Bici  HolGotic
++ 0  Bici  HolCuScheleti
+- 1  Cheie  IncapereDarapanata
++ 10  Halberdier  CantinaCurata
++ 0  Urias  HolDenivelat
+#  Speraclu  BucatarieCuGrinzi
+- 9  Liliac  BibliotecaTriunghiulara
+- 6  Urias  DepozitMurdar
+- 2  Spadasin  ScaraScunda
+= 1  Liliac  Cantina
+@ Cufar
+@ CheieArgintie
++ 8  Mancare  CantinaCurata
+#  Halberdier  TunelCuGrinzi
+#  CheieArgintie  ScaraInalta
+- 2  CheieCelula  CameraCuTorte
++ 9  Spadasin  SalaMica
+#  Tigru  BibliotecaTriunghiulara
+- 5  Spadasin  CamaraLuminoasa
++ 4  Spadasin  BibliotecaTriunghiulara
+- 0  Fantoma  CantinaMica
+= 8  Speraclu  HolRotund
+= 0  Piatra  CamaraCurata
+- 2  CapcanaPodea  ScaraScunda
+? SalaTorturaCuTorte
+= 4  Buzdugan  ScaraCuCovoare
+- 9  CapcanaPodea  BibliotecaIntunecata
+? CamaraLuminoasa
+- 3  Coif  ScaraInalta
+= 2  Piatra  PivnitaGotica
+= 4  Piatra  ScaraInalta
+= 8  CheieCelula  ScaraScunda
++ 4  Trapa  BalconDarapanat
++ 5  Halberdier  Cantina
+= 9  Medalion  TurnCuColoane
++ 5  Tigru  BalconDarapanat
+#  CheieCelula  BibliotecaTriunghiulara
+- 8  Tigru  BucatarieCuGrinzi
+@ Trapa
+= 4  Coif  DepozitMurdar
+- 2  Cheie  HolRotund
+- 5  Urias  PivnitaGotica
+= 9  Piatra  Cantina
++ 7  Trapa  CameraRuinata
+- 0  Mancare  TurnMic
+? TunelCuGrinzi
+- 2  Cheie  CanalLuminos
++ 2  Mancare  IncapereDarapanata
+- 10  CapcanaPodea  BeciDenivelat
+= 4  Bici  SalaMica
+= 3  Mancare  CameraRuinata
++ 2  Halberdier  CameraRuinata
++ 2  Bici  BibliotecaTriunghiulara
++ 8  Aratare  BibliotecaRotunda
+= 1  Piatra  BeciDenivelat
+= 4  Liliac  BalconUmed
+? TurnCuGratii
+? DepozitMurdar
+- 0  Mancare  TurnMic
+- 10  Tigru  BibliotecaMurdara
+#  Fantoma  BeciCuGrinzi
+= 4  Tigru  HolGotic
+= 7  Piatra  DepozitMurdar
+= 0  CheieCelula  TunelIntunecat
++ 7  Coif  HolCuScheleti
++ 1  Medalion  SalaMica
+@ Fantoma
+- 2  Fantoma  SalaMica
+#  Medalion  CamaraCuCovoare
+= 2  Urias  CantinaCurata
+- 3  CapcanaPodea  HolGotic
+- 7  Piatra  SilozCuGratii
+= 6  CheieArgintie  CanalLuminos
+- 8  Mancare  DepozitMurdar
+- 4  Buzdugan  HolRotund
+#  Bici  SalaMica
+- 8  Aratare  ScaraInalta
+- 0  Coif  IncapereCuGrinzi
+- 8  CheieArgintie  SilozCuGratii
+#  Trapa  ScaraInalta
+= 6  Cheie  BalconInalt
++ 6  Fantoma  TurnMic
+= 2  Urias  DepozitCurat
+- 0  Tigru  IncapereCuGrinzi
++ 6  Aratare  CanalCuFerestre
+- 8  Spadasin  TunelCuGrinzi
+#  Aratare  TurnCuColoane
++ 10  Urias  ScaraScunda
+? BeciDenivelat
+? SalaMica
+#  Fantoma  CanalLuminos
++ 5  Halberdier  HolMare
+- 1  Mancare  HolRotund
+#  CapcanaPodea  CamaraLuminoasa
+= 10  Tigru  CamarutaMica
++ 1  Trapa  CanalCuGratii
+= 0  Liliac  TurnCuGratii
+#  Buzdugan  CamaraCuCovoare
++ 7  Cufar  CelulaLuminoasa
+- 0  Coif  BeciDenivelat
+@ Medalion
++ 4  Cufar  IncapereDarapanata
+= 6  Trapa  BibliotecaIntunecata
+= 1  Medalion  BalconInalt
+- 8  CheieCelula  BibliotecaTriunghiulara
+= 3  Piatra  BeciCuGrinzi
+- 3  CapcanaPodea  IncapereCuGrinzi
++ 7  Tigru  DepozitCurat
+= 5  Fantoma  CamaraCuCovoare
+= 1  Cheie  HolRotund
+- 4  Bici  SalaMica
++ 6  Liliac  SalaMica
++ 9  Halberdier  CameraCuTorte
++ 4  Buzdugan  CamaraCuCovoare
+= 3  Buzdugan  HolRotund
++ 9  Halberdier  IncapereCuGrinzi
+#  Halberdier  PivnitaGotica
+= 8  CapcanaPodea  HolMare
+= 4  Urias  Cantina
+- 6  Coif  IncapereCuFerestre
++ 3  Trapa  BibliotecaMurdara
+#  Halberdier  CanalLuminos
+? CanalCuFerestre
+#  Cufar  FierarieGotica
++ 0  Urias  BalconInalt
+= 7  Fantoma  FierarieGotica
++ 4  Fantoma  BeciCuGrinzi
+= 1  Coif  CantinaCurata
+? BibliotecaIntunecata
++ 3  Spadasin  CanalCuFerestre
++ 5  Medalion  IncapereCuFerestre
++ 3  Urias  TunelCuGrinzi
++ 2  Fantoma  DepozitMurdar
+= 2  Fantoma  CanalCuFerestre
+#  Buzdugan  IncapereCuFerestre
+- 1  Piatra  BibliotecaTriunghiulara
++ 9  Trapa  Cantina
++ 7  Bici  BibliotecaIntunecata
+? BeciDenivelat
+? CamarutaMica
+? CameraRuinata
+? TunelCuGrinzi
+- 0  Trapa  TurnCuColoane
+? BibliotecaRotunda
++ 10  Cheie  BalconUmed
+= 4  Speraclu  TurnCuColoane
+#  Tigru  BalconUmed
+= 10  Coif  CelulaLuminoasa
+@ Spadasin
+= 10  Bici  HolRotund
+- 10  Liliac  CamaraCuCovoare
++ 1  CheieCelula  TurnCuColoane
+#  Cheie  CantinaCurata
++ 5  Coif  FierarieGotica
+= 3  Bici  HolCuScheleti
++ 9  Speraclu  BeciCuGrinzi
+- 1  Liliac  PivnitaGotica
++ 5  Tigru  BucatarieCuGrinzi
+= 6  Piatra  BibliotecaRotunda
++ 0  Cufar  IncapereCuFerestre
++ 6  Trapa  BalconUmed
+- 0  Mancare  BibliotecaIntunecata
+= 8  Coif  BalconInalt
+? IncapereCuFerestre
++ 9  Buzdugan  CamaraCurata
+#  CheieArgintie  ScaraCuCovoare
+= 5  Mancare  CelulaLuminoasa
+- 0  Spadasin  ScaraCuCovoare
+#  CheieArgintie  IncapereCuGrinzi
+= 9  CheieArgintie  DepozitMurdar
++ 1  Piatra  SilozCuGratii
+? BalconUmed
+#  Trapa  IncapereCuGrinzi
++ 9  Trapa  FierarieGotica
+? CameraRuinata
++ 4  CapcanaPodea  BibliotecaMurdara
+= 0  Cufar  CamaraCurata
++ 1  Tigru  IncapereDarapanata
+- 3  Aratare  SalaTorturaCuTorte
+? CantinaMica
+- 9  Urias  BibliotecaRotunda
+= 5  CheieArgintie  HolGotic
++ 7  Piatra  BalconInalt
+= 10  Halberdier  HolRotund
+= 0  Cheie  HolGotic
++ 5  Aratare  CamarutaMica
+= 0  Halberdier  BibliotecaTriunghiulara
+- 1  Trapa  CanalCuFerestre
+- 1  Medalion  BalconInalt
++ 7  Liliac  CelulaLuminoasa
++ 6  CapcanaPodea  Cantina
++ 5  Tigru  CanalCuGratii
+? CantinaMica
+= 1  Cufar  BibliotecaMurdara
+- 3  Fantoma  HolDenivelat
+= 2  Cheie  BibliotecaMurdara
+@ Trapa
+- 3  Spadasin  ScaraInalta
+= 3  Fantoma  BeciCuGrinzi
+= 7  Medalion  CamaraCuCovoare
+- 0  CheieCelula  DepozitCurat
+? CanalLuminos
+= 5  Trapa  BalconUmed
++ 4  Coif  HolGotic
+= 7  Mancare  BeciCuGrinzi
+#  Fantoma  SilozCuFerestre
+= 8  Medalion  IncapereInalta
+? CamaraCurata
+= 9  Coif  TurnCuGratii
+@ Piatra
++ 0  Cufar  ScaraInalta
++ 6  Urias  SilozCuGratii
+- 3  Piatra  SilozCuFerestre
+= 4  Cheie  TunelIntunecat
+@ Liliac
+= 3  Coif  CanalCuScheleti
+- 6  Piatra  IncapereInalta
+@ Medalion
+@ Trapa
++ 8  Mancare  DepozitMurdar
+? BalconUmed
+- 3  CheieCelula  CelulaLuminoasa
++ 10  Cufar  ScaraInalta
+- 5  Speraclu  CanalCuGratii
+= 10  CapcanaPodea  CameraCuTorte
+= 7  Medalion  BibliotecaIntunecata
++ 1  CheieCelula  SalaTorturaCuTorte
++ 5  Aratare  SilozCuGratii
+= 10  Bici  CamaraCuCovoare
+- 9  Spadasin  CantinaMica
+@ CapcanaPodea
+= 4  Speraclu  Cantina
+= 6  Buzdugan  TunelCuGrinzi
++ 2  Piatra  IncapereDarapanata
++ 7  Aratare  BibliotecaIntunecata
+= 8  Aratare  SalaTorturaCuTorte
+- 5  Halberdier  Cantina
+#  Speraclu  SalaTorturaCuTorte
+= 2  Mancare  TunelIntunecat
+- 6  Cheie  HolDenivelat
+= 4  Tigru  CamaraCuCovoare
+= 6  CheieArgintie  BalconUmed
+= 9  Coif  CamarutaMica
++ 2  CapcanaPodea  SilozCuFerestre
+= 6  Aratare  CelulaLuminoasa
+- 2  Piatra  CamaraCuCovoare
+= 2  Liliac  BalconDarapanat
++ 6  CheieArgintie  BalconInalt
+- 0  Aratare  SalaMica
++ 10  Halberdier  HolRotund
++ 7  Halberdier  IncapereCuGrinzi
+- 0  Fantoma  CanalCuGratii
+- 7  Mancare  BeciCuGrinzi
+#  Mancare  ScaraInalta
+- 5  CheieCelula  TunelCuGrinzi
+? IncapereDarapanata
+= 7  Trapa  DepozitCurat
+@ Bici
++ 4  CheieArgintie  CanalCuGratii
++ 4  CapcanaPodea  IncapereInalta
++ 1  Fantoma  BalconDarapanat
+= 10  Buzdugan  IncapereCuFerestre
+= 4  Cheie  SalaTorturaCuTorte
+- 0  Cheie  HolGotic
++ 0  Piatra  CamaraLuminoasa
+? CanalCuScheleti
++ 10  CapcanaPodea  Cantina
++ 9  Fantoma  Cantina
++ 10  CapcanaPodea  BucatarieCuGrinzi
+= 3  Aratare  Cantina
++ 1  Urias  TurnCuGratii
+= 6  Aratare  CanalCuScheleti
+= 4  Medalion  CanalCuGratii
+- 3  Halberdier  HolRotund
+#  CheieArgintie  TunelCuGrinzi
+= 10  Fantoma  BibliotecaMurdara
+#  Trapa  BeciDenivelat
++ 9  Tigru  DepozitMurdar
+- 0  Piatra  CamaraCurata
+= 4  CheieCelula  BeciCuGrinzi
+- 0  CheieArgintie  SilozCuFerestre
+@ Trapa
+@ Speraclu
+- 1  Fantoma  BalconInalt
+= 2  Mancare  CameraRuinata
+#  Coif  SilozCuFerestre
++ 5  Trapa  Cantina
+? CantinaMica
+#  Coif  CamaraCuCovoare
+? SilozCuFerestre
++ 3  CapcanaPodea  SalaTorturaCuTorte
+#  CheieArgintie  IncapereCuGrinzi
+= 2  Speraclu  BibliotecaIntunecata
+= 0  Buzdugan  CameraCuTorte
++ 9  Coif  BalconUmed
++ 1  Speraclu  HolDenivelat
++ 7  Piatra  HolDenivelat
+- 1  Coif  CamaraCurata
+- 1  Bici  CanalLuminos
++ 5  Spadasin  HolGotic
+#  CheieArgintie  SalaMica
+? TurnCuColoane
+#  Urias  ScaraScunda
+#  Liliac  BibliotecaIntunecata
+#  Cheie  TurnMic
+- 14  Halberdier  CameraCuTorte
+#  Medalion  ScaraCuCovoare
++ 7  Fantoma  DepozitCurat
++ 10  CheieArgintie  TurnCuColoane
++ 0  Urias  BibliotecaTriunghiulara
++ 10  Aratare  IncapereInalta
++ 10  Fantoma  SilozCuFerestre
+- 3  CapcanaPodea  TurnCuGratii
++ 4  Liliac  HolRotund
+@ Tigru
+- 0  CheieCelula  PivnitaGotica
++ 7  Tigru  CantinaMica
+#  Aratare  CantinaCurata
+= 3  Halberdier  BucatarieCuGrinzi
+#  CapcanaPodea  HolRotund
++ 1  Medalion  CanalLuminos
+= 9  Liliac  ScaraInalta
+? HolCuScheleti
+= 1  Urias  CanalCuScheleti
++ 4  CheieCelula  CanalCuScheleti
+@ CheieArgintie
+= 8  Speraclu  IncapereGotica
+= 9  CheieArgintie  HolCuScheleti
+#  Spadasin  CanalLuminos
++ 6  Aratare  SilozCuGratii
+- 3  Urias  TunelCuGrinzi
+? Cantina
+- 6  CheieArgintie  CanalLuminos
+#  Speraclu  CantinaMica
++ 10  Spadasin  CantinaMica
+= 10  Coif  SalaMica
+= 8  Speraclu  CanalCuGratii
+#  Bici  CelulaLuminoasa
+- 4  Mancare  BalconInalt
+- 5  Spadasin  HolGotic
++ 2  Cufar  BibliotecaTriunghiulara
++ 6  Speraclu  CanalCuGratii
++ 5  Medalion  CanalCuFerestre
+#  CapcanaPodea  HolCuScheleti
++ 8  Speraclu  FierarieGotica
++ 0  Bici  CamaraCurata
+- 8  Mancare  CanalCuScheleti
+= 8  Fantoma  BalconDarapanat
++ 10  Spadasin  TurnCuColoane
++ 10  Trapa  BalconUmed
+= 0  Bici  CanalCuScheleti
+= 1  Cheie  IncapereDarapanata
+= 4  Speraclu  CelulaLuminoasa
+- 1  Piatra  BeciDenivelat
+? IncapereCuFerestre
+#  Speraclu  CameraRuinata
+= 6  CheieArgintie  BibliotecaIntunecata
++ 1  Coif  CamaraCurata
+= 6  Fantoma  BalconDarapanat
++ 9  Liliac  FierarieGotica
++ 4  Medalion  CameraCuTorte
++ 3  Halberdier  ScaraInalta
+? TurnCuGratii
+- 8  Medalion  IncapereInalta
++ 0  CheieCelula  SilozCuFerestre
+#  Coif  Cantina
+= 5  Trapa  CantinaCurata
++ 9  Medalion  CamaraCuCovoare
++ 8  Mancare  SilozCuGratii
+- 0  CapcanaPodea  TurnCuGratii
+? IncapereGotica
+? ScaraCuCovoare
+= 7  Bici  BibliotecaMurdara
++ 10  CheieCelula  CamaraLuminoasa
++ 8  Coif  CameraRuinata
+? BibliotecaIntunecata
+- 0  Bici  CanalCuScheleti
++ 0  CheieArgintie  CameraRuinata
+#  Tigru  CamaraCuCovoare
+= 5  Liliac  TunelCuGrinzi
+#  Bici  TurnCuColoane
+= 10  Buzdugan  CamaraLuminoasa
+= 7  Medalion  ScaraCuCovoare
++ 8  Liliac  PivnitaGotica
+- 2  Liliac  DepozitCurat
+- 4  CheieArgintie  TunelCuGrinzi
+#  Speraclu  BibliotecaTriunghiulara
+= 10  Spadasin  BeciDenivelat
+- 8  Cheie  BeciCuGrinzi
+#  Cheie  BibliotecaTriunghiulara
++ 6  Medalion  BibliotecaRotunda
+- 4  Bici  TunelIntunecat
+#  Spadasin  CantinaCurata
+@ Buzdugan
+- 10  Spadasin  TurnCuColoane
+= 4  Medalion  IncapereGotica
+#  Buzdugan  SalaMica
++ 9  Bici  BibliotecaIntunecata
++ 9  Cheie  IncapereDarapanata
+= 7  Cheie  IncapereDarapanata
+= 3  Urias  CelulaLuminoasa
+= 3  Cufar  CantinaMica
+= 8  Piatra  ScaraCuCovoare
+= 3  Medalion  IncapereGotica
++ 5  Trapa  HolRotund
++ 2  Medalion  IncapereGotica
+#  Halberdier  HolMare
+= 2  Halberdier  CantinaCurata
++ 3  CapcanaPodea  TunelIntunecat
+? TunelIntunecat
+- 4  CapcanaPodea  HolDenivelat
+@ Buzdugan
+- 5  Mancare  HolGotic
+? BeciCuGrinzi
+= 2  Mancare  PivnitaGotica
++ 10  Bici  TurnCuGratii
+= 6  Fantoma  TurnCuGratii
+? SalaMica
+- 4  CapcanaPodea  BibliotecaMurdara
+- 0  Buzdugan  IncapereGotica
+= 6  Piatra  ScaraCuCovoare
++ 4  Tigru  BalconUmed
+- 6  Spadasin  CanalCuFerestre
+= 10  Spadasin  CantinaMica
++ 4  CheieArgintie  BibliotecaMurdara
++ 2  Trapa  IncapereCuGrinzi
++ 5  Tigru  CanalCuScheleti
+? CamaraLuminoasa
+#  Cheie  IncapereInalta
+= 7  Spadasin  IncapereGotica
+- 5  Medalion  IncapereGotica
++ 8  Aratare  SilozCuFerestre
+= 7  Urias  BibliotecaMurdara
++ 7  Spadasin  CamarutaMica
+? CantinaMica
+? IncapereInalta
++ 7  Fantoma  CelulaLuminoasa
+= 6  Piatra  CanalCuGratii
+? BucatarieCuGrinzi
+= 10  Bici  BalconUmed
++ 8  Buzdugan  SilozCuGratii
++ 7  Spadasin  IncapereDarapanata
+- 1  Urias  TurnCuGratii
+= 5  Halberdier  CanalLuminos
+= 6  CapcanaPodea  BalconUmed
++ 7  Trapa  IncapereCuFerestre
+= 5  Tigru  BucatarieCuGrinzi
+= 4  Speraclu  CamarutaMica
+#  Fantoma  BalconDarapanat
++ 10  CapcanaPodea  SalaTorturaCuTorte
++ 1  Halberdier  CamarutaMica
+@ Tigru
+= 4  Urias  IncapereInalta
+? TurnCuColoane
+#  Cufar  SilozCuFerestre
++ 4  Piatra  HolMare
++ 6  Trapa  CantinaCurata
+= 5  Medalion  CamaraLuminoasa
+#  Liliac  CanalCuGratii
++ 0  Mancare  IncapereCuFerestre
++ 8  Medalion  DepozitMurdar
+@ CheieCelula
++ 4  Spadasin  BibliotecaTriunghiulara
+#  Aratare  TunelCuGrinzi
+= 3  Urias  SilozCuFerestre
++ 6  Piatra  HolDenivelat
+@ Aratare
+- 2  CapcanaPodea  DepozitMurdar
+- 1  Mancare  BibliotecaMurdara
+@ Mancare
+= 5  Trapa  TurnCuGratii
++ 10  Halberdier  IncapereInalta
+#  Cheie  BeciCuGrinzi
+@ CapcanaPodea
+- 7  Speraclu  HolRotund
+= 9  Piatra  TurnCuColoane
+- 1  Trapa  BalconInalt
+- 15  Mancare  CantinaMica
+= 2  Piatra  BibliotecaMurdara
+= 0  Aratare  FierarieGotica
+= 2  Speraclu  HolDenivelat
++ 8  Mancare  CanalLuminos
+= 2  CheieCelula  CantinaMica
+= 2  Buzdugan  CanalCuScheleti
+= 7  Speraclu  CamaraCuCovoare
++ 4  Cheie  CanalLuminos
+= 10  Halberdier  CamarutaMica
+- 1  CheieArgintie  SilozCuGratii
+= 8  Tigru  CanalCuGratii
+- 6  Aratare  PivnitaGotica
+- 6  Aratare  CantinaMica
++ 8  CapcanaPodea  CamaraLuminoasa
+? IncapereInalta
+- 8  Aratare  SalaTorturaCuTorte
++ 10  Tigru  CanalCuGratii
++ 6  Fantoma  ScaraCuCovoare
++ 0  Spadasin  FierarieGotica
+@ Spadasin
++ 6  Aratare  CamaraCuCovoare
+= 7  Spadasin  IncapereCuFerestre
+= 8  CheieCelula  ScaraInalta
+- 1  Medalion  SalaMica
+#  Urias  TurnCuGratii
+#  Cufar  HolGotic
+- 4  Medalion  Cantina
+- 4  CheieCelula  BeciCuGrinzi
+= 3  Buzdugan  DepozitCurat
++ 7  Cheie  TurnCuColoane
+= 8  Urias  BibliotecaTriunghiulara
++ 0  Speraclu  SilozCuFerestre
++ 6  Piatra  SilozCuGratii
+? SilozCuGratii
+= 4  Buzdugan  HolRotund
+#  Cheie  DepozitCurat
++ 10  Trapa  TurnCuGratii
++ 1  Cufar  IncapereDarapanata
++ 7  Buzdugan  BibliotecaTriunghiulara
+= 4  Aratare  TurnMic
+= 7  Tigru  BibliotecaRotunda
++ 7  Cheie  CamaraCurata
+= 7  Trapa  BalconInalt
++ 5  Coif  TurnCuGratii
++ 2  Tigru  HolCuScheleti
+? DepozitMurdar
+= 8  Medalion  SilozCuFerestre
++ 9  Medalion  DepozitCurat
++ 4  Piatra  TunelIntunecat
+= 10  CheieCelula  IncapereGotica
+#  Piatra  CamaraCuCovoare
+#  Cheie  CamarutaMica
+@ CheieCelula
+= 5  Buzdugan  HolMare
+= 3  Liliac  IncapereCuFerestre
+@ Speraclu
++ 9  Piatra  TunelIntunecat
+? ScaraCuCovoare
+@ Trapa
+@ Spadasin
+= 0  Cheie  CanalLuminos
+- 0  Halberdier  CameraCuTorte
+= 10  Tigru  TurnCuColoane
+#  Cheie  IncapereCuGrinzi
+= 3  Mancare  IncapereInalta
+@ CheieArgintie
+@ Piatra
+- 0  Tigru  HolMare
+= 5  Buzdugan  PivnitaGotica
+? CamaraLuminoasa
+- 12  Medalion  BibliotecaRotunda
+= 4  Aratare  CantinaMica
+@ CheieArgintie
+@ Liliac
+@ Bici
+- 2  Bici  BibliotecaTriunghiulara
++ 6  Speraclu  CanalLuminos
+#  Liliac  BucatarieCuGrinzi
+? CanalCuScheleti
+- 10  CapcanaPodea  BucatarieCuGrinzi
+- 0  Speraclu  IncapereInalta
++ 8  Medalion  DepozitMurdar
+@ Urias
+- 0  Liliac  CamaraLuminoasa
+- 1  Spadasin  CantinaCurata
+= 3  Trapa  CanalCuFerestre
+= 8  CheieArgintie  CantinaMica
++ 5  Coif  BibliotecaRotunda
+? PivnitaGotica
++ 0  CheieCelula  SalaMica
++ 10  Liliac  CameraCuTorte
++ 7  Liliac  ScaraCuCovoare
++ 7  CheieCelula  TunelCuGrinzi
+= 0  Liliac  HolGotic
++ 3  Buzdugan  DepozitCurat
++ 7  Piatra  CamaraCurata
+#  Aratare  HolGotic
+- 0  CheieCelula  TurnCuColoane
+#  Speraclu  PivnitaGotica
+= 1  Aratare  FierarieGotica
+- 1  Aratare  FierarieGotica
+? HolMare
++ 3  Buzdugan  DepozitMurdar
+- 10  Buzdugan  IncapereCuFerestre
+#  Trapa  PivnitaGotica
+- 1  Urias  IncapereDarapanata
+? HolGotic
++ 4  Tigru  CantinaMica
+@ Cheie
+= 3  Halberdier  IncapereCuGrinzi
+@ Bici
+? BibliotecaTriunghiulara
+= 5  Spadasin  BalconDarapanat
+#  Fantoma  BalconInalt
+= 4  Cheie  Cantina
+= 7  Coif  HolRotund
+? CameraCuTorte
+= 2  Fantoma  CamarutaMica
+= 4  Liliac  BeciDenivelat
+- 3  Halberdier  CanalCuScheleti
++ 7  CheieCelula  CamaraCuCovoare
++ 7  Liliac  BeciDenivelat
+@ Spadasin
+@ CapcanaPodea
+- 1  CheieCelula  HolMare
+@ Tigru
+= 0  Urias  BalconDarapanat
+= 4  CapcanaPodea  BalconUmed
+@ Cheie
+#  Trapa  TunelIntunecat
+= 2  Aratare  SalaMica
+? CameraCuTorte
+= 1  Trapa  BalconDarapanat
+= 8  Fantoma  BeciCuGrinzi
+= 1  CheieArgintie  CantinaMica
+? CanalCuScheleti
++ 6  CapcanaPodea  IncapereGotica
++ 2  Halberdier  SilozCuGratii
+#  CheieArgintie  IncapereGotica
++ 2  Cufar  DepozitMurdar
++ 9  Halberdier  BalconUmed
+= 2  Aratare  ScaraScunda
+= 2  Fantoma  BibliotecaIntunecata
+= 1  Cheie  IncapereCuGrinzi
++ 5  Piatra  BalconUmed
+= 9  CheieArgintie  BibliotecaMurdara
+= 7  Cheie  IncapereCuFerestre
+- 0  Speraclu  SilozCuFerestre
+- 0  CapcanaPodea  BeciDenivelat
+- 1  Piatra  CanalCuGratii
++ 9  Liliac  CantinaMica
+? CantinaMica
++ 2  CheieCelula  BibliotecaRotunda
+@ Spadasin
+- 1  CapcanaPodea  HolRotund
+- 2  Mancare  DepozitMurdar
+= 1  Bici  ScaraInalta
++ 1  CheieArgintie  CantinaCurata
++ 4  Speraclu  ScaraInalta
++ 7  Bici  BalconDarapanat
+#  Mancare  BibliotecaTriunghiulara
+= 5  Cufar  BibliotecaRotunda
++ 5  Medalion  IncapereInalta
++ 1  Liliac  SilozCuFerestre
+= 1  Medalion  IncapereInalta
+= 5  Trapa  IncapereCuGrinzi
+= 5  Aratare  HolGotic
+= 0  Tigru  BeciDenivelat
+= 5  Buzdugan  HolRotund
+= 3  Liliac  ScaraScunda
+- 1  Piatra  BibliotecaTriunghiulara
+@ Medalion
+? TunelCuGrinzi
+? FierarieGotica
++ 4  Aratare  CantinaCurata
+@ Spadasin
+= 7  Cheie  CanalCuFerestre
+= 8  CheieArgintie  CamarutaMica
++ 2  Medalion  BibliotecaMurdara
+= 4  Trapa  CamaraCurata
++ 8  Liliac  HolCuScheleti
+@ Cheie
++ 5  Fantoma  ScaraScunda
++ 1  Coif  CantinaCurata
+@ Cheie
++ 8  CapcanaPodea  BibliotecaRotunda
+? BeciCuGrinzi
+= 4  Bici  TurnCuColoane
++ 8  Cheie  IncapereDarapanata
+#  CheieCelula  DepozitCurat
++ 8  Bici  BibliotecaMurdara
++ 4  Trapa  CameraRuinata
+@ Spadasin
+= 0  CheieCelula  CameraRuinata
+= 6  Cheie  HolMare
+#  CheieArgintie  HolMare
+= 4  Piatra  IncapereCuGrinzi
+#  Halberdier  CamaraCuCovoare
+@ Aratare
+= 3  Halberdier  BibliotecaTriunghiulara
+= 7  Medalion  DepozitMurdar
+= 5  Medalion  CameraCuTorte
+= 10  Trapa  ScaraCuCovoare
+- 0  Medalion  BeciDenivelat
+= 4  Bici  FierarieGotica
+? SalaTorturaCuTorte
+= 1  Coif  SilozCuFerestre
+= 10  Speraclu  TurnCuColoane
++ 9  Medalion  BucatarieCuGrinzi
+#  Buzdugan  BalconDarapanat
+@ Piatra
+- 8  Halberdier  ScaraInalta
+= 0  Mancare  CamaraCuCovoare
++ 3  Urias  SilozCuGratii
++ 5  Liliac  BalconInalt
++ 4  CheieArgintie  HolRotund
+? HolMare
++ 3  Cufar  DepozitCurat
++ 7  Coif  TurnCuColoane
+= 0  Coif  IncapereCuFerestre
++ 1  Liliac  BibliotecaRotunda
+= 4  CheieArgintie  CanalCuScheleti
+@ CheieCelula
+? BibliotecaIntunecata
+@ CheieCelula
+? SilozCuGratii
+? HolGotic
+= 3  Cheie  IncapereCuFerestre
++ 4  Tigru  BalconInalt
+? DepozitCurat
+? IncapereCuFerestre
++ 8  Mancare  BibliotecaTriunghiulara
++ 6  Spadasin  HolDenivelat
++ 1  Cufar  CameraCuTorte
++ 6  Spadasin  CamaraCuCovoare
+= 0  Buzdugan  TurnCuColoane
+= 1  CapcanaPodea  CamaraCurata
+#  Spadasin  HolGotic
+#  Tigru  BibliotecaMurdara
+= 1  Coif  BeciCuGrinzi
+@ Trapa
+= 8  Tigru  CameraCuTorte
+= 6  Piatra  HolMare
+@ CheieCelula
+= 0  Speraclu  TurnCuColoane
+- 0  Tigru  CameraCuTorte
++ 8  CapcanaPodea  CanalCuScheleti
+#  Medalion  TurnMic
++ 8  Halberdier  TunelIntunecat
+- 10  Coif  SilozCuGratii
+= 5  CheieArgintie  HolRotund
+@ Tigru
+#  Medalion  Cantina
+= 3  Tigru  CanalCuFerestre
++ 6  Aratare  HolCuScheleti
+- 9  Mancare  BibliotecaTriunghiulara
++ 6  Aratare  BeciCuGrinzi
++ 4  Buzdugan  IncapereInalta
++ 4  Trapa  Cantina
++ 6  Tigru  TunelIntunecat
++ 8  Tigru  CanalLuminos
++ 10  Mancare  BibliotecaTriunghiulara
+#  Speraclu  TunelIntunecat
+= 6  Medalion  Cantina
++ 7  Cheie  CamarutaMica
+= 4  Spadasin  BalconUmed
+= 6  Speraclu  PivnitaGotica
+? BibliotecaIntunecata
+- 3  Aratare  BeciDenivelat
++ 10  Coif  ScaraScunda
++ 6  Buzdugan  TurnCuGratii
++ 7  Mancare  IncapereGotica
+= 2  Aratare  SilozCuFerestre
+= 10  Cheie  IncapereCuGrinzi
+= 9  CheieCelula  Cantina
+#  CheieArgintie  BalconDarapanat
+= 4  Urias  BalconUmed
+#  Trapa  ScaraCuCovoare
+- 0  Medalion  BalconInalt
+- 2  Fantoma  BibliotecaIntunecata
+= 4  Buzdugan  HolDenivelat
+? PivnitaGotica
+- 0  Cufar  IncapereCuFerestre
+- 0  Cufar  CamaraCuCovoare
++ 1  Bici  CanalCuScheleti
++ 8  Speraclu  CamaraCurata
+? PivnitaGotica
+@ Liliac
+? TunelCuGrinzi
+= 4  Liliac  SalaMica
+? TunelIntunecat
+? CamarutaMica
++ 8  Mancare  TunelIntunecat
++ 8  Halberdier  IncapereCuGrinzi
+= 10  Speraclu  ScaraCuCovoare
++ 9  CheieArgintie  ScaraCuCovoare
+? CameraCuTorte
++ 6  Speraclu  TunelIntunecat
+= 0  Piatra  DepozitCurat
++ 0  CheieArgintie  CanalLuminos
+@ CapcanaPodea
+- 0  Piatra  BeciDenivelat
+- 10  Cheie  CantinaCurata
+#  Bici  IncapereCuFerestre
+= 1  Spadasin  HolRotund
+@ Coif
+- 1  Coif  SalaTorturaCuTorte
++ 7  Urias  CanalLuminos
+= 1  CheieCelula  ScaraInalta
+#  Tigru  IncapereGotica
++ 0  Halberdier  CameraRuinata
++ 2  Spadasin  CanalLuminos
+= 6  Cheie  IncapereCuGrinzi
+- 1  Urias  CantinaMica
+#  Trapa  ScaraCuCovoare
+= 10  Spadasin  CameraRuinata
++ 8  Medalion  TunelIntunecat
+= 8  Cufar  TurnMic
++ 4  Fantoma  IncapereDarapanata
+? TurnCuColoane
+@ Liliac
+= 0  Mancare  HolMare
+#  Coif  TunelIntunecat
+@ Tigru
+@ Fantoma
+? CamaraCurata
+= 0  Halberdier  TurnCuColoane
+@ Bici
+= 3  Urias  CamarutaMica
+#  Cufar  HolGotic
+= 5  Mancare  TurnCuColoane
+= 8  Buzdugan  ScaraInalta
+#  Trapa  IncapereDarapanata
+- 0  Trapa  IncapereInalta
+= 9  CheieCelula  IncapereInalta
++ 7  Tigru  CamaraCuCovoare
+@ Aratare
++ 8  Urias  DepozitCurat
+= 5  Cheie  HolMare
++ 9  Mancare  BeciCuGrinzi
++ 7  Liliac  DepozitCurat
++ 6  Urias  BeciCuGrinzi
+- 1  Tigru  IncapereDarapanata
+= 6  Speraclu  SilozCuGratii
+= 5  Fantoma  ScaraInalta
++ 2  Liliac  BibliotecaRotunda
+@ Liliac
+#  Tigru  BalconUmed
++ 3  Cheie  BalconInalt
+- 7  Coif  TurnCuColoane
+? BalconUmed
+= 8  Mancare  IncapereCuFerestre
+= 5  Speraclu  IncapereInalta
+= 6  Piatra  CanalLuminos
++ 2  CheieCelula  SilozCuFerestre
+= 7  Spadasin  BucatarieCuGrinzi
++ 3  CapcanaPodea  HolCuScheleti
+- 0  Aratare  BeciDenivelat
+#  Liliac  SilozCuFerestre
+? DepozitMurdar
+@ Buzdugan
+= 7  Bici  SilozCuFerestre
+- 1  Spadasin  SalaTorturaCuTorte
+= 10  Speraclu  DepozitMurdar
+? TunelIntunecat
+- 9  Fantoma  SilozCuFerestre
+- 2  Aratare  ScaraScunda
+= 8  Liliac  CanalLuminos
+? CantinaCurata
+@ Spadasin
+= 10  Trapa  CanalCuFerestre
+- 2  Tigru  IncapereCuGrinzi
+- 7  Medalion  ScaraCuCovoare
++ 8  Tigru  IncapereCuGrinzi
+- 2  Spadasin  BibliotecaRotunda
+? FierarieGotica
+? SilozCuFerestre
+? BalconInalt
+- 0  Piatra  ScaraCuCovoare
++ 7  Trapa  IncapereCuGrinzi
++ 10  Urias  CameraRuinata
+@ Spadasin
+- 0  Cheie  CantinaCurata
+= 0  Bici  CameraRuinata
+= 7  Piatra  BibliotecaIntunecata
++ 5  CheieArgintie  CamaraCurata
++ 10  CheieArgintie  CameraCuTorte
+- 8  Aratare  CanalLuminos
++ 8  Liliac  SalaMica
++ 2  Medalion  ScaraCuCovoare
+- 10  Mancare  BibliotecaTriunghiulara
+? CantinaMica
+= 2  CheieArgintie  SalaTorturaCuTorte
+= 0  Fantoma  IncapereCuGrinzi
+= 6  Tigru  CantinaCurata
++ 2  Mancare  HolGotic
+- 0  Halberdier  ScaraInalta
+= 4  Cufar  HolDenivelat
+- 7  Mancare  CanalLuminos
+= 9  Liliac  CameraCuTorte
+= 1  Coif  HolDenivelat
++ 2  Speraclu  BibliotecaTriunghiulara
+#  Speraclu  CamaraCurata
++ 10  Buzdugan  CamarutaMica
++ 5  Urias  BeciDenivelat
+? DepozitMurdar
+#  Piatra  SilozCuGratii
+#  Spadasin  CamarutaMica
+= 7  Trapa  HolRotund
++ 1  Medalion  IncapereGotica
+- 0  CheieCelula  CelulaLuminoasa
+? HolGotic
+- 5  Buzdugan  DepozitCurat
++ 3  Liliac  HolRotund
+- 2  Speraclu  CameraRuinata
++ 10  Speraclu  BibliotecaIntunecata
+= 8  Piatra  ScaraScunda
++ 5  Buzdugan  DepozitCurat
+#  CheieCelula  CameraRuinata
+= 10  CheieCelula  TurnCuColoane
++ 0  Cufar  HolDenivelat
++ 8  CapcanaPodea  TunelCuGrinzi
+- 4  Mancare  CelulaLuminoasa
+- 9  Fantoma  IncapereDarapanata
+@ Trapa
++ 2  Liliac  BalconUmed
+#  Liliac  SilozCuFerestre
+@ Coif
+= 7  Cufar  BibliotecaIntunecata
+? FierarieGotica
+= 4  Trapa  BibliotecaMurdara
+- 2  Coif  CelulaLuminoasa
+- 6  Trapa  BibliotecaTriunghiulara
++ 10  Aratare  FierarieGotica
+#  CheieCelula  HolDenivelat
+@ Cufar
+- 15  Medalion  SilozCuGratii
+= 2  Mancare  BalconInalt
+? HolMare
++ 1  Liliac  CamarutaMica
+- 0  Mancare  HolDenivelat
+= 6  Piatra  SilozCuFerestre
+? CanalLuminos
+= 10  Coif  SalaTorturaCuTorte
+- 7  Trapa  IncapereCuFerestre
+= 5  CheieArgintie  BibliotecaRotunda
+= 5  Cufar  FierarieGotica
++ 3  Liliac  TurnMic
+= 10  Halberdier  BalconDarapanat
+= 10  Spadasin  TurnCuColoane
+= 2  Cheie  SalaTorturaCuTorte
++ 10  CapcanaPodea  ScaraInalta
+? BucatarieCuGrinzi
+@ Halberdier
+- 0  CapcanaPodea  TurnCuGratii
+= 6  Mancare  CanalCuFerestre
+#  Cufar  CameraCuTorte
+- 0  CapcanaPodea  IncapereGotica
+= 4  Trapa  Cantina
+= 9  CapcanaPodea  Cantina
++ 6  Piatra  CanalLuminos
++ 6  Speraclu  CamarutaMica
+= 5  Aratare  BalconInalt
+= 5  CheieCelula  TurnMic
++ 3  Cheie  BibliotecaIntunecata
+#  CheieArgintie  IncapereGotica
+= 0  Cufar  CantinaMica
+= 10  Liliac  BibliotecaTriunghiulara
+= 3  Mancare  SilozCuFerestre
++ 3  Medalion  TunelIntunecat
++ 7  Halberdier  BalconInalt
+- 0  CapcanaPodea  IncapereCuGrinzi
+= 10  Buzdugan  CamaraLuminoasa
+#  Coif  ScaraCuCovoare
++ 8  Urias  PivnitaGotica
+- 0  Bici  TunelIntunecat
+? IncapereGotica
+? CanalLuminos
++ 2  Medalion  HolCuScheleti
+#  CheieCelula  CanalLuminos
+- 1  Coif  CamaraCurata
++ 2  Mancare  CamaraCurata
+= 3  CapcanaPodea  SilozCuFerestre
+- 24  Tigru  CanalCuScheleti
++ 10  Liliac  HolRotund
++ 0  Speraclu  ScaraInalta
+= 5  Speraclu  CamaraLuminoasa
++ 2  Fantoma  BalconUmed
++ 9  Cheie  DepozitMurdar
+@ Tigru
+#  Liliac  BeciDenivelat
++ 7  Mancare  IncapereDarapanata
+= 6  Aratare  BalconInalt
+= 10  Bici  Cantina
+- 4  Coif  HolGotic
+#  Fantoma  ScaraCuCovoare
+? SalaMica
++ 5  Halberdier  CamaraLuminoasa
+@ Medalion
+= 9  Bici  SalaMica
++ 4  Spadasin  SilozCuFerestre
++ 9  Piatra  TurnCuColoane
+- 2  Fantoma  DepozitMurdar
+= 0  Bici  FierarieGotica
+#  Liliac  CanalCuGratii
+#  Medalion  TurnCuGratii
+= 5  Buzdugan  IncapereInalta
+= 1  Fantoma  Cantina
+= 4  Fantoma  IncapereGotica
+@ Cufar
+= 3  Halberdier  BeciDenivelat
+? HolRotund
+- 0  Fantoma  TunelIntunecat
+= 10  Cufar  SalaMica
+@ Coif
+- 8  CheieArgintie  FierarieGotica
+? IncapereInalta
+#  Bici  ScaraInalta
+= 5  CheieCelula  IncapereCuFerestre
+- 5  CheieCelula  TurnMic
+#  CheieArgintie  BibliotecaTriunghiulara
+#  Cheie  IncapereDarapanata
+? TurnCuColoane
+? TurnCuColoane
+- 1  Bici  ScaraInalta
+@ Fantoma
++ 5  Piatra  HolDenivelat
+- 3  Mancare  SilozCuFerestre
++ 10  Cufar  IncapereGotica
+#  Medalion  TurnCuGratii
+= 10  CapcanaPodea  CamaraCurata
+#  CapcanaPodea  ScaraScunda
+#  Spadasin  BibliotecaMurdara
++ 7  Halberdier  HolMare
+= 1  CheieCelula  CamaraLuminoasa
+= 3  Liliac  TurnCuGratii
+- 2  Halberdier  SilozCuGratii
+= 4  Coif  BibliotecaIntunecata
+= 5  Spadasin  TurnCuColoane
+#  Medalion  CanalCuFerestre
+= 6  Cufar  IncapereGotica
+- 5  Cufar  IncapereDarapanata
+#  Trapa  BibliotecaTriunghiulara
+= 6  CheieArgintie  ScaraScunda
++ 9  CheieCelula  DepozitMurdar
+= 9  Mancare  TurnMic
+- 2  Fantoma  CamarutaMica
+- 6  Speraclu  CanalLuminos
+- 1  Speraclu  IncapereCuGrinzi
+- 0  Fantoma  IncapereDarapanata
+? BucatarieCuGrinzi
+= 9  Urias  SilozCuGratii
+@ Piatra
++ 4  Tigru  HolGotic
++ 6  Fantoma  CanalLuminos
+#  Urias  TunelIntunecat
++ 9  Cufar  BibliotecaMurdara
+? BibliotecaMurdara
+= 4  Cufar  BucatarieCuGrinzi
+= 1  CheieCelula  CamaraCurata
+? BibliotecaMurdara
+#  Buzdugan  SilozCuGratii
+- 3  Aratare  DepozitMurdar
+= 8  Spadasin  CamaraCurata
++ 5  Liliac  IncapereInalta
+@ Cufar
+- 0  Buzdugan  IncapereCuFerestre
++ 2  Medalion  BibliotecaIntunecata
+- 1  Cheie  BibliotecaTriunghiulara
++ 8  CheieCelula  HolRotund
++ 7  Aratare  IncapereCuFerestre
+@ Liliac
+#  Medalion  SalaTorturaCuTorte
+#  Coif  TurnCuGratii
+? BibliotecaMurdara
+#  Fantoma  BibliotecaTriunghiulara
++ 6  CheieArgintie  Cantina
+- 4  Urias  DepozitCurat
+- 2  Medalion  HolCuScheleti
++ 4  Speraclu  HolCuScheleti
+@ Cufar
+= 9  Buzdugan  SilozCuFerestre
++ 3  Medalion  BibliotecaRotunda
+= 6  Piatra  BibliotecaMurdara
+@ Cheie
++ 7  Fantoma  BeciDenivelat
+= 3  CapcanaPodea  SilozCuGratii
+= 9  Bici  CantinaCurata
+- 0  Piatra  CamaraCuCovoare
+= 4  CheieArgintie  CameraRuinata
+#  Mancare  BibliotecaRotunda
+= 8  Aratare  BalconInalt
+? HolRotund
++ 10  Trapa  BucatarieCuGrinzi
++ 7  Tigru  CamaraCurata
+#  Spadasin  HolGotic
+= 9  Halberdier  IncapereCuGrinzi
+? ScaraCuCovoare
+? Cantina
+#  CheieArgintie  CamaraLuminoasa
+= 8  Fantoma  CamaraLuminoasa
+- 10  Urias  ScaraScunda
++ 4  Medalion  HolCuScheleti
+@ Tigru
++ 8  Urias  IncapereGotica
+@ Coif
+@ CheieCelula
+- 0  CapcanaPodea  IncapereCuGrinzi
+= 1  Buzdugan  IncapereCuFerestre
++ 6  Urias  ScaraInalta
+? TunelCuGrinzi
+@ CheieArgintie
+? BucatarieCuGrinzi
+= 2  Fantoma  CamaraCurata
+- 2  Cufar  HolCuScheleti
++ 2  Spadasin  IncapereGotica
+= 1  Medalion  SalaTorturaCuTorte
+= 4  Cheie  CelulaLuminoasa
+@ CheieCelula
++ 3  Spadasin  IncapereDarapanata
+- 2  Speraclu  BibliotecaTriunghiulara
+@ Speraclu
+@ Spadasin
++ 9  Buzdugan  HolRotund
+@ Speraclu
+@ Spadasin
++ 3  Aratare  SilozCuGratii
+@ Cheie
++ 4  Aratare  BucatarieCuGrinzi
+= 9  Tigru  CamaraLuminoasa
++ 8  Cufar  HolDenivelat
+- 0  Bici  CantinaCurata
++ 10  Trapa  SalaTorturaCuTorte
++ 8  Mancare  BeciDenivelat
++ 8  CheieArgintie  CantinaCurata
+= 2  CheieCelula  CantinaCurata
+= 10  Coif  ScaraCuCovoare
+- 2  Mancare  CameraCuTorte
+- 9  Spadasin  SalaMica
++ 1  Coif  TurnMic
+#  Medalion  CantinaMica
+= 9  Coif  CantinaCurata
++ 2  Speraclu  CelulaLuminoasa
+#  CheieArgintie  HolRotund
+? BalconDarapanat
+@ Bici
+= 7  Liliac  CameraRuinata
+= 6  Spadasin  CameraRuinata
++ 5  Mancare  DepozitCurat
+= 0  Aratare  FierarieGotica
+= 7  Halberdier  CamarutaMica
+= 2  Medalion  SalaTorturaCuTorte
+- 10  Speraclu  DepozitMurdar
+- 7  CheieCelula  CamaraCuCovoare
++ 10  Urias  CantinaCurata
+@ Mancare
+= 10  Cheie  TunelIntunecat
+= 7  Bici  IncapereCuGrinzi
+? ScaraCuCovoare
+= 3  Bici  IncapereGotica
+- 3  Mancare  DepozitMurdar
++ 0  Cufar  HolGotic
+? FierarieGotica
+= 3  Cheie  BibliotecaMurdara
+= 4  Bici  SilozCuGratii
+@ Medalion
+? IncapereCuFerestre
+? IncapereDarapanata
++ 2  Trapa  BibliotecaTriunghiulara
++ 4  Bici  CantinaMica
+= 6  Coif  FierarieGotica
++ 10  Halberdier  FierarieGotica
+@ Aratare
+= 4  Speraclu  CantinaMica
++ 7  Buzdugan  CanalCuScheleti
+@ CapcanaPodea
+@ Urias
+- 1  CapcanaPodea  BalconDarapanat
++ 5  Coif  CanalCuScheleti
+- 0  Urias  BibliotecaRotunda
+@ Cufar
++ 10  Cufar  SilozCuFerestre
+@ Halberdier
+- 0  Cufar  BeciDenivelat
+#  CheieArgintie  BeciDenivelat
+= 8  Liliac  BeciCuGrinzi
+#  Cufar  TunelCuGrinzi
+#  Urias  TurnCuColoane
+= 4  Liliac  BeciCuGrinzi
+= 8  Buzdugan  TunelIntunecat
++ 4  Aratare  BucatarieCuGrinzi
+- 1  CheieArgintie  CantinaMica
+= 0  Halberdier  BibliotecaMurdara
+= 0  Cheie  BalconInalt
++ 1  CheieArgintie  SilozCuGratii
++ 2  CheieArgintie  CamaraCuCovoare
+= 2  Trapa  CelulaLuminoasa
+= 7  Urias  CamarutaMica
+- 1  Medalion  BeciCuGrinzi
++ 4  Trapa  SilozCuFerestre
+= 1  CheieCelula  SilozCuFerestre
+= 1  CheieCelula  CamarutaMica
+- 4  CheieArgintie  CameraRuinata
+#  Mancare  BalconDarapanat
+- 5  Coif  BibliotecaRotunda
++ 8  Coif  BalconUmed
+= 0  Halberdier  CameraRuinata
++ 5  CheieArgintie  CelulaLuminoasa
+- 0  Urias  TurnCuGratii
+? BibliotecaIntunecata
+- 4  CheieCelula  CanalCuScheleti
+@ Cufar
+= 5  CheieCelula  FierarieGotica
+#  Urias  CanalLuminos
++ 2  Medalion  ScaraInalta
+= 9  Coif  CameraRuinata
++ 10  CheieCelula  CelulaLuminoasa
++ 0  Buzdugan  IncapereCuGrinzi
+= 2  CapcanaPodea  BalconUmed
+@ Mancare
++ 0  Tigru  TurnMic
+- 0  Mancare  SilozCuFerestre
+#  Spadasin  ScaraCuCovoare
++ 0  Tigru  BeciCuGrinzi
++ 9  Halberdier  CanalLuminos
+#  Halberdier  BalconDarapanat
+#  Coif  HolDenivelat
+= 8  Trapa  HolRotund
+= 1  Piatra  Cantina
++ 0  CheieArgintie  CantinaCurata
++ 0  Trapa  HolMare
+= 4  Liliac  CameraCuTorte
+- 10  CheieCelula  CelulaLuminoasa
+= 10  Cufar  DepozitCurat
+? IncapereCuGrinzi
+@ Speraclu
++ 7  Halberdier  BeciCuGrinzi
+@ Liliac
+= 1  Piatra  BibliotecaIntunecata
++ 10  CapcanaPodea  DepozitCurat
+- 0  CheieCelula  SalaMica
+= 1  Halberdier  IncapereDarapanata
+= 0  Halberdier  BucatarieCuGrinzi
+- 10  Speraclu  BibliotecaRotunda
+- 0  Speraclu  BibliotecaRotunda
+= 1  Urias  CameraRuinata
++ 0  Trapa  BalconDarapanat
+@ CheieArgintie
+= 6  Fantoma  CamarutaMica
+#  CheieArgintie  Cantina
+= 9  Medalion  Cantina
+= 7  Buzdugan  CamaraCuCovoare
+- 3  Spadasin  TurnMic
+= 0  Spadasin  CanalLuminos
+= 1  Spadasin  BucatarieCuGrinzi
+@ Bici
+= 10  Buzdugan  BibliotecaTriunghiulara
++ 5  Speraclu  CelulaLuminoasa
++ 5  CheieCelula  CantinaCurata
+#  Halberdier  CantinaMica
++ 2  Cufar  CanalLuminos
+= 5  Bici  IncapereCuGrinzi
+- 7  CapcanaPodea  PivnitaGotica
+? BibliotecaMurdara
+@ CheieArgintie
++ 9  Halberdier  IncapereGotica
+- 0  Cufar  HolGotic
+? ScaraScunda
+= 9  Bici  BibliotecaTriunghiulara
+- 0  Cheie  CanalLuminos
+@ Trapa
+? SalaTorturaCuTorte
++ 5  Spadasin  CanalCuScheleti
+@ Spadasin
++ 6  Spadasin  CantinaCurata
+@ Buzdugan
+- 0  Halberdier  CameraRuinata
++ 3  Tigru  IncapereCuGrinzi
++ 4  Liliac  IncapereGotica
+= 4  CheieArgintie  IncapereInalta
+@ Halberdier
+#  Trapa  BalconInalt
+- 3  Liliac  BeciCuGrinzi
+- 0  Urias  TurnCuGratii
+= 3  Cheie  CantinaMica
+- 11  Cheie  TurnCuColoane
+- 4  Speraclu  ScaraInalta
+- 1  Liliac  BibliotecaRotunda
++ 3  Trapa  TunelIntunecat
+@ Bici
+- 10  Piatra  HolCuScheleti
+= 10  Liliac  SalaTorturaCuTorte
+- 1  CheieCelula  CamaraCurata
+= 8  CheieArgintie  ScaraCuCovoare
++ 1  Medalion  BeciDenivelat
+@ Bici
+@ Fantoma
+= 7  Coif  CameraCuTorte
+#  Aratare  CanalCuGratii
+? BeciDenivelat
++ 7  Trapa  ScaraInalta
++ 4  Medalion  IncapereGotica
+= 10  Urias  BucatarieCuGrinzi
+#  Bici  BalconUmed
+= 1  Cheie  CameraCuTorte
+- 10  Coif  ScaraCuCovoare
+? DepozitMurdar
+= 7  Buzdugan  CanalCuGratii
+#  CheieCelula  Cantina
+= 10  Liliac  BibliotecaMurdara
++ 1  Cheie  HolRotund
++ 8  Cheie  HolDenivelat
++ 9  Trapa  CelulaLuminoasa
+- 2  Aratare  BeciCuGrinzi
++ 9  Halberdier  BalconDarapanat
++ 2  Urias  ScaraCuCovoare
+- 1  Medalion  IncapereCuFerestre
+? IncapereCuFerestre
+= 4  Speraclu  TunelCuGrinzi
+@ Fantoma
++ 6  Buzdugan  HolDenivelat
++ 0  Spadasin  CamaraCuCovoare
+- 3  Piatra  CanalLuminos
++ 4  Urias  PivnitaGotica
+- 5  Fantoma  CantinaMica
+= 0  Liliac  SilozCuFerestre
+? SilozCuFerestre
+#  Spadasin  BibliotecaRotunda
++ 0  Halberdier  FierarieGotica
+@ Spadasin
+= 5  CheieCelula  IncapereDarapanata
+= 10  CheieCelula  TunelCuGrinzi
+- 5  Fantoma  CamaraCuCovoare
++ 8  Spadasin  BalconDarapanat
++ 4  Cheie  CanalLuminos
+#  Cheie  BeciCuGrinzi
+= 7  Buzdugan  CanalCuGratii
+= 3  Medalion  BeciDenivelat
+= 6  Speraclu  SalaMica
+= 7  Halberdier  HolDenivelat
+- 7  Trapa  CanalLuminos
+= 7  Coif  CelulaLuminoasa
++ 1  CheieArgintie  CanalCuFerestre
+? CamaraCurata
+@ Piatra
+- 2  Halberdier  BibliotecaRotunda
++ 10  Piatra  CamaraLuminoasa
+= 3  CheieCelula  DepozitCurat
++ 0  Buzdugan  PivnitaGotica
+#  Piatra  TurnCuGratii
+- 0  Halberdier  IncapereDarapanata
++ 5  CapcanaPodea  IncapereCuGrinzi
++ 2  CheieCelula  SalaTorturaCuTorte
+= 0  Liliac  HolGotic
+= 1  Aratare  CanalCuScheleti
++ 9  Halberdier  DepozitMurdar
+@ Trapa
+= 1  Buzdugan  PivnitaGotica
+- 4  CheieCelula  HolRotund
+? CelulaLuminoasa
+= 10  Piatra  IncapereGotica
+= 10  Fantoma  ScaraCuCovoare
++ 3  Halberdier  BalconInalt
++ 0  Mancare  CanalCuFerestre
++ 1  Liliac  HolMare
+- 0  Spadasin  ScaraCuCovoare
+= 5  Liliac  CanalCuFerestre
++ 4  Spadasin  CameraCuTorte
+= 10  Halberdier  ScaraInalta
+- 0  CapcanaPodea  HolRotund
+#  Buzdugan  CamaraLuminoasa
+= 6  Piatra  SalaMica
+@ Spadasin
++ 6  Urias  TurnMic
+- 4  CapcanaPodea  PivnitaGotica
+= 3  Medalion  BibliotecaRotunda
+- 0  Aratare  SalaTorturaCuTorte
++ 1  Trapa  CanalCuScheleti
+? CantinaMica
++ 7  Coif  BucatarieCuGrinzi
+#  Bici  IncapereInalta
+= 9  Piatra  BibliotecaRotunda
+@ Buzdugan
++ 8  Halberdier  IncapereInalta
++ 4  Tigru  DepozitMurdar
+= 2  Halberdier  ScaraInalta
+= 4  Liliac  CamaraCurata
++ 2  Cufar  BalconUmed
+- 6  CheieArgintie  CantinaCurata
+= 3  Liliac  BalconInalt
+= 10  CheieCelula  BucatarieCuGrinzi
++ 8  Urias  BalconDarapanat
++ 7  Fantoma  BibliotecaIntunecata
+- 14  Tigru  TunelIntunecat
+#  Cufar  TurnCuGratii
+= 1  Buzdugan  BibliotecaIntunecata
+= 2  Fantoma  DepozitCurat
++ 2  Trapa  TurnCuGratii
+- 2  Urias  SilozCuFerestre
++ 5  Tigru  TurnCuColoane
+= 0  Piatra  PivnitaGotica
+#  Coif  DepozitMurdar
+= 3  Medalion  BibliotecaMurdara
+= 0  Buzdugan  CameraCuTorte
++ 5  Mancare  IncapereCuFerestre
+@ CheieCelula
++ 6  Bici  IncapereInalta
++ 7  Cheie  DepozitCurat
+@ Piatra
+= 9  Buzdugan  CanalCuScheleti
+? IncapereCuGrinzi
+@ Cufar
+#  CapcanaPodea  CameraRuinata
+#  Liliac  CamaraCurata
+= 6  Coif  IncapereCuGrinzi
++ 1  Fantoma  TunelIntunecat
+? ScaraCuCovoare
+@ Liliac
++ 9  Fantoma  BibliotecaIntunecata
+? CantinaMica
+= 10  Cheie  HolRotund
+= 2  Bici  BibliotecaTriunghiulara
+- 2  Buzdugan  HolRotund
+- 0  Cheie  CantinaCurata
++ 7  Liliac  TurnCuGratii
+#  Medalion  CamarutaMica
++ 8  CheieArgintie  IncapereDarapanata
+= 7  Cheie  DepozitMurdar
+#  Trapa  BeciDenivelat
+? IncapereGotica
+= 9  Mancare  CameraCuTorte
++ 3  Speraclu  BucatarieCuGrinzi
+= 5  Spadasin  HolMare
+#  Trapa  SalaMica
+@ Speraclu
+? HolGotic
+= 6  CheieCelula  BalconDarapanat
+#  CheieArgintie  TurnCuGratii
+= 7  Bici  TunelCuGrinzi
++ 2  Bici  IncapereCuFerestre
+? IncapereCuFerestre
+#  Aratare  BucatarieCuGrinzi
+? CantinaCurata
+- 3  Medalion  BeciDenivelat
++ 10  Coif  CamaraCurata
++ 0  Bici  ScaraCuCovoare
++ 0  Bici  CelulaLuminoasa
+- 0  Tigru  BeciDenivelat
++ 9  Halberdier  BibliotecaMurdara
+@ Fantoma
+@ Trapa
+= 5  Aratare  CanalCuGratii
+? SilozCuFerestre
++ 10  Bici  BucatarieCuGrinzi
+- 9  Medalion  BibliotecaIntunecata
+= 7  Spadasin  CanalCuFerestre
+= 1  CapcanaPodea  FierarieGotica
+= 9  Liliac  BalconUmed
+= 8  Tigru  CantinaCurata
++ 1  Cheie  PivnitaGotica
++ 2  Cufar  BibliotecaRotunda
+= 0  Tigru  TunelIntunecat
++ 10  CheieCelula  BeciDenivelat
+= 9  Cufar  BalconInalt
+#  CapcanaPodea  BibliotecaRotunda
+= 4  Urias  TunelCuGrinzi
+#  Coif  BucatarieCuGrinzi
+- 0  CheieArgintie  SilozCuFerestre
++ 8  Coif  PivnitaGotica
+#  Urias  BeciCuGrinzi
++ 5  Urias  CameraCuTorte
++ 6  Buzdugan  BeciDenivelat
+@ Liliac
+- 8  Cufar  TurnMic
+= 10  Cheie  SilozCuGratii
++ 8  Liliac  HolRotund
+- 0  Halberdier  Cantina
+- 0  Bici  FierarieGotica
++ 5  Halberdier  CameraCuTorte
+- 0  Piatra  DepozitCurat
+@ Liliac
++ 9  Piatra  CameraCuTorte
+@ Medalion
+- 6  Urias  SalaMica
+- 1  Urias  CameraRuinata
+= 3  Buzdugan  CelulaLuminoasa
++ 0  Spadasin  BeciDenivelat
+- 2  Bici  IncapereCuFerestre
+- 2  Aratare  CameraRuinata
+= 9  Speraclu  Cantina
+@ Halberdier
+#  CheieArgintie  TurnCuGratii
++ 7  Piatra  CameraRuinata
++ 8  Coif  TunelCuGrinzi
+= 7  Mancare  TunelCuGrinzi
+= 0  Cheie  BibliotecaRotunda
+? BibliotecaIntunecata
++ 4  Trapa  CameraRuinata
+= 5  CheieCelula  TurnCuGratii
+- 7  Cheie  CamarutaMica
+= 1  Fantoma  TurnMic
+= 3  Medalion  FierarieGotica
++ 8  CapcanaPodea  HolMare
+#  Mancare  HolRotund
++ 7  Urias  HolCuScheleti
+= 0  Medalion  ScaraInalta
++ 8  Cheie  IncapereCuGrinzi
+= 5  Coif  BibliotecaTriunghiulara
+? PivnitaGotica
++ 0  Speraclu  CantinaCurata
+= 10  Buzdugan  CamaraLuminoasa
++ 3  Coif  BibliotecaRotunda
+- 2  Piatra  BibliotecaTriunghiulara
+#  Coif  FierarieGotica
+= 7  CapcanaPodea  HolMare
+- 4  CheieArgintie  CanalCuScheleti
+@ Fantoma
+= 4  Piatra  BibliotecaMurdara
+- 3  Mancare  CantinaCurata
+@ Cheie
++ 5  CheieCelula  CanalLuminos
+- 15  Trapa  CameraRuinata
+#  Fantoma  BalconDarapanat
+- 7  Medalion  Cantina
++ 2  Trapa  CamarutaMica
+? SalaTorturaCuTorte
+= 1  Aratare  BalconUmed
+- 0  Piatra  PivnitaGotica
+? CanalCuGratii
+= 10  CheieCelula  HolGotic
+#  Buzdugan  CamaraCurata
+- 4  Urias  HolCuScheleti
+? CamaraLuminoasa
+- 0  Speraclu  CameraRuinata
+- 1  Buzdugan  CamaraCuCovoare
+#  Medalion  ScaraScunda
++ 3  CapcanaPodea  TurnCuGratii
+= 6  Tigru  ScaraScunda
++ 8  CapcanaPodea  CanalCuGratii
+- 0  Halberdier  CanalCuScheleti
+= 1  Spadasin  CamaraCuCovoare
+- 2  CapcanaPodea  SilozCuGratii
+@ Spadasin
++ 4  Piatra  FierarieGotica
+- 1  Fantoma  HolMare
++ 4  CheieCelula  BeciDenivelat
+#  Cufar  SalaTorturaCuTorte
+= 9  Tigru  ScaraScunda
++ 10  Cheie  CantinaMica
+= 2  Halberdier  HolDenivelat
++ 0  Trapa  PivnitaGotica
+= 3  Liliac  BalconInalt
+- 5  CheieCelula  IncapereDarapanata
+? CamarutaMica
+@ Speraclu
++ 7  Buzdugan  TurnCuGratii
+= 4  Tigru  BeciCuGrinzi
+= 10  Tigru  IncapereGotica
+- 10  Mancare  IncapereCuFerestre
+@ Tigru
+- 7  Aratare  IncapereCuFerestre
+= 0  Speraclu  HolCuScheleti
+= 1  Spadasin  BibliotecaMurdara
+? BibliotecaIntunecata
+= 0  Liliac  IncapereGotica
+? CamaraLuminoasa
+= 8  Bici  IncapereGotica
++ 2  Spadasin  DepozitMurdar
+= 10  Bici  CamaraLuminoasa
++ 10  Urias  HolMare
++ 2  Buzdugan  ScaraCuCovoare
++ 6  Tigru  IncapereCuGrinzi
+= 5  Coif  BalconDarapanat
+= 3  Speraclu  SalaTorturaCuTorte
+@ Aratare
+= 5  Speraclu  BeciCuGrinzi
++ 5  CheieArgintie  IncapereDarapanata
++ 9  Aratare  SilozCuGratii
++ 8  Piatra  SilozCuFerestre
+@ CapcanaPodea
+@ Medalion
+= 8  Liliac  Cantina
+- 0  Cufar  BeciDenivelat
++ 8  Piatra  TurnCuGratii
+- 0  CheieCelula  PivnitaGotica
+- 7  Halberdier  CanalCuFerestre
++ 9  Cheie  SilozCuFerestre
+= 10  Halberdier  BeciCuGrinzi
+= 1  Halberdier  FierarieGotica
++ 7  Aratare  BibliotecaRotunda
+= 7  Aratare  FierarieGotica
++ 8  Fantoma  BalconUmed
+- 1  Speraclu  HolRotund
+@ Urias
+= 10  Fantoma  BibliotecaIntunecata
++ 7  Mancare  IncapereCuFerestre
+= 10  CheieCelula  BibliotecaIntunecata
+#  Bici  CanalCuFerestre
+@ Bici
++ 8  CapcanaPodea  DepozitCurat
+= 3  Spadasin  DepozitMurdar
++ 10  Mancare  ScaraCuCovoare
+- 4  Tigru  BalconInalt
+? CameraRuinata
+= 8  CheieCelula  CanalCuFerestre
+#  Piatra  TunelCuGrinzi
+= 3  CheieCelula  CamaraLuminoasa
+= 7  Trapa  IncapereGotica
+? CamarutaMica
+= 5  Piatra  IncapereCuGrinzi
++ 3  Buzdugan  IncapereGotica
+= 3  Buzdugan  CamaraLuminoasa
++ 8  Fantoma  BibliotecaRotunda
+- 5  Cufar  BibliotecaIntunecata
+- 8  CheieCelula  CameraCuTorte
+#  Halberdier  CantinaCurata
+- 9  CapcanaPodea  Cantina
+- 7  Fantoma  BeciCuGrinzi
+? HolDenivelat
+- 2  Trapa  ScaraCuCovoare
+= 2  Coif  HolCuScheleti
+@ Urias
+? ScaraScunda
+- 0  Medalion  SalaTorturaCuTorte
+#  Speraclu  DepozitCurat
++ 9  Mancare  CanalCuFerestre
+= 9  Speraclu  BibliotecaIntunecata
+= 9  Halberdier  CameraRuinata
+- 13  Cheie  CamaraCurata
+= 3  Cheie  SalaTorturaCuTorte
+= 3  CheieArgintie  CantinaCurata
+= 3  Bici  TurnCuGratii
+= 6  Spadasin  BeciDenivelat
+? HolRotund
++ 1  CheieCelula  TunelCuGrinzi
++ 3  Cufar  CamarutaMica
+= 10  Piatra  CantinaCurata
+= 1  Trapa  TunelIntunecat
+- 2  Coif  HolCuScheleti
++ 0  CapcanaPodea  BeciCuGrinzi
+= 5  Speraclu  BeciCuGrinzi
+#  Buzdugan  BibliotecaMurdara
+= 4  Trapa  BibliotecaRotunda
++ 0  Urias  TurnCuGratii
++ 9  CheieCelula  SilozCuFerestre
+= 1  Aratare  CamaraCurata
+#  Piatra  CamarutaMica
+? SilozCuGratii
++ 8  Spadasin  TurnCuGratii
++ 0  Medalion  IncapereGotica
++ 6  Cufar  CamaraCurata
+? TunelCuGrinzi
+- 0  CapcanaPodea  BalconDarapanat
+#  Fantoma  BibliotecaTriunghiulara
+@ CheieArgintie
+? BibliotecaTriunghiulara
+= 2  Mancare  TurnMic
++ 7  CheieCelula  FierarieGotica
++ 5  Halberdier  HolDenivelat
+@ Aratare
+= 5  CapcanaPodea  HolDenivelat
+- 0  Aratare  ScaraScunda
+= 2  Trapa  CelulaLuminoasa
+= 3  Cheie  DepozitCurat
+? SilozCuGratii
+= 4  CheieCelula  Cantina
+- 35  Liliac  HolRotund
+- 3  Trapa  BibliotecaMurdara
+= 1  CapcanaPodea  BibliotecaMurdara
+? ScaraCuCovoare
+#  Tigru  SalaTorturaCuTorte
++ 10  Spadasin  BalconDarapanat
+= 4  Coif  BeciDenivelat
+? IncapereCuFerestre
++ 3  Buzdugan  BibliotecaTriunghiulara
+#  Trapa  HolMare
+@ Coif
+#  Urias  BucatarieCuGrinzi
+? FierarieGotica
+@ CheieCelula
+= 7  CapcanaPodea  CanalCuFerestre
+= 6  Mancare  CameraCuTorte
+@ Cufar
++ 9  Spadasin  SalaTorturaCuTorte
++ 10  Piatra  CanalCuFerestre
+= 8  CheieCelula  SilozCuFerestre
++ 7  Coif  BeciCuGrinzi
+#  CheieCelula  BibliotecaTriunghiulara
+#  Piatra  HolMare
++ 5  Urias  BalconUmed
++ 1  Tigru  BibliotecaIntunecata
+= 2  Coif  BucatarieCuGrinzi
+= 1  Coif  BeciDenivelat
+- 0  Urias  IncapereCuGrinzi
+= 4  Cheie  HolCuScheleti
+@ Buzdugan
+- 3  CheieArgintie  CantinaCurata
++ 2  CheieCelula  CamarutaMica
+? TunelIntunecat
++ 9  CheieArgintie  ScaraInalta
+#  Urias  CanalCuScheleti
+@ Buzdugan
+= 8  Tigru  SalaMica
+- 0  Urias  IncapereCuGrinzi
++ 9  Speraclu  BibliotecaRotunda
+? TurnCuGratii
+@ Cufar
+#  CheieArgintie  CanalLuminos
+= 0  Aratare  TunelCuGrinzi
+= 8  Cheie  CanalCuFerestre
+#  Mancare  CanalLuminos
++ 9  Bici  BucatarieCuGrinzi
+@ CheieArgintie
+? FierarieGotica
+= 5  Spadasin  SilozCuGratii
+@ Spadasin
+? TurnMic
+#  Bici  TunelIntunecat
+- 2  Piatra  ScaraScunda
+? HolRotund
+#  CapcanaPodea  IncapereCuFerestre
+- 0  Tigru  HolMare
+= 8  CapcanaPodea  IncapereCuFerestre
+@ Speraclu
++ 10  Trapa  SilozCuFerestre
+- 7  Mancare  TunelCuGrinzi
+- 7  Fantoma  CelulaLuminoasa
++ 0  Spadasin  FierarieGotica
+= 0  Tigru  CanalLuminos
+= 0  Trapa  BucatarieCuGrinzi
++ 3  Bici  SalaMica
+- 4  Liliac  CanalCuScheleti
+@ Liliac
+= 5  Fantoma  HolCuScheleti
++ 9  Cheie  HolGotic
+- 1  CapcanaPodea  SilozCuGratii
+- 3  Liliac  TurnMic
+= 4  Buzdugan  BibliotecaTriunghiulara
+? SalaMica
+#  Tigru  ScaraCuCovoare
+- 0  Speraclu  CanalLuminos
+- 7  CheieCelula  FierarieGotica
+= 10  Cheie  TurnCuGratii
+= 3  Liliac  TunelCuGrinzi
++ 0  Cheie  TunelCuGrinzi
+? CantinaMica
+- 3  Buzdugan  CelulaLuminoasa
+- 0  Tigru  CanalCuScheleti
+= 5  Liliac  BibliotecaIntunecata
+= 6  Cheie  TurnCuGratii
++ 7  Tigru  BalconInalt
+- 4  Cheie  Cantina
+= 7  Medalion  CanalCuScheleti
++ 5  Cheie  DepozitCurat
++ 7  Piatra  CameraCuTorte
+- 4  Tigru  BeciCuGrinzi
+= 9  Halberdier  TurnCuGratii
++ 10  Medalion  ScaraCuCovoare
++ 6  Trapa  BibliotecaRotunda
++ 2  Mancare  HolRotund
+? IncapereCuFerestre
+= 5  CheieCelula  PivnitaGotica
+- 10  Mancare  IncapereCuFerestre
+- 5  Cheie  HolMare
++ 6  Mancare  TurnCuGratii
+- 0  Bici  ScaraCuCovoare
+- 6  Trapa  BibliotecaIntunecata
+@ CapcanaPodea
+@ CapcanaPodea
+? TunelCuGrinzi
+- 0  CheieCelula  BeciCuGrinzi
+- 8  Tigru  SalaMica
++ 7  Spadasin  BalconUmed
+#  Buzdugan  IncapereGotica
+@ Piatra
++ 9  Tigru  BalconInalt
+@ Speraclu
++ 4  Fantoma  BucatarieCuGrinzi
+? DepozitMurdar
++ 10  CheieCelula  BibliotecaMurdara
+- 1  Medalion  CamaraLuminoasa
+? IncapereInalta
++ 8  Mancare  SilozCuFerestre
++ 5  Speraclu  CameraCuTorte
+? TunelCuGrinzi
+- 6  Mancare  CanalLuminos
++ 4  Halberdier  BeciDenivelat
++ 10  Buzdugan  HolGotic
+- 0  Aratare  SalaTorturaCuTorte
+@ Trapa
++ 2  Liliac  DepozitMurdar
+@ Halberdier
+- 7  Halberdier  BalconUmed
+#  Spadasin  CameraCuTorte
+- 0  Aratare  SilozCuGratii
+? BeciDenivelat
++ 9  Mancare  DepozitCurat
+- 2  Halberdier  IncapereInalta
+- 0  Bici  ScaraCuCovoare
+= 7  Cheie  BibliotecaTriunghiulara
+= 0  Liliac  HolMare
+= 1  Mancare  HolCuScheleti
+- 4  Bici  CantinaMica
+- 0  Bici  FierarieGotica
+= 5  Aratare  SalaMica
+@ Liliac
+#  Urias  TurnCuGratii
++ 6  Medalion  CanalCuFerestre
+= 3  CheieArgintie  Cantina
+= 10  Mancare  IncapereInalta
+#  Tigru  HolCuScheleti
++ 6  Bici  BalconDarapanat
++ 5  Piatra  TurnMic
+= 10  Spadasin  CanalLuminos
+- 0  Cheie  IncapereDarapanata
+? CantinaMica
+? TurnCuGratii
+#  Fantoma  HolCuScheleti
++ 9  Spadasin  ScaraInalta
++ 7  Medalion  CanalCuScheleti
+#  Tigru  ScaraCuCovoare
+= 3  Fantoma  BalconDarapanat
+- 9  Bici  BalconDarapanat
+= 2  Aratare  IncapereCuFerestre
+- 21  Bici  BibliotecaIntunecata
+#  Halberdier  TunelIntunecat
+= 10  Speraclu  BucatarieCuGrinzi
+= 10  Halberdier  HolGotic
+? HolRotund
+= 10  Bici  SilozCuFerestre
+= 4  Cheie  CelulaLuminoasa
+= 0  Halberdier  BibliotecaMurdara
+#  Piatra  CameraCuTorte
+= 3  Urias  CameraCuTorte
+- 6  Buzdugan  BeciDenivelat
+= 10  Mancare  CamaraLuminoasa
+#  Trapa  IncapereCuFerestre
+? DepozitMurdar
+- 7  Halberdier  BeciDenivelat
++ 10  Cufar  SalaTorturaCuTorte
++ 1  Aratare  ScaraInalta
+@ Mancare
++ 9  Fantoma  CamarutaMica
+= 5  CheieCelula  CamaraCurata
++ 1  Speraclu  CanalCuGratii
+#  Mancare  BeciCuGrinzi
+#  Liliac  BucatarieCuGrinzi
+= 2  CheieArgintie  HolCuScheleti
+#  Aratare  BeciDenivelat
++ 5  Cufar  CantinaCurata
+? CanalCuFerestre
+= 2  Fantoma  DepozitMurdar
+- 4  CheieCelula  Cantina
+- 2  CheieArgintie  CanalCuGratii
++ 7  Cheie  CanalCuGratii
+#  Mancare  BalconInalt
+= 10  Spadasin  HolDenivelat
++ 0  Trapa  IncapereGotica
+= 3  Piatra  TurnCuGratii
+? IncapereCuFerestre
+= 0  Cheie  CameraRuinata
++ 9  Piatra  CamaraLuminoasa
+#  Buzdugan  HolCuScheleti
+= 1  CapcanaPodea  CelulaLuminoasa
++ 4  Piatra  PivnitaGotica
+- 6  Cufar  CantinaCurata
+= 4  Medalion  IncapereGotica
+= 5  Mancare  TurnMic
++ 7  Cheie  DepozitMurdar
++ 3  Cufar  CelulaLuminoasa
++ 1  Tigru  HolMare
++ 1  Bici  ScaraScunda
+= 8  Trapa  BibliotecaMurdara
+= 6  Halberdier  CamarutaMica
++ 6  Speraclu  CamaraLuminoasa
+= 2  CapcanaPodea  BibliotecaIntunecata
+? IncapereCuFerestre
++ 7  Aratare  FierarieGotica
++ 9  Spadasin  BibliotecaRotunda
+= 6  Cufar  SalaMica
++ 1  CheieArgintie  IncapereCuFerestre
+? BibliotecaRotunda
+? SalaTorturaCuTorte
++ 8  Spadasin  CantinaCurata
++ 0  Bici  SilozCuGratii
+@ Piatra
++ 5  CapcanaPodea  CamarutaMica
+- 4  Halberdier  CamarutaMica
+- 5  Coif  CameraCuTorte
+#  Bici  ScaraScunda
+= 9  Urias  ScaraInalta
+@ Coif
++ 7  CapcanaPodea  CanalLuminos
++ 1  Spadasin  DepozitCurat
+? CanalCuGratii
+= 10  Urias  CamaraCuCovoare
+= 7  Bici  SalaTorturaCuTorte
++ 2  CheieCelula  HolCuScheleti
+#  Trapa  HolDenivelat
+= 9  CheieArgintie  BibliotecaMurdara
+? PivnitaGotica
+#  Speraclu  TunelCuGrinzi
++ 6  Tigru  BucatarieCuGrinzi
+= 9  Tigru  ScaraScunda
+@ Fantoma
+- 7  Buzdugan  CamaraCurata
++ 1  Fantoma  IncapereCuFerestre
+#  Cufar  CantinaMica
+= 5  Piatra  CamaraLuminoasa
+= 9  Tigru  BeciCuGrinzi
+= 2  CheieCelula  BalconDarapanat
++ 9  Bici  CanalCuFerestre
++ 4  Fantoma  SilozCuGratii
+- 2  Halberdier  CanalLuminos
+- 0  Cheie  TunelCuGrinzi
++ 5  Speraclu  SilozCuGratii
+#  Piatra  BibliotecaMurdara
++ 5  Spadasin  HolGotic
+@ CapcanaPodea
++ 5  Trapa  BucatarieCuGrinzi
++ 5  Tigru  FierarieGotica
+- 10  Bici  CamaraLuminoasa
+= 0  CapcanaPodea  DepozitCurat
+= 1  CapcanaPodea  TunelIntunecat
+= 7  Mancare  SalaMica
+- 1  Liliac  IncapereCuFerestre
+? CamaraLuminoasa
++ 5  Cheie  BibliotecaRotunda
+? BucatarieCuGrinzi
+? BibliotecaTriunghiulara
+- 5  Urias  BalconInalt
+#  Tigru  IncapereCuFerestre
+- 3  Bici  HolGotic
+= 10  Fantoma  CanalCuFerestre
++ 8  Medalion  SalaMica
+- 6  Buzdugan  CamarutaMica
+= 10  Piatra  BibliotecaTriunghiulara
+= 1  Aratare  BibliotecaIntunecata
+@ Tigru
++ 3  CheieCelula  CamaraCurata
+- 3  Cufar  IncapereGotica
+- 2  Urias  CameraCuTorte
+= 4  Buzdugan  CantinaCurata
++ 10  Piatra  CantinaMica
+@ Urias
+= 5  Coif  CamaraCurata
+= 9  Cheie  CamaraCuCovoare
+= 8  Bici  CanalLuminos
+= 2  Trapa  HolMare
+? TurnMic
+- 0  CheieCelula  TurnMic
+#  Mancare  BalconUmed
+@ Cufar
+- 6  Buzdugan  TunelCuGrinzi
+= 2  Buzdugan  CanalLuminos
+#  Medalion  CantinaCurata
+@ Halberdier
+- 0  Cheie  Cantina
+- 3  Spadasin  TunelIntunecat
++ 6  Buzdugan  BibliotecaIntunecata
+? TunelIntunecat
++ 4  Urias  TunelCuGrinzi
++ 2  Cufar  CameraCuTorte
+= 10  Trapa  Cantina
++ 3  Trapa  CanalCuFerestre
+#  Spadasin  ScaraInalta
+#  Cheie  HolMare
+= 8  CapcanaPodea  CanalCuScheleti
+- 2  CheieCelula  BalconUmed
+= 1  Speraclu  ScaraCuCovoare
+? BalconDarapanat
+= 3  Fantoma  HolGotic
+= 4  Fantoma  TurnMic
+= 3  Cufar  PivnitaGotica
+? PivnitaGotica
++ 1  Trapa  DepozitCurat
+- 5  Cufar  BalconDarapanat
+- 0  Trapa  TunelIntunecat
++ 1  Halberdier  BibliotecaIntunecata
+- 1  CapcanaPodea  IncapereDarapanata
+? CanalCuGratii
+- 3  Speraclu  BalconUmed
+= 4  Bici  ScaraScunda
+? CanalCuGratii
+#  Cheie  CantinaCurata
+- 7  Aratare  SilozCuGratii
+- 3  CheieCelula  IncapereGotica
++ 3  Speraclu  ScaraCuCovoare
+#  Spadasin  BalconInalt
++ 9  Tigru  ScaraScunda
+= 0  Bici  HolCuScheleti
+= 0  Buzdugan  BalconDarapanat
++ 1  Tigru  BalconUmed
+= 0  Speraclu  SalaTorturaCuTorte
++ 7  CheieArgintie  ScaraInalta
+- 0  Medalion  ScaraInalta
+- 0  CheieArgintie  CameraRuinata
+= 1  Urias  CamaraLuminoasa
+- 0  Fantoma  HolMare
+= 2  Aratare  CamaraCurata
+? DepozitMurdar
+- 3  Cufar  PivnitaGotica
++ 6  Medalion  SilozCuFerestre
++ 0  Halberdier  IncapereGotica
+#  Cufar  CelulaLuminoasa
+- 0  Liliac  DepozitMurdar
+- 8  CapcanaPodea  CanalCuScheleti
+= 10  Halberdier  DepozitCurat
+- 0  Tigru  ScaraInalta
+- 3  Urias  IncapereCuFerestre
+#  Buzdugan  BibliotecaIntunecata
+@ Cufar
++ 1  Buzdugan  BibliotecaMurdara
+@ Coif
+? IncapereInalta
+= 4  CapcanaPodea  CanalCuGratii
+? CantinaMica
+? BalconUmed
+= 8  Piatra  CantinaMica
+- 0  Speraclu  ScaraInalta
+#  CheieArgintie  BalconUmed
+#  Trapa  DepozitMurdar
++ 6  Urias  TunelCuGrinzi
+= 9  Cufar  BalconInalt
+@ Liliac
+- 2  Mancare  CameraRuinata
++ 0  Aratare  IncapereCuFerestre
++ 10  Mancare  CamarutaMica
+? CanalCuGratii
+= 10  Fantoma  TurnCuColoane
+= 4  CapcanaPodea  CamaraCuCovoare
++ 8  Buzdugan  Cantina
+#  Speraclu  CanalLuminos
++ 8  Fantoma  CanalLuminos
++ 9  CheieCelula  TunelCuGrinzi
++ 10  CapcanaPodea  DepozitMurdar
+? BalconInalt
+@ Speraclu
+= 1  Tigru  CamarutaMica
+- 6  Bici  CanalCuFerestre
+= 6  Urias  SalaTorturaCuTorte
+= 8  Liliac  CamaraCuCovoare
+= 8  Mancare  DepozitCurat
+- 0  Cheie  TunelCuGrinzi
+= 2  Medalion  BibliotecaTriunghiulara
+? DepozitMurdar
+- 3  CapcanaPodea  IncapereGotica
+= 6  Speraclu  CameraCuTorte
++ 0  Piatra  CamarutaMica
++ 10  Fantoma  BalconInalt
+= 9  Medalion  BalconUmed
+= 0  Piatra  SalaTorturaCuTorte
+= 5  Tigru  TurnCuGratii
++ 1  Buzdugan  ScaraInalta
+= 8  Cheie  CantinaCurata
++ 6  Medalion  CantinaMica
++ 7  Medalion  CamaraLuminoasa
+#  Trapa  DepozitMurdar
+? BeciCuGrinzi
++ 1  Speraclu  TunelIntunecat
++ 5  Aratare  CamaraCuCovoare
++ 5  Urias  CameraCuTorte
+@ Liliac
+? IncapereCuGrinzi
+= 10  Trapa  CantinaMica
+= 9  CheieCelula  IncapereInalta
+#  Urias  IncapereInalta
+- 3  CapcanaPodea  SilozCuFerestre
++ 1  Spadasin  CelulaLuminoasa
+- 9  Piatra  BibliotecaRotunda
++ 10  CheieCelula  TunelIntunecat
+- 8  Coif  PivnitaGotica
++ 9  CheieArgintie  CantinaCurata
+= 2  Cheie  CameraCuTorte
++ 2  Aratare  ScaraInalta
++ 3  Fantoma  CantinaMica
+= 7  Medalion  TunelCuGrinzi
+= 6  Cufar  CanalLuminos
++ 1  Spadasin  DepozitMurdar
++ 2  Buzdugan  DepozitMurdar
+- 4  Trapa  IncapereGotica
+#  CapcanaPodea  CantinaMica
+= 3  Cufar  CameraRuinata
+= 0  Liliac  SilozCuFerestre
++ 5  Medalion  CamaraCurata
+- 3  Halberdier  HolDenivelat
++ 9  Bici  CanalLuminos
+@ Medalion
++ 8  Halberdier  CanalCuScheleti
++ 7  Aratare  ScaraScunda
+- 8  Mancare  IncapereDarapanata
++ 6  CapcanaPodea  DepozitCurat
+? CanalCuFerestre
++ 9  Speraclu  CameraRuinata
++ 0  Medalion  DepozitCurat
+- 11  Trapa  CanalCuGratii
+= 10  Cufar  BalconInalt
+- 7  Tigru  TurnCuColoane
+? TunelCuGrinzi
+- 6  Spadasin  BeciDenivelat
+= 7  Cufar  SalaTorturaCuTorte
+= 10  Tigru  CamaraLuminoasa
+- 0  CheieCelula  CantinaMica
+- 7  Spadasin  CanalCuFerestre
+- 4  CapcanaPodea  ScaraInalta
+- 0  Cheie  Cantina
+? TurnCuGratii
++ 5  Liliac  TurnCuGratii
+- 0  Halberdier  BibliotecaMurdara
+? CamarutaMica
+= 8  CheieArgintie  SilozCuFerestre
+- 5  Liliac  HolCuScheleti
+- 1  Urias  BibliotecaTriunghiulara
+- 4  Liliac  CameraCuTorte
+@ Urias
+= 0  Halberdier  SalaMica
+= 10  Cheie  CameraRuinata
+= 2  Aratare  ScaraInalta
+- 2  Spadasin  PivnitaGotica
+@ Piatra
+= 7  Buzdugan  BibliotecaIntunecata
+- 1  Fantoma  BeciCuGrinzi
+= 2  CapcanaPodea  TunelCuGrinzi
+= 6  Bici  CanalCuGratii
++ 3  Mancare  BalconUmed
+- 0  Spadasin  TurnCuColoane
+= 10  CapcanaPodea  BalconDarapanat
++ 1  Bici  CanalLuminos
++ 3  Liliac  BalconDarapanat
+= 8  Tigru  SilozCuGratii
+@ Cheie
++ 2  Cufar  SilozCuGratii
++ 10  Trapa  ScaraCuCovoare
+? ScaraScunda
+#  Cheie  CanalCuGratii
+@ Liliac
+= 2  Fantoma  TunelCuGrinzi
+= 2  Medalion  CameraRuinata
++ 5  Fantoma  DepozitMurdar
+? CamarutaMica
+= 7  Liliac  CanalCuGratii
++ 5  Piatra  DepozitCurat
+= 3  CapcanaPodea  IncapereCuGrinzi
+= 7  Spadasin  SalaTorturaCuTorte
+? DepozitCurat
+- 4  Fantoma  IncapereGotica
+- 8  Halberdier  TunelIntunecat
++ 2  Medalion  FierarieGotica
+- 17  Halberdier  HolRotund
++ 4  Halberdier  CelulaLuminoasa
++ 8  Aratare  SalaMica
+#  Medalion  SilozCuFerestre
+? IncapereCuGrinzi
+- 2  Tigru  CamaraLuminoasa
+- 4  Speraclu  CantinaMica
+@ Trapa
++ 7  Piatra  HolGotic
+- 0  Bici  ScaraCuCovoare
++ 1  Coif  TurnMic
++ 7  CheieArgintie  BibliotecaMurdara
+#  Aratare  HolDenivelat
+#  Medalion  TurnCuColoane
+? TunelIntunecat
+- 9  CheieCelula  TurnCuColoane
++ 1  CheieCelula  SalaTorturaCuTorte
++ 6  Cufar  CamaraCuCovoare
++ 9  CapcanaPodea  IncapereCuFerestre
++ 9  Piatra  TunelIntunecat
+@ Coif
+? HolGotic
++ 0  Bici  CamaraCurata
+? HolGotic
+= 2  Fantoma  CanalCuScheleti
+#  Buzdugan  TurnCuGratii
++ 1  Cufar  CameraRuinata
++ 8  Aratare  SalaTorturaCuTorte
+- 3  Buzdugan  CamaraLuminoasa
++ 10  Mancare  DepozitMurdar
+= 4  Fantoma  CamaraLuminoasa
++ 1  Urias  DepozitMurdar
++ 4  CapcanaPodea  SilozCuGratii
+#  Coif  DepozitMurdar
++ 8  Liliac  BibliotecaRotunda
+@ Medalion
+@ Speraclu
+= 5  Urias  TurnCuGratii
+#  Liliac  BibliotecaTriunghiulara
+- 5  Spadasin  HolGotic
++ 2  CheieArgintie  FierarieGotica
++ 5  Medalion  BibliotecaIntunecata
+= 5  Medalion  BibliotecaRotunda
+= 9  CapcanaPodea  HolRotund
+= 10  Halberdier  HolRotund
++ 10  Cheie  CelulaLuminoasa
+- 0  Cufar  CantinaMica
++ 2  Piatra  ScaraInalta
+? TunelCuGrinzi
+= 6  Liliac  ScaraCuCovoare
+? HolGotic
++ 5  Urias  BibliotecaTriunghiulara
++ 0  Bici  HolRotund
+- 5  Medalion  BibliotecaIntunecata
++ 7  Aratare  HolRotund
+#  Liliac  SalaTorturaCuTorte
+@ Cufar
+= 10  Bici  CameraRuinata
++ 1  Spadasin  BalconDarapanat
+= 7  CheieCelula  ScaraCuCovoare
+@ CapcanaPodea
+- 6  Cheie  IncapereDarapanata
+= 7  Urias  BeciDenivelat
+- 6  Fantoma  FierarieGotica
+- 6  Liliac  BalconUmed
+- 0  Piatra  CamaraCuCovoare
++ 3  Tigru  IncapereDarapanata
+@ Mancare
++ 5  Aratare  HolMare
+- 3  Medalion  DepozitMurdar
++ 5  Spadasin  SalaMica
++ 7  Halberdier  TurnMic
+- 6  Spadasin  TurnCuGratii
+= 0  Trapa  IncapereGotica
++ 6  CheieArgintie  SalaTorturaCuTorte
+? TunelCuGrinzi
+= 10  Urias  ScaraCuCovoare
++ 0  Fantoma  CanalCuScheleti
+= 10  CapcanaPodea  CameraRuinata
+#  Bici  ScaraInalta
+= 10  Tigru  TurnCuGratii
++ 1  Spadasin  FierarieGotica
+? PivnitaGotica
++ 7  Aratare  IncapereGotica
+= 0  Piatra  CantinaCurata
++ 7  Urias  IncapereCuGrinzi
++ 2  Medalion  BibliotecaIntunecata
++ 1  Bici  IncapereDarapanata
+- 1  Trapa  HolGotic
+- 5  CheieArgintie  CamaraCurata
+? FierarieGotica
++ 5  Liliac  HolDenivelat
+? CanalLuminos
++ 8  Spadasin  SilozCuGratii
++ 8  Cheie  IncapereCuGrinzi
++ 10  CheieCelula  BeciDenivelat
+#  Coif  DepozitMurdar
+- 0  Bici  SilozCuFerestre
+#  CheieArgintie  DepozitCurat
+= 2  CheieArgintie  BeciDenivelat
+= 8  Urias  BibliotecaTriunghiulara
+#  Trapa  DepozitCurat
+- 0  Piatra  BibliotecaRotunda
+#  Trapa  TurnCuGratii
+#  Medalion  TurnMic
++ 8  Mancare  CanalCuGratii
+= 2  Fantoma  BalconInalt
++ 0  Medalion  IncapereCuGrinzi
+? BibliotecaTriunghiulara
+- 5  Aratare  CanalCuGratii
+? DepozitMurdar
+@ Mancare
++ 1  CapcanaPodea  HolRotund
++ 1  Buzdugan  BalconUmed
++ 3  Medalion  IncapereDarapanata
+#  Bici  SilozCuGratii
++ 5  Buzdugan  BucatarieCuGrinzi
++ 5  Urias  CameraCuTorte
+= 1  Cheie  CameraRuinata
++ 8  Cheie  SilozCuGratii
+#  Medalion  CamarutaMica
+#  CheieArgintie  BibliotecaIntunecata
++ 5  Urias  BalconInalt
+= 7  Bici  BibliotecaTriunghiulara
++ 7  Aratare  BibliotecaRotunda
+@ Urias
++ 7  Aratare  SalaMica
+= 8  Spadasin  HolDenivelat
+= 10  Halberdier  BeciDenivelat
+? BeciCuGrinzi
+= 10  Cheie  BeciCuGrinzi
+? TurnMic
+= 9  Urias  TurnMic
+- 2  Tigru  CantinaMica
++ 4  Bici  CamaraCurata
+- 0  Trapa  CameraRuinata
+= 6  Tigru  BalconDarapanat
++ 8  Spadasin  BibliotecaTriunghiulara
+= 0  Coif  TunelCuGrinzi
+#  Tigru  CanalCuFerestre
+- 5  Piatra  IncapereCuFerestre
++ 8  Buzdugan  CamaraCurata
++ 0  Piatra  BalconInalt
+= 5  CheieCelula  DepozitCurat
++ 3  Tigru  BeciCuGrinzi
+- 0  Cheie  TurnCuColoane
+#  Trapa  ScaraInalta
++ 8  Medalion  TurnCuGratii
++ 1  Fantoma  BibliotecaMurdara
+= 10  Spadasin  DepozitCurat
++ 1  Liliac  ScaraScunda
++ 10  Cheie  BeciDenivelat
+= 9  Cufar  ScaraInalta
+= 9  Aratare  CantinaMica
+#  CheieCelula  ScaraScunda
+= 9  Bici  SalaTorturaCuTorte
++ 0  Coif  BibliotecaIntunecata
+- 9  Tigru  IncapereGotica
++ 0  Cheie  DepozitMurdar
+#  Spadasin  IncapereInalta
+- 5  Buzdugan  Cantina
++ 1  Cheie  CantinaMica
+#  Buzdugan  CantinaMica
+- 7  Buzdugan  CamaraCurata
+- 6  Speraclu  SalaMica
++ 3  Speraclu  CamaraCuCovoare
+@ Aratare
+- 3  Medalion  IncapereDarapanata
++ 1  Liliac  ScaraCuCovoare
+= 4  Urias  CanalCuGratii
++ 3  Mancare  IncapereCuGrinzi
+= 10  Buzdugan  IncapereCuFerestre
+- 4  Speraclu  HolMare
++ 0  Fantoma  BibliotecaIntunecata
++ 0  CheieCelula  IncapereInalta
+? ScaraScunda
+= 7  Liliac  SalaTorturaCuTorte
++ 8  Trapa  BalconUmed
+= 9  Liliac  CameraRuinata
+- 7  Medalion  TunelCuGrinzi
+- 7  Trapa  Cantina
+= 8  Liliac  BalconInalt
+= 1  Mancare  CanalLuminos
+#  Coif  Cantina
+- 6  Halberdier  TurnCuGratii
++ 9  Liliac  IncapereDarapanata
+- 2  Trapa  BibliotecaTriunghiulara
+- 0  Bici  HolCuScheleti
+@ Piatra
+#  Halberdier  Cantina
+? CameraRuinata
++ 3  CapcanaPodea  CanalCuFerestre
+#  Medalion  TurnCuGratii
+= 5  Bici  BucatarieCuGrinzi
+= 4  CapcanaPodea  PivnitaGotica
+- 4  Piatra  BibliotecaMurdara
+- 1  Fantoma  HolRotund
++ 10  Spadasin  BibliotecaIntunecata
+? CamarutaMica
+? SilozCuGratii
+= 0  CheieCelula  TurnMic
++ 4  Halberdier  CameraCuTorte
+@ Fantoma
+= 5  Speraclu  TurnCuGratii
+#  Speraclu  HolMare
+= 2  CheieCelula  IncapereGotica
+= 10  Piatra  HolDenivelat
+= 1  Speraclu  BeciDenivelat
+#  Coif  BalconDarapanat
+- 2  Fantoma  TunelCuGrinzi
+- 0  Bici  HolGotic
+= 3  CheieCelula  CamarutaMica
+- 3  CapcanaPodea  BucatarieCuGrinzi
+- 0  Mancare  TunelCuGrinzi
+#  Piatra  IncapereDarapanata
+= 3  Tigru  HolGotic
+= 1  Bici  CameraCuTorte
+? Cantina
+? CamaraCuCovoare
+= 3  Cufar  BibliotecaRotunda
++ 3  Coif  BibliotecaMurdara
++ 0  Medalion  CelulaLuminoasa
+- 0  CheieCelula  CameraCuTorte
+#  Cheie  BibliotecaTriunghiulara
+- 1  CheieCelula  TurnCuColoane
++ 2  Halberdier  CelulaLuminoasa
+= 2  Cufar  CantinaCurata
+? CamaraLuminoasa
+#  Halberdier  FierarieGotica
+#  Liliac  PivnitaGotica
++ 7  Tigru  CantinaMica
+- 3  Fantoma  BalconDarapanat
+= 0  Mancare  BalconInalt
++ 4  Speraclu  CamaraCuCovoare
+= 6  Spadasin  BalconUmed
+@ CapcanaPodea
+= 0  Spadasin  IncapereCuGrinzi
+@ Cheie
+? TurnCuColoane
+= 2  Urias  CantinaMica
+#  Trapa  FierarieGotica
++ 5  Urias  BibliotecaRotunda
+@ CapcanaPodea
+= 5  CheieArgintie  TunelIntunecat
+#  Medalion  HolGotic
+- 3  Liliac  CanalCuFerestre
+= 0  Speraclu  HolDenivelat
+= 5  Urias  CantinaCurata
+@ Fantoma
++ 7  Speraclu  CanalCuFerestre
+= 3  Coif  SilozCuGratii
+- 1  Aratare  SalaTorturaCuTorte
++ 10  Mancare  CanalCuScheleti
+= 8  Mancare  SalaTorturaCuTorte
+= 10  CheieCelula  CamarutaMica
+= 7  Tigru  IncapereCuFerestre
+= 10  Piatra  HolGotic
++ 0  Bici  BibliotecaRotunda
+= 9  Aratare  SalaTorturaCuTorte
+- 5  Aratare  CamarutaMica
+- 10  Urias  CamaraCuCovoare
+#  Aratare  ScaraCuCovoare
+= 10  Halberdier  CanalCuGratii
+- 1  Urias  BibliotecaIntunecata
+- 9  Halberdier  CameraCuTorte
+- 0  CapcanaPodea  HolRotund
+= 4  Fantoma  CanalCuScheleti
+= 10  Mancare  BalconInalt
++ 4  Tigru  IncapereDarapanata
+= 5  Aratare  IncapereGotica
+= 7  CapcanaPodea  HolDenivelat
+= 3  CheieArgintie  IncapereDarapanata
+- 4  Buzdugan  TurnCuGratii
++ 4  Trapa  BalconDarapanat
+- 0  Trapa  HolGotic
++ 4  CheieCelula  SilozCuGratii
+= 3  Liliac  BalconUmed
+- 1  CheieCelula  FierarieGotica
+= 1  Speraclu  IncapereDarapanata
++ 6  CheieArgintie  SilozCuGratii
+- 0  Mancare  TunelCuGrinzi
++ 10  Spadasin  DepozitCurat
+- 2  CheieCelula  HolCuScheleti
++ 1  Spadasin  CanalCuScheleti
+@ Speraclu
+- 5  Piatra  TurnMic
+= 3  Spadasin  HolCuScheleti
+- 7  Bici  BibliotecaTriunghiulara
+@ CheieCelula
+- 0  Piatra  CamarutaMica
+= 4  Cufar  IncapereCuGrinzi
++ 0  CapcanaPodea  HolRotund
+? CamarutaMica
+- 8  Mancare  SilozCuFerestre
+= 5  Tigru  BucatarieCuGrinzi
+= 7  Piatra  CanalCuFerestre
+@ Halberdier
+#  CheieArgintie  CanalLuminos
+@ Tigru
++ 1  Speraclu  CamaraLuminoasa
+? HolCuScheleti
++ 9  Buzdugan  IncapereCuGrinzi
+= 3  Cheie  BibliotecaMurdara
+? SalaTorturaCuTorte
+= 4  Piatra  TurnCuGratii
+@ Aratare
++ 9  Tigru  BeciCuGrinzi
+= 2  Trapa  CanalLuminos
+? IncapereGotica
+- 8  Halberdier  IncapereInalta
+= 0  Tigru  CamaraCurata
+= 5  Medalion  CanalCuGratii
+= 10  Spadasin  BibliotecaTriunghiulara
+- 10  Buzdugan  IncapereCuFerestre
+= 8  CheieArgintie  TurnCuGratii
+- 0  Piatra  BalconUmed
+- 2  CapcanaPodea  BalconUmed
++ 10  CheieArgintie  IncapereCuGrinzi
++ 0  Trapa  BibliotecaRotunda
+= 1  Speraclu  TunelIntunecat
+- 2  Cheie  CanalCuScheleti
+? SilozCuFerestre
+= 7  Coif  CameraCuTorte
+@ Buzdugan
++ 8  Fantoma  ScaraCuCovoare
+- 2  Speraclu  Cantina
+- 5  CheieArgintie  TunelIntunecat
+- 0  Speraclu  BalconUmed
+? BucatarieCuGrinzi
+@ Piatra
+= 5  Speraclu  HolDenivelat
+= 5  Coif  DepozitMurdar
+@ Cheie
+- 6  Fantoma  SilozCuFerestre
+- 4  Cufar  BucatarieCuGrinzi
+= 2  CheieArgintie  CanalLuminos
++ 8  Halberdier  HolMare
+@ Medalion
+= 10  CheieArgintie  CelulaLuminoasa
+? PivnitaGotica
+= 8  Spadasin  CanalCuFerestre
+@ Aratare
+- 16  Buzdugan  SilozCuGratii
++ 7  Liliac  CantinaCurata
+? CamaraLuminoasa
+#  CheieCelula  SalaMica
+@ Coif
+= 0  Speraclu  CameraCuTorte
++ 2  Spadasin  CanalCuFerestre
+? IncapereGotica
+= 7  Aratare  CameraCuTorte
+#  Trapa  PivnitaGotica
+- 0  Bici  FierarieGotica
+- 0  Cheie  Cantina
+- 6  Fantoma  TurnCuGratii
++ 9  Trapa  ScaraCuCovoare
++ 10  Tigru  SilozCuGratii
+#  CheieCelula  BeciDenivelat
+= 9  Liliac  BalconUmed
+- 1  Halberdier  BibliotecaTriunghiulara
+? TurnCuGratii
+- 1  Medalion  ScaraCuCovoare
+? CelulaLuminoasa
++ 9  Cheie  BibliotecaRotunda
++ 2  Buzdugan  ScaraInalta
+? HolRotund
+@ Mancare
+? TunelIntunecat
+#  Halberdier  CelulaLuminoasa
+= 5  Spadasin  SalaTorturaCuTorte
+- 2  Mancare  CanalCuFerestre
+? HolMare
++ 5  Piatra  CanalLuminos
+#  Urias  BibliotecaRotunda
+@ Coif
+- 2  Coif  BeciCuGrinzi
+= 3  Halberdier  IncapereCuFerestre
++ 4  CheieArgintie  HolDenivelat
+#  Coif  ScaraScunda
+? HolRotund
++ 10  Cufar  DepozitCurat
+= 6  CheieCelula  Cantina
+= 10  Coif  CameraRuinata
+= 8  Buzdugan  FierarieGotica
+- 1  Tigru  TurnCuColoane
+#  Piatra  ScaraInalta
+- 3  Piatra  DepozitMurdar
+? CamarutaMica
++ 1  Halberdier  Cantina
+? IncapereCuFerestre
+? BibliotecaMurdara
+= 8  CapcanaPodea  TunelCuGrinzi
+? CamarutaMica
++ 10  Halberdier  CanalCuScheleti
++ 0  Fantoma  PivnitaGotica
++ 9  CheieArgintie  BalconInalt
+- 2  Tigru  HolCuScheleti
+@ Urias
+@ Coif
+? SalaMica
++ 2  Halberdier  BeciCuGrinzi
+#  Trapa  TurnMic
+- 5  Piatra  TunelIntunecat
+= 10  Aratare  IncapereInalta
++ 2  Buzdugan  CantinaMica
+- 4  Cheie  HolCuScheleti
+? CelulaLuminoasa
+? PivnitaGotica
+#  Medalion  DepozitMurdar
+= 0  Spadasin  CameraCuTorte
+@ Cheie
+#  Cheie  CantinaMica
++ 8  Aratare  CamaraCurata
+? CantinaCurata
+@ Coif
+@ Coif
+= 2  CheieCelula  CanalCuGratii
++ 9  Urias  CamaraLuminoasa
++ 10  Medalion  IncapereCuFerestre
+= 10  Halberdier  CameraCuTorte
+#  Spadasin  BalconUmed
+= 6  Buzdugan  IncapereInalta
+- 0  Buzdugan  CamaraLuminoasa
+- 16  Tigru  BalconInalt
++ 0  CheieCelula  HolCuScheleti
+@ Trapa
++ 2  Speraclu  BibliotecaIntunecata
+? SilozCuFerestre
+? IncapereInalta
+= 5  CheieArgintie  CamaraLuminoasa
+= 2  Cufar  HolGotic
++ 10  Tigru  CanalLuminos
++ 7  CapcanaPodea  IncapereDarapanata
+= 8  Urias  BalconUmed
+? HolRotund
+@ CheieArgintie
+#  Fantoma  BucatarieCuGrinzi
+- 0  Buzdugan  CelulaLuminoasa
++ 9  Piatra  IncapereGotica
+= 4  Speraclu  BibliotecaIntunecata
+- 9  Urias  SilozCuGratii
+#  CheieArgintie  CamaraCuCovoare
+#  Halberdier  ScaraInalta
+@ Cheie
+- 6  Spadasin  CamaraCurata
+= 7  Fantoma  CamaraCurata
+= 7  Aratare  Cantina
++ 3  Tigru  BibliotecaMurdara
++ 3  Medalion  CameraRuinata
+- 0  Halberdier  BibliotecaMurdara
+? CanalLuminos
+? CameraRuinata
+- 0  CheieArgintie  CantinaMica
+@ Aratare
+- 0  CheieCelula  HolCuScheleti
+#  CapcanaPodea  TunelIntunecat
++ 8  Buzdugan  HolMare
+= 3  Cheie  BeciCuGrinzi
++ 4  Bici  BibliotecaMurdara
+? IncapereDarapanata
+#  Cheie  SilozCuGratii
+#  Spadasin  IncapereDarapanata
++ 1  CapcanaPodea  BibliotecaIntunecata
+= 7  Cufar  BibliotecaTriunghiulara
+- 1  Fantoma  TunelIntunecat
+- 0  Cufar  TurnMic
+@ Cufar
+- 4  Fantoma  CanalCuScheleti
+@ Medalion
+= 2  Cheie  TurnCuColoane
+? CanalCuScheleti
+@ Buzdugan
+= 1  Spadasin  BeciDenivelat
++ 2  Piatra  Cantina
+= 6  Medalion  PivnitaGotica
++ 10  Piatra  BibliotecaMurdara
+#  CheieArgintie  BibliotecaIntunecata
+- 10  Trapa  CanalCuFerestre
++ 5  Medalion  BeciCuGrinzi
++ 3  Spadasin  CameraRuinata
+= 5  Cheie  SilozCuGratii
++ 6  Cufar  HolMare
+#  Mancare  ScaraScunda
+@ Spadasin
+- 8  Cheie  CanalCuScheleti
+@ Bici
+@ Mancare
+#  Coif  IncapereDarapanata
++ 7  Urias  HolCuScheleti
+? CelulaLuminoasa
+= 7  Buzdugan  BibliotecaMurdara
+? HolGotic
+= 4  Mancare  CameraCuTorte
+= 5  Trapa  CelulaLuminoasa
++ 6  Fantoma  IncapereDarapanata
+- 0  Tigru  CamaraCurata
++ 2  Mancare  ScaraScunda
++ 4  Fantoma  TunelIntunecat
+- 3  Fantoma  BibliotecaIntunecata
+#  Aratare  CelulaLuminoasa
++ 9  Cheie  ScaraScunda
++ 9  Mancare  BibliotecaTriunghiulara
+? CamarutaMica
+@ Cufar
++ 5  Liliac  CamaraCurata
++ 5  CheieCelula  DepozitMurdar
+= 3  Coif  BalconInalt
+= 7  Tigru  BalconInalt
++ 10  Fantoma  CelulaLuminoasa
+- 8  Liliac  BeciDenivelat
++ 8  Liliac  IncapereInalta
+? TurnCuGratii
++ 7  Cheie  BibliotecaMurdara
+@ Trapa
++ 2  Urias  CantinaMica
+@ Spadasin
++ 2  Fantoma  CanalCuGratii
+= 0  CheieCelula  ScaraScunda
+- 2  Medalion  HolRotund
+@ Speraclu
+#  Speraclu  BucatarieCuGrinzi
++ 6  Halberdier  HolCuScheleti
+- 6  Coif  FierarieGotica
++ 4  Piatra  PivnitaGotica
+@ Buzdugan
++ 9  CapcanaPodea  IncapereCuGrinzi
+= 8  Fantoma  HolCuScheleti
+= 1  Spadasin  CameraRuinata
+- 20  CheieCelula  TunelCuGrinzi
+- 6  Cufar  HolMare
+#  Fantoma  BalconInalt
+#  Buzdugan  HolCuScheleti
+= 2  CapcanaPodea  SalaTorturaCuTorte
++ 0  Liliac  IncapereCuFerestre
+= 7  Speraclu  CameraRuinata
+= 8  Cufar  IncapereCuFerestre
+- 5  Trapa  DepozitCurat
+#  Tigru  SilozCuGratii
++ 5  Bici  CanalCuFerestre
++ 4  Tigru  TurnCuGratii
++ 4  Cheie  CanalCuScheleti
+= 10  Aratare  CamaraCurata
+- 3  CheieArgintie  IncapereDarapanata
+= 2  CapcanaPodea  BibliotecaMurdara
+- 2  Tigru  HolGotic
+= 1  Speraclu  BucatarieCuGrinzi
+= 4  Speraclu  BeciCuGrinzi
+#  Bici  SalaTorturaCuTorte
+= 0  Halberdier  BeciCuGrinzi
+= 6  Coif  SilozCuFerestre
++ 8  CheieCelula  CantinaCurata
+= 4  Piatra  IncapereCuGrinzi
++ 9  Coif  PivnitaGotica
+= 6  Mancare  TunelCuGrinzi
++ 5  Aratare  CelulaLuminoasa
+= 5  Liliac  TunelCuGrinzi
+#  Spadasin  CamaraLuminoasa
+= 6  Piatra  BucatarieCuGrinzi
+= 2  Mancare  BalconDarapanat
+#  Trapa  CamaraCurata
+? CamaraCuCovoare
+- 0  Halberdier  BucatarieCuGrinzi
+= 9  Medalion  TurnCuGratii
+- 7  Urias  TurnMic
+? CantinaCurata
+- 1  Cufar  BalconDarapanat
+- 6  Buzdugan  ScaraCuCovoare
+@ Buzdugan
++ 10  Urias  TunelCuGrinzi
+- 0  Liliac  DepozitMurdar
++ 5  CapcanaPodea  HolGotic
++ 2  Halberdier  BibliotecaTriunghiulara
+= 1  Tigru  IncapereCuGrinzi
++ 2  Cheie  ScaraCuCovoare
++ 6  Speraclu  CanalCuFerestre
++ 9  Speraclu  IncapereInalta
+#  Liliac  HolMare
+- 21  Tigru  BeciCuGrinzi
+- 1  Bici  CanalCuScheleti
+#  CheieArgintie  CantinaCurata
+? HolDenivelat
++ 6  CheieCelula  IncapereCuGrinzi
+#  Aratare  DepozitMurdar
+- 0  CheieCelula  ScaraScunda
++ 9  Halberdier  PivnitaGotica
+#  Aratare  BalconDarapanat
++ 8  Liliac  TurnMic
+= 4  Buzdugan  BibliotecaMurdara
+? HolDenivelat
+- 6  Cheie  BibliotecaRotunda
++ 9  Tigru  SilozCuFerestre
+- 0  Trapa  BibliotecaIntunecata
+- 10  Mancare  CamaraLuminoasa
+@ Liliac
+= 9  Halberdier  CantinaCurata
+- 2  Tigru  HolDenivelat
+- 0  CapcanaPodea  BeciDenivelat
+#  Cufar  ScaraScunda
++ 2  Aratare  TunelCuGrinzi
+#  Cheie  CamaraLuminoasa
+#  Buzdugan  CanalCuScheleti
+= 10  Piatra  BucatarieCuGrinzi
+- 1  Urias  CanalCuScheleti
+- 4  Trapa  IncapereCuGrinzi
+= 2  Coif  BibliotecaRotunda
+- 8  CheieArgintie  CamarutaMica
+= 6  Spadasin  SalaTorturaCuTorte
+- 0  Tigru  ScaraInalta
+- 9  Halberdier  PivnitaGotica
+@ Coif
++ 5  Speraclu  BeciDenivelat
++ 2  Medalion  IncapereInalta
+@ Buzdugan
++ 6  Halberdier  CantinaMica
+#  CheieArgintie  DepozitMurdar
+#  Spadasin  BalconInalt
+#  Mancare  CanalCuFerestre
+- 0  Trapa  CanalCuScheleti
+= 9  CapcanaPodea  BibliotecaRotunda
+? PivnitaGotica
+- 4  Mancare  TurnCuColoane
+= 8  Piatra  IncapereGotica
+- 0  CheieArgintie  CamarutaMica
++ 5  Urias  SalaMica
+- 8  Tigru  CamaraCuCovoare
+- 3  Urias  CanalLuminos
+= 2  Buzdugan  TurnCuGratii
+#  Cheie  IncapereCuFerestre
+#  Cheie  HolDenivelat
+= 5  CheieCelula  ScaraCuCovoare
++ 3  Cufar  CelulaLuminoasa
+- 8  Coif  CanalCuScheleti
++ 7  Urias  CamaraCuCovoare
++ 3  Medalion  CanalCuFerestre
+= 2  Mancare  DepozitCurat
++ 5  Spadasin  BeciCuGrinzi
+#  Coif  PivnitaGotica
+@ Mancare
++ 4  Mancare  PivnitaGotica
+- 2  CheieCelula  SilozCuFerestre
+@ Bici
+? TurnCuColoane
+= 7  Mancare  IncapereCuFerestre
++ 3  Halberdier  HolMare
+- 10  Cufar  BibliotecaMurdara
+= 6  Cufar  CamarutaMica
++ 8  Piatra  SalaTorturaCuTorte
+= 6  Piatra  HolDenivelat
+= 4  Fantoma  BucatarieCuGrinzi
+- 7  Speraclu  CanalCuGratii
+- 3  Halberdier  BibliotecaTriunghiulara
+= 7  Tigru  ScaraCuCovoare
+#  Urias  BibliotecaIntunecata
+- 2  Medalion  Cantina
+? CanalCuGratii
+@ Bici
+@ Halberdier
+= 0  Coif  BibliotecaIntunecata
+@ Trapa
++ 0  Halberdier  BucatarieCuGrinzi
+= 9  Liliac  PivnitaGotica
+= 10  Coif  BibliotecaIntunecata
++ 6  Tigru  HolCuScheleti
+- 2  Cufar  DepozitCurat
+= 10  Piatra  IncapereGotica
+= 3  CheieArgintie  HolGotic
++ 10  Halberdier  BucatarieCuGrinzi
++ 10  Spadasin  DepozitCurat
+= 7  Bici  TurnCuColoane
+- 0  Halberdier  TurnCuColoane
+@ Liliac
+= 9  Urias  BalconDarapanat
+#  Buzdugan  CantinaCurata
++ 6  Spadasin  CamaraCuCovoare
++ 2  CheieArgintie  Cantina
+= 10  Cufar  SalaTorturaCuTorte
+- 1  Mancare  CelulaLuminoasa
+#  CapcanaPodea  SilozCuGratii
+#  Aratare  HolRotund
+#  CheieArgintie  CanalCuScheleti
+? BucatarieCuGrinzi
+#  Coif  CameraRuinata
+- 10  Mancare  BalconInalt
+#  Trapa  CamarutaMica
+- 5  Bici  CanalCuFerestre
+= 8  Buzdugan  BalconInalt
++ 6  Medalion  CanalCuGratii
++ 1  CapcanaPodea  BeciDenivelat
++ 5  Cheie  TunelIntunecat
+= 3  Fantoma  CantinaMica
+= 6  CheieCelula  HolMare
+? CanalCuScheleti
++ 4  CheieArgintie  HolRotund
+= 9  Medalion  BibliotecaRotunda
+= 8  Cufar  CantinaMica
+= 1  Mancare  BalconUmed
+- 7  Coif  CameraRuinata
+= 9  Cufar  SalaTorturaCuTorte
++ 7  Medalion  SalaMica
+= 4  Buzdugan  TunelIntunecat
+- 18  Tigru  CanalCuGratii
+- 4  Fantoma  IncapereCuFerestre
+= 4  Trapa  HolCuScheleti
+? TurnCuColoane
+- 0  Mancare  CelulaLuminoasa
++ 6  Medalion  PivnitaGotica
+- 6  Fantoma  CanalCuFerestre
+@ Buzdugan
+- 0  Cheie  HolMare
+= 7  Medalion  TunelCuGrinzi
+@ Spadasin
+= 6  Liliac  IncapereCuFerestre
+? CelulaLuminoasa
+= 7  Fantoma  CantinaMica
+? IncapereGotica
+@ Medalion
+= 0  Aratare  BucatarieCuGrinzi
+- 7  Tigru  CanalLuminos
+? BibliotecaMurdara
+= 8  CapcanaPodea  HolCuScheleti
+= 10  Spadasin  TunelIntunecat
+= 5  Urias  CameraRuinata
+? DepozitMurdar
++ 4  Buzdugan  BibliotecaRotunda
+@ Halberdier
+- 0  Urias  CanalLuminos
+- 5  Urias  SalaTorturaCuTorte
+= 10  Cufar  HolDenivelat
+#  Cheie  IncapereCuGrinzi
+= 3  Urias  TurnMic
+#  Spadasin  CamaraLuminoasa
+@ CheieCelula
+#  Trapa  BibliotecaRotunda
+- 5  CheieArgintie  CanalCuGratii
+- 8  Liliac  BalconUmed
+@ Coif
+#  Cufar  CanalCuFerestre
+- 3  CheieCelula  BeciDenivelat
+- 0  Aratare  BalconUmed
++ 9  Medalion  HolMare
+- 8  Mancare  SalaTorturaCuTorte
+- 3  Buzdugan  Cantina
+- 0  Trapa  BibliotecaIntunecata
+- 4  Liliac  CanalLuminos
+= 2  Liliac  SalaTorturaCuTorte
+= 8  Spadasin  HolMare
+= 6  Speraclu  TunelCuGrinzi
+= 8  Cufar  TunelIntunecat
+- 0  Spadasin  TurnCuColoane
++ 2  Speraclu  TurnCuGratii
+= 4  Urias  HolCuScheleti
+? DepozitCurat
+- 2  Buzdugan  FierarieGotica
+- 5  Medalion  TurnMic
+@ Buzdugan
+? PivnitaGotica
+= 6  Piatra  HolGotic
+@ Spadasin
+= 8  Coif  TunelCuGrinzi
++ 2  Spadasin  BibliotecaRotunda
+@ Liliac
+#  Liliac  TunelIntunecat
+- 4  Liliac  CanalLuminos
+= 1  Tigru  IncapereCuFerestre
++ 4  Fantoma  SilozCuFerestre
+- 0  Piatra  TurnCuColoane
+@ Halberdier
+- 2  Medalion  CamarutaMica
+- 0  Tigru  BeciCuGrinzi
++ 1  Urias  BibliotecaIntunecata
+= 3  Medalion  IncapereInalta
++ 7  Mancare  CelulaLuminoasa
+= 8  Halberdier  Cantina
+- 1  Spadasin  BeciDenivelat
++ 8  Spadasin  PivnitaGotica
+#  Cheie  BeciDenivelat
+#  Liliac  CamarutaMica
+@ Bici
+? CanalCuScheleti
+@ Speraclu
++ 6  Halberdier  BucatarieCuGrinzi
+#  Trapa  BucatarieCuGrinzi
+@ Medalion
+- 14  Medalion  SilozCuFerestre
+#  CapcanaPodea  BibliotecaRotunda
+? BibliotecaIntunecata
++ 9  Cheie  CantinaCurata
+= 5  Speraclu  HolCuScheleti
++ 9  Medalion  BibliotecaTriunghiulara
+? HolRotund
++ 8  Aratare  PivnitaGotica
+- 9  Halberdier  HolRotund
++ 4  Spadasin  CanalCuFerestre
++ 9  Coif  IncapereDarapanata
+- 0  CheieCelula  HolCuScheleti
++ 5  Buzdugan  SalaMica
+- 4  Halberdier  CamaraCuCovoare
+= 0  Cufar  IncapereCuGrinzi
+#  Halberdier  CelulaLuminoasa
+#  Halberdier  ScaraScunda
+= 2  CheieArgintie  CamarutaMica
+- 4  CheieCelula  CantinaCurata
+- 0  Speraclu  CanalLuminos
+= 3  Trapa  CameraRuinata
+#  Tigru  CantinaMica
++ 8  CapcanaPodea  SilozCuGratii
++ 6  Bici  HolRotund
+= 4  Urias  CameraRuinata
+@ Trapa
+- 8  CapcanaPodea  TunelCuGrinzi
+- 5  CheieCelula  CantinaCurata
+= 10  Aratare  TurnCuColoane
++ 3  CheieCelula  BalconInalt
+= 1  CheieCelula  HolDenivelat
+@ Piatra
++ 5  CapcanaPodea  CelulaLuminoasa
+= 3  Trapa  BeciCuGrinzi
+? SalaTorturaCuTorte
++ 4  Coif  TunelIntunecat
+= 6  Cufar  CelulaLuminoasa
++ 1  Tigru  BibliotecaTriunghiulara
++ 3  Fantoma  CanalLuminos
+= 4  Tigru  BeciCuGrinzi
++ 0  Speraclu  HolCuScheleti
+#  Spadasin  BeciDenivelat
+= 8  Aratare  HolMare
++ 3  Liliac  SalaTorturaCuTorte
+- 4  Liliac  CamaraCuCovoare
+#  Coif  CanalLuminos
++ 10  Medalion  HolRotund
++ 6  Bici  CamaraLuminoasa
+- 9  CheieCelula  IncapereInalta
+@ Spadasin
+@ Cheie
+- 7  CapcanaPodea  IncapereDarapanata
++ 4  Bici  BibliotecaIntunecata
+= 7  Trapa  ScaraCuCovoare
++ 6  Bici  BalconDarapanat
+- 0  Aratare  Cantina
+- 0  Cufar  PivnitaGotica
+@ Halberdier
+- 9  Liliac  FierarieGotica
+? CanalCuScheleti
+#  Piatra  TurnCuColoane
+@ Buzdugan
+= 9  Trapa  HolDenivelat
+#  Liliac  BibliotecaRotunda
+? BibliotecaRotunda
+- 0  Trapa  BibliotecaIntunecata
+- 15  CheieArgintie  BalconInalt
+- 10  CheieArgintie  IncapereCuGrinzi
+#  Liliac  BalconInalt
+- 0  CapcanaPodea  TurnCuColoane
+= 10  Urias  TunelIntunecat
+- 1  Liliac  BalconUmed
++ 1  Medalion  BeciCuGrinzi
+= 7  Piatra  TurnCuGratii
+- 7  Bici  SalaTorturaCuTorte
+#  Halberdier  TurnCuGratii
++ 2  Bici  IncapereGotica
+- 0  Urias  IncapereDarapanata
+@ Tigru
+? IncapereInalta
+- 5  CheieArgintie  CamaraLuminoasa
+#  Trapa  ScaraCuCovoare
+@ Piatra
+@ Halberdier
+- 1  Bici  TurnCuGratii
+@ Buzdugan
+- 8  Cheie  CantinaCurata
+= 4  Spadasin  SilozCuFerestre
+= 10  Liliac  ScaraScunda
+- 1  Cheie  CameraCuTorte
+? SilozCuGratii
+= 2  Cheie  SalaMica
+= 8  Buzdugan  BucatarieCuGrinzi
+- 4  Coif  CantinaCurata
+= 7  CheieCelula  TunelIntunecat
+@ Cheie
+@ CapcanaPodea
++ 9  CheieCelula  IncapereCuFerestre
+- 4  Aratare  BalconInalt
+? TurnCuColoane
+= 10  Liliac  PivnitaGotica
+? SalaMica
+? CantinaCurata
+= 3  Bici  TunelCuGrinzi
+= 4  Spadasin  IncapereInalta
++ 0  Speraclu  SilozCuFerestre
++ 5  Spadasin  CamaraCurata
+= 7  Cheie  BeciCuGrinzi
++ 1  Mancare  BibliotecaIntunecata
+- 0  Tigru  CamaraCurata
+= 2  Mancare  CanalCuScheleti
+= 9  CapcanaPodea  SalaTorturaCuTorte
+#  Spadasin  TurnCuGratii
+- 9  Mancare  BibliotecaTriunghiulara
+@ Buzdugan
+- 0  Cufar  BeciDenivelat
++ 6  Spadasin  CamaraLuminoasa
++ 0  Coif  TurnMic
+#  Medalion  PivnitaGotica
++ 9  Mancare  TunelCuGrinzi
++ 6  Coif  DepozitMurdar
+? IncapereCuGrinzi
+= 9  Liliac  ScaraScunda
+- 0  Medalion  SilozCuGratii
++ 3  Aratare  DepozitCurat
+- 2  Piatra  BalconUmed
++ 3  Mancare  HolCuScheleti
++ 10  Speraclu  ScaraScunda
++ 3  Medalion  CameraRuinata
+= 2  Piatra  IncapereGotica
+= 2  Halberdier  IncapereGotica
+? TunelCuGrinzi
++ 10  Speraclu  CanalLuminos
+= 6  Halberdier  CelulaLuminoasa
+= 2  Buzdugan  IncapereInalta
+= 7  CheieArgintie  ScaraCuCovoare
++ 6  Speraclu  DepozitMurdar
+= 2  Halberdier  ScaraInalta
+= 4  CheieArgintie  DepozitMurdar
+- 14  Medalion  CanalCuFerestre
++ 6  Cheie  BeciDenivelat
+= 10  Cheie  CanalCuScheleti
++ 2  CheieArgintie  TurnCuColoane
++ 5  Urias  TurnCuGratii
++ 0  CapcanaPodea  BibliotecaMurdara
+= 1  CheieArgintie  BibliotecaMurdara
+- 6  Piatra  ScaraInalta
+? SilozCuFerestre
++ 10  Cheie  SilozCuFerestre
+? IncapereGotica
++ 3  Halberdier  HolCuScheleti
+- 9  Liliac  CameraRuinata
+= 1  Halberdier  TurnCuGratii
+#  Urias  HolDenivelat
++ 4  Liliac  CamarutaMica
+@ Aratare
+#  Piatra  IncapereInalta
++ 3  Urias  DepozitCurat
++ 4  Medalion  BalconInalt
++ 5  Medalion  BibliotecaRotunda
+- 5  Bici  SalaMica
+@ Fantoma
+@ Coif
+- 4  Urias  CanalCuGratii
++ 4  Cheie  HolRotund
++ 3  CheieArgintie  CelulaLuminoasa
+- 3  Cufar  IncapereGotica
+= 3  Buzdugan  IncapereCuGrinzi
+= 2  Tigru  CantinaCurata
+= 7  Medalion  HolRotund
++ 9  CheieArgintie  CamaraLuminoasa
+= 4  Mancare  Cantina
+- 7  Bici  SilozCuFerestre
++ 8  CheieArgintie  DepozitCurat
+= 9  Liliac  FierarieGotica
++ 6  Tigru  HolCuScheleti
+- 6  Fantoma  ScaraScunda
+= 6  Speraclu  HolDenivelat
+= 3  Medalion  IncapereCuGrinzi
+= 5  Bici  BalconUmed
++ 4  Speraclu  HolMare
+? BibliotecaMurdara
++ 8  Speraclu  IncapereGotica
++ 8  Tigru  CelulaLuminoasa
+#  Piatra  BibliotecaRotunda
+? BibliotecaMurdara
+= 5  Cheie  CameraCuTorte
++ 4  Speraclu  HolRotund
+- 3  Piatra  BeciCuGrinzi
+- 5  CheieArgintie  BibliotecaRotunda
++ 5  Piatra  CanalCuGratii
+#  Cheie  IncapereGotica
+@ Liliac
+- 5  CheieCelula  PivnitaGotica
+- 5  Cheie  CameraCuTorte
++ 10  Speraclu  PivnitaGotica
+#  Buzdugan  IncapereDarapanata
++ 5  Buzdugan  BalconInalt
++ 6  Piatra  BalconUmed
+- 5  CheieArgintie  Cantina
+@ Medalion
++ 6  Fantoma  Cantina
+@ CapcanaPodea
+#  Trapa  CamaraLuminoasa
+@ Speraclu
+#  Halberdier  ScaraInalta
+#  Fantoma  HolRotund
+#  Mancare  BibliotecaIntunecata
++ 9  Buzdugan  CantinaCurata
+= 7  CapcanaPodea  BucatarieCuGrinzi
+= 2  Coif  ScaraInalta
+- 5  Aratare  HolGotic
++ 1  CapcanaPodea  CanalCuFerestre
+= 7  Cufar  BalconInalt
++ 7  Coif  CameraRuinata
+- 0  Speraclu  TurnCuColoane
++ 6  Liliac  IncapereGotica
++ 3  Cufar  PivnitaGotica
+- 1  Urias  TunelIntunecat
++ 8  Fantoma  Cantina
+= 0  Buzdugan  SalaMica
++ 5  CheieArgintie  TurnCuGratii
++ 9  Trapa  CamarutaMica
++ 5  Trapa  ScaraScunda
+= 4  CapcanaPodea  ScaraCuCovoare
+#  Urias  TurnCuGratii
+- 2  CheieCelula  CantinaMica
+- 10  Coif  CameraRuinata
+? CanalCuScheleti
+@ Tigru
+? BibliotecaIntunecata
++ 7  Tigru  BalconDarapanat
+@ CapcanaPodea
+= 5  Halberdier  BibliotecaRotunda
+#  CheieArgintie  BeciDenivelat
+- 4  Mancare  HolCuScheleti
+? Cantina
+@ Speraclu
+= 8  Medalion  BeciCuGrinzi
+= 9  Speraclu  HolGotic
+= 2  CheieArgintie  FierarieGotica
+= 8  Piatra  IncapereCuFerestre
+= 6  Liliac  DepozitCurat
+? CanalCuScheleti
+= 0  Urias  BalconDarapanat
+- 23  Halberdier  HolMare
++ 9  Spadasin  IncapereDarapanata
+@ Buzdugan
++ 1  Spadasin  PivnitaGotica
++ 4  CheieCelula  HolCuScheleti
++ 8  Halberdier  BalconInalt
+- 5  Urias  BibliotecaTriunghiulara
+= 10  Cheie  IncapereCuGrinzi
+- 2  Buzdugan  CanalLuminos
+= 5  CheieCelula  FierarieGotica
+- 6  Liliac  IncapereGotica
+#  Mancare  BibliotecaMurdara
++ 5  Spadasin  IncapereCuFerestre
+= 7  CheieCelula  BeciDenivelat
++ 6  Trapa  IncapereCuGrinzi
+- 0  Mancare  CamaraLuminoasa
+- 2  Cufar  CantinaCurata
+- 0  Tigru  CamaraCurata
+? TurnCuColoane
+- 0  CapcanaPodea  SilozCuFerestre
+= 2  Fantoma  CantinaMica
++ 0  Aratare  BeciDenivelat
+- 0  Mancare  CamaraLuminoasa
+= 2  CheieArgintie  IncapereDarapanata
+- 6  Urias  BeciCuGrinzi
++ 4  Speraclu  IncapereGotica
+? SilozCuFerestre
++ 5  Spadasin  HolGotic
+= 2  Halberdier  CamaraCurata
+= 2  Mancare  HolGotic
+#  Cufar  IncapereDarapanata
+- 0  Coif  IncapereCuFerestre
++ 5  Medalion  CanalCuScheleti
+= 0  CheieCelula  TunelIntunecat
+= 4  Bici  CanalCuScheleti
+- 0  Spadasin  TurnMic
+- 2  Fantoma  DepozitCurat
+- 7  Aratare  ScaraScunda
++ 0  Liliac  IncapereInalta
+- 2  Bici  CameraRuinata
++ 5  CheieCelula  TunelCuGrinzi
+= 8  Urias  BeciDenivelat
++ 8  Buzdugan  BucatarieCuGrinzi
+@ Coif
+#  Spadasin  HolGotic
+= 9  Bici  SalaMica
++ 4  CheieArgintie  ScaraCuCovoare
++ 8  Mancare  IncapereInalta
+= 2  Cufar  BucatarieCuGrinzi
+- 0  Tigru  CantinaMica
+= 7  Urias  CameraRuinata
++ 1  Urias  CanalCuFerestre
+= 2  Cufar  CamaraLuminoasa
+- 0  Bici  TunelIntunecat
++ 10  Buzdugan  ScaraInalta
+#  Cheie  CanalLuminos
+- 3  CheieCelula  ScaraCuCovoare
+#  Urias  CameraRuinata
++ 8  Halberdier  HolGotic
+- 15  Halberdier  TurnMic
+@ Coif
+@ Cufar
+- 2  Halberdier  BalconUmed
+@ Cufar
++ 2  Spadasin  TunelIntunecat
+- 0  Trapa  CanalLuminos
+@ Medalion
+= 1  Medalion  HolRotund
+= 7  CapcanaPodea  ScaraScunda
+= 8  Speraclu  TunelCuGrinzi
++ 2  Liliac  BeciCuGrinzi
++ 6  Trapa  SalaMica
+#  Cufar  BibliotecaTriunghiulara
+= 2  Trapa  IncapereCuGrinzi
++ 3  Tigru  BucatarieCuGrinzi
+? SalaTorturaCuTorte
+#  CheieCelula  PivnitaGotica
+- 7  CapcanaPodea  HolDenivelat
+#  CheieCelula  CamaraCurata
+#  Bici  BeciDenivelat
+= 7  Speraclu  CanalLuminos
+? ScaraInalta
+= 7  Urias  HolDenivelat
+- 4  Buzdugan  FierarieGotica
+- 0  Cheie  CamarutaMica
++ 10  Cheie  HolDenivelat
+#  Bici  CamaraCuCovoare
+= 1  Aratare  HolCuScheleti
+- 0  Aratare  HolGotic
+= 0  Trapa  ScaraInalta
+= 6  Mancare  TunelIntunecat
+= 10  Trapa  CantinaCurata
+#  Spadasin  HolMare
+@ Urias
+@ CheieArgintie
+@ Fantoma
+= 2  CheieCelula  BeciDenivelat
++ 4  Coif  ScaraInalta
+#  Cufar  CanalCuScheleti
+- 1  Bici  SalaMica
+@ Buzdugan
++ 5  Medalion  CamaraCuCovoare
+#  Halberdier  BibliotecaIntunecata
+? TunelIntunecat
+= 6  Spadasin  CantinaCurata
+= 0  Liliac  CamaraLuminoasa
++ 9  Spadasin  PivnitaGotica
+? CantinaMica
+- 3  Speraclu  CanalCuScheleti
+= 9  Aratare  IncapereCuGrinzi
+= 1  Piatra  PivnitaGotica
++ 8  Liliac  HolGotic
+? ScaraCuCovoare
++ 1  Buzdugan  ScaraInalta
+- 4  Urias  CantinaMica
+= 4  Spadasin  CantinaMica
+@ Tigru
+= 7  Trapa  TunelIntunecat
++ 2  Piatra  TurnCuGratii
+#  Speraclu  BibliotecaRotunda
+= 7  CapcanaPodea  BalconUmed
+@ Fantoma
+= 7  Halberdier  CamaraCurata
+- 8  Urias  IncapereGotica
+#  Piatra  BibliotecaMurdara
+? DepozitMurdar
+#  Trapa  TurnCuColoane
++ 1  Cheie  SalaTorturaCuTorte
++ 2  Tigru  HolCuScheleti
+#  Cufar  HolGotic
+#  Urias  TunelIntunecat
+@ Liliac
+- 0  Piatra  CantinaCurata
++ 9  Cheie  TurnMic
+- 0  Fantoma  ScaraScunda
+= 8  Coif  BibliotecaMurdara
+= 1  Medalion  CamaraCuCovoare
+- 1  Medalion  CamaraCuCovoare
+- 0  Cufar  BibliotecaMurdara
+= 9  CheieCelula  IncapereGotica
+- 2  Halberdier  IncapereGotica
+@ Halberdier
+@ Aratare
++ 1  CapcanaPodea  BibliotecaRotunda
+- 1  Urias  DepozitMurdar
++ 3  Bici  BibliotecaTriunghiulara
+= 1  Medalion  BibliotecaMurdara
++ 0  Fantoma  CamaraLuminoasa
+= 9  CapcanaPodea  BeciDenivelat
++ 2  Cheie  CamaraCurata
+? TurnMic
++ 9  CapcanaPodea  CanalCuGratii
+= 7  Medalion  SilozCuGratii
++ 10  CheieCelula  PivnitaGotica
+? DepozitCurat
+- 6  Cufar  CamaraCuCovoare
++ 0  Mancare  CamaraCuCovoare
+= 8  Aratare  CameraRuinata
+? Cantina
+= 8  Buzdugan  CamaraCuCovoare
++ 5  Trapa  IncapereCuFerestre
+- 7  CheieCelula  IncapereCuGrinzi
+#  Mancare  CantinaMica
+- 9  Medalion  BibliotecaRotunda
+- 0  Mancare  BibliotecaTriunghiulara
+#  CheieCelula  HolMare
+@ Buzdugan
+- 3  Speraclu  IncapereInalta
+- 2  Spadasin  PivnitaGotica
+#  Cheie  IncapereGotica
+- 7  Trapa  BalconInalt
+@ Piatra
+? CanalCuGratii
+- 0  Speraclu  IncapereCuGrinzi
+- 5  CheieCelula  CanalLuminos
+- 6  Mancare  TurnCuGratii
+? TunelCuGrinzi
+= 0  Mancare  BibliotecaRotunda
++ 2  Cheie  ScaraInalta
++ 2  Bici  CamaraCuCovoare
+= 9  Trapa  TunelIntunecat
+- 7  Spadasin  CamarutaMica
+- 0  Cheie  Cantina
+#  CheieCelula  CameraCuTorte
+- 2  Piatra  IncapereDarapanata
++ 7  Liliac  CamaraCurata
+#  Trapa  ScaraCuCovoare
+? CelulaLuminoasa
++ 10  Tigru  CanalCuFerestre
+? SalaMica
+#  Cufar  IncapereDarapanata
+= 1  Bici  BeciDenivelat
+- 4  Medalion  IncapereGotica
+#  Tigru  BeciCuGrinzi
+#  CapcanaPodea  SilozCuFerestre
+@ Cheie
+@ Bici
+@ Cheie
+- 5  Urias  SalaMica
++ 9  CheieCelula  CanalCuGratii
+= 8  Cheie  PivnitaGotica
++ 6  Cufar  TurnCuGratii
++ 9  Cheie  TunelCuGrinzi
+- 14  Piatra  SilozCuFerestre
+- 0  CapcanaPodea  BeciCuGrinzi
++ 7  Aratare  SalaMica
+= 6  Halberdier  IncapereDarapanata
++ 0  Aratare  DepozitCurat
+- 2  Cufar  CamaraCurata
+= 10  Speraclu  BibliotecaIntunecata
+? BibliotecaMurdara
+@ Aratare
+@ Medalion
+- 1  Piatra  IncapereGotica
+= 8  Halberdier  CanalCuFerestre
+- 0  Halberdier  DepozitMurdar
++ 1  Cufar  HolDenivelat
++ 10  CheieCelula  IncapereInalta
+= 3  Coif  CameraRuinata
+? HolDenivelat
+@ Medalion
+= 8  Liliac  CameraCuTorte
+- 0  Medalion  BeciDenivelat
+- 2  CheieArgintie  CanalLuminos
+@ CheieCelula
+? ScaraScunda
+- 2  CheieCelula  BeciDenivelat
+- 2  CheieArgintie  CelulaLuminoasa
+@ Fantoma
++ 7  Medalion  CelulaLuminoasa
++ 2  Spadasin  BibliotecaRotunda
+- 4  Piatra  DepozitMurdar
+= 6  Mancare  CamaraCurata
+? IncapereDarapanata
+? HolMare
+= 9  CheieArgintie  TunelCuGrinzi
++ 3  CheieArgintie  SalaTorturaCuTorte
+= 0  Cufar  BibliotecaIntunecata
+#  CapcanaPodea  SalaMica
+@ Urias
++ 7  Speraclu  ScaraInalta
+- 2  CapcanaPodea  BibliotecaMurdara
+= 6  CheieArgintie  BalconUmed
+- 0  Halberdier  BibliotecaIntunecata
+- 8  Aratare  HolMare
+? BibliotecaMurdara
+@ Urias
+@ Aratare
+- 3  Trapa  BeciCuGrinzi
++ 7  CheieCelula  SalaTorturaCuTorte
++ 7  Halberdier  ScaraCuCovoare
+= 10  Speraclu  SalaMica
+- 1  CheieCelula  ScaraInalta
+= 4  Medalion  CamarutaMica
+#  Halberdier  TunelCuGrinzi
++ 7  Mancare  HolCuScheleti
++ 0  Bici  CantinaMica
+@ Trapa
+- 7  Mancare  IncapereCuFerestre
+- 7  Medalion  CanalCuScheleti
+- 3  Bici  CanalCuFerestre
+= 10  Piatra  SalaTorturaCuTorte
+= 2  Cheie  Cantina
+- 5  Medalion  SalaMica
++ 4  Fantoma  SalaTorturaCuTorte
+@ CheieCelula
+= 8  Bici  IncapereDarapanata
++ 5  Bici  BibliotecaMurdara
++ 3  Piatra  CameraRuinata
+= 1  Buzdugan  DepozitCurat
+- 0  Urias  CanalCuScheleti
++ 1  Piatra  ScaraInalta
+- 0  Mancare  HolMare
+- 6  CapcanaPodea  CameraCuTorte
+= 5  Liliac  TunelCuGrinzi
+? SilozCuGratii
+@ Piatra
+- 1  Mancare  IncapereDarapanata
++ 10  Medalion  BeciCuGrinzi
+= 4  Urias  CanalCuGratii
++ 6  CapcanaPodea  HolCuScheleti
+- 9  Spadasin  IncapereGotica
++ 6  CheieCelula  SilozCuGratii
+= 8  Mancare  BalconDarapanat
++ 7  Medalion  SilozCuFerestre
++ 2  Speraclu  BibliotecaTriunghiulara
+- 0  Piatra  BibliotecaRotunda
+? Cantina
+- 2  Liliac  DepozitMurdar
+- 0  Bici  TurnCuGratii
++ 5  Speraclu  Cantina
+- 7  Mancare  HolCuScheleti
++ 7  CheieArgintie  BibliotecaTriunghiulara
+- 0  Cheie  CamarutaMica
+@ CapcanaPodea
+= 4  CapcanaPodea  IncapereDarapanata
++ 8  Cheie  BeciCuGrinzi
+- 0  Medalion  ScaraInalta
++ 5  Medalion  CamaraCuCovoare
+- 0  Speraclu  IncapereCuGrinzi
+#  CapcanaPodea  BibliotecaIntunecata
+#  Coif  CamaraCurata
++ 4  Tigru  SalaMica
++ 9  Fantoma  IncapereCuGrinzi
++ 6  Coif  TunelIntunecat
+#  Aratare  TurnMic
+@ Tigru
+= 1  Tigru  CanalCuFerestre
+= 10  Aratare  TunelCuGrinzi
+? CamaraCurata
+= 8  Halberdier  BalconDarapanat
++ 2  Halberdier  CamaraCurata
++ 6  Medalion  IncapereCuFerestre
++ 2  Cufar  FierarieGotica
+? IncapereCuFerestre
++ 6  Buzdugan  BibliotecaIntunecata
++ 0  Liliac  TurnCuGratii
+? IncapereGotica
++ 5  Piatra  ScaraCuCovoare
++ 6  CheieCelula  IncapereCuFerestre
+? ScaraCuCovoare
+@ Coif
++ 0  Speraclu  CamaraLuminoasa
+- 4  Speraclu  HolDenivelat
+@ Cufar
+@ Buzdugan
+? HolGotic
+= 8  Piatra  IncapereCuGrinzi
+= 3  CheieCelula  BibliotecaRotunda
+? Cantina
+= 9  Medalion  IncapereInalta
+- 3  Speraclu  CanalCuScheleti
+= 10  CapcanaPodea  CantinaMica
+- 0  Mancare  CamaraCuCovoare
+? DepozitMurdar
+? CamaraLuminoasa
+- 5  Spadasin  TurnCuColoane
++ 1  Mancare  SilozCuGratii
+= 10  Piatra  CameraCuTorte
+= 6  Bici  TurnCuColoane
+@ Piatra
+? BucatarieCuGrinzi
+#  CheieArgintie  HolCuScheleti
++ 9  Aratare  CantinaCurata
+= 5  Tigru  CamaraLuminoasa
+#  Mancare  CamarutaMica
+@ Mancare
+@ Tigru
++ 8  Trapa  DepozitCurat
+@ Fantoma
+- 6  Buzdugan  ScaraInalta
+@ Cheie
+? TurnCuGratii
++ 10  Speraclu  CanalLuminos
+= 0  Fantoma  PivnitaGotica
++ 7  Medalion  SilozCuGratii
+= 2  CheieCelula  SilozCuGratii
++ 3  CheieArgintie  HolCuScheleti
+- 0  Tigru  ScaraInalta
+= 2  CapcanaPodea  CanalCuScheleti
+= 1  Trapa  Cantina
++ 2  Trapa  CameraCuTorte
+#  CapcanaPodea  IncapereCuGrinzi
+= 9  Speraclu  TunelCuGrinzi
+- 4  CheieArgintie  ScaraInalta
++ 1  Aratare  IncapereInalta
+= 1  Liliac  FierarieGotica
+@ Bici
+#  Mancare  CamaraCuCovoare
+= 5  Piatra  ScaraInalta
++ 4  Mancare  BeciCuGrinzi
+- 1  Medalion  CanalLuminos
+? IncapereDarapanata
+- 2  Medalion  DepozitMurdar
+= 1  Bici  HolGotic
+- 13  Mancare  DepozitMurdar
++ 0  Cheie  HolMare
++ 3  Mancare  CamaraCuCovoare
++ 1  Speraclu  HolRotund
+@ Urias
+@ Urias
++ 9  Bici  CantinaMica
+- 1  Medalion  BalconInalt
+? ScaraCuCovoare
+- 1  Urias  TurnCuGratii
+- 0  Halberdier  HolMare
+= 0  Tigru  IncapereDarapanata
+= 9  CheieArgintie  SilozCuGratii
+= 4  Cufar  HolMare
+= 6  Speraclu  HolMare
++ 5  CheieArgintie  BucatarieCuGrinzi
++ 3  Cufar  CamaraCurata
+#  Tigru  BibliotecaRotunda
+= 1  Liliac  IncapereCuGrinzi
++ 0  Liliac  BibliotecaTriunghiulara
+= 1  Buzdugan  CamaraCurata
+#  Medalion  CanalCuGratii
+- 12  Speraclu  Cantina
+= 9  Bici  IncapereCuGrinzi
+- 0  Bici  BibliotecaIntunecata
+@ Halberdier
++ 6  CapcanaPodea  HolMare
+@ Buzdugan
+- 0  Buzdugan  TunelCuGrinzi
++ 9  Cufar  CamaraCurata
+= 3  Spadasin  CanalLuminos
+@ Coif
+- 6  Speraclu  IncapereGotica
+? BeciDenivelat
+= 8  Aratare  CantinaMica
++ 2  Urias  IncapereGotica
+= 4  CheieArgintie  IncapereGotica
+@ Mancare
+#  Cheie  BalconUmed
+? TurnMic
+- 16  Coif  ScaraScunda
+#  Liliac  TunelIntunecat
++ 6  Cheie  TunelIntunecat
+- 1  Trapa  DepozitMurdar
++ 2  Speraclu  CameraCuTorte
+@ CheieArgintie
+#  Fantoma  TurnCuColoane
+= 9  Speraclu  BucatarieCuGrinzi
+@ Bici
+= 4  Cufar  HolCuScheleti
+#  Fantoma  HolMare
++ 7  CapcanaPodea  CamaraCuCovoare
++ 1  Coif  CantinaMica
++ 2  Bici  CanalCuFerestre
+- 0  Fantoma  IncapereGotica
++ 2  Trapa  BucatarieCuGrinzi
+= 3  Cheie  CanalCuScheleti
+#  Buzdugan  ScaraCuCovoare
++ 2  Bici  IncapereGotica
++ 1  Speraclu  PivnitaGotica
+- 6  Cufar  CelulaLuminoasa
+@ Aratare
+= 10  Bici  HolCuScheleti
+- 0  Coif  HolGotic
+= 5  Aratare  IncapereGotica
+#  Medalion  SalaMica
++ 2  Trapa  SilozCuFerestre
+- 5  Liliac  CameraCuTorte
+= 8  Halberdier  CamarutaMica
+- 1  Piatra  CanalCuScheleti
+- 1  Trapa  HolCuScheleti
+? PivnitaGotica
++ 3  Spadasin  IncapereInalta
+= 10  Cheie  HolCuScheleti
++ 4  Tigru  BeciCuGrinzi
+= 7  CheieCelula  CanalCuFerestre
+? BalconInalt
+? IncapereCuGrinzi
+= 9  Fantoma  CantinaMica
+- 6  Piatra  SalaMica
+= 6  Mancare  TunelIntunecat
+= 9  Buzdugan  SilozCuFerestre
+= 10  Coif  SalaTorturaCuTorte
+#  CheieCelula  BibliotecaRotunda
++ 3  Liliac  SilozCuGratii
+? FierarieGotica
+? CantinaMica
+= 5  Bici  ScaraCuCovoare
+- 4  Mancare  CameraCuTorte
+- 12  Spadasin  TunelIntunecat
+@ Mancare
+#  Trapa  TurnCuGratii
+= 3  CheieCelula  CanalLuminos
+= 7  Cheie  IncapereDarapanata
+= 1  Trapa  CanalCuScheleti
+= 9  Bici  ScaraInalta
+? TurnMic
++ 10  CheieCelula  IncapereDarapanata
++ 9  Trapa  HolRotund
+= 7  CapcanaPodea  CamarutaMica
++ 5  Buzdugan  ScaraScunda
+- 0  Aratare  BucatarieCuGrinzi
+#  Cheie  BalconDarapanat
+= 7  CheieCelula  CamaraCurata
+- 10  Medalion  HolGotic
+- 3  Liliac  BeciCuGrinzi
++ 10  Trapa  IncapereCuGrinzi
+= 5  Speraclu  CanalCuScheleti
+? PivnitaGotica
+= 3  Mancare  TurnCuColoane
+- 1  Trapa  Cantina
++ 2  CapcanaPodea  CanalCuFerestre
+@ Tigru
++ 8  Fantoma  IncapereGotica
+= 8  Coif  IncapereInalta
++ 9  Mancare  BalconInalt
+= 8  Cufar  BalconInalt
+= 2  Spadasin  SalaMica
+@ Piatra
+#  CheieCelula  CamaraCuCovoare
+= 9  CheieArgintie  DepozitMurdar
+- 9  CapcanaPodea  CanalCuGratii
++ 7  Halberdier  BalconUmed
+#  Coif  ScaraScunda
+? FierarieGotica
+= 0  Coif  SilozCuFerestre
+= 0  Mancare  DepozitMurdar
++ 3  Coif  HolDenivelat
+? TurnMic
+#  Fantoma  TunelIntunecat
+? IncapereGotica
+- 2  CheieArgintie  CamarutaMica
++ 8  Tigru  CanalCuScheleti
++ 4  Cheie  SilozCuFerestre
+? IncapereGotica
++ 10  Trapa  BeciCuGrinzi
+= 9  Bici  BucatarieCuGrinzi
+= 9  Aratare  BalconInalt
+- 0  CheieArgintie  CamaraCurata
+? HolCuScheleti
+= 9  Speraclu  IncapereGotica
+= 3  Coif  SilozCuFerestre
+- 2  Bici  SalaTorturaCuTorte
+? CameraRuinata
+- 3  Buzdugan  IncapereCuGrinzi
+= 9  Buzdugan  HolCuScheleti
+= 2  Urias  DepozitCurat
+= 6  CheieCelula  DepozitMurdar
++ 10  CheieCelula  TunelIntunecat
+- 11  Urias  CameraCuTorte
+= 6  Buzdugan  CanalCuFerestre
+? TurnMic
++ 4  Cufar  CamaraCuCovoare
++ 10  Trapa  BucatarieCuGrinzi
+- 7  Spadasin  CamaraCurata
+- 9  Spadasin  PivnitaGotica
+= 6  CheieArgintie  TurnCuGratii
++ 2  Trapa  ScaraCuCovoare
+- 4  Urias  TunelCuGrinzi
+= 7  CapcanaPodea  IncapereDarapanata
++ 5  Piatra  BibliotecaRotunda
++ 2  Urias  CamaraCuCovoare
+= 1  Liliac  ScaraInalta
+- 8  Cufar  CantinaMica
+? TurnCuGratii
+= 4  Trapa  BalconDarapanat
+? CameraCuTorte
++ 4  CheieCelula  CantinaMica
+= 9  Liliac  DepozitMurdar
+- 1  CapcanaPodea  PivnitaGotica
+= 5  CheieArgintie  CamaraCurata
++ 8  CheieArgintie  IncapereInalta
+#  Buzdugan  CanalCuScheleti
++ 5  Buzdugan  Cantina
+= 1  Mancare  HolRotund
+? BeciDenivelat
++ 8  CheieCelula  BucatarieCuGrinzi
++ 5  Bici  IncapereGotica
++ 2  CheieArgintie  BibliotecaRotunda
+@ Tigru
++ 10  Trapa  BeciDenivelat
+= 9  Fantoma  CameraRuinata
++ 1  Urias  HolCuScheleti
+= 0  Urias  SalaTorturaCuTorte
+#  Fantoma  IncapereDarapanata
++ 0  Liliac  HolCuScheleti
+? CameraRuinata
++ 2  Cheie  CamaraLuminoasa
++ 2  CheieCelula  ScaraInalta
+- 18  Piatra  TurnCuColoane
+@ Cufar
+@ Fantoma
++ 8  Spadasin  BalconUmed
+? SalaTorturaCuTorte
+- 7  Coif  CelulaLuminoasa
+= 8  Fantoma  CanalCuGratii
+@ Cheie
+- 20  Liliac  BibliotecaRotunda
+= 1  Fantoma  BeciCuGrinzi
++ 10  Buzdugan  TurnCuColoane
+@ Halberdier
++ 1  Aratare  CameraRuinata
+#  Spadasin  BibliotecaRotunda
+@ Spadasin
+- 0  Buzdugan  SilozCuGratii
+@ Trapa
+- 0  Urias  SalaTorturaCuTorte
+- 0  Speraclu  CantinaMica
+? TurnCuGratii
+= 0  CheieCelula  BucatarieCuGrinzi
+#  Halberdier  IncapereCuGrinzi
+= 7  Spadasin  CameraCuTorte
+= 2  Fantoma  HolGotic
++ 1  Buzdugan  TurnCuColoane
+= 1  CheieArgintie  TunelCuGrinzi
+? HolCuScheleti
+= 1  Halberdier  FierarieGotica
+- 0  Urias  SalaTorturaCuTorte
+= 5  Medalion  HolMare
++ 8  Piatra  HolCuScheleti
+- 4  CheieCelula  HolMare
+- 7  Urias  CamarutaMica
+@ CapcanaPodea
++ 10  Fantoma  SilozCuFerestre
+= 10  CheieArgintie  ScaraInalta
++ 2  Buzdugan  Cantina
+#  CheieCelula  BibliotecaMurdara
+- 3  Bici  SilozCuFerestre
+- 7  Medalion  SilozCuFerestre
+? BibliotecaTriunghiulara
+#  Trapa  BeciDenivelat
+= 7  Piatra  SalaTorturaCuTorte
+#  Coif  TurnCuGratii
++ 2  Speraclu  IncapereDarapanata
++ 8  CapcanaPodea  CamaraCuCovoare
+- 2  Spadasin  BibliotecaRotunda
++ 10  CheieArgintie  ScaraInalta
+#  Piatra  BalconUmed
++ 6  Halberdier  BucatarieCuGrinzi
+#  Halberdier  CantinaMica
+@ Tigru
+#  Urias  HolCuScheleti
+#  CheieCelula  BucatarieCuGrinzi
+? BibliotecaRotunda
++ 10  Spadasin  BibliotecaTriunghiulara
++ 7  Piatra  BeciDenivelat
++ 3  CheieCelula  CamaraLuminoasa
+= 5  CapcanaPodea  IncapereInalta
+= 2  Coif  BalconInalt
+- 6  Halberdier  BibliotecaIntunecata
+- 5  Liliac  BibliotecaIntunecata
+= 2  Fantoma  IncapereCuGrinzi
+= 5  Piatra  BeciCuGrinzi
+= 1  Cufar  BibliotecaTriunghiulara
++ 6  CheieCelula  BibliotecaRotunda
+= 7  Halberdier  SilozCuFerestre
++ 3  CheieArgintie  TurnMic
+? SalaMica
+= 5  CheieCelula  DepozitCurat
++ 1  Cheie  ScaraInalta
+#  CheieArgintie  ScaraCuCovoare
+= 6  Medalion  CelulaLuminoasa
+#  CheieCelula  HolRotund
+- 9  Urias  TunelIntunecat
+= 9  Liliac  BalconInalt
+= 7  Trapa  TunelIntunecat
+= 2  CheieArgintie  TunelIntunecat
+@ CheieCelula
+? IncapereCuFerestre
++ 9  CheieCelula  HolMare
+#  Urias  BibliotecaMurdara
+- 2  Spadasin  TurnCuGratii
+#  Aratare  CanalCuScheleti
++ 10  Spadasin  ScaraScunda
+= 2  Coif  Cantina
+@ Urias
+- 0  Aratare  BucatarieCuGrinzi
+= 5  Medalion  BibliotecaRotunda
+- 0  Tigru  ScaraInalta
++ 7  Fantoma  CamaraLuminoasa
+= 6  Speraclu  BalconUmed
+= 7  Cufar  ScaraScunda
+= 10  Medalion  ScaraCuCovoare
+= 9  Trapa  HolDenivelat
+= 9  Cufar  CanalLuminos
+#  Aratare  SalaMica
+- 3  Mancare  HolDenivelat
+#  Liliac  HolCuScheleti
+= 2  Trapa  CanalCuFerestre
+- 0  Fantoma  BalconDarapanat
+= 6  Speraclu  SilozCuFerestre
+- 6  Speraclu  IncapereGotica
+- 6  Tigru  BalconInalt
+= 9  Aratare  BibliotecaIntunecata
+- 0  Cufar  BibliotecaMurdara
+- 0  Piatra  BucatarieCuGrinzi
+#  Spadasin  DepozitMurdar
+#  Liliac  DepozitCurat
+#  Cheie  ScaraInalta
++ 1  CapcanaPodea  CanalCuScheleti
+@ Fantoma
+@ Coif
+- 1  Piatra  PivnitaGotica
+- 0  Aratare  BeciDenivelat
+= 10  Aratare  ScaraCuCovoare
+- 5  Mancare  ScaraCuCovoare
++ 1  Halberdier  HolCuScheleti
+- 0  Aratare  HolMare
+#  Aratare  BalconUmed
++ 5  Cufar  HolDenivelat
+- 4  Piatra  FierarieGotica
+= 10  Cheie  BibliotecaRotunda
+- 1  Mancare  HolRotund
+#  Speraclu  SilozCuFerestre
+? CameraRuinata
+- 0  CheieCelula  BalconUmed
+- 0  Cufar  CameraRuinata
+= 10  Fantoma  CantinaCurata
+- 6  Piatra  IncapereCuGrinzi
++ 4  Tigru  BeciDenivelat
+= 1  Spadasin  TurnMic
+= 6  CheieArgintie  TunelIntunecat
+? TurnCuColoane
+- 8  Fantoma  HolCuScheleti
++ 7  Liliac  BalconDarapanat
++ 3  Spadasin  SilozCuGratii
++ 6  Mancare  CanalLuminos
++ 1  Piatra  ScaraCuCovoare
+= 2  CheieArgintie  BibliotecaMurdara
+@ Spadasin
+- 6  Tigru  PivnitaGotica
+- 6  CheieCelula  Cantina
++ 6  Buzdugan  TurnCuGratii
+#  Mancare  CanalCuScheleti
+- 3  Mancare  IncapereCuGrinzi
+- 0  Buzdugan  BalconDarapanat
+@ Tigru
+? SalaTorturaCuTorte
+#  Urias  BalconUmed
+= 0  Trapa  Cantina
+- 6  Spadasin  CanalCuScheleti
+@ Medalion
+@ Fantoma
+@ Aratare
+- 2  CheieArgintie  FierarieGotica
+= 8  Mancare  SilozCuFerestre
++ 3  Medalion  CantinaCurata
+#  Liliac  CantinaMica
+@ Cufar
+#  Halberdier  CamaraCurata
+? HolCuScheleti
+#  CheieArgintie  CantinaCurata
+@ Buzdugan
+? PivnitaGotica
+= 0  Coif  CantinaMica
+? TunelIntunecat
+? CameraCuTorte
+= 10  Medalion  DepozitCurat
+= 5  Trapa  Cantina
+= 10  Tigru  BalconUmed
+= 8  Urias  IncapereInalta
++ 9  Cufar  DepozitMurdar
+@ Fantoma
+@ Spadasin
+= 7  CheieCelula  CanalCuScheleti
+- 10  Medalion  DepozitCurat
+= 7  Tigru  BibliotecaMurdara
+= 9  Cufar  TurnCuGratii
+= 10  Tigru  IncapereGotica
+= 6  Aratare  BalconInalt
+- 13  Mancare  CanalCuFerestre
++ 3  Trapa  ScaraInalta
++ 7  Coif  CamaraCuCovoare
++ 7  Cheie  ScaraInalta
++ 1  Fantoma  CameraCuTorte
++ 1  Medalion  BibliotecaRotunda
+= 5  Coif  BibliotecaMurdara
+? BibliotecaMurdara
+= 2  Speraclu  DepozitMurdar
+? BibliotecaMurdara
+- 7  Aratare  FierarieGotica
++ 2  CheieCelula  IncapereCuGrinzi
++ 5  Aratare  CanalLuminos
+@ CheieCelula
+#  Coif  SilozCuFerestre
+#  CheieCelula  HolRotund
+- 5  Liliac  SalaTorturaCuTorte
++ 1  Medalion  BalconDarapanat
++ 2  Bici  IncapereCuGrinzi
+- 0  CheieCelula  CameraCuTorte
++ 2  Bici  HolRotund
+- 8  Halberdier  Cantina
+#  Urias  TurnCuColoane
++ 3  CapcanaPodea  BeciDenivelat
+- 2  Fantoma  SilozCuGratii
+- 6  CheieArgintie  TunelIntunecat
+= 1  Medalion  ScaraInalta
+= 10  Piatra  Cantina
+#  Coif  ScaraScunda
+- 7  Liliac  CelulaLuminoasa

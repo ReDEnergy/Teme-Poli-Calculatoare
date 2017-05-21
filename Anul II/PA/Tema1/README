@@ -1,0 +1,96 @@
+Nume: Ivanica Gabriel
+Grupa: 323CA
+
+
+
+*****	Structuri si variabile
+
+#define DICTDIM 8001	- Dimensiunea dictionarului
+#define DIM 67			- Dimensiunea maxima a unei fraze
+
+
+Structura necesara pentru retinerea informatiei despre o solutie
+O solutie reprezinta cel mai bun mod de a scrie subfraza(i,j)
+
+typedef struct
+{
+	vector <string> words;	- cuvintele pentru a scrie fraza
+	unsigned int dist;		- distanta de editare a frazei
+	unsigned int freq;		- frecventa totala a frazei - suma frecventelor
+} Solution;
+
+Structura necesara pentru retinerea dictionarului
+
+typedef struct {
+	unsigned int freq;		- frecventa unui cuvant
+	char word[20];			- cuvantul propriu zis
+} Word;
+
+
+Word Dict[DICTDIM];			- dictionar
+string phrase;				- fraza de corecata
+Solution A[DIM][DIM];		- matricea solutiilor
+int *Dlev[DIM][DICTDIM];	- matricea de distante Levenshtein
+
+
+
+
+*****	Algoritm	*****
+
+Pentru rezolvare am abordat o implementare dinamica
+
+Astfel utilizand functia CorectPhrase() prin apelare recursiva calculez pentru
+toate substringurile posibile cea mai buna solutie de corectare.
+
+Solutiile de a impartii o subfraza in 2 subfraze prin pivotul k este comparata
+cu solutia (i,j)
+
+Astfel utilizand functia ChooseBest() voi alege cea mai buna solutie intre a
+pastra subfraza (i,j) sau a sparce aceasta subfraza intre (i,k) si (k,j)
+
+Alegera se face pe baza regurilor temei.
+
+Rezultatul va fi solutia(0, strlen(phrase))
+
+Complexitate aproximativa - O(n^3) unde
+
+
+
+
+*****	Calcularea unei solutii		*****
+
+Pentru a calcula o solutie am preprocesat inainte de apel tot Dictionarul
+Astfel am calculat distanta Levenshtein dintre fiecare substring de la pozitia
+0 la len(fraza) si fiecare cuvand din dictionar.
+
+Calculul ditantei Levenshtein() pentru un CUVANT imi va intoarce un vector int.
+
+Utilizand acest vector nu mai trebuie sa calculez distanta Levenshtein() pentru
+substringurile CUVANT(0, i), i<len(CUVANT) , deoarce o pot afla din acest
+vector in O(1).
+
+Toate distantele Levenshtein() posibile sunt retinute in Matricea Dist[i][j]
+pentru a acesa in O(1) distanta la calculare.
+
+Calule necesare pentru matricea Dist:
+	Nr cuv dictionar * Nr caractere fraza * complexistate (Levenshtein())
+
+
+
+*****	Calcularea Levenshtein		*****
+
+Pentru a calcula distanta Levenshtein() m-am inspirat de pe algoritmul clasic
+gasit pe Wikipedia (http://en.wikipedia.org/wiki/Levenshtein_distance)
+pe care l-am optimizat si modificat , pentru a returna un vector de int, si
+pentru a ocupa mai putina memorie  2*DIM(B) vs DIM(A)*DIM.
+	-	A : cuvant dictionar
+	-	DIM: dimensiunea maxima a unei fraza - 64
+
+
+
+
+
+
+
+
+

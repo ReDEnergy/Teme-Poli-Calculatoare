@@ -1,0 +1,147 @@
+;##==============================================================================
+;##
+;##	ResourceManager
+;##
+;##	This file will be used by the ResourceManager 
+;##	to load Models , Textures and Shaders
+;##
+
+;##==============================================================================
+;##	Models
+
+[models]
+nr_objects = 6
+
+ID				0
+FILE			../Resources/Models/Woman1.nfg
+
+ID				1
+FILE			../Resources/Models/Bus.nfg
+
+ID				2
+FILE			../Resources/Models/Terrain.nfg
+
+ID				3
+FILE			../Resources/Models/SkyBox.nfg
+
+ID				4
+FILE			../Resources/Models/Bila.nfg
+
+ID				5
+FILE			../Resources/Models/fire.nfg
+
+##==============================================================================
+## 2D Textures
+
+nr_2D_textures		11
+	
+ID					0
+FILE				../Resources/Textures/Woman1.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					1
+FILE				../Resources/Textures/Woman2.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					2
+FILE				../Resources/Textures/Bus.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					3
+FILE				../Resources/Textures/Terrain_blend_map.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_CLAMP_TO_EDGE
+TYPE				NORMAL
+
+ID					4
+FILE				../Resources/Textures/Grass.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					5
+FILE				../Resources/Textures/Dirt.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					6
+FILE				../Resources/Textures/Rock.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					7
+FILE				../Resources/Textures/envMap.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_CLAMP_TO_EDGE
+TYPE				CUBE
+
+ID					8
+FILE				../Resources/Textures/fire3.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_CLAMP_TO_EDGE
+TYPE				NORMAL
+
+ID					9
+FILE				../Resources/Textures/DisplacementMap.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_REPEAT
+TYPE				NORMAL
+
+ID					10
+FILE				../Resources/Textures/fire_mask.tga
+MIN_FILTER			GL_LINEAR_MIPMAP_LINEAR
+MAG_FILTER			GL_LINEAR
+WRAPPING_MODE		GL_CLAMP_TO_EDGE
+TYPE				NORMAL
+
+##==============================================================================
+# Shaders
+nr_shaders			5
+ID					0
+VS					../Resources/Shaders/Model.vs
+FS					../Resources/Shaders/Model.fs
+nr_rander_states	1
+					GL_DEPTH_STATE
+
+ID					1
+VS					../Resources/Shaders/Terrain.vs
+FS					../Resources/Shaders/Terrain.fs
+nr_rander_states	1
+					GL_DEPTH_STATE
+
+ID					2
+VS					../Resources/Shaders/SkyBox.vs
+FS					../Resources/Shaders/SkyBox.fs
+nr_rander_states	1
+					GL_DEPTH_STATE
+
+ID					3
+VS					../Resources/Shaders/Reflection.vs
+FS					../Resources/Shaders/Reflection.fs
+nr_rander_states	1
+					GL_DEPTH_STATE
+					
+ID					4
+VS					../Resources/Shaders/Fire.vs
+FS					../Resources/Shaders/Fire.fs
+nr_rander_states	2
+					GL_DEPTH_STATE
+					GL_BLEND		

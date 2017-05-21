@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>datastore</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >ASC-Tema1</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;datastore
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="datastore-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="datastore-module.html">Module datastore</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-docstring">    This module provides the storage part of the cluster's nodes.    </tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-docstring">    Computer Systems Architecture course</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-docstring">    Assignment 1 - Cluster Activity Simulation</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-docstring">    march 2013</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">random</tt> <tt class="py-keyword">import</tt> <tt class="py-name">random</tt> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">threading</tt> <tt class="py-keyword">import</tt> <tt class="py-name">current_thread</tt><tt class="py-op">,</tt> <tt class="py-name">Lock</tt><tt class="py-op">,</tt> <tt class="py-name">Semaphore</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">time</tt> <tt class="py-keyword">import</tt> <tt class="py-name">sleep</tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line"> </tt>
+<a name="DataStore"></a><div id="DataStore-def"><a name="L15"></a><tt class="py-lineno"> 15</tt> <a class="py-toggle" href="#" id="DataStore-toggle" onclick="return toggle('DataStore');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="datastore.DataStore-class.html">DataStore</a><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="DataStore-expanded"><a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line">    <tt class="py-docstring">"""</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line"><tt class="py-docstring">        Class that represents the storage functionalities of a node.</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.__init__"></a><div id="DataStore.__init__-def"><a name="L20"></a><tt class="py-lineno"> 20</tt> <a class="py-toggle" href="#" id="DataStore.__init__-toggle" onclick="return toggle('DataStore.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#__init__">__init__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">matrix_a</tt><tt class="py-op">,</tt> <tt class="py-param">matrix_b</tt><tt class="py-op">,</tt> <tt class="py-param">max_pending_requests</tt><tt class="py-op">,</tt> <tt class="py-param">min_delay</tt><tt class="py-op">,</tt> <tt class="py-param">max_delay</tt><tt class="py-op">,</tt> <tt class="py-param">checker</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.__init__-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.__init__-expanded"><a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">matrix_a</tt> <tt class="py-op">=</tt> <tt class="py-name">matrix_a</tt> </tt>
+<a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">matrix_b</tt> <tt class="py-op">=</tt> <tt class="py-name">matrix_b</tt> </tt>
+<a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">max_pending_requests</tt> <tt class="py-op">=</tt> <tt class="py-name">max_pending_requests</tt> </tt>
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">min_delay</tt> <tt class="py-op">=</tt> <tt class="py-name">min_delay</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">max_delay</tt> <tt class="py-op">=</tt> <tt class="py-name">max_delay</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-0" class="py-name" targets="Module checker=checker-module.html"><a title="checker" class="py-name" href="#" onclick="return doclink('link-0', 'checker', 'link-0');">checker</a></tt> <tt class="py-op">=</tt> <tt id="link-1" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-1', 'checker', 'link-0');">checker</a></tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">remaining_requests</tt> <tt class="py-op">=</tt> <tt class="py-name">Semaphore</tt><tt class="py-op">(</tt><tt class="py-name">max_pending_requests</tt><tt class="py-op">)</tt> </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-2" class="py-name" targets="Module node=node-module.html"><a title="node" class="py-name" href="#" onclick="return doclink('link-2', 'node', 'link-2');">node</a></tt> <tt class="py-op">=</tt> <tt class="py-name">None</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_threads</tt> <tt class="py-op">=</tt> <tt class="py-name">set</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_lock</tt> <tt class="py-op">=</tt> <tt class="py-name">Lock</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line"> </tt>
+<a name="L32"></a><tt class="py-lineno"> 32</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.__check_access"></a><div id="DataStore.__check_access-def"><a name="L33"></a><tt class="py-lineno"> 33</tt> <a class="py-toggle" href="#" id="DataStore.__check_access-toggle" onclick="return toggle('DataStore.__check_access');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#__check_access">__check_access</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.__check_access-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.__check_access-expanded"><a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line">        <tt class="py-keyword">with</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_lock</tt><tt class="py-op">:</tt> </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-3" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-3', 'node', 'link-2');">node</a></tt> <tt class="py-op">==</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">                <tt class="py-comment">#ERROR: no node registered</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">                <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-4" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-4', 'checker', 'link-0');">checker</a></tt><tt class="py-op">.</tt><tt id="link-5" class="py-name" targets="Method checker.Checker.report()=checker.Checker-class.html#report"><a title="checker.Checker.report" class="py-name" href="#" onclick="return doclink('link-5', 'report', 'link-5');">report</a></tt><tt class="py-op">(</tt><tt class="py-string">"node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt id="link-6" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-6', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">" is accessing unregistered datastore"</tt><tt class="py-op">)</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line"> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt id="link-7" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-7', 'node', 'link-2');">node</a></tt> <tt class="py-op">!=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-8" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-8', 'node', 'link-2');">node</a></tt><tt class="py-op">:</tt> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">                <tt class="py-comment">#ERROR: called by wrong node</tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line">                <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-9" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-9', 'checker', 'link-0');">checker</a></tt><tt class="py-op">.</tt><tt id="link-10" class="py-name"><a title="checker.Checker.report" class="py-name" href="#" onclick="return doclink('link-10', 'report', 'link-5');">report</a></tt><tt class="py-op">(</tt><tt class="py-string">"node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt id="link-11" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-11', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> <tt class="py-op">+</tt>  </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">                                    <tt class="py-string">" is accessing datastore registered by node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-12" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-12', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line"> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt class="py-name">current_thread</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> <tt class="py-keyword">not</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_threads</tt><tt class="py-op">:</tt> </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line">                <tt class="py-comment">#ERROR: called from wrong thread</tt> </tt>
+<a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line">                <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-13" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-13', 'checker', 'link-0');">checker</a></tt><tt class="py-op">.</tt><tt id="link-14" class="py-name"><a title="checker.Checker.report" class="py-name" href="#" onclick="return doclink('link-14', 'report', 'link-5');">report</a></tt><tt class="py-op">(</tt><tt class="py-string">"thread "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">current_thread</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt>  </tt>
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line">                                    <tt class="py-string">" owned by node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt id="link-15" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-15', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> <tt class="py-op">+</tt>  </tt>
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line">                                    <tt class="py-string">" is not registered with datastore owned by node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-16" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-16', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line">                <tt class="py-keyword">return</tt> </tt>
+</div><a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line"> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.__get_element"></a><div id="DataStore.__get_element-def"><a name="L54"></a><tt class="py-lineno"> 54</tt> <a class="py-toggle" href="#" id="DataStore.__get_element-toggle" onclick="return toggle('DataStore.__get_element');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#__get_element">__get_element</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">,</tt> <tt class="py-param">row</tt><tt class="py-op">,</tt> <tt class="py-param">column</tt><tt class="py-op">,</tt> <tt class="py-param">matrix</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.__get_element-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.__get_element-expanded"><a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-17" class="py-name" targets="Method datastore.DataStore.__check_access()=datastore.DataStore-class.html#__check_access"><a title="datastore.DataStore.__check_access" class="py-name" href="#" onclick="return doclink('link-17', '__check_access', 'link-17');">__check_access</a></tt><tt class="py-op">(</tt><tt id="link-18" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-18', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line"> </tt>
+<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-keyword">not</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">remaining_requests</tt><tt class="py-op">.</tt><tt class="py-name">acquire</tt><tt class="py-op">(</tt><tt class="py-name">False</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">            <tt class="py-comment">#ERROR: no more remaining requests</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-19" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-19', 'checker', 'link-0');">checker</a></tt><tt class="py-op">.</tt><tt id="link-20" class="py-name"><a title="checker.Checker.report" class="py-name" href="#" onclick="return doclink('link-20', 'report', 'link-5');">report</a></tt><tt class="py-op">(</tt><tt class="py-string">"maximum pending datastore requests exceeded on node "</tt> <tt class="py-op">+</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt id="link-21" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-21', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line">        <tt class="py-name">sleep</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">min_delay</tt> <tt class="py-op">+</tt> <tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">max_delay</tt> <tt class="py-op">-</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">min_delay</tt><tt class="py-op">)</tt> <tt class="py-op">*</tt> <tt class="py-name">random</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">remaining_requests</tt><tt class="py-op">.</tt><tt class="py-name">release</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line"> </tt>
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">matrix</tt><tt class="py-op">[</tt><tt class="py-name">row</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-name">column</tt><tt class="py-op">]</tt> </tt>
+</div><a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line"> </tt>
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.register_thread"></a><div id="DataStore.register_thread-def"><a name="L67"></a><tt class="py-lineno"> 67</tt> <a class="py-toggle" href="#" id="DataStore.register_thread-toggle" onclick="return toggle('DataStore.register_thread');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#register_thread">register_thread</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.register_thread-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.register_thread-expanded"><a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line"><tt class="py-docstring">            Registers the current thread of the given node to the data store. The current thread is determined automatically with threading.current_thread(). This thread will be associated with the node given as an argument and registered to the datastore. The thread will then be able to query the datastore. Multiple threads (logically owned by node) can call this method and register to the datastore.</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line"><tt class="py-docstring">            @param node: the node owning the data store</tt> </tt>
+<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-22" class="py-name"><a title="checker" class="py-name" href="#" onclick="return doclink('link-22', 'checker', 'link-0');">checker</a></tt><tt class="py-op">.</tt><tt id="link-23" class="py-name" targets="Method checker.Checker.register_thread()=checker.Checker-class.html#register_thread,Method datastore.DataStore.register_thread()=datastore.DataStore-class.html#register_thread"><a title="checker.Checker.register_thread
+datastore.DataStore.register_thread" class="py-name" href="#" onclick="return doclink('link-23', 'register_thread', 'link-23');">register_thread</a></tt><tt class="py-op">(</tt><tt id="link-24" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-24', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line"> </tt>
+<a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">        <tt class="py-keyword">with</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_lock</tt><tt class="py-op">:</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-25" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-25', 'node', 'link-2');">node</a></tt> <tt class="py-op">==</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">                <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-26" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-26', 'node', 'link-2');">node</a></tt> <tt class="py-op">=</tt> <tt id="link-27" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-27', 'node', 'link-2');">node</a></tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line"> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">node_threads</tt><tt class="py-op">.</tt><tt class="py-name">add</tt><tt class="py-op">(</tt><tt class="py-name">current_thread</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line"> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-28" class="py-name"><a title="datastore.DataStore.__check_access" class="py-name" href="#" onclick="return doclink('link-28', '__check_access', 'link-17');">__check_access</a></tt><tt class="py-op">(</tt><tt id="link-29" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-29', 'node', 'link-2');">node</a></tt><tt class="py-op">)</tt> </tt>
+</div><a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.get_max_pending_requests"></a><div id="DataStore.get_max_pending_requests-def"><a name="L84"></a><tt class="py-lineno"> 84</tt> <a class="py-toggle" href="#" id="DataStore.get_max_pending_requests-toggle" onclick="return toggle('DataStore.get_max_pending_requests');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#get_max_pending_requests">get_max_pending_requests</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.get_max_pending_requests-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.get_max_pending_requests-expanded"><a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line"><tt class="py-docstring">            Returns the maximum number of in-flight requests supported by this data store.</tt> </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line"><tt class="py-docstring">            @param node: the node accessing the data store; must be the node that owns the data store</tt> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line"><tt class="py-docstring">            @return: the maximum number of in-flight requests supported by this data store</tt> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line"> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">max_pending_requests</tt> </tt>
+</div><a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"> </tt>
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.get_element_from_a"></a><div id="DataStore.get_element_from_a-def"><a name="L96"></a><tt class="py-lineno"> 96</tt> <a class="py-toggle" href="#" id="DataStore.get_element_from_a-toggle" onclick="return toggle('DataStore.get_element_from_a');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#get_element_from_a">get_element_from_a</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">,</tt> <tt class="py-param">row</tt><tt class="py-op">,</tt> <tt class="py-param">column</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.get_element_from_a-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.get_element_from_a-expanded"><a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line"><tt class="py-docstring">            Returns an element from the matrix A stored in the data store. </tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"><tt class="py-docstring">            This is a blocking operation. The maximum number of in-flight requests is </tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line"><tt class="py-docstring">            limited, see get_max_pending_requests().</tt> </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"><tt class="py-docstring">            @param node: the node accessing the data store; must be the node that owns the data store</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line"><tt class="py-docstring">            @param row: the element row</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line"><tt class="py-docstring">            @param column: the element column</tt> </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line"><tt class="py-docstring">            @return: the element of matrix A at position (row, column)</tt> </tt>
+<a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-30" class="py-name" targets="Method datastore.DataStore.__get_element()=datastore.DataStore-class.html#__get_element"><a title="datastore.DataStore.__get_element" class="py-name" href="#" onclick="return doclink('link-30', '__get_element', 'link-30');">__get_element</a></tt><tt class="py-op">(</tt><tt id="link-31" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-31', 'node', 'link-2');">node</a></tt><tt class="py-op">,</tt> <tt class="py-name">row</tt><tt class="py-op">,</tt> <tt class="py-name">column</tt><tt class="py-op">,</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">matrix_a</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line"> </tt>
+<a name="L110"></a><tt class="py-lineno">110</tt>  <tt class="py-line"> </tt>
+<a name="DataStore.get_element_from_b"></a><div id="DataStore.get_element_from_b-def"><a name="L111"></a><tt class="py-lineno">111</tt> <a class="py-toggle" href="#" id="DataStore.get_element_from_b-toggle" onclick="return toggle('DataStore.get_element_from_b');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="datastore.DataStore-class.html#get_element_from_b">get_element_from_b</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">node</tt><tt class="py-op">,</tt> <tt class="py-param">row</tt><tt class="py-op">,</tt> <tt class="py-param">column</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="DataStore.get_element_from_b-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="DataStore.get_element_from_b-expanded"><a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line">        <tt class="py-docstring">"""</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line"><tt class="py-docstring">            Returns an element from the matrix B stored in the data store. </tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line"><tt class="py-docstring">            This is a blocking operation. The maximum number of in-flight requests is </tt> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line"><tt class="py-docstring">            limited, see get_max_pending_requests().</tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line"><tt class="py-docstring">            @param node: the node accessing the data store; must be the node that owns the data store</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line"><tt class="py-docstring">            @param row: the element row</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line"><tt class="py-docstring">            @param column: the element column</tt> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line"><tt class="py-docstring"></tt> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line"><tt class="py-docstring">            @return: the element of matrix B at position (row, column)</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-32" class="py-name"><a title="datastore.DataStore.__get_element" class="py-name" href="#" onclick="return doclink('link-32', '__get_element', 'link-30');">__get_element</a></tt><tt class="py-op">(</tt><tt id="link-33" class="py-name"><a title="node" class="py-name" href="#" onclick="return doclink('link-33', 'node', 'link-2');">node</a></tt><tt class="py-op">,</tt> <tt class="py-name">row</tt><tt class="py-op">,</tt> <tt class="py-name">column</tt><tt class="py-op">,</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">matrix_b</tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >ASC-Tema1</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Sun Mar 17 18:50:35 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

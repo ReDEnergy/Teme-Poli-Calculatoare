@@ -1,0 +1,101 @@
+100
++ 10 Paznic HolCuGratii
+# Coif HolCuGratii
+= 5 Paznic HolUmed
+= 6 CapcanaLava HolUmed
+@ CapcanaTepi
+? HolUmed
+# Coif BibliotecaRotunda
+# CapcanaTepi HolCuGratii
+= 4 CapcanaLava HolUmed
+= 2 CapcanaTepi HolUmed
+= 3 Coif HolCuGratii
+- 9 Paznic HolCuGratii
+- 1 Paznic HolCuGratii
+- 2 CapcanaTepi HolUmed
+= 9 Paznic BibliotecaRotunda
+= 8 Paznic HolCuGratii
+# CapcanaTepi HolCuGratii
+# CapcanaTepi BibliotecaRotunda
+- 4 Paznic BibliotecaRotunda
+@ Coif
++ 3 CapcanaTepi HolUmed
+? BibliotecaRotunda
++ 3 Paznic SalaTorturaCuFerestre
++ 2 CapcanaTepi BibliotecaRotunda
+= 10 CapcanaTepi BibliotecaRotunda
+= 10 Coif HolUmed
+= 0 Paznic SalaTorturaCuFerestre
+= 8 CapcanaLava BibliotecaRotunda
+# CapcanaLava BibliotecaRotunda
+- 3 Coif HolCuGratii
+= 6 Paznic HolCuGratii
+@ CapcanaLava
+@ CapcanaLava
+- 7 CapcanaTepi BibliotecaRotunda
++ 0 CapcanaTepi HolCuGratii
+= 10 CapcanaTepi HolCuGratii
+? HolUmed
++ 4 Paznic HolCuGratii
+? HolUmed
+= 6 Coif SalaTorturaCuFerestre
++ 1 CapcanaTepi BibliotecaRotunda
+@ CapcanaTepi
+@ CapcanaTepi
+# Coif HolUmed
+- 5 Paznic HolUmed
+# Paznic SalaTorturaCuFerestre
+@ CapcanaTepi
+= 8 CapcanaLava HolUmed
++ 10 CapcanaLava SalaTorturaCuFerestre
+= 9 Paznic SalaTorturaCuFerestre
+- 2 CapcanaLava SalaTorturaCuFerestre
+@ Coif
++ 10 Coif HolCuGratii
++ 10 CapcanaLava HolCuGratii
++ 10 Coif BibliotecaRotunda
+? SalaTorturaCuFerestre
+= 8 CapcanaTepi HolCuGratii
+= 3 Paznic BibliotecaRotunda
+= 10 Paznic HolCuGratii
+- 10 Coif BibliotecaRotunda
+= 3 Coif BibliotecaRotunda
+@ CapcanaLava
+# CapcanaLava SalaTorturaCuFerestre
+@ Coif
+? SalaTorturaCuFerestre
+- 2 CapcanaTepi HolCuGratii
+@ CapcanaTepi
+? HolUmed
+= 10 CapcanaTepi SalaTorturaCuFerestre
++ 4 CapcanaTepi HolCuGratii
+- 4 CapcanaTepi BibliotecaRotunda
+= 10 CapcanaTepi SalaTorturaCuFerestre
++ 4 Paznic HolCuGratii
++ 8 CapcanaTepi HolUmed
+- 10 CapcanaTepi HolCuGratii
++ 3 CapcanaLava BibliotecaRotunda
+= 4 Paznic SalaTorturaCuFerestre
+? SalaTorturaCuFerestre
+# CapcanaTepi HolUmed
+= 8 CapcanaTepi HolUmed
+= 4 CapcanaLava SalaTorturaCuFerestre
++ 6 CapcanaLava HolUmed
+- 6 CapcanaTepi SalaTorturaCuFerestre
+- 0 Paznic HolUmed
+? HolCuGratii
+- 3 Paznic BibliotecaRotunda
+- 1 CapcanaTepi SalaTorturaCuFerestre
+@ Paznic
+# CapcanaLava BibliotecaRotunda
+@ CapcanaTepi
+= 7 Paznic HolUmed
+@ Paznic
+? SalaTorturaCuFerestre
+- 3 CapcanaTepi SalaTorturaCuFerestre
+? BibliotecaRotunda
+- 0 CapcanaTepi HolCuGratii
+- 10 Coif HolUmed
+= 10 Coif BibliotecaRotunda
+- 4 CapcanaLava SalaTorturaCuFerestre
+- 7 Paznic HolCuGratii

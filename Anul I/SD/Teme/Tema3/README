@@ -1,0 +1,136 @@
+	/*
+	 *	Ivanica Gabriel 313 CA
+	 *	Tema 3 SD
+	 *	26-04-2011
+	 */
+
+		Structuri de date necesare pentru a rezolvarea problemei:
+================================================================================
+typedef struct Hash_X {
+	uint key;
+	char *name;
+	struct Hash_X *next;
+	struct Hash_C *elem;
+} HashX;
+
+HashX reprezinta bucketul unui hashtable object / room
+Pentru a rezolva coliziunile am implementat liste.
+Se retine un nume si o keye pentru a folosi cautarea eficienta a datelor.
+Informatiile despre elementele retinute : HashC *elem.
+
+typedef struct Hash_C {
+	int *nr;
+	uint key;
+	char *obj;
+	char *room;
+	char valid;
+	struct Hash_C *nextObj;
+	struct Hash_C *nextRoom;
+	struct Hash_C *next;
+} HashC;
+
+HashC reprezinta bucketul pentru hashtable de intersectii object+room
+De asemenea HashC reprezinta si un element al listei de obiecte/camere din
+hashtable object sau room.
+Astfel se asigura prelucrare foarte rapida de date nu este necesara multa meorie
+
+Pentru lista de obiecte din camera se folosesc pointerii:  *nextObj
+Pentru lista de camere in care se gaseste un obiecte:	*nextRoom
+
+Pentru a validitatea datelor la afisare se retine tipul informatiei primite in
+variabila type. Daca aceasta primeste valoarea '=' , nu se mai executa operatii
+asuprea acesteia iar numarul de obiecte din camera se considera valid.
+
+Cheia Hashtable este formata din suma cheilor celor 2 cuvinte.
+
+typedef struct Read_Info {
+	int len1;
+	int len2;
+	char obj[65];
+	char room[65];
+	uint key1;
+	uint key2;
+	uint ckey;
+	char type;
+	int nr;
+} InfoX;
+
+Pentru usurinta in trimiterea datelor ca parametru am utilizat o structura in
+care retin toate informatiile citite si necesare prelucrarii datelor.
+
+ckey = key1 + key2			Cheie Hashtable intersectie
+
+								Algoritm
+================================================================================
+
+Se citeste numarul de linii.
+Se citessc pe rand linii din fisier.
+Pentru fiecare linie se verifica tipul de date primite: Update sau Query
+
+In cazul unui update se procedeza astfel:
+
+	1.	Pentru fiecare pereche obj-room se verifica existenta acesteia in
+		tabelul corespunzator.
+
+	2.	In cazul in care se gaseste bucketul se actualizeaza numarul de obiecte
+		si validitatea
+
+	3.	Daca nu se gaseste perechea se adauga in Hastable
+
+	4.	Se verifica fiecare cuvand in parte daca se regaseste in tabele
+		corespunzatoare.
+
+	5.	Daca nu se adauga bucketul ca parte a listei de obiecte/camera print
+		intermediul pointerilor *nextObj si *nextRoom
+
+	6.	Daca nu se gaseste in tabela se adauga si se actualizeaza listele
+
+Observatii:	Intrucat se foloseste structura de date HashC atat pentru buckets
+cat si pentru listele de obiecte nu este necesara stergerea niciunui element
+al listelor de obiecte/camere.
+
+Query:
+
+	In cazul unui Query:	# object room
+
+	Se cauta nodul respectiv din tabela si se afiseaza numarul de obiecte daca
+	este valid sau "nu se stie" daca nu este valid.
+	Cand sunt 0 elemente se afiseaaz "nimic"
+
+	In cazul unui Query:	? room
+
+	Se cauta nodul din tabela si se parcurg toti termenii listei
+	struct Hash_C *elem;	Daca un termen este egal cu "0" nu se afiseaza.
+
+	Daca nu se afiseaa nici o informatie , dar lista nu este vina (termenii
+	sunt 0 toti) se va afisa "nimic".
+
+	Daca lista este vina se va afisa "nu se stie".
+
+OBS:Lista este alocata doar in cazul in care se primeste o infromatie despre
+	camera respectiva
+
+	In cazul unui Query:	@ object
+
+	Se procedeaza la fel ca la ? room dar se afiseaza "nicaieri" daca termenii
+	sunt 0 si "nu se stie" daca bucketul nu a fost alocat.
+
+
+								Functii necesare
+================================================================================
+
+Am utilizat un hash simplu ce calculeaza suma caracterelor in codul ASCII a
+unui cuvant.
+Pentru rapiditate se calucleaza si lugnimea cuvantului trimis ca parametru.
+Functia ofera o distributie destul de buna si putine coliziuni.
+
+uint Gen_Hash_Key(char *word, int *len) {
+	int i = 0, hash = 0;
+
+	while(word[i]) {
+		hash = hash + word[i];
+		i++;
+	}
+	*len = i;
+	return hash;
+}

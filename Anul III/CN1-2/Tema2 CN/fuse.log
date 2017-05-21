@@ -1,0 +1,36 @@
+Running: /media/soft/Xilinx/14.1/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.exe -prj /mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_beh.prj work.test work.glbl 
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74182.v" into library work
+Analyzing Verilog file "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/74181.v" into library work
+Analyzing Verilog file "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" into library work
+Analyzing Verilog file "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test.v" into library work
+Analyzing Verilog file "/media/soft/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 39: Size mismatch in connection of port <CNb>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 32: Size mismatch in connection of port <CNX>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 37: Size mismatch in connection of port <CNb>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/../../../../../../../mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/ALU16.v" Line 38: Size mismatch in connection of port <CNb>. Formal port size is 1-bit while actual signal size is 4-bit.
+Completed static elaboration
+Fuse Memory Usage: 36232 KB
+Fuse CPU Usage: 1140 ms
+Compiling module TopLevel74182
+Compiling module Circuit74182
+Compiling module Emodule
+Compiling module Dmodule
+Compiling module CLAmodule
+Compiling module Summodule
+Compiling module TopLevel74181
+Compiling module Circuit74181
+Compiling module ALU16
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable /mnt/hgfs/Dropbox/ReDEnergy/CN/Tema2/test_isim_beh.exe
+Fuse Memory Usage: 79268 KB
+Fuse CPU Usage: 1820 ms
+GCC CPU Usage: 1640 ms

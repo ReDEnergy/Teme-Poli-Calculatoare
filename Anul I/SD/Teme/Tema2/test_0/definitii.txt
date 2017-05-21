@@ -1,0 +1,20 @@
+Gaina: pasare domestica; sub forma salbatica mai traieste in prezent in Asia de Sud Est, India, Indonezia si Europa. Face parte din familia fazanului (Phasianidae), specia Gallus gallus. Este crescuta pentru carne si oua. Masculul se numeste cocos. El este mai mare decat femela, are un cioc ascutit, penajul multicolor, o creasta rosie si pinteni puternici la picioare.
+Cal: este un mamifer ce face parte din ordinul Perissodactylia, Familia Ecvideelor. Corpul este zvelt, iar gatul este puternic si poarta o coama. Trunchiul, cu piept lat, se sprijina pe patru membre lungi, musculoase, puternice, terminate cu cate un deget invelit in copita. Incisivii sunt indreptati oblic inainte.
+Veverita: este un mamifer rozator de talie mica, cu blana roscata ori neagra pe spate si alba pe piept, cu coada lunga si stufoasa.
+Girafa: este cea mai inalta din toate speciile de animale. Masculii pot avea 4,8 - 5,5 m inaltime si o greutate de 900 kg. Numele ei provine din araba si inseamna cea mai inalta dintre toate. Blana este de culoare galbena, cu pete de culoare mai inchise sau mai deschise, petele de pe gat sau picioare sunt mai mici.
+Leu: este un mamifer din familia Felidae. Masculul poate fi recunoscut usor datorita coamei sale si poate cantari pana la 250 kg. Femelele sunt mult mai mici, cantarind pana la 150 kg. Leii traiesc in jur de 20 ani.
+Hipopotam: este un mamifer african amfibiu, cel mai mare nerumegator. Numele sau provine din limba greaca, avand semnificatia de cal de rau (hippos = cal,  potamos = rau, fluviu). Hipopotamul, numit si hipopotamul amfibiu, este una din cele doua specii apartinand genului Hippopotamidae, cealalta fiind hipopotamul pitic (Hexaprotodon liberiensis). Hipopotamul mascul este numit taur, femela este numita vaca, iar puiul este numit vitel.
+Koala: este un mamifer marsupial arboricol ierbivor nativ pentru Australia si singurul membru in viata al familiei Phascolarctidae. Numele stiintific al ursuletului provine din cuvintele din limba greaca phaskolos, care inseamna punga, marsupiu si arktos, care inseamna urs. Atributulcinereus aparsine limbii latine si inseamna cenusiu.
+Cangur: este un mamifer inferior ,este de marime medie si moderat mare, avand inaltimea de la 0,9 m pana la 3 m si masa de la 3 kg pana la 100 kg, in functie de specie si de sex. Ei sunt animale plantigrade. Mai sunt denumiti macropozi, care inseamna picior mare. Din cauza dimensiunilor picioarelor, locomotia lor nu este ca la celelalte mamifere.
+Tigru: este o specie de mamifere rapitoare din familia felinelor, unul dintre cele patru specii ale genului Panthera, reprezentant al subfamiliei felinelor mari. Cuvantul tigru provine din grecescul tigris care, la randul sau, deriva din tigri, cuvant din persana veche, a carui radacina taig inseamna rapid.
+Leopardul: este o felina, ce apartine genului Panthera.El este vestit pentru capacitatea sa de adaptare, iar datorita simturilor sale excelent de dezvoltate si a desenului blanii ramane nevazut daca este nevoie. Este un animal silvatic,il putem intalni si in alte regiuni,de la zonele semidesertice pana la zonele reci.Culoarea blanii sale cu desen caracteristic poate varia de la galben deschis la negru.
+
+
+1
+definitii.txt
+5
+mamifer
+mamifer mare
+animale
+mamifer blana rozator
+specie rapid

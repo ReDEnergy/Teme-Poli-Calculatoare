@@ -1,0 +1,135 @@
+/**
+ * Tema 3 ASC - TV Channel Preview Rendering
+ * Gabriel Ivanica 333CA
+ */
+
+
+************ Implementare
+
+	Am implementat tema pe cele 16 SPE-uri astfel.
+	Deoarece solutia in care fiecare SPE ar fi calculat scalarea fiecarui
+	frame separat (prima idee de implementare) pentru fiecare stream ar 
+	fi necesitat mai mult de 1 transfer DMA de put, am ales ca fiecare SPE sa 
+	calculeze un sfert din imagine pe o linie completa a preview-ului final.
+	
+	Daca fiecare SPU ar fi facut scalat un frame al unui stream, dimensiunea de 
+	put ar trebuie sa fie de 468 bytes. Cum nu este divizibil cu 16, si faptul
+	ca imaginea ar fi fost compusa din 4 streamuri de aceasta dimensiune
+		
+					latime totala imagine 624 * 3 = 1872
+					
+							468 | 468 | 468 | 468
+							---------------------
+							468 | 468 | 468 | 468
+							---------------------
+							468 | 468 | 468 | 468
+							---------------------
+							468 | 468 | 468 | 468
+					
+	Ar fi fost necesar ca fiecare transfer in parte sa alinieze zona de memorie
+	si sa fie folosite mai multe transferuri DMA ( 468 = x * 4 + y * 16) iar
+	pentru fiecare SPU ar fi fost diferita aliniera din cauza imaginilor scalate
+	din stanga.
+	
+	Astfel ca simplificare, fiecare SPU va calcula o intreaga line de 1872 bytes
+	formata din 1/4 din 4 frame-uri preluate de la 4 stream-uri.
+	
+	Astfel ca in transferul initial de pointeri sunt trimise 4 referinte pentru
+	zonele de date ale imaginilor accesate de fiecare SPE in parte.  	
+		
+							-------- 1876 -------- 	
+							-------- 1876 -------- 	
+							  | |            | |
+							  | |  16 parti  | |
+							  | |            | |
+							-------- 1876 -------- 	
+							-------- 1876 -------- 	
+
+	I) TRANSFER PPU SPU
+	
+	Fiecare SPE va prelua cate 4 linii din fiecare frame al fiecarui STREAM (4 
+	in total) si va calcula media acestuia din care reiese 1 linii de un sfert
+	din lungimea totala.
+	Cele 4 linii ale fiecarui Frame scalat din cele 4 Stream-uri aliniate 
+	formeaza o linie. Fiecare SPE scaleaza doar un sfert din imaginea initiala.
+	
+	II) TRANSFER Direct in zona de memorie
+	
+	Transferul direct in zona de memorie a PPU
+	
+	Transferul DMA in memorie catre PPU este extrem de simplu intrucat nu
+	necesita grija legata cu alinierea la 16 bytes. Se poate transmite cate o
+	line pe rand (1876 % 16 = 0). Deci adresa urmatoarei linii este tot aliniata
+	la 16 bytes.
+	   
+	
+	III) Sicronizare cu MailBoxes 
+	
+	Fiecare frame scalat este calculat doar dupa ce SPE-urile primesc un
+	eveniment ce specifica faptul ca cele 16 imagini au fost preluate in memorie
+	Fiecare SPE scaleaza partea de imagine si o transmite catre PPU.
+	
+	La PPU se asteapta primirea a 16 evenimente prin mailbox. Dupa ce se primesc
+	16 evenimente, imaginea din memorie (cea scalata) poate fi scrisa si se 
+	trece la incarcarea urmatorului set de imagini.
+	
+	In tot timpul cat se incarca imaginile in memorie, SPE-urile asteapta 
+	primirea unui eveniment pentru a se apuca de urmatorul Frame.
+	
+	
+************ Testare
+
+	Timpul standard necesar executarii variantei seriale pe CELL.GRID (AVG) 
+		
+			Scale time: 4.298786
+			Total time: 9.876067
+
+	
+	Am testat pe mai multe instante ale clusterului (cell-qs22-1 , cell-qs22-2,
+	cell-qs22-3, cell-qs22-4 ) si am observat urmatoarele efecte.
+	
+	Cum sunt mai multi oameni care testeaza in accelasi timp pe instante se 
+	poate observa un bottleneck I/O foarte mare, care afectaza timpii de rulare
+	(absolut incredibil de mult)
+	
+	Primele 3 instante 
+			- timpi foarte mari  - 
+			- context switch-uri foarte multe probabil
+			
+	instanta 1  
+			Scale time: 14.614916
+			Total time: 20.138304
+	instanta 2  
+			Scale time: 14.614916
+			Total time: 20.138304
+
+	instanta 3  
+			Scale time: 14.740150
+			Total time: 19.933883
+
+	instanta 4  
+			Scale time: 0.238414	- media de 0.24 secunde (timp real)
+			Total time: 5.712591	- media de 5 secunde (citire imagini)
+
+	 
+	
+	
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

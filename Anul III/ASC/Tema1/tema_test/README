@@ -1,0 +1,37 @@
+
+    Assignment 1 - Cluster Activity Simulation
+    Computer Systems Architecture course
+    Faculty of Automatic Control and Computers, 
+    University Politehnica of Bucharest
+    march 2013
+
+
+Description
+--------------
+Simulation of a computational cluster. The cluster consists of:
+* FEP nodes (front-end processors)
+* nodes with both computational and storage functionalities
+
+The FEP nodes are implemented by the testing infrastructure (tester.py module).
+The computational nodes must be implemented as part of the assignment (node.py 
+module).
+The data is partitioned and stored in datastore objects (datastore.py module), 
+one for each node. A node can access data only from its own datastore, and must 
+communicate with other nodes if it needs data from their datastores. 
+
+
+Usage
+-----
+
+Run all the tests using the run_tests script
+
+./run_tests
+
+For generating and running your own tests or random ones, please see the 
+documentation, and modify tester.py's main.
+
+
+Documentation
+-------------
+
+See doc/

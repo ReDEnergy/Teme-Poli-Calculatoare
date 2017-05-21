@@ -1,0 +1,50 @@
+Ivanica
+Gabriel
+313CA
+
+				Task 1
+	
+	Pentru generarea punctelor in domeniul [a,b]x[c,d] am utilizat algoritmul
+Hamersley 2D. Acesta se baseaza pe oglindirea valorii abcisei x a unui punct 
+in baza 2, pentru obtinerea valorii ordonatei y a cesteia.
+	x =  7 (baza 10)  = 110 (baza2)  - >  0.011 (baza2) (0,375 in baza 10)
+
+				Task 2
+		
+	Functia Trapez calculeaza integrala utilizand metodata clasica a trapezelor
+Se primesc abcisele x si ordonatele y si se calculeaza aria ca suma de arii de
+trapeze consecutive. (suma Riemann)
+
+	Functia MonteCarlo calculeaza aria suprafetei prin calcularea numarului de
+puncte din interiorul poligonului.
+	Astfel se genereaza un numar de puncte pe domeniul D de are X ce contine
+poligonul. Se calcleaza numarul de puncte din poligon si se aplica algoritumul
+MonteCarlo.
+	Pentru calculul numarul de puncte din interiorul poligonului se calculeaza
+pentru fiecare segment in parte al poligonului numarul de puncte de deasupra si 
+de dedesuptul acestia prin calcularea ariei dintre segmentul de poligon si 
+punctul din dreptul segmentului (pe intaltimea H intre x1 si x2). Pentru a
+verifica semnul ariei calculate trebuie sa calculam si orientarea segmentului 
+poligonului. Pentru fiecare punct generat se noteaza de cate ori aria in care 
+a fost utilizat este 0 si de cate ori este 1.Daca un punct este gasit de un 
+numar impar de ori sub segmente inseamna ca se afla in interiorul poligonului.
+Altfel se afla in exteriorul acestuia. 
+
+				Task 3
+				
+	Pentru calcularea volumului inimii se poate folosit tot functia de calculare
+a arii cu trapeze. Astfel se utilizeaza functia si se calculeaza volumul ficarei
+bucati dintre 2 sectiuni consecutive aflate la distanta D. (Mod de calcul : 
+calculul volumului fiecarui 'cilindru' ce are suprafetele a si b si se afla la 
+distanta d). (suprafata inimii arata ca si o interpolare cu functii spline 
+liniare in 3D, intrucat muchiile cilindrului ce unesc suprafetele sunt drepte )  
+				
+				
+				Task 4
+	
+	Se incarca fiecare fisier pe rand si se calculeaza aria prin cele 2 
+metode. Se afiseaza ariile.
+	Se calculeaza volumul inimii utilizand ariile calculate precedent si functia
+Trapez.
+
+	

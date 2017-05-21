@@ -1,0 +1,31 @@
+	/*
+	 *	Ivanica Gabriel 313 CA
+	 *	Tema 5 SD
+	 *	20-05-2011
+	 */
+
+
+/******************************************************************************/
+/**						Aparare copacilor din gradina fermecata				 **/
+/******************************************************************************/
+
+
+	Pas 1:	Se citesc datele de intrare si se contruieste o matrice de adiacenta
+
+	Pas 2:	Se calculeaza pentru fiecare copac in parte numarul de vecini.
+
+	Pas 3:	Se ordoneaza descrescator dupa numarul de vecini.
+
+	Pas 4:	Pentru fiecare copac din lista descrescatoare se procedeaza astfel:
+				Se verifica daca nu este aparat.(set = 1 sau set = 2)
+				Daca nu este aparat se seteaza toti vecinii neaparati ca fiind
+				aparati.
+				Se pozitioneaza un soldat pe copacul curent.
+				Se trece la urmatorul copac pana cand toti copacii sunt aparati.
+
+	Pas 5:	Se afiseaza rezultatul.
+
+	Pas 6:	Daca mai sunt si alte harti se reia procedeul de la Pas 1:
+
+
+	P.S :	Nu prea sunt multe de explicat. Greedy amarat and It works! :D

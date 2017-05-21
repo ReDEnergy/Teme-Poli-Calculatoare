@@ -1,0 +1,75 @@
+SELECT LOWER(DNAME),LOWER('SQL course')
+	FROM DEPT;
+
+SELECT ENAME
+	FROM EMP
+	WHERE ENAME =UPPER('&ENAME');
+	
+SELECT INITCAP(DNAME), INITCAP(LOC)
+	FROM DEPT;
+	
+	
+SELECT CONCAT (ename,job) "JOB"
+	FROM EMP
+	WHERE EMPNO =7900;
+	
+SELECT LPAD(DNAME,20,'*'),LPAD(DNAME,20),LPAD(DEPTNO,20,'.')
+	FROM DEPT;
+	
+SELECT DNAME,INSTR(DNAME,'A'),
+	INSTR(DNAME,'ES'),INSTR(DNAME,'C',1,2)
+	FROM DEPT;
+	
+SELECT DNAME,LTRIM(DNAME,'A'),LTRIM(DNAME,'AS'),
+	LTRIM(DNAME,'ASOP')
+	FROM DEPT;
+	
+SELECT  JOB  , REPLACE(JOB,'SALESMAN','SALESPERSON') SS,
+	ENAME ,REPLACE(ENAME,'CO','PX') CP
+	FROM   EMP;
+	
+	
+Sa se scrie o cerere SQL care face o lista a cu
+numarul de aparitii ale primelor 2 litere din numele angajatului
+in denumirea de job a angajatului
+
+NUME, JOB, PRIMELE LITERE, NUMAR APARITII	
+	
+1.
+SELECT ENAME, JOB, SUBSTR(ENAME, 0, 2), 
+	((LENGTH(JOB) - LENGTH(REPLACE(JOB, SUBSTR(ENAME, 0, 2)))) / 2) APARITII
+	FROM EMP;	
+	
+	
+2.	
+SELECT ENAME, JOB, RPAD(ENAME, 2, ' '), 
+	((LENGTH(JOB) - LENGTH(REPLACE(JOB, RPAD(ENAME, 2, ' ')))) / 2) APARITII
+	FROM EMP;
+
+3.	
+SELECT ENAME, JOB, RPAD(ENAME, 2, ' '), 
+	REGEXP_COUNT(JOB, RPAD(ENAME, 2, ' ')) APARITII
+	FROM EMP;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

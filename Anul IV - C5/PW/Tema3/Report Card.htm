@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Report Card</title>
+<link rel="stylesheet" href="Report%20Card_files/webgoat.css" type="text/css">
+<link rel="stylesheet" href="Report%20Card_files/lesson.css" type="text/css">
+<link rel="stylesheet" href="Report%20Card_files/menu.css" type="text/css">
+<link rel="stylesheet" href="Report%20Card_files/layers.css" type="text/css">
+<script language="JavaScript1.2" src="Report%20Card_files/javascript.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="Report%20Card_files/menu_system.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="Report%20Card_files/lessonNav.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="Report%20Card_files/makeWindow.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="Report%20Card_files/toggle.js" type="text/javascript"></script>
+</head>
+
+<body class="page" onload="setMenuMagic1(10,40,10,'menubottom','menu5','submenu5','mbut5','menu100','submenu100','mbut100','menu200','submenu200','mbut200','menu400','submenu400','mbut400','menu500','submenu500','mbut500','menu600','submenu600','mbut600','menu700','submenu700','mbut700','menu800','submenu800','mbut800','menu900','submenu900','mbut900','menu1000','submenu1000','mbut1000','menu1100','submenu1100','mbut1100','menu1200','submenu1200','mbut1200','menu1300','submenu1300','mbut1300','menu1400','submenu1400','mbut1400','menu1500','submenu1500','mbut1500','menu1600','submenu1600','mbut1600','menu1700','submenu1700','mbut1700','menu1800','submenu1800','mbut1800','menu1900','submenu1900','mbut1900','menu2000','submenu2000','mbut2000','menu3000','submenu3000','mbut3000');trigMM1url('menu',1);MM_preloadImages('images/buttons/hintLeftOver.jpg','images/buttons/hintOver.jpg','images/buttons/hintRightOver.jpg','images/buttons/paramsOver.jpg','images/buttons/htmlOver.jpg','images/buttons/cookiesOver.jpg','images/buttons/javaOver.jpg','images/buttons/plansOver.jpg','images/buttons/logout.jpg','images/buttons/helpOver.jpg'); initIframe();">
+
+	<div id="wrap">
+	
+		<div id="menu5" style="position:absolute; left:30px; top:140px; width:160px; z-index:105"><a href="javascript:;" onclick="trigMenuMagic1('menu5',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut5" alt="" border="0" height="1&quot;20&quot;" width="1">Introduction</a></div>
+		
+		<div id="menu100" style="position: absolute; left: 30px; top: 152px; width: 160px; z-index: 106;"><a href="javascript:;" onclick="trigMenuMagic1('menu100',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut100" alt="" border="0" height="1&quot;20&quot;" width="1">General</a></div>
+		
+		<div id="menu200" style="position: absolute; left: 30px; top: 164px; width: 160px; z-index: 107;"><a href="javascript:;" onclick="trigMenuMagic1('menu200',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut200" alt="" border="0" height="1&quot;20&quot;" width="1">Access Control Flaws</a></div>
+		
+		<div id="menu400" style="position: absolute; left: 30px; top: 176px; width: 160px; z-index: 108;"><a href="javascript:;" onclick="trigMenuMagic1('menu400',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut400" alt="" border="0" height="1&quot;20&quot;" width="1">AJAX Security</a></div>
+		
+		<div id="menu500" style="position: absolute; left: 30px; top: 188px; width: 160px; z-index: 109;"><a href="javascript:;" onclick="trigMenuMagic1('menu500',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut500" alt="" border="0" height="1&quot;20&quot;" width="1">Authentication Flaws</a></div>
+		
+		<div id="menu600" style="position: absolute; left: 30px; top: 200px; width: 160px; z-index: 110;"><a href="javascript:;" onclick="trigMenuMagic1('menu600',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut600" alt="" border="0" height="1&quot;20&quot;" width="1">Buffer Overflows</a></div>
+		
+		<div id="menu700" style="position: absolute; left: 30px; top: 212px; width: 160px; z-index: 111;"><a href="javascript:;" onclick="trigMenuMagic1('menu700',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut700" alt="" border="0" height="1&quot;20&quot;" width="1">Code Quality</a></div>
+		
+		<div id="menu800" style="position: absolute; left: 30px; top: 224px; width: 160px; z-index: 112;"><a href="javascript:;" onclick="trigMenuMagic1('menu800',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut800" alt="" border="0" height="1&quot;20&quot;" width="1">Concurrency</a></div>
+		
+		<div id="menu900" style="position: absolute; left: 30px; top: 236px; width: 160px; z-index: 113;"><a href="javascript:;" onclick="trigMenuMagic1('menu900',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut900" alt="" border="0" height="1&quot;20&quot;" width="1">Cross-Site Scripting (XSS)</a></div>
+		
+		<div id="menu1000" style="position: absolute; left: 30px; top: 248px; width: 160px; z-index: 114;"><a href="javascript:;" onclick="trigMenuMagic1('menu1000',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1000" alt="" border="0" height="1&quot;20&quot;" width="1">Improper Error Handling</a></div>
+		
+		<div id="menu1100" style="position: absolute; left: 30px; top: 260px; width: 160px; z-index: 115;"><a href="javascript:;" onclick="trigMenuMagic1('menu1100',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1100" alt="" border="0" height="1&quot;20&quot;" width="1">Injection Flaws</a></div>
+		
+		<div id="menu1200" style="position: absolute; left: 30px; top: 272px; width: 160px; z-index: 116;"><a href="javascript:;" onclick="trigMenuMagic1('menu1200',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1200" alt="" border="0" height="1&quot;20&quot;" width="1">Denial of Service</a></div>
+		
+		<div id="menu1300" style="position: absolute; left: 30px; top: 284px; width: 160px; z-index: 117;"><a href="javascript:;" onclick="trigMenuMagic1('menu1300',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1300" alt="" border="0" height="1&quot;20&quot;" width="1">Insecure Communication</a></div>
+		
+		<div id="menu1400" style="position: absolute; left: 30px; top: 296px; width: 160px; z-index: 118;"><a href="javascript:;" onclick="trigMenuMagic1('menu1400',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1400" alt="" border="0" height="1&quot;20&quot;" width="1">Insecure Configuration</a></div>
+		
+		<div id="menu1500" style="position: absolute; left: 30px; top: 308px; width: 160px; z-index: 119;"><a href="javascript:;" onclick="trigMenuMagic1('menu1500',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1500" alt="" border="0" height="1&quot;20&quot;" width="1">Insecure Storage</a></div>
+		
+		<div id="menu1600" style="position: absolute; left: 30px; top: 320px; width: 160px; z-index: 120;"><a href="javascript:;" onclick="trigMenuMagic1('menu1600',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1600" alt="" border="0" height="1&quot;20&quot;" width="1">Malicious Execution</a></div>
+		
+		<div id="menu1700" style="position: absolute; left: 30px; top: 332px; width: 160px; z-index: 121;"><a href="javascript:;" onclick="trigMenuMagic1('menu1700',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1700" alt="" border="0" height="1&quot;20&quot;" width="1">Parameter Tampering</a></div>
+		
+		<div id="menu1800" style="position: absolute; left: 30px; top: 344px; width: 160px; z-index: 122;"><a href="javascript:;" onclick="trigMenuMagic1('menu1800',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1800" alt="" border="0" height="1&quot;20&quot;" width="1">Session Management Flaws</a></div>
+		
+		<div id="menu1900" style="position: absolute; left: 30px; top: 356px; width: 160px; z-index: 123;"><a href="javascript:;" onclick="trigMenuMagic1('menu1900',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut1900" alt="" border="0" height="1&quot;20&quot;" width="1">Web Services</a></div>
+		
+		<div id="menu2000" style="position: absolute; left: 30px; top: 368px; width: 160px; z-index: 124;"><a href="javascript:;" onclick="trigMenuMagic1('menu2000',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1_open.htm" name="mbut2000" alt="" border="0" height="1&quot;20&quot;" width="1">Admin Functions</a></div>
+		
+		<div id="menu3000" style="position: absolute; left: 30px; top: 404px; width: 160px; z-index: 125;"><a href="javascript:;" onclick="trigMenuMagic1('menu3000',1);return false" onfocus="if(this.blur)this.blur()"><img src="Report%20Card_files/1x1.gif" name="mbut3000" alt="" border="0" height="1&quot;20&quot;" width="1">Challenge</a></div>
+		    
+		<div id="submenu5" class="pviimenudiv" style="position: absolute; left: -150px; top: 140px; width: 150px; visibility: visible; z-index: 126;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=260&amp;menu=5">How to work with WebGoat</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=276&amp;menu=5">Tomcat Configuration</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=233&amp;menu=5">Useful Tools</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=270&amp;menu=5">How to create a Lesson</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu100" class="pviimenudiv" style="position: absolute; left: -150px; top: 152px; width: 150px; visibility: visible; z-index: 127;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=244&amp;menu=100">Http Basics</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=231&amp;menu=100">HTTP Splitting</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu200" class="pviimenudiv" style="position: absolute; left: -150px; top: 164px; width: 150px; visibility: visible; z-index: 128;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=281&amp;menu=200">Using an Access Control Matrix</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=285&amp;menu=200">Bypass a Path Based Access Control Scheme</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=293&amp;menu=200">LAB: Role Based Access Control</a></td>
+	    		</tr>
+	    		
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=293&amp;menu=200&amp;stage=1">Stage 1: Bypass Business Layer Access Control</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=293&amp;menu=200&amp;stage=2">Stage 2: Add Business Layer Access Control</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=293&amp;menu=200&amp;stage=3">Stage 3: Bypass Data Layer Access Control</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=293&amp;menu=200&amp;stage=4">Stage 4: Add Data Layer Access Control</a>
+						</td></tr>
+				
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=238&amp;menu=200">Remote Admin Access</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu400" class="pviimenudiv" style="position: absolute; left: -150px; top: 176px; width: 150px; visibility: visible; z-index: 129;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=269&amp;menu=400">Same Origin Policy Protection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=277&amp;menu=400">LAB: DOM-Based cross-site scripting</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=283&amp;menu=400">LAB: Client Side Filtering</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=302&amp;menu=400">DOM Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=287&amp;menu=400">XML Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=272&amp;menu=400">JSON Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=296&amp;menu=400">Silent Transactions Attacks</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=250&amp;menu=400">Dangerous Use of Eval</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=271&amp;menu=400">Insecure Client Storage</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu500" class="pviimenudiv" style="position: absolute; left: -150px; top: 188px; width: 150px; visibility: visible; z-index: 130;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=294&amp;menu=500">Password Strength</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=292&amp;menu=500">Forgot Password</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=263&amp;menu=500">Basic Authentication</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=261&amp;menu=500">Multi Level Login 2</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=289&amp;menu=500">Multi Level Login 1</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu600" class="pviimenudiv" style="position: absolute; left: -150px; top: 200px; width: 150px; visibility: visible; z-index: 131;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=278&amp;menu=600">Off-by-One Overflows</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu700" class="pviimenudiv" style="position: absolute; left: -150px; top: 212px; width: 150px; visibility: visible; z-index: 132;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=268&amp;menu=700">Discover Clues in the HTML</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu800" class="pviimenudiv" style="position: absolute; left: -150px; top: 224px; width: 150px; visibility: visible; z-index: 133;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=297&amp;menu=800">Thread Safety Problems</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=243&amp;menu=800">Shopping Cart Concurrency Flaw</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu900" class="pviimenudiv" style="position: absolute; left: -150px; top: 236px; width: 150px; visibility: visible; z-index: 134;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=282&amp;menu=900">Phishing with XSS</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900">LAB: Cross Site Scripting</a></td>
+	    		</tr>
+	    		
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=1">Stage 1: Stored XSS</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=2">Stage 2: Block Stored XSS using Input Validation</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=3">Stage 3: Stored XSS Revisited</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=4">Stage 4: Block Stored XSS using Output Encoding</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=5">Stage 5: Reflected XSS</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=248&amp;menu=900&amp;stage=6">Stage 6: Block Reflected XSS</a>
+						</td></tr>
+				
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=298&amp;menu=900">Stored XSS Attacks</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=259&amp;menu=900">Reflected XSS Attacks</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=280&amp;menu=900">Cross Site Request Forgery (CSRF)</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=273&amp;menu=900">CSRF Prompt By-Pass</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=230&amp;menu=900">CSRF Token By-Pass</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=236&amp;menu=900">HTTPOnly Test</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=303&amp;menu=900">Cross Site Tracing (XST) Attacks</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1000" class="pviimenudiv" style="position: absolute; left: -150px; top: 248px; width: 150px; visibility: visible; z-index: 135;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=267&amp;menu=1000">Fail Open Authentication Scheme</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1100" class="pviimenudiv" style="position: absolute; left: -150px; top: 260px; width: 150px; visibility: visible; z-index: 136;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=239&amp;menu=1100">Command Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=305&amp;menu=1100">Numeric SQL Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=304&amp;menu=1100">Log Spoofing</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=274&amp;menu=1100">XPATH Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=264&amp;menu=1100">String SQL Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=299&amp;menu=1100">LAB: SQL Injection</a></td>
+	    		</tr>
+	    		
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=299&amp;menu=1100&amp;stage=1">Stage 1: String SQL Injection</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=299&amp;menu=1100&amp;stage=2">Stage 2: Parameterized Query #1</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=299&amp;menu=1100&amp;stage=3">Stage 3: Numeric SQL Injection</a>
+						</td></tr>
+				
+			    		<tr><td class="pviimenudivstage"><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=299&amp;menu=1100&amp;stage=4">Stage 4: Parameterized Query #2</a>
+						</td></tr>
+				
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=266&amp;menu=1100">Modify Data with SQL Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=234&amp;menu=1100">Add Data with SQL Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=240&amp;menu=1100">Database Backdoors </a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=232&amp;menu=1100">Blind Numeric SQL Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=241&amp;menu=1100">Blind String SQL Injection</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1200" class="pviimenudiv" style="position: absolute; left: -150px; top: 272px; width: 150px; visibility: visible; z-index: 137;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=291&amp;menu=1200">Denial of Service from Multiple Logins</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1300" class="pviimenudiv" style="position: absolute; left: -150px; top: 284px; width: 150px; visibility: visible; z-index: 138;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=295&amp;menu=1300">Insecure Login</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1400" class="pviimenudiv" style="position: absolute; left: -150px; top: 296px; width: 150px; visibility: visible; z-index: 139;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=265&amp;menu=1400">Forced Browsing</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1500" class="pviimenudiv" style="position: absolute; left: -150px; top: 308px; width: 150px; visibility: visible; z-index: 140;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=290&amp;menu=1500">Encoding Basics</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1600" class="pviimenudiv" style="position: absolute; left: -150px; top: 320px; width: 150px; visibility: visible; z-index: 141;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=246&amp;menu=1600">Malicious File Execution</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1700" class="pviimenudiv" style="position: absolute; left: -150px; top: 332px; width: 150px; visibility: visible; z-index: 142;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=279&amp;menu=1700">Bypass HTML Field Restrictions</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=262&amp;menu=1700">Exploit Hidden Fields</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=275&amp;menu=1700">Exploit Unchecked Email</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=245&amp;menu=1700">Bypass Client Side JavaScript Validation</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1800" class="pviimenudiv" style="position: absolute; left: -150px; top: 344px; width: 150px; visibility: visible; z-index: 143;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=300&amp;menu=1800">Hijack a Session</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=301&amp;menu=1800">Spoof an Authentication Cookie</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><img src="Report%20Card_files/lessonComplete.jpg"><a href="http://localhost/WebGoat/attack?Screen=284&amp;menu=1800">Session Fixation</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu1900" class="pviimenudiv" style="position: absolute; left: -150px; top: 356px; width: 150px; visibility: visible; z-index: 144;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=247&amp;menu=1900">Create a SOAP Request</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=251&amp;menu=1900">WSDL Scanning</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=235&amp;menu=1900">Web Service SAX Injection</a></td>
+	    		</tr>
+	    		
+			<tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=288&amp;menu=1900">Web Service SQL Injection</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu2000" class="pviimenudiv" style="position: absolute; left: 40px; top: 380px; width: 150px; visibility: visible; z-index: 145;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000">Report Card</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>    
+		<div id="submenu3000" class="pviimenudiv" style="position: absolute; left: -150px; top: 380px; width: 150px; visibility: visible; z-index: 146;">
+	  		<table border="0" cellpadding="0" cellspacing="6" width="150"><tbody><tr>
+	      		<td><a href="http://localhost/WebGoat/attack?Screen=237&amp;menu=3000">The CHALLENGE!</a></td>
+	    		</tr>
+	    		
+			
+	  		</tbody></table>
+		</div>
+		<div id="top"></div>
+		<div id="topLeft">
+		<div align="left">
+		
+			Internationalization is not available for this lesson
+		
+		</div></div>
+		<div id="topRight" align="right">
+		<a href="http://localhost/WebGoat/attack?action=Logout" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('logout','','images/buttons/logoutOver.jpg',1)"><img src="Report%20Card_files/logout.jpg" alt="LogOut" name="logout" id="logout" border="0" height="22" width="45"></a> <a href="#getFAQ%28%29" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('help','','images/buttons/helpOver.jpg',1)"><img src="Report%20Card_files/help.jpg" alt="Help" name="help" id="help" border="0" height="22" width="22"></a>
+		</div>
+<div id="lessonTitle" align="right">Report Card</div>
+			<div id="hMenuBar">
+				
+				<a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;show=PreviousHint" target="_top" onclick="MM_nbGroup('down','group1','hintLeft','',1)" onmouseover="MM_nbGroup('over','hintLeft','images/buttons/hintLeftOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/hintLeft.jpg" alt="Previous Hint" name="hintLeft" id="hintLeft" border="0" height="20" width="20">
+				</a>
+				<a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;show=NextHint" target="_top" onclick="MM_nbGroup('down','group1','hint','',1)" onmouseover="MM_nbGroup('over','hint','images/buttons/hintOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/hint.jpg" alt="Hints" name="hint" id="hint" border="0" height="20" width="35">
+				</a>
+				<a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;show=NextHint" target="_top" onclick="MM_nbGroup('down','group1','hintRight','',1)" onmouseover="MM_nbGroup('over','hintRight','images/buttons/hintRightOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/hintRight.jpg" alt="Next Hint" name="hintRight" id="hintRight" border="0" height="20" width="20">
+				</a>
+				
+				<a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;show=Params" target="_top" onclick="MM_nbGroup('down','group1','params','',1)" onmouseover="MM_nbGroup('over','params','images/buttons/paramsOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/params.jpg" alt="Show Params" name="attack?Screen=253&amp;menu=2000&amp;show=Params" id="params" border="0" height="20" width="87">
+				</a>
+				<a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;show=Cookies" target="_top" onclick="MM_nbGroup('down','group1','cookies','',1)" onmouseover="MM_nbGroup('over','cookies','images/buttons/cookiesOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/cookies.jpg" alt="Show Cookies" name="cookies" id="cookies" border="0" height="20" width="99">
+				</a>
+				<a href="javascript:toggle('lessonPlans')" target="_top" onclick="MM_nbGroup('down','group1','plans','',1)" onmouseover="MM_nbGroup('over','plans','images/buttons/plansOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/plans.jpg" alt="Lesson Plans" id="plans" border="0" height="20" width="89">
+				</a>
+				
+				<a href="http://localhost/WebGoat/source" onclick="makeWindow(this.href+ '?source=true', 'Java Source');return false;" target="javaWin" onmouseover="MM_nbGroup('over','java','images/buttons/javaOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/java.jpg" alt="Show Java" name="java" id="java" border="0" height="20" width="75">
+				</a>
+				<a href="http://localhost/WebGoat/source" onclick="makeWindow(this.href + '?solution=true', 'Java Solution');return false;" target="javaWin" onmouseover="MM_nbGroup('over','solutions','images/buttons/solutionsOver.jpg','',1)" onmouseout="MM_nbGroup('out')">
+				<img src="Report%20Card_files/solutions.jpg" alt="Show Solution" name="solutions" id="solutions" border="0" height="20" width="73">
+				</a>
+				
+								
+			</div>
+			<div id="twoCol">
+	 	 	<div id="menuSpacer"></div>
+	 	 	<div id="lessonAreaTop">
+	 	 	
+			    	<div id="training_wrap">
+			    	<div id="training" class="info"><a href="http://yehg.net/lab/pr0js/training/webgoat.php" target="_blank">Solution Videos</a></div>
+			    	<div id="reset" class="info"><a href="http://localhost/WebGoat/attack?Screen=253&amp;menu=2000&amp;Restart=253">Restart this Lesson</a></div>
+			    	</div>
+	    			
+	 	 	</div>
+	 	 	<div id="lessonArea">
+	 	 	
+				
+				<div id="lessonContent">
+		    		
+				</div>
+				<div id="message" class="info"></div>
+	
+			
+			<div id="lessonContent"><form accept-charset="UNKNOWN" method="POST" name="form" action="attack?Screen=253&amp;menu=2000" enctype="">Comments and suggestions are welcome. <a href="mailto:webgoat@owasp.org">webgoat@owasp.org</a><br><br><h2>Results for: guest</h2><table border="1" cellpadding="2" cellspacing="0"><tbody><tr><th>Lesson</th><th>Complete</th><th>Visits</th><th>Hints</th></tr><tr><td colspan="9" align="CENTER">Normal user lessons</td></tr><tr bgcolor="#CCFFCC"><td>How to work with WebGoat</td><td align="CENTER">Y</td><td align="CENTER">68</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Tomcat Configuration</td><td align="CENTER">Y</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Useful Tools</td><td align="CENTER">Y</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>How to create a Lesson</td><td align="CENTER">Y</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Http Basics</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>HTTP Splitting</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Using an Access Control Matrix</td><td align="CENTER">Y</td><td align="CENTER">9</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Bypass a Path Based Access Control Scheme</td><td align="CENTER">Y</td><td align="CENTER">25</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>LAB: Role Based Access Control</td><td align="CENTER">Y</td><td align="CENTER">53</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Remote Admin Access</td><td align="CENTER">Y</td><td align="CENTER">4</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Same Origin Policy Protection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>LAB: DOM-Based cross-site scripting</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>LAB: Client Side Filtering</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>DOM Injection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>XML Injection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>JSON Injection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Silent Transactions Attacks</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Dangerous Use of Eval</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Insecure Client Storage</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Password Strength</td><td align="CENTER">Y</td><td align="CENTER">2</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Forgot Password</td><td align="CENTER">Y</td><td align="CENTER">13</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Basic Authentication</td><td align="CENTER">Y</td><td align="CENTER">32</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Multi Level Login 2</td><td align="CENTER">Y</td><td align="CENTER">8</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Multi Level Login 1</td><td align="CENTER">Y</td><td align="CENTER">4</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Off-by-One Overflows</td><td align="CENTER">Y</td><td align="CENTER">28</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Discover Clues in the HTML</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Thread Safety Problems</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Shopping Cart Concurrency Flaw</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Phishing with XSS</td><td align="CENTER">Y</td><td align="CENTER">2</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>LAB: Cross Site Scripting</td><td align="CENTER">Y</td><td align="CENTER">59</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Stored XSS Attacks</td><td align="CENTER">Y</td><td align="CENTER">15</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Reflected XSS Attacks</td><td align="CENTER">Y</td><td align="CENTER">1</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Cross Site Request Forgery (CSRF)</td><td align="CENTER">Y</td><td align="CENTER">22</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>CSRF Prompt By-Pass</td><td align="CENTER">Y</td><td align="CENTER">13</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>CSRF Token By-Pass</td><td align="CENTER">Y</td><td align="CENTER">9</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>HTTPOnly Test</td><td align="CENTER">Y</td><td align="CENTER">3</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Cross Site Tracing (XST) Attacks</td><td align="CENTER">Y</td><td align="CENTER">3</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Fail Open Authentication Scheme</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Command Injection</td><td align="CENTER">Y</td><td align="CENTER">13</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Numeric SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">6</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Log Spoofing</td><td align="CENTER">Y</td><td align="CENTER">5</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>XPATH Injection</td><td align="CENTER">Y</td><td align="CENTER">21</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>String SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">4</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>LAB: SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">41</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Modify Data with SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">11</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Add Data with SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">8</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Database Backdoors </td><td align="CENTER">Y</td><td align="CENTER">16</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Blind Numeric SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">44</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Blind String SQL Injection</td><td align="CENTER">Y</td><td align="CENTER">23</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Denial of Service from Multiple Logins</td><td align="CENTER">Y</td><td align="CENTER">5</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Insecure Login</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Forced Browsing</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Encoding Basics</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Malicious File Execution</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Bypass HTML Field Restrictions</td><td align="CENTER">Y</td><td align="CENTER">15</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Exploit Hidden Fields</td><td align="CENTER">Y</td><td align="CENTER">5</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Exploit Unchecked Email</td><td align="CENTER">Y</td><td align="CENTER">2</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Bypass Client Side JavaScript Validation</td><td align="CENTER">Y</td><td align="CENTER">12</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Hijack a Session</td><td align="CENTER">Y</td><td align="CENTER">16</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Spoof an Authentication Cookie</td><td align="CENTER">Y</td><td align="CENTER">11</td><td align="CENTER">0</td></tr><tr bgcolor="#CCFFCC"><td>Session Fixation</td><td align="CENTER">Y</td><td align="CENTER">7</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Create a SOAP Request</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>WSDL Scanning</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Web Service SAX Injection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Web Service SQL Injection</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#FFFF00"><td>Report Card</td><td align="CENTER">N</td><td align="CENTER">1</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>The CHALLENGE!</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr><td colspan="9" align="CENTER">Hackable Admin Screens</td></tr><tr bgcolor="#CCFFCC"><td>User Information</td><td align="CENTER">Y</td><td align="CENTER">1</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Product Information</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Adhoc Query</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr><td colspan="9" align="CENTER">Actual Admin Screens</td></tr><tr bgcolor="#ADDFFF"><td>Summary Report Card</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr><tr bgcolor="#ADDFFF"><td>Refresh Database</td><td align="CENTER">N</td><td align="CENTER">0</td><td align="CENTER">0</td></tr></tbody></table></form></div>
+			
+				<div id="credits">
+		  		
+
+		  		</div>
+			</div>
+	  	</div>
+
+		<div id="bottom">
+			<div align="center"><a href="http://www.owasp.org/">OWASP Foundation</a> | 
+								<a href="http://www.owasp.org/index.php/OWASP_WebGoat_Project">Project WebGoat</a> | 
+								<a href="http://localhost/WebGoat/reportBug.jsp">Report Bug</a>
+			</div>
+	  	</div>
+	</div>
+
+
+<iframe style="position: absolute; visibility: hidden; left: 275px; top: 145px; width: 474px;"></iframe><div id="lessonPlans" style="visibility:hidden; height:1px; position:absolute; left:260px; top:130px; width:425px; z-index:105;">Could not find lesson plan for: admin.ReportCardScreen and language English
+				<br>
+				<br>
+				<a href="javascript:toggle('lessonPlans')" target="_top" onclick="MM_nbGroup('down','group1','plans','',1)">Close this Window</a>
+				</div></body></html>

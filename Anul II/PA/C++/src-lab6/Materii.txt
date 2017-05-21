@@ -1,0 +1,17 @@
+16
+Analiza_Algoritmilor -> Proiectarea_Algoritmilor
+Programarea_Calculatoarelor -> Proiectarea_Algoritmilor
+Structuri_de_Date -> Proiectarea_Algoritmilor
+Proiectarea_Algoritmilor -> Algoritmi_Paraleli_si_Distribuiti
+Protocoale_de_Comunicatie -> Algoritmi_Paraleli_si_Distribuiti
+Structuri_de_Date -> Analiza_Algoritmilor
+Programarea_Calculatoarelor -> Protocoale_de_Comunicatie
+Protocoale_de_Comunicatie -> Retele_Locale
+Algoritmi_Paraleli_si_Distribuiti -> Algoritmi_si_Prelucrari_Paralele
+Arhitectura_Sistemelor_de_Calcul -> Algoritmi_si_Prelucrari_Paralele
+Matematica_1 -> Matematica_2
+Matematica_2 -> Matematici_speciale
+Matematica_1 -> Fizica
+Fizica -> Electrotehnica
+Fizica -> Electronica_Analogica
+Electronica_Analogica -> Electronica_Digitala

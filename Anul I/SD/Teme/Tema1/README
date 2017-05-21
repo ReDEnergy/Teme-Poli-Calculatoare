@@ -1,0 +1,71 @@
+	/*
+	 *	Ivanica Gabriel 313 CA
+	 *	Tema 1 SD
+	 *	20-03-2011
+	 */
+
+	Variabile si structuri necesare pentru a rezolvarea problemei:
+	======================================================================================
+
+	typedef struct {
+		char	*name;
+		int		UID;
+		int 	GID;
+		long 	size;
+		long	time;
+		int 	type;
+	} FISA;
+
+	Pentru a retine datele necesare fiecarui fisier am ales implementarea unei structuri.
+	Pentru rapiditatea programului am lucrat numai cu adresele fisierelor . **FISA
+
+	Pentru a calcula offsetul corespunzator afisarii am utilizat o variabila globala ce se
+	incrementeaza o data cu apelarea unui nou director in cadrul celui curent si se decrementeaza
+	dupa inchiderea directorului citit.
+
+				depth=0;
+
+	Pentru a verifica validitatea apelarii programului am utilizat o variabila globala 
+	ce retine o valoare unica corespunzatoare fiecarei apelarii distincte a programului.
+
+			int arg;
+			arg = 
+		 	arg = ( a*8 + R*4 + s*2 + t*1 ) * r ;
+		 	arg ia valoare negativa cand se apeleaza : -r
+		 	Folosinduse multiplicatori puterile ale lui 2 consecutive, se asigura unicitatea
+
+	Argumentul este apoi calculat si procesat pentru a se putea apela functia de sortare corespunzatoare
+
+	==========================	Sortare =========================================
+
+	Am ales implementarea quicksort cu aplerea unei functii generice de comparare
+	Pentru rapiditate se lucreaza numai cu adresele structurilor
+
+	Pentru a afisa outputul au fost necesare 3 functii de comparere (name , size , date )
+	ce au fost apelate respectiv cu parametrii inversati pentru ordonarea Descrescatoare
+
+
+	==========================	Validitatea apelarii ============================
+
+
+	Pentru a verifica validitatea apelarii programului se testeaza numarul de argumete si
+	valorile acestora si se calculeaza valoarea argumentului pentru a se putea determina usor
+	ce functie de comparare este necesara.
+
+	==========================	Algoritmul ales =================================
+	
+1)	Se determina directorul curent.
+		Se citesc fisierele din cadrul acestuia si se testeaza validitatea acestora
+		Se salveaza fisierele valide
+		Se odroneaza fisierele
+		Se trece la afisarea fisierelor dupa ordinea
+
+2)	In cazul unui apel simplu se afiseaza rezultatu si se incheie programul
+		
+3)	In cazul unui apel recursiv se verifica la afisare fiecare fisier in parte
+		Daca este un Director se apeleaza citirea acestuia
+		Se reia algoritmul 1) pana cand nu mai exista Directoare de citit
+		4) Se continua afisarea restului de fisiere 
+
+
+	===========================	END	================================================

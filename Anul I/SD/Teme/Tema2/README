@@ -1,0 +1,75 @@
+	/*
+	 *	Ivanica Gabriel 313 CA
+	 *	Tema 2 SD
+	 *	06-04-2011
+	 */
+
+Variabile si structuri necesare pentru a rezolvarea problemei:
+===========================================================================
+
+typedef struct sn{
+	char *value;
+	int bis;
+	int freq;
+	struct sn **next;
+} SkipNode;
+
+		Structura reprezinta un SkipList asociat unui cuvant
+	 	Level = levelul SkipList
+	 	head - pointerul spre nodulul 0 (head)
+	 	nr = numarul de cuvinte retinute in SkipList
+
+typedef struct {
+	int level;
+	int nr;
+	SkipNode *head;
+} SkipList;
+
+		Structura pentru memorarea rezultatelor si ordonarea acestora
+	 	cuvat =  cuvant definit
+	 	freq = frecventa totala a aparitiilor elementelor cautate
+
+============================== Algoritm ===================================
+
+Pentru a implementa SkipListul am folosit ca sursa de documentare metoda
+explicata pe Wikipedia plus explicatiile implementarii unui SkipList de la
+aceasta data :
+http://www.cs.umbc.edu/courses/undergraduate/341/fall01/Lectures/SkipLists/skip_lists/skip_lists.html
+
+1. Algoritm
+
+	Pentru fiecare fisier citit din fisierul in.txt , se citeste pe rand cate
+	un rand pana la sfarsitul fisierlui.
+
+	Pentru fiecare rand citit se genreaza un SkipList corespunzator defini
+	tiei primului cuvant din linie.
+
+	Se salveaza apoi in cate un nod al SkipList-ului fiecare termen ce
+	corespunde cerinte. Lungime mai mare ca 3 si alcatuit doar din caractere
+	ale alfabetului.
+	Salvarea cuvintelor se face de asemenea cu typecaste catre lowercase
+	folosind functii tolower.
+	Pentru cuvintele care au fost deja introdu-se in SkipList se incrementeaza
+	numarul de aparitie (bis++).
+
+	Numarul tuturor cuvintelor din SkipList se retine in infromatiile din
+	SkipList
+
+	Se parcurge o data fiecare SkipList si se calculeaza frecventa de aparitie;
+		NR_BIS / NR_TOTAL_DE_CUVINTE * 1000
+
+2.	Citirea ghicitorilor si aflarea rezultatului
+
+	Se citeste pe rand fiecare Ghicitoare
+	Se construieste un vector de cuvinte ale ghicitorii
+
+	Cu ajutorului functiilor de cautare search_nod() si search_puzzle
+	se verifica daca cuvintele ghicitorii se regasesc in Definitia unui cuvant
+
+	In caz afirmativ se salveaza cuvantul si frecventa totala a acestuia.
+
+	Se salveaza rezultatele intr-un vector de pointeri catre o structura dupa
+	care se ordoneaza aceasta structura mai intai dupa valorile frecventei iar
+	apoi alfabetic
+
+================================ END ======================================
